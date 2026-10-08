@@ -84,6 +84,40 @@ bundle. It allows integrations to discover what is available without relying on 
 
 Paths are relative to the `reports/` folder.
 
+## Machine-to-machine access
+
+This repository is intended for people: browsing, reviewing and following the history of changes. For automated
+integrations (for example a monitoring or vulnerability management tool that periodically reads VDRs), please use the
+mirror of the `reports` folder published on the Interoperability Test Bed website instead of reading from GitHub:
+
+```
+https://www.itb.ec.europa.eu/release-reports/reports/
+```
+
+The mirror has exactly the same structure and file names as the `reports` folder in this repository, so the entry
+point for discovery is:
+
+```
+https://www.itb.ec.europa.eu/release-reports/reports/index.json
+```
+
+and every `path` in the index is relative to that base URL. For example, the file listed under the path
+`<product>/<release>/<product>-<release>.vdr.json` is available at:
+
+```
+https://www.itb.ec.europa.eu/release-reports/reports/<product>/<release>/<product>-<release>.vdr.json
+```
+
+Using the mirror is recommended for automated access because:
+
+- it is not subject to the request rate limits that GitHub applies to automated clients,
+- the address is maintained by the Test Bed and remains stable, even if this repository is moved or its hosting changes,
+- it carries the same content as this repository. It is updated whenever the repository is, and the signature
+  bundles are mirrored alongside the files, so everything can be [verified](#verifying-a-file) in the same way.
+
+When polling, please check `index.json` and only download the files whose `sha256` digest has changed since your
+last retrieval. Signatures are valid regardless of where a file was retrieved from.
+
 ## Verifying a file
 
 The files are signed with [Sigstore cosign](https://docs.sigstore.dev/cosign/overview/), and each signature is

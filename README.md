@@ -106,5 +106,5 @@ through a second independent channel and compare the two.
 ## Feedback
 
 If you believe a report is inaccurate, or you have a question about a vulnerability assessment, please open an issue
-in this repository. Please do not use it to report new vulnerabilities in the software; use the project's security
-reporting channels instead.
+in this repository or email the Test Bed team at DIGIT-ITB@ec.europa.eu. Please do not use it to report new vulnerabilities in the software; use the project's security
+reporting channels instead (see each project's `SECURITY.md` notice).

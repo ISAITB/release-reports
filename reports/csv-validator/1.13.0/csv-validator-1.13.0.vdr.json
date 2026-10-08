@@ -1,0 +1,301 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c3aae862-5221-4d19-8449-c45bc70e4ac6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T16:18:06Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "supplier": {
+            "name": "OWASP"
+          },
+          "name": "Dependency-Track",
+          "version": "5.1.2"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "9b0d2db9-f0d1-40da-8cb1-6f02caf37ca6",
+      "publisher": "European Commission, DIGIT, Interoperable Europe Unit",
+      "name": "CSV validator",
+      "version": "1.13.0",
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csv-validator@1.13.0?type=pom",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/csv-validator/issues"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "8f61a3d0-2253-4fef-bafe-cd1aaeddb127",
+      "group": "commons-beanutils",
+      "name": "commons-beanutils",
+      "version": "1.9.4",
+      "description": "Apache Commons BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "07dc532ee316fe1f2f0323e9bd2f8df4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7d938c81789028045c08c065e94be75fc280527620d5bd62b519d5838532368a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dcd3845917b8fb189cf4034b0d7c6d266ec7110f85ffbd2711cdea9eb94b4fa3e1cee9120b484c6a120b82769230ed3a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7762b348caecead49038a38a89754ff7d9be6199324315495ba47cf24f52c06faadf9306d925c8fe47c587589a939c82e491e1c730267fdf354243a68c0f96ff"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "127a81068335d6ca47f5f5e12d849dc1bc5300b2ad8d3f9b64ca30ff2a76d479"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f67405d0a7667adf7cd35cd7416c54e1759380cdb9c8f179a10175058e40292808e17e69d48df4d4d6b5e268c314127cf3ab87af6920a271bb2e6e0df963940d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "dfdb8845989be083de807184910124ad7e7e372959b34686cd5f5020f193a2997831ead497b0a5a0233f031aecdf55f6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://commons.apache.org/proper/commons-beanutils/"
+        },
+        {
+          "type": "build-system",
+          "url": "https://builds.apache.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/BEANUTILS"
+        },
+        {
+          "type": "mailing-list",
+          "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type": "vcs",
+          "url": "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "affb4246-856d-4fec-a2ff-df5841e7f752",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "29.0-jre",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c87962fe0522b105531f37fe351b3b0c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "801142b4c3d0f0770dd29abea50906cacfddd447"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b22c5fb66d61e7b9522531d04b2f915b5158e80aa0b40ee7282c8bfb07b0da25"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "205e5f8cf87ddd36af26ffe36190ac34e967e53af7c6d37ac6ad19238f3dafd67b31da41a008b9ba205a645c2049398e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4d2fe3d5ea032f4717fbdb6855e341a24295cb351387a1255bd4224ab2a46c7c78f5a339a5d42a9b829a5420a66353f1d937d7ef87378b1f23028dcfef717f02"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4ee0c02517cacabcbeb99990add3c83abe357f1a9878ed6c66fcad664502e567"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8912eee35e164feff5d0fbb4a17c3f31595dca310ac06d3448b29dfc0ef8027ebbc1252d41545bb98cd28e2fcbf49fa06e0ec93db4e8ea6491849c1c48e1eca6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7b84f5a783ba132daea8b4745a430d5f949747b507f07ba5003a0164fc0cdb59003d984363e038f0b578ce2ff1178255"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@29.0-jre?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/google/guava/guava"
+        },
+        {
+          "type": "build-system",
+          "url": "https://travis-ci.org/google/guava"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/google/guava/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/google/guava/guava"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "9b0d2db9-f0d1-40da-8cb1-6f02caf37ca6",
+      "dependsOn": []
+    },
+    {
+      "ref": "8f61a3d0-2253-4fef-bafe-cd1aaeddb127",
+      "dependsOn": []
+    },
+    {
+      "ref": "affb4246-856d-4fec-a2ff-df5841e7f752",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "GHSA-wxr5-93ph-8wr9",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        284
+      ],
+      "description": "Improper Access Control vulnerability in Apache Commons.\n\n\n\nA special BeanIntrospector class was added in version 1.9.2. This can be used to stop attackers from using the declared class property of Java enum objects to get access to the classloader. However this protection was not enabled by default. PropertyUtilsBean (and consequently BeanUtilsBean) now disallows declared class level property access by default.\n\n\n\n\n\nReleases 1.11.0 and 2.0.0-M2 address a potential security issue when accessing enum properties in an uncontrolled way. If an application using Commons BeanUtils passes property paths from an external source directly to the getProperty() method of PropertyUtilsBean, an attacker can access the enum’s class loader via the “declaredClass” property available on all Java “enum” objects. Accessing the enum’s “declaredClass” allows remote attackers to access the ClassLoader and execute arbitrary code. The same issue exists with PropertyUtilsBean.getNestedProperty().\nStarting in versions 1.11.0 and 2.0.0-M2 a special BeanIntrospector suppresses the “declaredClass” property. Note that this new BeanIntrospector is enabled by default, but you can disable it to regain the old behavior; see section 2.5 of the user's guide and the unit tests.\n\nThis issue affects Apache Commons BeanUtils 1.x before 1.11.0, and 2.x before 2.0.0-M2.Users of the artifact commons-beanutils:commons-beanutils\n\n 1.x are recommended to upgrade to version 1.11.0, which fixes the issue.\n\n\nUsers of the artifact org.apache.commons:commons-beanutils2\n\n 2.x are recommended to upgrade to version 2.0.0-M2, which fixes the issue.",
+      "published": "2025-05-28T15:34:34Z",
+      "updated": "2025-11-03T21:33:59Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "8f61a3d0-2253-4fef-bafe-cd1aaeddb127"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-5mg8-w23w-74h3",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 3.3,
+          "severity": "low",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        173,
+        200,
+        378,
+        732
+      ],
+      "description": "A temp directory creation vulnerability exists in Guava prior to version 32.0.0 allowing an attacker with access to the machine to potentially access data in a temporary directory created by the Guava `com.google.common.io.Files.createTempDir()`. The permissions granted to the directory created default to the standard unix-like /tmp ones, leaving the files open. Maintainers recommend explicitly changing the permissions after the creation of the directory, or removing uses of the vulnerable method.",
+      "published": "2021-03-25T17:04:19Z",
+      "updated": "2026-02-23T22:45:55Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "affb4246-856d-4fec-a2ff-df5841e7f752"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-7g45-4rm6-3mm3",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        379,
+        552
+      ],
+      "description": "Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class.\n\nEven though the security vulnerability is fixed in version 32.0.0, maintainers recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.",
+      "published": "2023-06-14T18:30:38Z",
+      "updated": "2025-11-04T16:44:28Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "affb4246-856d-4fec-a2ff-df5841e7f752"
+        }
+      ]
+    }
+  ]
+}

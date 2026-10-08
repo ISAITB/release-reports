@@ -1,0 +1,41 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a013c3e6-4aaa-4585-8cd5-aa7e955fbbfb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T16:18:39Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "supplier": {
+            "name": "OWASP"
+          },
+          "name": "Dependency-Track",
+          "version": "5.1.2"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "09c9dc01-eeac-40cb-bf77-cd9584075db2",
+      "publisher": "European Commission, DIGIT, Interoperable Europe Unit",
+      "name": "JSON validator",
+      "version": "1.13.0",
+      "purl": "pkg:maven/eu.europa.ec.itb.json/jsonvalidator@1.13.0?type=pom",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/json-validator/issues"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "09c9dc01-eeac-40cb-bf77-cd9584075db2",
+      "dependsOn": []
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 {
+  "schemaVersion": 1,
   "products": {
     "csv-validator": {
-      "latest": "1.13.0",
       "name": "CSV validator",
+      "latest": "1.13.0",
       "releases": {
         "1.12.0": {
           "bom": {
@@ -13,14 +14,6 @@
               "sha256": "3b7c6fe6b7bcf3259c7658c3851fe9ed00ccf6b741fce7426b24e33a4ed8d39b"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 26,
-            "resolved": 0
-          },
           "vdr": {
             "path": "csv-validator/1.12.0/csv-validator-1.12.0.vdr.json",
             "sha256": "d95cb0a6263eb0febc2e0f24ffb3ec1e879f89c72e09b02bbf120cd2bb85dd16",
@@ -28,6 +21,14 @@
               "path": "csv-validator/1.12.0/csv-validator-1.12.0.vdr.json.sigstore.json",
               "sha256": "5a1ee0821878c93765876ae63e1ae1ec01d3c2d2016af429145cbcac6021f55b"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 26,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.1": {
@@ -39,14 +40,6 @@
               "sha256": "61a3f04c11b611d300aceaf14e507ee59bb6bda739897e9999f7c18a84a38f3a"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 26,
-            "resolved": 0
-          },
           "vdr": {
             "path": "csv-validator/1.12.1/csv-validator-1.12.1.vdr.json",
             "sha256": "3c854b93301eb6dfe570decb636288f2f224ec90d7e0bc691430c9147c26dde0",
@@ -54,6 +47,14 @@
               "path": "csv-validator/1.12.1/csv-validator-1.12.1.vdr.json.sigstore.json",
               "sha256": "84c8bcf79b29f3fcb518c43c5ed38069510efae163744b639efa7ed4f5af43e8"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 26,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.2": {
@@ -65,14 +66,6 @@
               "sha256": "86dd428c0cb30f230c8c12933371d868db0588132685e2063e1d765a36b50a3c"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 26,
-            "resolved": 0
-          },
           "vdr": {
             "path": "csv-validator/1.12.2/csv-validator-1.12.2.vdr.json",
             "sha256": "df3fccf699a13a2202261e4e204f31ba92ae97a327745413927709d8484a93b7",
@@ -80,6 +73,14 @@
               "path": "csv-validator/1.12.2/csv-validator-1.12.2.vdr.json.sigstore.json",
               "sha256": "965943c842347414797cc887917ef8243a4532857bc208595c0b5a000495df7d"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 26,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.3": {
@@ -91,14 +92,6 @@
               "sha256": "da96be10fb43a0adddb7e3be45d95417c7be2c6828e2359fc534d314694dc59f"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 18,
-            "resolved": 0
-          },
           "vdr": {
             "path": "csv-validator/1.12.3/csv-validator-1.12.3.vdr.json",
             "sha256": "1614ad7bdabed9ea6b9cc4665d0440fec9263b6ca4b540a62f9a52360f4476cd",
@@ -106,6 +99,14 @@
               "path": "csv-validator/1.12.3/csv-validator-1.12.3.vdr.json.sigstore.json",
               "sha256": "866f261a80747deb628d65430d7d93fa9f2f3ec0c5065f31e03f0d017a515ebc"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 18,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.4": {
@@ -117,14 +118,6 @@
               "sha256": "967f8bda9621977c816ba751f6183197a636159c09caa3c9c3cab705ebb38c71"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 8,
-            "resolved": 0
-          },
           "vdr": {
             "path": "csv-validator/1.12.4/csv-validator-1.12.4.vdr.json",
             "sha256": "915114a934feb26abece102299e417e5e862d3ffec0f34308fae9010ae735ac6",
@@ -132,6 +125,14 @@
               "path": "csv-validator/1.12.4/csv-validator-1.12.4.vdr.json.sigstore.json",
               "sha256": "8bd00bc2dff84607a280a6ccd0454d3aa0f404d7870d4d5094cc34e9d918e871"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 8,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.13.0": {
@@ -143,14 +144,6 @@
               "sha256": "34cc5e95b5f298cb7c36a3bac974ce1a242595f42e9aa9fe7be86c308c47ea43"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 3,
-            "resolved": 0
-          },
           "vdr": {
             "path": "csv-validator/1.13.0/csv-validator-1.13.0.vdr.json",
             "sha256": "fbb7e1dd453674ca2cfefd350b64e7da3299a33123cb6800e0d80fa4c3c7e9c9",
@@ -158,13 +151,21 @@
               "path": "csv-validator/1.13.0/csv-validator-1.13.0.vdr.json.sigstore.json",
               "sha256": "04be6b6853e27d2a77f243125fcfe20ce368dee159b154880b32aba80b1c2026"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 3,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         }
       }
     },
     "itb": {
-      "latest": "1.30.1",
       "name": "Interoperability Test Bed",
+      "latest": "1.30.1",
       "releases": {
         "1.28.0": {
           "bom": {
@@ -175,16 +176,6 @@
               "sha256": "99be09aa40d1a97fd31441ddf2e0d464e4d3c5b0b485f9f853456308f9011d5a"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 0,
-            "notAffected": 143,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.28.0/itb-1.28.0.vdr.json",
             "sha256": "eb739cc781e8485d9ff43a755c3ed0a7ce0d192dea0812b6313b60b8661aba38",
@@ -192,6 +183,16 @@
               "path": "itb/1.28.0/itb-1.28.0.vdr.json.sigstore.json",
               "sha256": "20c4c3ce776f3244aa785230d02dbbb90b008d14dc694a36fee9b38bc88336c5"
             }
+          },
+          "summary": {
+            "exploitable": 1,
+            "exploitableIds": [
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 143,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.28.1": {
@@ -203,16 +204,6 @@
               "sha256": "a4b842fa8ca76371ec0b95701704fa4c6085b44d4d6ab20837166ac4927b1035"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 0,
-            "notAffected": 143,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.28.1/itb-1.28.1.vdr.json",
             "sha256": "f6bd0e9836f6d98f503a1febeff478f6b84686878bcc9def8fafa0b11ed163eb",
@@ -220,6 +211,16 @@
               "path": "itb/1.28.1/itb-1.28.1.vdr.json.sigstore.json",
               "sha256": "6f1733c34ece1f8008bbd9bfad6aad8cdf9ed0dcc547215493ed65edc9e7bcec"
             }
+          },
+          "summary": {
+            "exploitable": 1,
+            "exploitableIds": [
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 143,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.28.2": {
@@ -231,16 +232,6 @@
               "sha256": "9812405be0819121c06f8509bae57892b520c68ca1f6c164ec0cd1a56302bfba"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 0,
-            "notAffected": 143,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.28.2/itb-1.28.2.vdr.json",
             "sha256": "96c74e2938ce38c4029220c49b7546d831809663de0cea03d3df5a6593062af3",
@@ -248,6 +239,16 @@
               "path": "itb/1.28.2/itb-1.28.2.vdr.json.sigstore.json",
               "sha256": "f9abae284deef1815736e200941528b2d67577675fb87f2a3773bd5bbeca14ee"
             }
+          },
+          "summary": {
+            "exploitable": 1,
+            "exploitableIds": [
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 143,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.28.3": {
@@ -259,16 +260,6 @@
               "sha256": "154a474da31e8b130c842f55caccb28e1f0fba11d11c72db7a43aeef21e7f5f4"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 0,
-            "notAffected": 143,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.28.3/itb-1.28.3.vdr.json",
             "sha256": "c5c849f1c1bf6b9089fe612c3fce2b19f5d6a46025eca98eb2ceea7b9189136f",
@@ -276,6 +267,16 @@
               "path": "itb/1.28.3/itb-1.28.3.vdr.json.sigstore.json",
               "sha256": "ade352cf2434df4b3908c94de39b34dfcd66f1e0c9d1e7e37cbee2900823d3aa"
             }
+          },
+          "summary": {
+            "exploitable": 1,
+            "exploitableIds": [
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 143,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.28.4": {
@@ -287,16 +288,6 @@
               "sha256": "9972a22ef78ab9a02386c4e9eafe53ffefd91d13ec6ee5d0928cba846fac1eca"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 0,
-            "notAffected": 142,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.28.4/itb-1.28.4.vdr.json",
             "sha256": "2f124c20beac8bfe714aea7ab3fc2f5ce7f737317f22a6ca74a3e5ac841a5407",
@@ -304,6 +295,16 @@
               "path": "itb/1.28.4/itb-1.28.4.vdr.json.sigstore.json",
               "sha256": "26908215e6f4800bfcf526089d12c05aaa8db7ac0cbae99c25ff81f6683c99f4"
             }
+          },
+          "summary": {
+            "exploitable": 1,
+            "exploitableIds": [
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 142,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.28.5": {
@@ -315,16 +316,6 @@
               "sha256": "e1857eb9a26fde62cfafce2d89f49d66500d92b55cf89eb8dfc76ed23428b3ac"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 0,
-            "notAffected": 103,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.28.5/itb-1.28.5.vdr.json",
             "sha256": "56fc95823a472b9707bb90b1a3e4baa4561a041fe709c2101cc426c764e4efdf",
@@ -332,6 +323,16 @@
               "path": "itb/1.28.5/itb-1.28.5.vdr.json.sigstore.json",
               "sha256": "9954b0ae06c27ea82aef39cd842cc923c36de9f1521907951bd003ca1f3d3e97"
             }
+          },
+          "summary": {
+            "exploitable": 1,
+            "exploitableIds": [
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 103,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.29.0": {
@@ -343,19 +344,6 @@
               "sha256": "be6b16faf85b3ba94cc1775f5e7275b23f8707c40fa1945ffb75fcfa425fe8c1"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 4,
-            "exploitableIds": [
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 1,
-            "notAffected": 138,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.29.0/itb-1.29.0.vdr.json",
             "sha256": "bc7312f7c0fa47c9239b2b1e28f1907b36eba2413694cb25364682f06220f13d",
@@ -363,6 +351,19 @@
               "path": "itb/1.29.0/itb-1.29.0.vdr.json.sigstore.json",
               "sha256": "bd63f7fc1822083ea8b85e434f88eac96d6dcd5cad90b01a7dea4d4eb83dc3f3"
             }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 138,
+            "falsePositive": 1,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.29.1": {
@@ -374,19 +375,6 @@
               "sha256": "a948390aeddb8e27e3a50bbf6146bc61ef586261746321227e4a4f220718f686"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 4,
-            "exploitableIds": [
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 1,
-            "notAffected": 137,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.29.1/itb-1.29.1.vdr.json",
             "sha256": "a302eeb2abf949df3f73a1d57f720a919ec751e30d8c9eda599c71d1f68a0213",
@@ -394,6 +382,19 @@
               "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
               "sha256": "69bb4b4c75b4ccc910b4823901a99d52f47afb7f6ed380f944432b46f45ce64b"
             }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 137,
+            "falsePositive": 1,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.29.2": {
@@ -405,19 +406,6 @@
               "sha256": "785a6c2c3f34dd372e2e3c03a861d1d06a27e4db24f48663a6c1b609794608ab"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 4,
-            "exploitableIds": [
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 1,
-            "notAffected": 137,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.29.2/itb-1.29.2.vdr.json",
             "sha256": "fecca41618ba3ed658167a7ea7957807ea8e7a7ba67d6e6bb15ed786f4b77791",
@@ -425,6 +413,19 @@
               "path": "itb/1.29.2/itb-1.29.2.vdr.json.sigstore.json",
               "sha256": "f6d159090beee3cdd6c83c33b5f70c41306df5e4d832dcfbbf1fea08bbae1165"
             }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 137,
+            "falsePositive": 1,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.29.3": {
@@ -436,19 +437,6 @@
               "sha256": "c09cebe397070b2b974a9640d78ae519b6273b2bcc2d837bc21f3741ccdb983a"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 4,
-            "exploitableIds": [
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 1,
-            "notAffected": 135,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.29.3/itb-1.29.3.vdr.json",
             "sha256": "734fa2ed22d52329e9d38997482f8fe7162dd961590f92b8d5b2853e8f72bb30",
@@ -456,6 +444,19 @@
               "path": "itb/1.29.3/itb-1.29.3.vdr.json.sigstore.json",
               "sha256": "80785bf4da876fc25122382c9a97d20dbc47c0f17dac58a8fba2fc9faf7d3da7"
             }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 135,
+            "falsePositive": 1,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.29.4": {
@@ -467,18 +468,6 @@
               "sha256": "042d32aae6bf56f0d3d1406b624c61d47a13b064faf6ef82fb6551d6992e6cee"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 3,
-            "exploitableIds": [
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "falsePositive": 1,
-            "notAffected": 113,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.29.4/itb-1.29.4.vdr.json",
             "sha256": "43a6519ea2eea7188ddc4f65eac9aa17742fde75dd7578f68d731f2a73e69de1",
@@ -486,6 +475,18 @@
               "path": "itb/1.29.4/itb-1.29.4.vdr.json.sigstore.json",
               "sha256": "1af301d11a0aa692f3520fe6a24d0116c37c40e6c443923df59f718dd6f5e229"
             }
+          },
+          "summary": {
+            "exploitable": 3,
+            "exploitableIds": [
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 113,
+            "falsePositive": 1,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.29.5": {
@@ -497,14 +498,6 @@
               "sha256": "e70e6226aa750db07c768c7436389ec3af8d478eeac2c27c61101643acef2e40"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 90,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.29.5/itb-1.29.5.vdr.json",
             "sha256": "f52775ed555513a956467482ee7c279d3ae5be348e3aa53264b8ed582ed03248",
@@ -512,6 +505,14 @@
               "path": "itb/1.29.5/itb-1.29.5.vdr.json.sigstore.json",
               "sha256": "8c5b42e2bf656bf6b175145c3d193dd2b7965ca4bcc9cba276a99751fdc97f18"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 90,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.30.0": {
@@ -523,14 +524,6 @@
               "sha256": "eae4924ea5a5c6b5894ab185b9ebe57415f5be5d195312bdd581fe5d641eef6c"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 47,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.30.0/itb-1.30.0.vdr.json",
             "sha256": "8c46db25c1747bb2acaa669883c1ff6bb4ee74afb538c0267bf21f4bf36298a0",
@@ -538,6 +531,14 @@
               "path": "itb/1.30.0/itb-1.30.0.vdr.json.sigstore.json",
               "sha256": "2ebd0df31ddb2e2dcbb77eb12e70a1b6b991c5c86f19a9d49e6f5e7a0e5931f9"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 47,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.30.1": {
@@ -549,14 +550,6 @@
               "sha256": "b0d442a528a01b45663637531a3a8259c6c2b73bf06dcd531b0755c2ae293739"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 37,
-            "resolved": 0
-          },
           "vdr": {
             "path": "itb/1.30.1/itb-1.30.1.vdr.json",
             "sha256": "e79705b2770601b5e005b19308abd3e15cf964c3fdc23ecfa552f8b688d2e482",
@@ -564,13 +557,21 @@
               "path": "itb/1.30.1/itb-1.30.1.vdr.json.sigstore.json",
               "sha256": "f3b7dff3e16e4beabd24eb40fd2fd87ce140f495e1798513666ea25ece1095f9"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 37,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         }
       }
     },
     "json-validator": {
-      "latest": "1.13.0",
       "name": "JSON validator",
+      "latest": "1.13.0",
       "releases": {
         "1.12.0": {
           "bom": {
@@ -581,14 +582,6 @@
               "sha256": "94a3a83024f9cd22e5a82539ba23ec97cf9d2c1ef92e9c03fd01699e314671db"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 20,
-            "resolved": 0
-          },
           "vdr": {
             "path": "json-validator/1.12.0/json-validator-1.12.0.vdr.json",
             "sha256": "5e57ef02a39af18217edf740cebbaaaa7737860a118ea372295a19bd0f55a099",
@@ -596,6 +589,14 @@
               "path": "json-validator/1.12.0/json-validator-1.12.0.vdr.json.sigstore.json",
               "sha256": "dd61ce6d0d01f01cee34a1baae829ef74ba3417afb01978d5e36603dd306b240"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 20,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.1": {
@@ -607,14 +608,6 @@
               "sha256": "f06943f55a3c5f2507c5de761ed8f5ff778a16458bc80604b443a5272c6f9e55"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 20,
-            "resolved": 0
-          },
           "vdr": {
             "path": "json-validator/1.12.1/json-validator-1.12.1.vdr.json",
             "sha256": "1c126675c1492e8ef44a03b348862c40f0d625783b184c6750c1f6c211a32f8f",
@@ -622,6 +615,14 @@
               "path": "json-validator/1.12.1/json-validator-1.12.1.vdr.json.sigstore.json",
               "sha256": "8016e12e0e872bc2a1724768e55838a8b26e9c5354fd28b2af7d89921cfa627e"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 20,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.2": {
@@ -633,14 +634,6 @@
               "sha256": "955bac2b6e77b74c306ad4254a579d3f6329cf023f7fc18aeaf3cb011a9dd3a2"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 20,
-            "resolved": 0
-          },
           "vdr": {
             "path": "json-validator/1.12.2/json-validator-1.12.2.vdr.json",
             "sha256": "d240d9e7ebb5d403bf092978c6e8b1f8a7a2f3e5776f4ae12e3bde6f71141282",
@@ -648,6 +641,14 @@
               "path": "json-validator/1.12.2/json-validator-1.12.2.vdr.json.sigstore.json",
               "sha256": "8422afc912a40973c10f5083547ec68a1f7c4df7f665c4d5bf83a0bf79f7801b"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 20,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.3": {
@@ -659,14 +660,6 @@
               "sha256": "41feed5f87e51563ba5a002c50b846d205f800c87246d141981af53d2abd1fa7"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 15,
-            "resolved": 0
-          },
           "vdr": {
             "path": "json-validator/1.12.3/json-validator-1.12.3.vdr.json",
             "sha256": "8754e0189991662eee11a900b2820dfdbcd7b57610096fb58e909bf2fd5ec587",
@@ -674,6 +667,14 @@
               "path": "json-validator/1.12.3/json-validator-1.12.3.vdr.json.sigstore.json",
               "sha256": "4dce87cc441094600f2f5fd9eee93ac06b81954ce91f97761cce394c793a63a5"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 15,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.4": {
@@ -685,14 +686,6 @@
               "sha256": "41c42069e2fdce890db78c3d0e716b6fc6cb995d02e11a09611a9cd71c890e07"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 5,
-            "resolved": 0
-          },
           "vdr": {
             "path": "json-validator/1.12.4/json-validator-1.12.4.vdr.json",
             "sha256": "8c48cb8c9e20408540fb66cc05d58cae5854dfe0182290c889c2238158a7bcfc",
@@ -700,6 +693,14 @@
               "path": "json-validator/1.12.4/json-validator-1.12.4.vdr.json.sigstore.json",
               "sha256": "ce73b7b7c5632136b83a057c010290a4bb09533d3cc90f8376868ade0c2d9b39"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 5,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.13.0": {
@@ -711,14 +712,6 @@
               "sha256": "07a1ec9016ab022d597a732f2fdbc786f6d37c54305330829f43bad70870979c"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 0,
-            "resolved": 0
-          },
           "vdr": {
             "path": "json-validator/1.13.0/json-validator-1.13.0.vdr.json",
             "sha256": "53a08a48245cb10ece6d3c9f64d26d363649fb629d3790f71cf147a6327f8505",
@@ -726,13 +719,21 @@
               "path": "json-validator/1.13.0/json-validator-1.13.0.vdr.json.sigstore.json",
               "sha256": "1b8179aa1da3d35722971725012b9a357c163252fad895cae4cc741389708ed7"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 0,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         }
       }
     },
     "shacl-validator": {
-      "latest": "1.13.0",
       "name": "SHACL validator",
+      "latest": "1.13.0",
       "releases": {
         "1.12.0": {
           "bom": {
@@ -743,14 +744,6 @@
               "sha256": "66e7f0cbb261c41fa2dc6b8bcc5cd5db29e72e332abaf67cdb43ece8fb2c04cc"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 21,
-            "resolved": 0
-          },
           "vdr": {
             "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.vdr.json",
             "sha256": "9c9e93cf663c195e532395c423fba4e27b79ccffddc04a3d661aefca571711fa",
@@ -758,6 +751,14 @@
               "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.vdr.json.sigstore.json",
               "sha256": "ade205766c395011abda15e9043679abcfe3c5c4ce39126d865baf63d201e598"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 21,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.1": {
@@ -769,14 +770,6 @@
               "sha256": "2c2ffe594c6fa8f376d2b847543d5b284e14abfa7577b39d480abcfa295c448c"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 21,
-            "resolved": 0
-          },
           "vdr": {
             "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.vdr.json",
             "sha256": "f337866b85132b27d15454b0a3222b25097d43d8ba436d5fc3956a260c6ae412",
@@ -784,6 +777,14 @@
               "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.vdr.json.sigstore.json",
               "sha256": "99c560274482922b4ce91a1e0ea6fd7d4b9e9a9c4c8e1c895fb0abf87cc548f9"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 21,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.2": {
@@ -795,14 +796,6 @@
               "sha256": "0bba3676a12200d1f9f340a6d3a7100e3aaff2c0a7e43b503661c17d66a99950"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 21,
-            "resolved": 0
-          },
           "vdr": {
             "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.vdr.json",
             "sha256": "62ece4a61f69d5bd12bf15d281366b010ddae460fe99e6600b49bda0a483bb2b",
@@ -810,6 +803,14 @@
               "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.vdr.json.sigstore.json",
               "sha256": "c30416f395b66bb648a4fc95c20276fc06f62a355d3429cd441063d6d239beba"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 21,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.3": {
@@ -821,14 +822,6 @@
               "sha256": "e099d69ec38fcec5c406ca822ee15c258ab2bc4149104881f3c250570000c0f5"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 15,
-            "resolved": 0
-          },
           "vdr": {
             "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.vdr.json",
             "sha256": "43c41ace5bc0d9fcff13e100471ae53e2c14634c534525694c5862e2bfe80863",
@@ -836,6 +829,14 @@
               "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.vdr.json.sigstore.json",
               "sha256": "fa298a7ce27de5ec2bc3678eae86f74c13414ae2db98676df26cbec753480dfd"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 15,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.4": {
@@ -847,14 +848,6 @@
               "sha256": "8f1b187612bf1c3ab5227c72cb81a4af9d389ac33ac953b5062e82c01e6b6a44"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 5,
-            "resolved": 0
-          },
           "vdr": {
             "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.vdr.json",
             "sha256": "d6d379f93bc2136e07a1cfd8ea38cf13c1342b907d2b067083876a45ea3578d9",
@@ -862,6 +855,14 @@
               "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.vdr.json.sigstore.json",
               "sha256": "525dfbcca008ddfc3318a9e2db184c04b2445bc547e3e74c2711220c35cb7c5a"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 5,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.13.0": {
@@ -873,14 +874,6 @@
               "sha256": "710a7588ccd200abeab4bf4ca43ab02ae720e1a3b7cd67a7a795ee5bfbf77938"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 0,
-            "resolved": 0
-          },
           "vdr": {
             "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.vdr.json",
             "sha256": "96a10c608e3a74fd15c7c4efd03768df95971fdd88dd2dd83b336197309a6abb",
@@ -888,13 +881,21 @@
               "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.vdr.json.sigstore.json",
               "sha256": "2d0dc65cd6bf97471ebadf614d549d122428f6d13e0ebc558d902c82ab3ee23b"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 0,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         }
       }
     },
     "xml-validator": {
-      "latest": "1.13.0",
       "name": "XML validator",
+      "latest": "1.13.0",
       "releases": {
         "1.12.0": {
           "bom": {
@@ -905,14 +906,6 @@
               "sha256": "a5b53232b3abd4f5fc72d7f5f2002ecfe0789e24a72803646f6363f6621babb8"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 20,
-            "resolved": 0
-          },
           "vdr": {
             "path": "xml-validator/1.12.0/xml-validator-1.12.0.vdr.json",
             "sha256": "e944c9a1dd117553b5def89b1c7ef8bd0a5e559b0dd96c1cc17093c29204b08a",
@@ -920,6 +913,14 @@
               "path": "xml-validator/1.12.0/xml-validator-1.12.0.vdr.json.sigstore.json",
               "sha256": "07b2af60b26bedf5529e7e9760743efde3aa534619482f0921917e3a56b7404e"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 20,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.1": {
@@ -931,14 +932,6 @@
               "sha256": "87bb70cdcbbd9aebfa8916d04ad853cebfdae013125835a731bb24bbd6eddf15"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 20,
-            "resolved": 0
-          },
           "vdr": {
             "path": "xml-validator/1.12.1/xml-validator-1.12.1.vdr.json",
             "sha256": "69b69e6c9efd32ff28d29ae446946c1c90e2dbffed938afe18ae1b964c677d79",
@@ -946,6 +939,14 @@
               "path": "xml-validator/1.12.1/xml-validator-1.12.1.vdr.json.sigstore.json",
               "sha256": "3d01627cb98d9318a8f62bfbfcdafe3ecbc559c2068c33450bed7e6f49f3f183"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 20,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.2": {
@@ -957,14 +958,6 @@
               "sha256": "86054e9c6b3967876a0e2ac2a1748611598e40726b70bd14c82daa5799c69f95"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 20,
-            "resolved": 0
-          },
           "vdr": {
             "path": "xml-validator/1.12.2/xml-validator-1.12.2.vdr.json",
             "sha256": "9e5d7244f8133e4f806a495b9c301b219f618112b84e8eb83c2f6f92641ab72f",
@@ -972,6 +965,14 @@
               "path": "xml-validator/1.12.2/xml-validator-1.12.2.vdr.json.sigstore.json",
               "sha256": "892535883828b228041db62e1c54aa6316268f1ac30d979086974b26109b2b7f"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 20,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.3": {
@@ -983,14 +984,6 @@
               "sha256": "e1a91ffd9fe5ded7890c2232f192e2f2354d8285257c7e98f4103eac272a0605"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 15,
-            "resolved": 0
-          },
           "vdr": {
             "path": "xml-validator/1.12.3/xml-validator-1.12.3.vdr.json",
             "sha256": "f18fb44d4478290e4849c4d505230594ad9960ea9458cc108183e89e1e60db84",
@@ -998,6 +991,14 @@
               "path": "xml-validator/1.12.3/xml-validator-1.12.3.vdr.json.sigstore.json",
               "sha256": "cb3d405e8b3826006b892b6efecad092090b88ea52a1df2e6cb938d3f95ce62c"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 15,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.12.4": {
@@ -1009,14 +1010,6 @@
               "sha256": "06f046df6d5ba784d252dc6a9b6b337cdc973df36bbeda8a5f2c0e14af9676d2"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 5,
-            "resolved": 0
-          },
           "vdr": {
             "path": "xml-validator/1.12.4/xml-validator-1.12.4.vdr.json",
             "sha256": "ef36219d0c94dbe56e0ca54135e1298a4049e5326dd489fe892fda8b1226ebf0",
@@ -1024,6 +1017,14 @@
               "path": "xml-validator/1.12.4/xml-validator-1.12.4.vdr.json.sigstore.json",
               "sha256": "406b394341726714d779cdc75f2918d8ba7c5d541a6be7b3a9d027caa5d7e2c0"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 5,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         },
         "1.13.0": {
@@ -1035,14 +1036,6 @@
               "sha256": "887b308938c1bf42d14fd2bea5391fb6e835deee9ec73e47aa9abbaa40604f39"
             }
           },
-          "summary": {
-            "assessmentInProgress": false,
-            "exploitable": 0,
-            "exploitableIds": [],
-            "falsePositive": 0,
-            "notAffected": 0,
-            "resolved": 0
-          },
           "vdr": {
             "path": "xml-validator/1.13.0/xml-validator-1.13.0.vdr.json",
             "sha256": "0626e69559bd9b4b2a2753f06b0d33f0832a0f28957a3d1515195065b061eed8",
@@ -1050,10 +1043,17 @@
               "path": "xml-validator/1.13.0/xml-validator-1.13.0.vdr.json.sigstore.json",
               "sha256": "d5cd488e22225b2b0c17cfc51907f7065899176dbeb1508536175380c134f8a9"
             }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 0,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
           }
         }
       }
     }
-  },
-  "schemaVersion": 1
+  }
 }

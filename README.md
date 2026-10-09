@@ -9,9 +9,21 @@ and its validators, produced by the European Commission's DIGIT Interoperable Eu
 
 Every file is cryptographically signed so that you can verify it is authentic and unmodified.
 
+## Vulnerability status overview
+
+For a quick answer to "does this release have known vulnerabilities?", see
+**[VULNERABILITY_STATUS.md](VULNERABILITY_STATUS.md)**. It lists the published releases of each product, latest first,
+and shows whether any of their vulnerabilities are assessed as `exploitable` (with links to the advisories), together
+with the number of vulnerabilities assessed as not affecting the release. The same figures are available in
+machine-readable form in `reports/index.json` (see below).
+
+The overview is a convenience summary derived from the VDRs. The signed VDR of a release is always authoritative.
+
 ## Contents
 
 ```
+VULNERABILITY_STATUS.md             Overview of the vulnerability status of all releases
+cosign.pub                          Public key used to verify the signatures
 reports/
 ├── index.json                      Machine-readable index of all published files
 ├── <product>/
@@ -20,7 +32,6 @@ reports/
 │       ├── <product>-<release>.bom.json.sigstore.json      Signature bundle for the SBOM
 │       ├── <product>-<release>.vdr.json                    VDR
 │       └── <product>-<release>.vdr.json.sigstore.json      Signature bundle for the VDR
-cosign.pub                          Public key used to verify the signatures
 ```
 
 | Product folder     | Software                          |
@@ -64,17 +75,28 @@ has changed; the timestamp inside a file therefore tells you when its content wa
 ## Machine-readable index
 
 `reports/index.json` lists every product, release and file, with a SHA-256 digest of each file and its signature
-bundle. It allows integrations to discover what is available without relying on directory listings:
+bundle. It allows integrations to discover what is available without relying on directory listings, and it includes a
+summary of the vulnerability status of each release so that a status check does not require downloading the VDRs:
 
 ```json
 {
   "schemaVersion": 1,
   "products": {
     "<product>": {
+      "name": "...",
+      "latest": "<release>",
       "releases": {
         "<release>": {
           "bom": { "path": "...", "sha256": "...", "signature": { "path": "...", "sha256": "..." } },
-          "vdr": { "path": "...", "sha256": "...", "signature": { "path": "...", "sha256": "..." } }
+          "vdr": { "path": "...", "sha256": "...", "signature": { "path": "...", "sha256": "..." } },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "notAffected": 0,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
         }
       }
     }
@@ -82,7 +104,12 @@ bundle. It allows integrations to discover what is available without relying on 
 }
 ```
 
-Paths are relative to the `reports/` folder.
+- Paths are relative to the `reports/` folder.
+- `latest` is the highest numbered (non-pre-release) release of the product.
+- `summary` counts the distinct vulnerabilities in the release's VDR by assessment (`analysis.state`).
+  `exploitableIds` lists the identifiers of those assessed as `exploitable`: a release is affected by known
+  vulnerabilities when `exploitable` is greater than zero. `assessmentInProgress` is `true` while new findings for the
+  release are being assessed, in which case the counts are those of the last published VDR.
 
 ## Machine-to-machine access
 
@@ -116,7 +143,8 @@ Using the mirror is recommended for automated access because:
   bundles are mirrored alongside the files, so everything can be [verified](#verifying-a-file) in the same way.
 
 When polling, please check `index.json` and only download the files whose `sha256` digest has changed since your
-last retrieval. Signatures are valid regardless of where a file was retrieved from.
+last retrieval. If you only need to know whether a release is affected by known vulnerabilities, the `summary` of
+the release in `index.json` is sufficient. Signatures are valid regardless of where a file was retrieved from.
 
 ## Verifying a file
 
@@ -135,7 +163,7 @@ A successful check prints `Verified OK`. Verification also confirms that the sig
 proves that the file existed, in that form, at the time of signing.
 
 Because the public key is delivered through this same repository, you may wish to obtain a copy of `cosign.pub`
-through a second independent channel and compare the two.
+through a trusted channel and compare the two. For this purpose feel free to contact the Test Bed team at DIGIT-ITB@ec.europa.eu.
 
 ## Feedback
 

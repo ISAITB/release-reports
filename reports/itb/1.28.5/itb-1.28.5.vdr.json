@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:18040512-d875-45e2-8624-bb3f1af8021b",
+  "serialNumber": "urn:uuid:5b8ae20b-846c-4e7b-aff9-d48cec9f3d45",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-08T16:18:09Z",
+    "timestamp": "2026-10-11T13:13:05Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.1.2"
+          "version": "5.2.0"
         }
       ]
     },
@@ -419,6 +419,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "9e5b1518-e705-44b0-b7f7-37678408f88e",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.1.3",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5538cfb8358d6043d7b8c69badfc7939"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "09a499cf61c9a6e1bc533bdfef26b202e91187ef"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "aa4699bd27b916285a8c07e444ab6cb462e094aa53cf8646acadef79fcdb7165"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6b93b28ddb6a15c8511c3629007c45f2032df7c3b41ccb8224b8487543325ef8a40c1e29dff5000989c48bd68541f1e8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8f095bf611aad2ec84eea59596c239fe8025443eb5366a32b020f13f3197a731a8ad4ac7f93837d6be215c4465420188cfc5ab1614c8c83e7f569e91bbcdbf56"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5e9ccfc5184d458b7adc4b7ae6795f3843a800c6508677740242fab52a5f914f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f41a82a726e295574c25a561ad906ec75973af409ed9066fb63e8d1c10d0414225886cc4417e0a6871fcd9ad15f0c6a7568a9376bcad405fd3fb1f41fc8a82ea"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cfbf0036c3d7f134d5c97bb1aa668654de62376a006750be5ec1bea5c7c4940f9194cc1eae6f9d3b37f5a2919dc0b3bc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.1.3?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "5aa7fca5-a094-4f4b-9a15-705f9b52920d",
       "group": "org.apache.cxf",
       "name": "cxf-core",
@@ -488,63 +545,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=cxf.git/cxf-parent/cxf-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "9e5b1518-e705-44b0-b7f7-37678408f88e",
-      "group": "org.apache.cxf",
-      "name": "cxf-core",
-      "version": "4.1.3",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "5538cfb8358d6043d7b8c69badfc7939"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "09a499cf61c9a6e1bc533bdfef26b202e91187ef"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "aa4699bd27b916285a8c07e444ab6cb462e094aa53cf8646acadef79fcdb7165"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "6b93b28ddb6a15c8511c3629007c45f2032df7c3b41ccb8224b8487543325ef8a40c1e29dff5000989c48bd68541f1e8"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "8f095bf611aad2ec84eea59596c239fe8025443eb5366a32b020f13f3197a731a8ad4ac7f93837d6be215c4465420188cfc5ab1614c8c83e7f569e91bbcdbf56"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "5e9ccfc5184d458b7adc4b7ae6795f3843a800c6508677740242fab52a5f914f"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "f41a82a726e295574c25a561ad906ec75973af409ed9066fb63e8d1c10d0414225886cc4417e0a6871fcd9ad15f0c6a7568a9376bcad405fd3fb1f41fc8a82ea"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "cfbf0036c3d7f134d5c97bb1aa668654de62376a006750be5ec1bea5c7c4940f9194cc1eae6f9d3b37f5a2919dc0b3bc"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.1.3?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://cxf.apache.org"
         }
       ]
     },
@@ -1472,6 +1472,57 @@
     },
     {
       "type": "library",
+      "bom-ref": "8ef09101-64b1-45f4-8bcd-a3a1ff8e33c4",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.5.18",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "10bcea83842beead15f072799b9c923d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6c0375624f6f36b4e089e2488ba21334a11ef13f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "85139e7b57b464f8e5e36326dd81317648bed199ccc4f98cd42585f8d7571027"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "36a6553051967acc565898a7b7678a44d4568bfb81b7238bc12bd13d9c436799a98a49b49d8a34cd9a872a6db206463a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fe6e259238f349839b6a30e71e533b5f2fa0a33a462efe9d09152518d3ad7759ce036f7c66744f1edf95eec4f7c2b7261de616aded28def93de85b8c7ab77d8f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8809ebf823a7d2b5f525c43717e4075b328edaed164ae497e2f00deb0304f7e5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "34936208bf9fb09a7bdf4726f3c2c831f1801ea3b2288123f114c945c221d7d01aaadeb545a2f234679facb930ec3d889aa062fd38bc61747c3119a3afa4e66b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6f71dd40416fc84baaba562db7ad10f2c29a516b1b3573b3f4b7301815038679791ec30fb7ec1f3b71dfb880123ce536"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.18"
+    },
+    {
+      "type": "library",
       "bom-ref": "84eb2bd1-03b4-4291-8a77-856138da4dac",
       "group": "ch.qos.logback",
       "name": "logback-core",
@@ -1530,57 +1581,6 @@
           "url": "https://github.com/qos-ch/logback/logback-core"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "8ef09101-64b1-45f4-8bcd-a3a1ff8e33c4",
-      "group": "ch.qos.logback",
-      "name": "logback-core",
-      "version": "1.5.18",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "10bcea83842beead15f072799b9c923d"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "6c0375624f6f36b4e089e2488ba21334a11ef13f"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "85139e7b57b464f8e5e36326dd81317648bed199ccc4f98cd42585f8d7571027"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "36a6553051967acc565898a7b7678a44d4568bfb81b7238bc12bd13d9c436799a98a49b49d8a34cd9a872a6db206463a"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "fe6e259238f349839b6a30e71e533b5f2fa0a33a462efe9d09152518d3ad7759ce036f7c66744f1edf95eec4f7c2b7261de616aded28def93de85b8c7ab77d8f"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "8809ebf823a7d2b5f525c43717e4075b328edaed164ae497e2f00deb0304f7e5"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "34936208bf9fb09a7bdf4726f3c2c831f1801ea3b2288123f114c945c221d7d01aaadeb545a2f234679facb930ec3d889aa062fd38bc61747c3119a3afa4e66b"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "6f71dd40416fc84baaba562db7ad10f2c29a516b1b3573b3f4b7301815038679791ec30fb7ec1f3b71dfb880123ce536"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "EPL-1.0",
-            "url": "http://www.eclipse.org/legal/epl-v10.html"
-          }
-        }
-      ],
-      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.18"
     },
     {
       "type": "library",
@@ -2420,6 +2420,113 @@
           "url": "https://tomcat.apache.org/"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "e9f7308f-ef6c-4189-92f4-6e8eefeab716",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "76e1deab5e6e1caa5fed31b3482cd266"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5a83fc4e79d128f38c9e32138537060678151759"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "648f7f7e5228d89069cbc54c32404209f242581bc1c1e2e74229114f081071aa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "456b8a1dab0dfbccc13d9b78b195aef80d6989ccbd3a421e3e60305a4d2d48704d2f6b157c593ac2371661a505098c13"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c01a671e540963e96245c65b633f0d17da112307c95e75c869884e92cdf7b523"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "be1141504bbc979f485f8fcdb00de037489ab5fb2f7b1401b95d1157b21684c105eb5ce985b6798fe0fc287dd0126843d1c78597fbdb3bf66f0b82c6516df9c7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5bb23dd4714285adb3e64b85d33df68f4368b818a4c94e74e036b416c34ff3dbdffc70651cf7f531323aba0141800dcd"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.1?type=bundle"
+    },
+    {
+      "type": "library",
+      "bom-ref": "ae4d8b0e-76ba-4428-add5-21374dccf094",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.1",
+      "description": "Commons XMLSchema is a light weight schema object model that can be used to manipulate or generate XML schema.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "76e1deab5e6e1caa5fed31b3482cd266"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5a83fc4e79d128f38c9e32138537060678151759"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "648f7f7e5228d89069cbc54c32404209f242581bc1c1e2e74229114f081071aa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "456b8a1dab0dfbccc13d9b78b195aef80d6989ccbd3a421e3e60305a4d2d48704d2f6b157c593ac2371661a505098c13"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c01a671e540963e96245c65b633f0d17da112307c95e75c869884e92cdf7b523"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "be1141504bbc979f485f8fcdb00de037489ab5fb2f7b1401b95d1157b21684c105eb5ce985b6798fe0fc287dd0126843d1c78597fbdb3bf66f0b82c6516df9c7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5bb23dd4714285adb3e64b85d33df68f4368b818a4c94e74e036b416c34ff3dbdffc70651cf7f531323aba0141800dcd"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/commons/xmlschema20/xmlschema-core/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/XMLSCHEMA"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/ws-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
+        }
+      ]
     }
   ],
   "dependencies": [
@@ -2458,12 +2565,16 @@
       "dependsOn": []
     },
     {
-      "ref": "5aa7fca5-a094-4f4b-9a15-705f9b52920d",
-      "dependsOn": []
+      "ref": "9e5b1518-e705-44b0-b7f7-37678408f88e",
+      "dependsOn": [
+        "e9f7308f-ef6c-4189-92f4-6e8eefeab716"
+      ]
     },
     {
-      "ref": "9e5b1518-e705-44b0-b7f7-37678408f88e",
-      "dependsOn": []
+      "ref": "5aa7fca5-a094-4f4b-9a15-705f9b52920d",
+      "dependsOn": [
+        "ae4d8b0e-76ba-4428-add5-21374dccf094"
+      ]
     },
     {
       "ref": "dea573f3-e705-437f-a3dc-d43c4fc54a34",
@@ -2540,11 +2651,11 @@
       "dependsOn": []
     },
     {
-      "ref": "84eb2bd1-03b4-4291-8a77-856138da4dac",
+      "ref": "8ef09101-64b1-45f4-8bcd-a3a1ff8e33c4",
       "dependsOn": []
     },
     {
-      "ref": "8ef09101-64b1-45f4-8bcd-a3a1ff8e33c4",
+      "ref": "84eb2bd1-03b4-4291-8a77-856138da4dac",
       "dependsOn": []
     },
     {
@@ -2618,6 +2729,14 @@
     },
     {
       "ref": "2a048c66-1a0a-48e5-9a1d-cd7dd86a396c",
+      "dependsOn": []
+    },
+    {
+      "ref": "e9f7308f-ef6c-4189-92f4-6e8eefeab716",
+      "dependsOn": []
+    },
+    {
+      "ref": "ae4d8b0e-76ba-4428-add5-21374dccf094",
       "dependsOn": []
     }
   ],
@@ -2732,6 +2851,117 @@
         },
         {
           "ref": "9e5b1518-e705-44b0-b7f7-37678408f88e"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102495",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema imports and includes can be nested, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:53Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "ae4d8b0e-76ba-4428-add5-21374dccf094"
+        },
+        {
+          "ref": "e9f7308f-ef6c-4189-92f4-6e8eefeab716"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102496",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema structures can be nested when it builds its schema model, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:42Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "ae4d8b0e-76ba-4428-add5-21374dccf094"
+        },
+        {
+          "ref": "e9f7308f-ef6c-4189-92f4-6e8eefeab716"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102497",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "The Apache XmlSchema walker (xmlschema-walker) doesn't detect cycles in type derivation, substitution groups, model groups or attribute groups. A malicious schema with such a cycle can make the walker recurse until the stack overflows, causing a denial of service.\n\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:37:44Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "ae4d8b0e-76ba-4428-add5-21374dccf094"
+        },
+        {
+          "ref": "e9f7308f-ef6c-4189-92f4-6e8eefeab716"
         }
       ]
     },

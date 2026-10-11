@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:e9ccf631-ce37-49da-a7ec-a3889bb4f002",
+  "serialNumber": "urn:uuid:497d0ae9-0747-45a3-b88b-035e3becc7db",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-08T16:18:44Z",
+    "timestamp": "2026-10-11T13:13:38Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.1.2"
+          "version": "5.2.0"
         }
       ]
     },
@@ -622,6 +622,69 @@
           "url": "https://tomcat.apache.org/"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "20a0323d-8102-4254-83c6-64fe073adb52",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.2",
+      "description": "Commons XMLSchema is a light weight schema object model that can be used to manipulate or generate XML schema.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67a17743abad9de9b18ee4b491ac976e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/commons/xmlschema20/xmlschema-core/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/XMLSCHEMA"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/ws-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
+        }
+      ]
     }
   ],
   "dependencies": [
@@ -667,6 +730,10 @@
     },
     {
       "ref": "cde65d2a-c693-473b-87b2-dc131fb61895",
+      "dependsOn": []
+    },
+    {
+      "ref": "20a0323d-8102-4254-83c6-64fe073adb52",
       "dependsOn": []
     }
   ],
@@ -1223,6 +1290,111 @@
       "affects": [
         {
           "ref": "95d3edb6-7ccb-4f73-8296-d077e3d1dbde"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102495",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema imports and includes can be nested, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:53Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "This vulnerability affects a component which is a transitive dependency of Apache CXF, and is only applicable when CXF is used to consume untrusted WSDLs. This never occurs in this case (consumption of SOAP, WSDL-based services), rendering this finding non-exploitable."
+      },
+      "affects": [
+        {
+          "ref": "20a0323d-8102-4254-83c6-64fe073adb52"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102496",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema structures can be nested when it builds its schema model, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:42Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "This vulnerability affects a component which is a transitive dependency of Apache CXF, and is only applicable when CXF is used to consume untrusted WSDLs. This never occurs in this case (consumption of SOAP, WSDL-based services), rendering this finding non-exploitable."
+      },
+      "affects": [
+        {
+          "ref": "20a0323d-8102-4254-83c6-64fe073adb52"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102497",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "The Apache XmlSchema walker (xmlschema-walker) doesn't detect cycles in type derivation, substitution groups, model groups or attribute groups. A malicious schema with such a cycle can make the walker recurse until the stack overflows, causing a denial of service.\n\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:37:44Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "This vulnerability affects a component which is a transitive dependency of Apache CXF, and is only applicable when CXF is used to consume untrusted WSDLs. This never occurs in this case (consumption of SOAP, WSDL-based services), rendering this finding non-exploitable."
+      },
+      "affects": [
+        {
+          "ref": "20a0323d-8102-4254-83c6-64fe073adb52"
         }
       ]
     }

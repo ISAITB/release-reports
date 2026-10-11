@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:a2babe5b-2d3d-4c4c-87c3-d49d0db5c106",
+  "serialNumber": "urn:uuid:fbd19b8c-01e5-4577-9878-75dc2e4f9aca",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-08T16:18:04Z",
+    "timestamp": "2026-10-11T13:13:00Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.1.2"
+          "version": "5.2.0"
         }
       ]
     },
@@ -312,71 +312,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
-      "group": "tools.jackson.core",
-      "name": "jackson-core",
-      "version": "3.2.0",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "f14bb53e35ab1a789de27b7bb463f4f5"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "ebf2fc67340907abfc4891ed74ba4c4419e2b47e"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "5e353ce53c6901105dfcbf183e3220c17072e334e552b818a4bb1b99decea596"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "2465cf3a1c5ca857117d15b015c9e2b9c5335bbfa1ecb9d6b4659d0278ea10dcecacfa8dbce1d1ab6b73116801f67308"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "41a7707787443d864cd8d5577d4dbdcdaa6c0d39ff2a64a89311b55f8feb40f27372489cccfc4bad9d9c94f3678ff19d7668ae639a11be2decfa7c07b006cb44"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "e1306ebcdbd74d8a62656fab99954f3bd383664a8e6d9177ee4400dd1008e6e2"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "4164a26dbecad10232831d0776e8bcf044a0652e0ca66d2c2ad45dd2dbc09e162d2de23b38793d271014aad4c09a8ba6b923d2725c2a7fc92e08ce96023a69fa"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "8476a4042e7ce3ca746b211d2d794408b4846cdfd04757113eedd5b4df5e8336c17a04d8cdf836c6490bd27169d5c9be"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.0?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "http://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -437,6 +372,71 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
+      "group": "tools.jackson.core",
+      "name": "jackson-core",
+      "version": "3.2.0",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f14bb53e35ab1a789de27b7bb463f4f5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ebf2fc67340907abfc4891ed74ba4c4419e2b47e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5e353ce53c6901105dfcbf183e3220c17072e334e552b818a4bb1b99decea596"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2465cf3a1c5ca857117d15b015c9e2b9c5335bbfa1ecb9d6b4659d0278ea10dcecacfa8dbce1d1ab6b73116801f67308"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "41a7707787443d864cd8d5577d4dbdcdaa6c0d39ff2a64a89311b55f8feb40f27372489cccfc4bad9d9c94f3678ff19d7668ae639a11be2decfa7c07b006cb44"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e1306ebcdbd74d8a62656fab99954f3bd383664a8e6d9177ee4400dd1008e6e2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4164a26dbecad10232831d0776e8bcf044a0652e0ca66d2c2ad45dd2dbc09e162d2de23b38793d271014aad4c09a8ba6b923d2725c2a7fc92e08ce96023a69fa"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "8476a4042e7ce3ca746b211d2d794408b4846cdfd04757113eedd5b4df5e8336c17a04d8cdf836c6490bd27169d5c9be"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -892,6 +892,69 @@
           "url": "https://tomcat.apache.org/"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "b6bfb7bf-3d72-41f0-ab7e-a57b298788de",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.2",
+      "description": "Commons XMLSchema is a light weight schema object model that can be used to manipulate or generate XML schema.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67a17743abad9de9b18ee4b491ac976e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/commons/xmlschema20/xmlschema-core/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/XMLSCHEMA"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/ws-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
+        }
+      ]
     }
   ],
   "dependencies": [
@@ -916,11 +979,11 @@
       "dependsOn": []
     },
     {
-      "ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
+      "ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
       "dependsOn": []
     },
     {
-      "ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
+      "ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
       "dependsOn": []
     },
     {
@@ -953,6 +1016,10 @@
     },
     {
       "ref": "c82dd30e-6d17-4adb-9e57-ea49e23f0e67",
+      "dependsOn": []
+    },
+    {
+      "ref": "b6bfb7bf-3d72-41f0-ab7e-a57b298788de",
       "dependsOn": []
     }
   ],
@@ -1919,6 +1986,111 @@
       "affects": [
         {
           "ref": "5cb6abe2-b258-4820-b25c-90eb1205ba98"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102495",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema imports and includes can be nested, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:53Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "This vulnerability affects a component which is a transitive dependency of Apache CXF, and is only applicable when CXF is used to consume untrusted WSDLs. This never occurs in this case (consumption of SOAP, WSDL-based services), rendering this finding non-exploitable."
+      },
+      "affects": [
+        {
+          "ref": "b6bfb7bf-3d72-41f0-ab7e-a57b298788de"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102496",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema structures can be nested when it builds its schema model, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:42Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "This vulnerability affects a component which is a transitive dependency of Apache CXF, and is only applicable when CXF is used to consume untrusted WSDLs. This never occurs in this case (consumption of SOAP, WSDL-based services), rendering this finding non-exploitable."
+      },
+      "affects": [
+        {
+          "ref": "b6bfb7bf-3d72-41f0-ab7e-a57b298788de"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102497",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "The Apache XmlSchema walker (xmlschema-walker) doesn't detect cycles in type derivation, substitution groups, model groups or attribute groups. A malicious schema with such a cycle can make the walker recurse until the stack overflows, causing a denial of service.\n\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:37:44Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "This vulnerability affects a component which is a transitive dependency of Apache CXF, and is only applicable when CXF is used to consume untrusted WSDLs. This never occurs in this case (consumption of SOAP, WSDL-based services), rendering this finding non-exploitable."
+      },
+      "affects": [
+        {
+          "ref": "b6bfb7bf-3d72-41f0-ab7e-a57b298788de"
         }
       ]
     }

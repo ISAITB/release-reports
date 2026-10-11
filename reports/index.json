@@ -8,157 +8,157 @@
         "1.12.0": {
           "bom": {
             "path": "csv-validator/1.12.0/csv-validator-1.12.0.bom.json",
-            "sha256": "201ae67d631e6fb69434978839d72fdfa87f52508ad185b3c727df049b12b163",
+            "sha256": "059c5c0233723a8ef3532d7928c8d1997a4f83c2430d1a66e785c8a16193a0ab",
             "signature": {
               "path": "csv-validator/1.12.0/csv-validator-1.12.0.bom.json.sigstore.json",
-              "sha256": "3b7c6fe6b7bcf3259c7658c3851fe9ed00ccf6b741fce7426b24e33a4ed8d39b"
+              "sha256": "dba2fbcf34337fb80563c3fbb6a70952c23e5687303b37cfcfd07dd76c76d707"
             }
           },
           "vdr": {
             "path": "csv-validator/1.12.0/csv-validator-1.12.0.vdr.json",
-            "sha256": "d95cb0a6263eb0febc2e0f24ffb3ec1e879f89c72e09b02bbf120cd2bb85dd16",
+            "sha256": "28c7a5a53405e3522a0f1b394defeb0f2b5a147bd46bec0f225e5d7083a54c6e",
             "signature": {
               "path": "csv-validator/1.12.0/csv-validator-1.12.0.vdr.json.sigstore.json",
-              "sha256": "5a1ee0821878c93765876ae63e1ae1ec01d3c2d2016af429145cbcac6021f55b"
+              "sha256": "9cd1f8d1e46b2571581cb95e68efcc02424d85727e560ba3d204417eeb627cab"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 26,
+            "notAffected": 29,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.1": {
           "bom": {
             "path": "csv-validator/1.12.1/csv-validator-1.12.1.bom.json",
-            "sha256": "a1add462eb5fbadb88b615689b36c4d5eaad9fe7b5242205b5e071163c9b73d8",
+            "sha256": "cabd8ba0251e9b0997397a1ee1c91743a843ee430d6b13b123c35fd1253ab72c",
             "signature": {
               "path": "csv-validator/1.12.1/csv-validator-1.12.1.bom.json.sigstore.json",
-              "sha256": "61a3f04c11b611d300aceaf14e507ee59bb6bda739897e9999f7c18a84a38f3a"
+              "sha256": "d4ab9b7f618856fd6a185a047714a859480a8671a339621ce2dc67880bf2a13a"
             }
           },
           "vdr": {
             "path": "csv-validator/1.12.1/csv-validator-1.12.1.vdr.json",
-            "sha256": "3c854b93301eb6dfe570decb636288f2f224ec90d7e0bc691430c9147c26dde0",
+            "sha256": "7ec769cf74fc14c323405ec112ad62dd54f6d9e744e00d0fb290a827e1ba5e3a",
             "signature": {
               "path": "csv-validator/1.12.1/csv-validator-1.12.1.vdr.json.sigstore.json",
-              "sha256": "84c8bcf79b29f3fcb518c43c5ed38069510efae163744b639efa7ed4f5af43e8"
+              "sha256": "7f64c372975112d07a09be4e18baa6e296c75e42144596dd9aa6aa94cc7492fb"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 26,
+            "notAffected": 29,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.2": {
           "bom": {
             "path": "csv-validator/1.12.2/csv-validator-1.12.2.bom.json",
-            "sha256": "db66321e98e76b27b50d3aca8ded7a8eda05968ba8666daac7180c257eebed9a",
+            "sha256": "4c865766c6fd6d06cb7a6aaf4526117aa19086afec8bf108d6a6208e8045cf1c",
             "signature": {
               "path": "csv-validator/1.12.2/csv-validator-1.12.2.bom.json.sigstore.json",
-              "sha256": "86dd428c0cb30f230c8c12933371d868db0588132685e2063e1d765a36b50a3c"
+              "sha256": "3c43760cc1834a0a3b3f4e9f37c2a6080a2e9821614bdbfa42292b46c524a8b3"
             }
           },
           "vdr": {
             "path": "csv-validator/1.12.2/csv-validator-1.12.2.vdr.json",
-            "sha256": "df3fccf699a13a2202261e4e204f31ba92ae97a327745413927709d8484a93b7",
+            "sha256": "c29bb724fd35daa14c7295404f069fe5a666b5d297309d9660261d3b7aabfc59",
             "signature": {
               "path": "csv-validator/1.12.2/csv-validator-1.12.2.vdr.json.sigstore.json",
-              "sha256": "965943c842347414797cc887917ef8243a4532857bc208595c0b5a000495df7d"
+              "sha256": "99a17b12b0d43e53230e4b2e91a19362a35b39a5c2ce2d38e40376b16f12fdc9"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 26,
+            "notAffected": 29,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.3": {
           "bom": {
             "path": "csv-validator/1.12.3/csv-validator-1.12.3.bom.json",
-            "sha256": "33e8f65a0793658cddb7adcee4014a1b31bfca0f105b8577ab6ace69ae586932",
+            "sha256": "23b680021bb27449d9604f5bc33780efa76e61a75838e4d6ebbdbfb7df9baba4",
             "signature": {
               "path": "csv-validator/1.12.3/csv-validator-1.12.3.bom.json.sigstore.json",
-              "sha256": "da96be10fb43a0adddb7e3be45d95417c7be2c6828e2359fc534d314694dc59f"
+              "sha256": "0ed982309fc33997fbd4dcf44e26cf2f7f490fecff6d68a4c964106c67aa6ee8"
             }
           },
           "vdr": {
             "path": "csv-validator/1.12.3/csv-validator-1.12.3.vdr.json",
-            "sha256": "1614ad7bdabed9ea6b9cc4665d0440fec9263b6ca4b540a62f9a52360f4476cd",
+            "sha256": "d8a673aad2b677337735bfeef5635efe64c5257806f4f9ee51875f89210fc847",
             "signature": {
               "path": "csv-validator/1.12.3/csv-validator-1.12.3.vdr.json.sigstore.json",
-              "sha256": "866f261a80747deb628d65430d7d93fa9f2f3ec0c5065f31e03f0d017a515ebc"
+              "sha256": "a633872d505cc09de63d96e994bbc238c188fa5986e81d5501f191b1c017f9c5"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 18,
+            "notAffected": 21,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.4": {
           "bom": {
             "path": "csv-validator/1.12.4/csv-validator-1.12.4.bom.json",
-            "sha256": "b179e4770763d05188db2f1cba4b03f5f5bbf025f64ebde83b8066e30d8f006d",
+            "sha256": "7c11b52ece76c560af5e3d992b08c60c7ccf074f55f614132c066c6233d23182",
             "signature": {
               "path": "csv-validator/1.12.4/csv-validator-1.12.4.bom.json.sigstore.json",
-              "sha256": "967f8bda9621977c816ba751f6183197a636159c09caa3c9c3cab705ebb38c71"
+              "sha256": "9c2ab8d86dbfa9bbcccb22d2d8c65bfdae9a9e85e83357137db53b570a6ada76"
             }
           },
           "vdr": {
             "path": "csv-validator/1.12.4/csv-validator-1.12.4.vdr.json",
-            "sha256": "915114a934feb26abece102299e417e5e862d3ffec0f34308fae9010ae735ac6",
+            "sha256": "2fc255f8791c0f33edfec8ad8b3e90f33156065b2a1fe0f375239a7b79a97486",
             "signature": {
               "path": "csv-validator/1.12.4/csv-validator-1.12.4.vdr.json.sigstore.json",
-              "sha256": "8bd00bc2dff84607a280a6ccd0454d3aa0f404d7870d4d5094cc34e9d918e871"
+              "sha256": "d6b4bb3ba3f79fd7a194a66635f2357c3c27315ec72b13e8d63bf3c5f8ef455a"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 8,
+            "notAffected": 11,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.13.0": {
           "bom": {
             "path": "csv-validator/1.13.0/csv-validator-1.13.0.bom.json",
-            "sha256": "41bef7bf3ecc82675f6bdba9180a225659753600b137c6b03a9069977c77aab1",
+            "sha256": "5c9134452a9abf6aa1a7633d54d61b5897e32240965469eeb88b469e0bd5940e",
             "signature": {
               "path": "csv-validator/1.13.0/csv-validator-1.13.0.bom.json.sigstore.json",
-              "sha256": "34cc5e95b5f298cb7c36a3bac974ce1a242595f42e9aa9fe7be86c308c47ea43"
+              "sha256": "6839e028d3ef2d55e36c084653b12b92a8139d2c0332096c8c16e7fd0538d43e"
             }
           },
           "vdr": {
             "path": "csv-validator/1.13.0/csv-validator-1.13.0.vdr.json",
-            "sha256": "fbb7e1dd453674ca2cfefd350b64e7da3299a33123cb6800e0d80fa4c3c7e9c9",
+            "sha256": "ce504fba64ac0678749860ccba859b39f15d6da4418e283668ee26949cb6a1b9",
             "signature": {
               "path": "csv-validator/1.13.0/csv-validator-1.13.0.vdr.json.sigstore.json",
-              "sha256": "04be6b6853e27d2a77f243125fcfe20ce368dee159b154880b32aba80b1c2026"
+              "sha256": "89fef8e42518d1e618b3bda3999ed1d0635f36adee923401d034a800322e5298"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 3,
+            "notAffected": 6,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         }
       }
@@ -170,191 +170,212 @@
         "1.28.0": {
           "bom": {
             "path": "itb/1.28.0/itb-1.28.0.bom.json",
-            "sha256": "54ebd693f7fcce67eedc09164ba46b3edede36dd48e691b6d48240cebaec9f0e",
+            "sha256": "36d5e7cbde13ee79acceee1db960055cfa4628168112ceb7b5b1cbf04ea374bc",
             "signature": {
               "path": "itb/1.28.0/itb-1.28.0.bom.json.sigstore.json",
-              "sha256": "99be09aa40d1a97fd31441ddf2e0d464e4d3c5b0b485f9f853456308f9011d5a"
+              "sha256": "b4d54a65209c0a616cc631dfa132b0edc6e3ccc5a24e719bc90a1f3d6c85ac68"
             }
           },
           "vdr": {
             "path": "itb/1.28.0/itb-1.28.0.vdr.json",
-            "sha256": "eb739cc781e8485d9ff43a755c3ed0a7ce0d192dea0812b6313b60b8661aba38",
+            "sha256": "dc785d62ccb5165e084ee464a7051cfa7730152a8d186f7409f6b897f77baa6c",
             "signature": {
               "path": "itb/1.28.0/itb-1.28.0.vdr.json.sigstore.json",
-              "sha256": "20c4c3ce776f3244aa785230d02dbbb90b008d14dc694a36fee9b38bc88336c5"
-            }
-          },
-          "summary": {
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 143,
-            "falsePositive": 0,
-            "resolved": 0,
-            "assessmentInProgress": true
-          }
-        },
-        "1.28.1": {
-          "bom": {
-            "path": "itb/1.28.1/itb-1.28.1.bom.json",
-            "sha256": "db4a2b16d4f1ff4794a0ed8a5b0a02163ac57394f26c15f4e40781d734a3c25a",
-            "signature": {
-              "path": "itb/1.28.1/itb-1.28.1.bom.json.sigstore.json",
-              "sha256": "a4b842fa8ca76371ec0b95701704fa4c6085b44d4d6ab20837166ac4927b1035"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.28.1/itb-1.28.1.vdr.json",
-            "sha256": "f6bd0e9836f6d98f503a1febeff478f6b84686878bcc9def8fafa0b11ed163eb",
-            "signature": {
-              "path": "itb/1.28.1/itb-1.28.1.vdr.json.sigstore.json",
-              "sha256": "6f1733c34ece1f8008bbd9bfad6aad8cdf9ed0dcc547215493ed65edc9e7bcec"
-            }
-          },
-          "summary": {
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 143,
-            "falsePositive": 0,
-            "resolved": 0,
-            "assessmentInProgress": true
-          }
-        },
-        "1.28.2": {
-          "bom": {
-            "path": "itb/1.28.2/itb-1.28.2.bom.json",
-            "sha256": "3e2000f76bbff7f0e645bf31d19ba6feb0171f9e6cabc8db1bd51b6d6e89fcf1",
-            "signature": {
-              "path": "itb/1.28.2/itb-1.28.2.bom.json.sigstore.json",
-              "sha256": "9812405be0819121c06f8509bae57892b520c68ca1f6c164ec0cd1a56302bfba"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.28.2/itb-1.28.2.vdr.json",
-            "sha256": "96c74e2938ce38c4029220c49b7546d831809663de0cea03d3df5a6593062af3",
-            "signature": {
-              "path": "itb/1.28.2/itb-1.28.2.vdr.json.sigstore.json",
-              "sha256": "f9abae284deef1815736e200941528b2d67577675fb87f2a3773bd5bbeca14ee"
-            }
-          },
-          "summary": {
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 143,
-            "falsePositive": 0,
-            "resolved": 0,
-            "assessmentInProgress": true
-          }
-        },
-        "1.28.3": {
-          "bom": {
-            "path": "itb/1.28.3/itb-1.28.3.bom.json",
-            "sha256": "e1560513fbea76f15661785bf33f094e02b0bd64aa4347dc5bd7078a1bcd048c",
-            "signature": {
-              "path": "itb/1.28.3/itb-1.28.3.bom.json.sigstore.json",
-              "sha256": "154a474da31e8b130c842f55caccb28e1f0fba11d11c72db7a43aeef21e7f5f4"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.28.3/itb-1.28.3.vdr.json",
-            "sha256": "c5c849f1c1bf6b9089fe612c3fce2b19f5d6a46025eca98eb2ceea7b9189136f",
-            "signature": {
-              "path": "itb/1.28.3/itb-1.28.3.vdr.json.sigstore.json",
-              "sha256": "ade352cf2434df4b3908c94de39b34dfcd66f1e0c9d1e7e37cbee2900823d3aa"
-            }
-          },
-          "summary": {
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 143,
-            "falsePositive": 0,
-            "resolved": 0,
-            "assessmentInProgress": true
-          }
-        },
-        "1.28.4": {
-          "bom": {
-            "path": "itb/1.28.4/itb-1.28.4.bom.json",
-            "sha256": "0c28ebef5349473b1d8487f7b17fbe7bf4311ff7ee4c15f21fcdffd89598b3ea",
-            "signature": {
-              "path": "itb/1.28.4/itb-1.28.4.bom.json.sigstore.json",
-              "sha256": "9972a22ef78ab9a02386c4e9eafe53ffefd91d13ec6ee5d0928cba846fac1eca"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.28.4/itb-1.28.4.vdr.json",
-            "sha256": "2f124c20beac8bfe714aea7ab3fc2f5ce7f737317f22a6ca74a3e5ac841a5407",
-            "signature": {
-              "path": "itb/1.28.4/itb-1.28.4.vdr.json.sigstore.json",
-              "sha256": "26908215e6f4800bfcf526089d12c05aaa8db7ac0cbae99c25ff81f6683c99f4"
-            }
-          },
-          "summary": {
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 142,
-            "falsePositive": 0,
-            "resolved": 0,
-            "assessmentInProgress": true
-          }
-        },
-        "1.28.5": {
-          "bom": {
-            "path": "itb/1.28.5/itb-1.28.5.bom.json",
-            "sha256": "8787d3d37b8ff9211a930dd4e2f839f7f3774c67df50084c9bbc8ab5d25023c1",
-            "signature": {
-              "path": "itb/1.28.5/itb-1.28.5.bom.json.sigstore.json",
-              "sha256": "e1857eb9a26fde62cfafce2d89f49d66500d92b55cf89eb8dfc76ed23428b3ac"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.28.5/itb-1.28.5.vdr.json",
-            "sha256": "56fc95823a472b9707bb90b1a3e4baa4561a041fe709c2101cc426c764e4efdf",
-            "signature": {
-              "path": "itb/1.28.5/itb-1.28.5.vdr.json.sigstore.json",
-              "sha256": "9954b0ae06c27ea82aef39cd842cc923c36de9f1521907951bd003ca1f3d3e97"
-            }
-          },
-          "summary": {
-            "exploitable": 1,
-            "exploitableIds": [
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 103,
-            "falsePositive": 0,
-            "resolved": 0,
-            "assessmentInProgress": true
-          }
-        },
-        "1.29.0": {
-          "bom": {
-            "path": "itb/1.29.0/itb-1.29.0.bom.json",
-            "sha256": "2317f264ab16a00470f24f9923565f741d0bb0baa8ac0b5f1f206642a897b168",
-            "signature": {
-              "path": "itb/1.29.0/itb-1.29.0.bom.json.sigstore.json",
-              "sha256": "be6b16faf85b3ba94cc1775f5e7275b23f8707c40fa1945ffb75fcfa425fe8c1"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.29.0/itb-1.29.0.vdr.json",
-            "sha256": "bc7312f7c0fa47c9239b2b1e28f1907b36eba2413694cb25364682f06220f13d",
-            "signature": {
-              "path": "itb/1.29.0/itb-1.29.0.vdr.json.sigstore.json",
-              "sha256": "bd63f7fc1822083ea8b85e434f88eac96d6dcd5cad90b01a7dea4d4eb83dc3f3"
+              "sha256": "bcd4c94521ab4f86b7811663b7abaa722e718d8f15dfab262ac22ca1f294e876"
             }
           },
           "summary": {
             "exploitable": 4,
             "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 143,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.28.1": {
+          "bom": {
+            "path": "itb/1.28.1/itb-1.28.1.bom.json",
+            "sha256": "7a731391fd6088b5f1a7c4cc1dbdd6bbfbe2875587ecd695e3c86457c6c61512",
+            "signature": {
+              "path": "itb/1.28.1/itb-1.28.1.bom.json.sigstore.json",
+              "sha256": "830687403371ff48afd8b811641464bafd4bcbb8db306a8080064e14ee73373d"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.28.1/itb-1.28.1.vdr.json",
+            "sha256": "6df9c7fd7c13f0c4516bc69331abdf89b6345c9bebf0ce930282b5287ae51ffd",
+            "signature": {
+              "path": "itb/1.28.1/itb-1.28.1.vdr.json.sigstore.json",
+              "sha256": "8f7d94b34c740c0dacd4dd516de88e26046af076372b889e68793fa0cdf5529c"
+            }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 143,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.28.2": {
+          "bom": {
+            "path": "itb/1.28.2/itb-1.28.2.bom.json",
+            "sha256": "6e83b59ebb1dcb42bbdf7451bba5729331ae43af8a66adf144389dadf39d6a2e",
+            "signature": {
+              "path": "itb/1.28.2/itb-1.28.2.bom.json.sigstore.json",
+              "sha256": "fddab663fb30d8c415d3e47f8d840938f5cf429d9da55e126ede051853dce830"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.28.2/itb-1.28.2.vdr.json",
+            "sha256": "eaf6090e1cb7846fdbba05889fc362277528b6ef284b1453085af92e8d77f82f",
+            "signature": {
+              "path": "itb/1.28.2/itb-1.28.2.vdr.json.sigstore.json",
+              "sha256": "89390c69df75aa045023eb9e9a73f27f164e462d4fdfd0ead505ad7f04fa933e"
+            }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 143,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.28.3": {
+          "bom": {
+            "path": "itb/1.28.3/itb-1.28.3.bom.json",
+            "sha256": "d718c8d53c39e5b1d5a4d1f2a480a35208be3e621f45eb1d5538199c1d1d7697",
+            "signature": {
+              "path": "itb/1.28.3/itb-1.28.3.bom.json.sigstore.json",
+              "sha256": "7d7000af00ac5610989bcdca8cd599a61cb8b50b860b94b58b210b26582b5163"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.28.3/itb-1.28.3.vdr.json",
+            "sha256": "b26b681b02621892f289fc8409b52255d0a02b06a58d76820d09c09bfd7e1802",
+            "signature": {
+              "path": "itb/1.28.3/itb-1.28.3.vdr.json.sigstore.json",
+              "sha256": "37d58339d38bdf3ce277fcd410cc1447b0a722f66711fc7317f4ba79f7e50ad9"
+            }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 143,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.28.4": {
+          "bom": {
+            "path": "itb/1.28.4/itb-1.28.4.bom.json",
+            "sha256": "2350ee4f16b261b73ee7123b74c9a2ea62865739ba53c8f084297211ffb5a45d",
+            "signature": {
+              "path": "itb/1.28.4/itb-1.28.4.bom.json.sigstore.json",
+              "sha256": "8801954e5b400fe330178b6cf2e72d18e1b12d57016dcba2c20faab9b8d51686"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.28.4/itb-1.28.4.vdr.json",
+            "sha256": "cc212cf44c40b1e13f83d3fbb4abe1c6ece505b2b36797fb35eb1599ed93453c",
+            "signature": {
+              "path": "itb/1.28.4/itb-1.28.4.vdr.json.sigstore.json",
+              "sha256": "eb0c5b8e0c533afe9e2b221dc62a8bbd70377ab3dbfc9071b3363ee9b49a427a"
+            }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 142,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.28.5": {
+          "bom": {
+            "path": "itb/1.28.5/itb-1.28.5.bom.json",
+            "sha256": "bd0c86163672c7ab25b30d85a165642b44252a2449fd7df25d6346d4d2b0c195",
+            "signature": {
+              "path": "itb/1.28.5/itb-1.28.5.bom.json.sigstore.json",
+              "sha256": "8b059f809d360df8fa8e615b9df90dec49669a1ff02685beb27c0d2403d5904f"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.28.5/itb-1.28.5.vdr.json",
+            "sha256": "8198169b3d02e5882691efc7ec0df3d43c1d04e1d07cd6fee92e16cd15853af9",
+            "signature": {
+              "path": "itb/1.28.5/itb-1.28.5.vdr.json.sigstore.json",
+              "sha256": "caced5b80a1f7f78a702751ee755fa6915778c99cc79eed9580c27034df147a2"
+            }
+          },
+          "summary": {
+            "exploitable": 4,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 103,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.29.0": {
+          "bom": {
+            "path": "itb/1.29.0/itb-1.29.0.bom.json",
+            "sha256": "0a42b091b03f4e5124a462d1c0f996e28c4e8f92f56aeee3db3d30ccd7f3dc3a",
+            "signature": {
+              "path": "itb/1.29.0/itb-1.29.0.bom.json.sigstore.json",
+              "sha256": "07b7fb3c6c84d6c2631d8f8ccdfa3f9fb197a55d31cc5d748caf07387ddf3c2a"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.29.0/itb-1.29.0.vdr.json",
+            "sha256": "344071a8a4cbeff7cade2215877cb5b5317d553348abb1bf2e7bbf1733259856",
+            "signature": {
+              "path": "itb/1.29.0/itb-1.29.0.vdr.json.sigstore.json",
+              "sha256": "ffc779584751d8f7d0a14004d019f77adec29d2241508ce286ed47787fe14207"
+            }
+          },
+          "summary": {
+            "exploitable": 7,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-r29c-68gh-xp6x",
@@ -363,29 +384,32 @@
             "notAffected": 138,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.29.1": {
           "bom": {
             "path": "itb/1.29.1/itb-1.29.1.bom.json",
-            "sha256": "7da310e630bf0d736a20dad0506319c9780d9f7dec174beab56781b5bf14a227",
+            "sha256": "aec2f63ceed9a8b7ea957dc08381c588889c931cbc705b5ffac3520e440620b5",
             "signature": {
               "path": "itb/1.29.1/itb-1.29.1.bom.json.sigstore.json",
-              "sha256": "a948390aeddb8e27e3a50bbf6146bc61ef586261746321227e4a4f220718f686"
+              "sha256": "1d4d63137e88137b77f20b6f23924b2cdb6c8ba1f271bb5504e1a3135826f316"
             }
           },
           "vdr": {
             "path": "itb/1.29.1/itb-1.29.1.vdr.json",
-            "sha256": "a302eeb2abf949df3f73a1d57f720a919ec751e30d8c9eda599c71d1f68a0213",
+            "sha256": "43d14f34e839e5dcdba85cd5ffe8d558167296a16103990c4ba817db6d15a681",
             "signature": {
               "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
-              "sha256": "69bb4b4c75b4ccc910b4823901a99d52f47afb7f6ed380f944432b46f45ce64b"
+              "sha256": "f968c4955f9b002423a991c3accfadd4c6dfd1bb21d6ca020b84395582877b61"
             }
           },
           "summary": {
-            "exploitable": 4,
+            "exploitable": 7,
             "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-r29c-68gh-xp6x",
@@ -394,29 +418,32 @@
             "notAffected": 137,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.29.2": {
           "bom": {
             "path": "itb/1.29.2/itb-1.29.2.bom.json",
-            "sha256": "2857da94904bbb7998753ea01a5397fd547660f5a0f4abda1064ebb9850dba6e",
+            "sha256": "09ce7a1cc229727bbe426a50c08f2e5f3fd29b070c1d7f79c1c5548250767882",
             "signature": {
               "path": "itb/1.29.2/itb-1.29.2.bom.json.sigstore.json",
-              "sha256": "785a6c2c3f34dd372e2e3c03a861d1d06a27e4db24f48663a6c1b609794608ab"
+              "sha256": "65897e2d81bce2ea7e8ce8ffc650c31920dd0525d4a0120751b673748d0d6ea9"
             }
           },
           "vdr": {
             "path": "itb/1.29.2/itb-1.29.2.vdr.json",
-            "sha256": "fecca41618ba3ed658167a7ea7957807ea8e7a7ba67d6e6bb15ed786f4b77791",
+            "sha256": "65d590cfbe6c845daf023fa4192ed785b64d236985ada6b69e2968f43b044fd9",
             "signature": {
               "path": "itb/1.29.2/itb-1.29.2.vdr.json.sigstore.json",
-              "sha256": "f6d159090beee3cdd6c83c33b5f70c41306df5e4d832dcfbbf1fea08bbae1165"
+              "sha256": "1730a0425c523a4ab3e0d0c5cf268f26851101752d27bd31cc56441593b28a78"
             }
           },
           "summary": {
-            "exploitable": 4,
+            "exploitable": 7,
             "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-r29c-68gh-xp6x",
@@ -425,29 +452,32 @@
             "notAffected": 137,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.29.3": {
           "bom": {
             "path": "itb/1.29.3/itb-1.29.3.bom.json",
-            "sha256": "3f1ecddb5737856b3955c6ef4aed35f69bb54bf2ab65da9c0206f54cafe977f1",
+            "sha256": "2ed8366a5d0da45e592e47d773d505dec078692914b8609832806f07a2f42d40",
             "signature": {
               "path": "itb/1.29.3/itb-1.29.3.bom.json.sigstore.json",
-              "sha256": "c09cebe397070b2b974a9640d78ae519b6273b2bcc2d837bc21f3741ccdb983a"
+              "sha256": "8d18a320270106626b77abc8a52e5ed7bba7b585f70874f40edc0c0d5d5b0275"
             }
           },
           "vdr": {
             "path": "itb/1.29.3/itb-1.29.3.vdr.json",
-            "sha256": "734fa2ed22d52329e9d38997482f8fe7162dd961590f92b8d5b2853e8f72bb30",
+            "sha256": "03abe176c8807fc677137a6ef7ab6bf530efe02f16d6528df98c4962f2c79858",
             "signature": {
               "path": "itb/1.29.3/itb-1.29.3.vdr.json.sigstore.json",
-              "sha256": "80785bf4da876fc25122382c9a97d20dbc47c0f17dac58a8fba2fc9faf7d3da7"
+              "sha256": "7c3a87ac17f1c26581fed62bf4eb8fcbe4c8ea8ed624bc1de0e63da756c96526"
             }
           },
           "summary": {
-            "exploitable": 4,
+            "exploitable": 7,
             "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-r29c-68gh-xp6x",
@@ -456,29 +486,32 @@
             "notAffected": 135,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.29.4": {
           "bom": {
             "path": "itb/1.29.4/itb-1.29.4.bom.json",
-            "sha256": "5787745af29d3c7015248d76396dd074af257ddf98d904653d970191df023b3b",
+            "sha256": "50db87c42539ab802265d80de44f8fd58c317faa489f0708a37084cfe7ae5532",
             "signature": {
               "path": "itb/1.29.4/itb-1.29.4.bom.json.sigstore.json",
-              "sha256": "042d32aae6bf56f0d3d1406b624c61d47a13b064faf6ef82fb6551d6992e6cee"
+              "sha256": "a0c60c9ee92959f4f0d6762d5d0a93ff468ab52eb2802844c8b41dfecb1ec1e4"
             }
           },
           "vdr": {
             "path": "itb/1.29.4/itb-1.29.4.vdr.json",
-            "sha256": "43a6519ea2eea7188ddc4f65eac9aa17742fde75dd7578f68d731f2a73e69de1",
+            "sha256": "d6a3da82825a5acb3fd6074ef696a33afe2006d959dfe2aaf0101e7bacebedec",
             "signature": {
               "path": "itb/1.29.4/itb-1.29.4.vdr.json.sigstore.json",
-              "sha256": "1af301d11a0aa692f3520fe6a24d0116c37c40e6c443923df59f718dd6f5e229"
+              "sha256": "775cf106528910fd41d16a1292c216039060a0d7e674e55b549272a82ed7730f"
             }
           },
           "summary": {
-            "exploitable": 3,
+            "exploitable": 6,
             "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-xw5h-cmh3-8j6j"
@@ -486,59 +519,67 @@
             "notAffected": 113,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.29.5": {
           "bom": {
             "path": "itb/1.29.5/itb-1.29.5.bom.json",
-            "sha256": "1f2deff946a616967d479ca832216aba621e0d4535e259676383f04eb37a1709",
+            "sha256": "a87603d8e770949a545338543994891474ec7525451d160074b564b66f4191cc",
             "signature": {
               "path": "itb/1.29.5/itb-1.29.5.bom.json.sigstore.json",
-              "sha256": "e70e6226aa750db07c768c7436389ec3af8d478eeac2c27c61101643acef2e40"
+              "sha256": "e4103e1f1714527044bcd9e8c18279c8a46a4b9e0bc8c9a12b947791c654a47b"
             }
           },
           "vdr": {
             "path": "itb/1.29.5/itb-1.29.5.vdr.json",
-            "sha256": "f52775ed555513a956467482ee7c279d3ae5be348e3aa53264b8ed582ed03248",
+            "sha256": "89d4cab1c2c40686e8a831fb2e153c922268e4471c032bef3a4868f65461c18a",
             "signature": {
               "path": "itb/1.29.5/itb-1.29.5.vdr.json.sigstore.json",
-              "sha256": "8c5b42e2bf656bf6b175145c3d193dd2b7965ca4bcc9cba276a99751fdc97f18"
+              "sha256": "ea19e08c763feb4c3eb88d97f73d3e7481cbbe372bd9231ba656e13a30ec956f"
             }
           },
           "summary": {
-            "exploitable": 0,
-            "exploitableIds": [],
+            "exploitable": 3,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497"
+            ],
             "notAffected": 90,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.30.0": {
           "bom": {
             "path": "itb/1.30.0/itb-1.30.0.bom.json",
-            "sha256": "30706dce08eadd87dede758e2c22abbe4f925cb2ed49f0f5c2a3caba9e57260b",
+            "sha256": "39f9d44e9e66934838b1ef46df8768b723e4173a8c7de6235efb0eebc9083b42",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.bom.json.sigstore.json",
-              "sha256": "eae4924ea5a5c6b5894ab185b9ebe57415f5be5d195312bdd581fe5d641eef6c"
+              "sha256": "64fce3ff98114a3fc136986101cc5cb85a2ff0d4db3f7fd8689e8f237b4139df"
             }
           },
           "vdr": {
             "path": "itb/1.30.0/itb-1.30.0.vdr.json",
-            "sha256": "8c46db25c1747bb2acaa669883c1ff6bb4ee74afb538c0267bf21f4bf36298a0",
+            "sha256": "d0b42bb30ae3f0514abdcfaa04f360cdac1e9e1f377d2eed0d55ff7c9a9c7f77",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.vdr.json.sigstore.json",
-              "sha256": "2ebd0df31ddb2e2dcbb77eb12e70a1b6b991c5c86f19a9d49e6f5e7a0e5931f9"
+              "sha256": "029dbe13f30b21b9bf5d564d9bcf165cf052671171337ea42dbf48b47671f4c6"
             }
           },
           "summary": {
-            "exploitable": 0,
-            "exploitableIds": [],
+            "exploitable": 3,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497"
+            ],
             "notAffected": 47,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.30.1": {
@@ -576,157 +617,157 @@
         "1.12.0": {
           "bom": {
             "path": "json-validator/1.12.0/json-validator-1.12.0.bom.json",
-            "sha256": "83c1ab2e68d1cc2e31dfc3bcc6370cd091cc615914d17e43933d31df944dc2ff",
+            "sha256": "8fc8bc2234ab14a40672c9af8fc6314a11cf48022dff3d241335237c9e963adf",
             "signature": {
               "path": "json-validator/1.12.0/json-validator-1.12.0.bom.json.sigstore.json",
-              "sha256": "94a3a83024f9cd22e5a82539ba23ec97cf9d2c1ef92e9c03fd01699e314671db"
+              "sha256": "f134a0787bb220cfe59952bcbaec417b84d73b751c30684f4efa6aab05de30d8"
             }
           },
           "vdr": {
             "path": "json-validator/1.12.0/json-validator-1.12.0.vdr.json",
-            "sha256": "5e57ef02a39af18217edf740cebbaaaa7737860a118ea372295a19bd0f55a099",
+            "sha256": "d1ab141a9d3e5f038cd3f159172f079ae81e2752987bc487a9a2caec2e9b5834",
             "signature": {
               "path": "json-validator/1.12.0/json-validator-1.12.0.vdr.json.sigstore.json",
-              "sha256": "dd61ce6d0d01f01cee34a1baae829ef74ba3417afb01978d5e36603dd306b240"
+              "sha256": "d78ee30cc7010fd9edffed28143b63df86a51d8783cceb659504dc99a36bc348"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 20,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.1": {
           "bom": {
             "path": "json-validator/1.12.1/json-validator-1.12.1.bom.json",
-            "sha256": "a933de8f2d2e240666c5b0882e2b794b33fb50c5043d934bb89f24d6554f6276",
+            "sha256": "8918707ad9379a240c1af93c10355bfb57525d3c92d382eeaafdf7c4047f9fc9",
             "signature": {
               "path": "json-validator/1.12.1/json-validator-1.12.1.bom.json.sigstore.json",
-              "sha256": "f06943f55a3c5f2507c5de761ed8f5ff778a16458bc80604b443a5272c6f9e55"
+              "sha256": "bce6d432c1f919c9cf4877bc1b9e8accb4012c1d237b24d7eac1b9af66a84e76"
             }
           },
           "vdr": {
             "path": "json-validator/1.12.1/json-validator-1.12.1.vdr.json",
-            "sha256": "1c126675c1492e8ef44a03b348862c40f0d625783b184c6750c1f6c211a32f8f",
+            "sha256": "90d9e1354bda172b23d9fc82c41d5ff820507a6e7d07737656ec8233b113a435",
             "signature": {
               "path": "json-validator/1.12.1/json-validator-1.12.1.vdr.json.sigstore.json",
-              "sha256": "8016e12e0e872bc2a1724768e55838a8b26e9c5354fd28b2af7d89921cfa627e"
+              "sha256": "da9f071fe959eac141a328e4aa34ef667d2f98cd395a8aa26ee99175c21e015a"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 20,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.2": {
           "bom": {
             "path": "json-validator/1.12.2/json-validator-1.12.2.bom.json",
-            "sha256": "4d61192aeab84952eb8be796b295e54e8461add06c6efc7daee3a99271e7813e",
+            "sha256": "98d28b37257ea5db0e80b3734dc0011b7a786187b9989acffba441774fda7f3b",
             "signature": {
               "path": "json-validator/1.12.2/json-validator-1.12.2.bom.json.sigstore.json",
-              "sha256": "955bac2b6e77b74c306ad4254a579d3f6329cf023f7fc18aeaf3cb011a9dd3a2"
+              "sha256": "013a1aad76a223f3accb477b826aa87c63efbe289e6c85b07747907f965e8aa4"
             }
           },
           "vdr": {
             "path": "json-validator/1.12.2/json-validator-1.12.2.vdr.json",
-            "sha256": "d240d9e7ebb5d403bf092978c6e8b1f8a7a2f3e5776f4ae12e3bde6f71141282",
+            "sha256": "6f50c6ad38faeb222ad64a22be98455321109b2587fb694906cd18d2ce405b95",
             "signature": {
               "path": "json-validator/1.12.2/json-validator-1.12.2.vdr.json.sigstore.json",
-              "sha256": "8422afc912a40973c10f5083547ec68a1f7c4df7f665c4d5bf83a0bf79f7801b"
+              "sha256": "f1eb239051521b75f04ae77b335e0496785250372075b3dc2541a13d37fc6476"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 20,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.3": {
           "bom": {
             "path": "json-validator/1.12.3/json-validator-1.12.3.bom.json",
-            "sha256": "2f3a2c45c6984d32e9f5c9184a59d762b568454cef2b980ad06d0230c3bff27d",
+            "sha256": "db748bc0cc82c9ab3e5c4f2bee4220b55f13234bf4673e0020814868fb0d9907",
             "signature": {
               "path": "json-validator/1.12.3/json-validator-1.12.3.bom.json.sigstore.json",
-              "sha256": "41feed5f87e51563ba5a002c50b846d205f800c87246d141981af53d2abd1fa7"
+              "sha256": "39da654613819a5f1f247aa527670075c852cd97a36417594effe66195379813"
             }
           },
           "vdr": {
             "path": "json-validator/1.12.3/json-validator-1.12.3.vdr.json",
-            "sha256": "8754e0189991662eee11a900b2820dfdbcd7b57610096fb58e909bf2fd5ec587",
+            "sha256": "07b387b959c46f6333f532fae9948451cc870f05bd228278a0cf97aaee797cd8",
             "signature": {
               "path": "json-validator/1.12.3/json-validator-1.12.3.vdr.json.sigstore.json",
-              "sha256": "4dce87cc441094600f2f5fd9eee93ac06b81954ce91f97761cce394c793a63a5"
+              "sha256": "c1d63ec68ded92eca9cd734eeef3985605f329eedcadcaa16973bcf2733eb20f"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 15,
+            "notAffected": 18,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.4": {
           "bom": {
             "path": "json-validator/1.12.4/json-validator-1.12.4.bom.json",
-            "sha256": "84c68e71d096b7346be354bb33e5f6f9eee0c0f9d86bf54d6325451cd6ac02a8",
+            "sha256": "96da6bbdfbc881e6d844948941dbaec0fe973fbac3e66c7953111d86105b6c03",
             "signature": {
               "path": "json-validator/1.12.4/json-validator-1.12.4.bom.json.sigstore.json",
-              "sha256": "41c42069e2fdce890db78c3d0e716b6fc6cb995d02e11a09611a9cd71c890e07"
+              "sha256": "19d0d890ef918ad75376e2213f2d4ad9d0bbe56763eca51382c33f1c7f47f267"
             }
           },
           "vdr": {
             "path": "json-validator/1.12.4/json-validator-1.12.4.vdr.json",
-            "sha256": "8c48cb8c9e20408540fb66cc05d58cae5854dfe0182290c889c2238158a7bcfc",
+            "sha256": "c6ec3ef66ab70353b6ed083533e0da9a63252ffcffcb4cd6c28086994c64a961",
             "signature": {
               "path": "json-validator/1.12.4/json-validator-1.12.4.vdr.json.sigstore.json",
-              "sha256": "ce73b7b7c5632136b83a057c010290a4bb09533d3cc90f8376868ade0c2d9b39"
+              "sha256": "e2cbc57a03f3e4b5a5ef29bb30f9b6928e41ed530406a21d494c48e94c8831db"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 5,
+            "notAffected": 8,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.13.0": {
           "bom": {
             "path": "json-validator/1.13.0/json-validator-1.13.0.bom.json",
-            "sha256": "008ec3d953519b86dc35c939932590919aa10c98ab8aaf0738da944522b66d40",
+            "sha256": "97695800c311318263f510da245fe050ada52d61b2d6046cbd03e86bb448add4",
             "signature": {
               "path": "json-validator/1.13.0/json-validator-1.13.0.bom.json.sigstore.json",
-              "sha256": "07a1ec9016ab022d597a732f2fdbc786f6d37c54305330829f43bad70870979c"
+              "sha256": "8fdb1ba7dc01986ed269724ac64c3e33ca2c1f5692e67f3ce13eabd091681f16"
             }
           },
           "vdr": {
             "path": "json-validator/1.13.0/json-validator-1.13.0.vdr.json",
-            "sha256": "53a08a48245cb10ece6d3c9f64d26d363649fb629d3790f71cf147a6327f8505",
+            "sha256": "3adc3da63d9de89bfeddb5181a783d480655b67b197544ee83bed653bfd0acd8",
             "signature": {
               "path": "json-validator/1.13.0/json-validator-1.13.0.vdr.json.sigstore.json",
-              "sha256": "1b8179aa1da3d35722971725012b9a357c163252fad895cae4cc741389708ed7"
+              "sha256": "d1a927cc97a6979e5a606679d50798f45c27373ac1f4c1b83fb594e49e0d0e07"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 0,
+            "notAffected": 3,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         }
       }
@@ -738,157 +779,157 @@
         "1.12.0": {
           "bom": {
             "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.bom.json",
-            "sha256": "ae7bf29a47c00bc1aa40ca1a7a8889416b6c747ec0716707680f99db616db922",
+            "sha256": "8d9996389056a42cfc43c2987449170976c4338ae63ec55e098198f4566e4960",
             "signature": {
               "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.bom.json.sigstore.json",
-              "sha256": "66e7f0cbb261c41fa2dc6b8bcc5cd5db29e72e332abaf67cdb43ece8fb2c04cc"
+              "sha256": "0170be5866f6ce08f4e82f801e8009f25ca08fd62296c319ccec683abeabc145"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.vdr.json",
-            "sha256": "9c9e93cf663c195e532395c423fba4e27b79ccffddc04a3d661aefca571711fa",
+            "sha256": "8b8399f058ef0cae2a1172d7d24ce9c9ee5a88a6d28e18c3386dd51823b2d13d",
             "signature": {
               "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.vdr.json.sigstore.json",
-              "sha256": "ade205766c395011abda15e9043679abcfe3c5c4ce39126d865baf63d201e598"
+              "sha256": "cb01ce6c7497458c1fc9ad484ef205e5312e2f1826de477b045620ae7ccad7a3"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 21,
+            "notAffected": 24,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.1": {
           "bom": {
             "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.bom.json",
-            "sha256": "22a0d732b8bba0b19b4aea58a077ab22a56efb928263c722ba4807937c5b0f96",
+            "sha256": "98cb367a6dc487034008fed7ad980e846675783772a8b9153c44dad50f6b1e14",
             "signature": {
               "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.bom.json.sigstore.json",
-              "sha256": "2c2ffe594c6fa8f376d2b847543d5b284e14abfa7577b39d480abcfa295c448c"
+              "sha256": "834993bedd556dc66e5000910219fc772c9682f7bf81e6e1f1b93aaae6c61db5"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.vdr.json",
-            "sha256": "f337866b85132b27d15454b0a3222b25097d43d8ba436d5fc3956a260c6ae412",
+            "sha256": "b8c848dc623c1b7c3ddbb3895c58efd120213d6d6db41f0fce4c83d8eeda6131",
             "signature": {
               "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.vdr.json.sigstore.json",
-              "sha256": "99c560274482922b4ce91a1e0ea6fd7d4b9e9a9c4c8e1c895fb0abf87cc548f9"
+              "sha256": "3cf0bdf5c6a22d2aecd88f35dd1e90097222844779b06d7992c292a7ffbad42b"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 21,
+            "notAffected": 24,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.2": {
           "bom": {
             "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.bom.json",
-            "sha256": "ef8453960047e364e6cac9c79224559ebe61b7c88436a58a6f781aee78037363",
+            "sha256": "536cb6af8f81fef86f7366edb43b499815ce3f2ce9ef08e95f0798354505c952",
             "signature": {
               "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.bom.json.sigstore.json",
-              "sha256": "0bba3676a12200d1f9f340a6d3a7100e3aaff2c0a7e43b503661c17d66a99950"
+              "sha256": "e1f1b5f27facd67c22bf7e69a467c3be8a2997d26a5156fec46d870423928369"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.vdr.json",
-            "sha256": "62ece4a61f69d5bd12bf15d281366b010ddae460fe99e6600b49bda0a483bb2b",
+            "sha256": "b9c18e06d5da068fae58d335288347b80459e3542d321de9cd3b893e6feb90bf",
             "signature": {
               "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.vdr.json.sigstore.json",
-              "sha256": "c30416f395b66bb648a4fc95c20276fc06f62a355d3429cd441063d6d239beba"
+              "sha256": "27daf332796a1e892a783c2edcdf00552d130f03042d23616ef4260dbbbc5534"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 21,
+            "notAffected": 24,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.3": {
           "bom": {
             "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.bom.json",
-            "sha256": "d68d2b8a4857451e6280a5a295e16f450db54767aa9072036acd53fe9e12cf96",
+            "sha256": "66bb8a1ac41388372b7a2ba7ac7dc313016c2703dc698d0f4ce309f0e80fd5d5",
             "signature": {
               "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.bom.json.sigstore.json",
-              "sha256": "e099d69ec38fcec5c406ca822ee15c258ab2bc4149104881f3c250570000c0f5"
+              "sha256": "9d4befb874b1f1ec6d9dd3a5b10fea2f2cb5d3fe5ce1f10ac872c4abce96a17f"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.vdr.json",
-            "sha256": "43c41ace5bc0d9fcff13e100471ae53e2c14634c534525694c5862e2bfe80863",
+            "sha256": "41e247b1d17ac071268c9d08d948270016283051576eb3f1e74669e55544a76a",
             "signature": {
               "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.vdr.json.sigstore.json",
-              "sha256": "fa298a7ce27de5ec2bc3678eae86f74c13414ae2db98676df26cbec753480dfd"
+              "sha256": "3e49e9dbdfc278c1df1653d8b16efb5f2836223dbcba30834985886abdfe7eb2"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 15,
+            "notAffected": 18,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.4": {
           "bom": {
             "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.bom.json",
-            "sha256": "0da3db980d82a06935d3a8ace533e117c94f5e4c2aca3e5de56b33dae30de0d8",
+            "sha256": "26ccaf638a2eb12b0aa9973025c82f66c7ddcba634da9439f88c823b2e3ed66f",
             "signature": {
               "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.bom.json.sigstore.json",
-              "sha256": "8f1b187612bf1c3ab5227c72cb81a4af9d389ac33ac953b5062e82c01e6b6a44"
+              "sha256": "88f82722adcbca0614512338ab84e75f26ef232efb65c4861181875f537d0dc2"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.vdr.json",
-            "sha256": "d6d379f93bc2136e07a1cfd8ea38cf13c1342b907d2b067083876a45ea3578d9",
+            "sha256": "94aca48c05e689edc2f36a2c4d9976b87bf1cf0d9b7aab9a0c9d5ea411e3ec42",
             "signature": {
               "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.vdr.json.sigstore.json",
-              "sha256": "525dfbcca008ddfc3318a9e2db184c04b2445bc547e3e74c2711220c35cb7c5a"
+              "sha256": "d98bd60866b9a92f92551d47ae2d15a087be40a951b2f4dc22cd8f3377d25c59"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 5,
+            "notAffected": 8,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.13.0": {
           "bom": {
             "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.bom.json",
-            "sha256": "735c1d2abf483eb814f9945ae6068da3507265d42f5e27df11990c965a711960",
+            "sha256": "b8da6e28d924acd3972eaee329878752dbec53ade1893d7bb76f969fbdde6ec5",
             "signature": {
               "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.bom.json.sigstore.json",
-              "sha256": "710a7588ccd200abeab4bf4ca43ab02ae720e1a3b7cd67a7a795ee5bfbf77938"
+              "sha256": "3c079ce7a1599cac3e9c5d96ec4c28269ef86032b5740cc1c6b9dd702dd873bb"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.vdr.json",
-            "sha256": "96a10c608e3a74fd15c7c4efd03768df95971fdd88dd2dd83b336197309a6abb",
+            "sha256": "6d13b26cd77a44802f6ce2e0df2ad5b1d0468142b32befd98c361341816ebdbb",
             "signature": {
               "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.vdr.json.sigstore.json",
-              "sha256": "2d0dc65cd6bf97471ebadf614d549d122428f6d13e0ebc558d902c82ab3ee23b"
+              "sha256": "cb1da0764ee1585f9041da16019ea51a8e496a22f60a53982f351f4631439d13"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 0,
+            "notAffected": 3,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         }
       }
@@ -900,157 +941,157 @@
         "1.12.0": {
           "bom": {
             "path": "xml-validator/1.12.0/xml-validator-1.12.0.bom.json",
-            "sha256": "aa10badd92cb8fcda2f14bd02dae268ba019533b0f35c972164362849b0e5e3c",
+            "sha256": "f972eafffe452e65f98314da188feda30d5becbf087b8bab55a6128a109aee8a",
             "signature": {
               "path": "xml-validator/1.12.0/xml-validator-1.12.0.bom.json.sigstore.json",
-              "sha256": "a5b53232b3abd4f5fc72d7f5f2002ecfe0789e24a72803646f6363f6621babb8"
+              "sha256": "123d2b288aa41d5c123a8277e33701f5d7defa35a9d0fe47b5fca8d288746dd4"
             }
           },
           "vdr": {
             "path": "xml-validator/1.12.0/xml-validator-1.12.0.vdr.json",
-            "sha256": "e944c9a1dd117553b5def89b1c7ef8bd0a5e559b0dd96c1cc17093c29204b08a",
+            "sha256": "1296692a005dda739c3fe0a99a7aa085c8b23803ab3001ac77afcefe2ff1031e",
             "signature": {
               "path": "xml-validator/1.12.0/xml-validator-1.12.0.vdr.json.sigstore.json",
-              "sha256": "07b2af60b26bedf5529e7e9760743efde3aa534619482f0921917e3a56b7404e"
+              "sha256": "8cd0f6b6db33ceb77acdf7b4fc50a84acc5d513e28eb538b4481759bc89e038c"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 20,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.1": {
           "bom": {
             "path": "xml-validator/1.12.1/xml-validator-1.12.1.bom.json",
-            "sha256": "2c731b900af15548b2fbb11c6415b5b755347aca085000813e46286526fb0444",
+            "sha256": "7be88ae4ef419d4c6800a9a669973b174ffd3045d866ae44d8b4b2913e66f808",
             "signature": {
               "path": "xml-validator/1.12.1/xml-validator-1.12.1.bom.json.sigstore.json",
-              "sha256": "87bb70cdcbbd9aebfa8916d04ad853cebfdae013125835a731bb24bbd6eddf15"
+              "sha256": "eb67acf4a9c08380cd68970124d081678a761e2c550aa20ed19d6bfb55668b2c"
             }
           },
           "vdr": {
             "path": "xml-validator/1.12.1/xml-validator-1.12.1.vdr.json",
-            "sha256": "69b69e6c9efd32ff28d29ae446946c1c90e2dbffed938afe18ae1b964c677d79",
+            "sha256": "25812b15126c710c3bf3efc8927b2dfd3bc7bd698fe88f420fca0cea570fe4e0",
             "signature": {
               "path": "xml-validator/1.12.1/xml-validator-1.12.1.vdr.json.sigstore.json",
-              "sha256": "3d01627cb98d9318a8f62bfbfcdafe3ecbc559c2068c33450bed7e6f49f3f183"
+              "sha256": "ab6fac69ba82b92c9980dcfdb587dc9b911dc648c94b2b6dfc272c70ad279b4d"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 20,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.2": {
           "bom": {
             "path": "xml-validator/1.12.2/xml-validator-1.12.2.bom.json",
-            "sha256": "509de2d0a9a1a8e0be5e3a0b37407cb32f793bb450c75a1e60c0110509db2f28",
+            "sha256": "58ab770ade0c6d4e6f21d2124c3371cef5d4e04165aa1cc7b06ad2bd04e39e12",
             "signature": {
               "path": "xml-validator/1.12.2/xml-validator-1.12.2.bom.json.sigstore.json",
-              "sha256": "86054e9c6b3967876a0e2ac2a1748611598e40726b70bd14c82daa5799c69f95"
+              "sha256": "946e6611d2684237187a4dacfdb8e8c4338a83f687e40209af0f5827849da5e0"
             }
           },
           "vdr": {
             "path": "xml-validator/1.12.2/xml-validator-1.12.2.vdr.json",
-            "sha256": "9e5d7244f8133e4f806a495b9c301b219f618112b84e8eb83c2f6f92641ab72f",
+            "sha256": "9a26911a8ee8fe0b85c299e321c927c34034b769af0ee8e3122c9fcef84756eb",
             "signature": {
               "path": "xml-validator/1.12.2/xml-validator-1.12.2.vdr.json.sigstore.json",
-              "sha256": "892535883828b228041db62e1c54aa6316268f1ac30d979086974b26109b2b7f"
+              "sha256": "ad6f7c5c655791d660e810400440914bfe5b8d1a2c6f82ce248d6f5bc80d223b"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 20,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.3": {
           "bom": {
             "path": "xml-validator/1.12.3/xml-validator-1.12.3.bom.json",
-            "sha256": "af1462aaab96840a9950a3cc85a9f3d14e62d223e9ffe41dbb9c04864909bdb1",
+            "sha256": "223ec530339087c90231cc2cd7ac42e44f2a484f6896f6b989f79009889a8ca1",
             "signature": {
               "path": "xml-validator/1.12.3/xml-validator-1.12.3.bom.json.sigstore.json",
-              "sha256": "e1a91ffd9fe5ded7890c2232f192e2f2354d8285257c7e98f4103eac272a0605"
+              "sha256": "96ab56084245c3be683f97bddf242f0c2f500f04f21f751864459d8cb5b433c7"
             }
           },
           "vdr": {
             "path": "xml-validator/1.12.3/xml-validator-1.12.3.vdr.json",
-            "sha256": "f18fb44d4478290e4849c4d505230594ad9960ea9458cc108183e89e1e60db84",
+            "sha256": "9fb8fee2f4d43b1c0a26a8628fb5d7f8b55373f7398e59c919cbc53c470c3500",
             "signature": {
               "path": "xml-validator/1.12.3/xml-validator-1.12.3.vdr.json.sigstore.json",
-              "sha256": "cb3d405e8b3826006b892b6efecad092090b88ea52a1df2e6cb938d3f95ce62c"
+              "sha256": "087342c1d38c8fbcbc3cc844d94cac113c1f6a816019dcebc6329bcaa918e686"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 15,
+            "notAffected": 18,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.12.4": {
           "bom": {
             "path": "xml-validator/1.12.4/xml-validator-1.12.4.bom.json",
-            "sha256": "3e772714ebe1912b7dd385b4f813d5aacf5afe66abc7ec812c03f5699899bdd9",
+            "sha256": "a43b68f31bac472d6d6666eab93392b4e142fd4ef683448b7e26cb5f0f2b0338",
             "signature": {
               "path": "xml-validator/1.12.4/xml-validator-1.12.4.bom.json.sigstore.json",
-              "sha256": "06f046df6d5ba784d252dc6a9b6b337cdc973df36bbeda8a5f2c0e14af9676d2"
+              "sha256": "cf982b8caf72849b49d8c4b13bc787192067537433643ecdb9092706382299ec"
             }
           },
           "vdr": {
             "path": "xml-validator/1.12.4/xml-validator-1.12.4.vdr.json",
-            "sha256": "ef36219d0c94dbe56e0ca54135e1298a4049e5326dd489fe892fda8b1226ebf0",
+            "sha256": "d2b742ed7746d88cba8178a922a10d2c80d9550c2df35526ef40342f16b2275b",
             "signature": {
               "path": "xml-validator/1.12.4/xml-validator-1.12.4.vdr.json.sigstore.json",
-              "sha256": "406b394341726714d779cdc75f2918d8ba7c5d541a6be7b3a9d027caa5d7e2c0"
+              "sha256": "daa581be179fda1fd369934c1bb090cbc3035d1dc7a7c15c48b873441824971e"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 5,
+            "notAffected": 8,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         },
         "1.13.0": {
           "bom": {
             "path": "xml-validator/1.13.0/xml-validator-1.13.0.bom.json",
-            "sha256": "fdf14cdc51dc39e158fcf11c2b9ae2ae4a8c4166ae30a52fca75f882544b1bb0",
+            "sha256": "2f85868cd085fcd6bf53256a29418e434d5911b640c5d4a43ff05fc934c1fa31",
             "signature": {
               "path": "xml-validator/1.13.0/xml-validator-1.13.0.bom.json.sigstore.json",
-              "sha256": "887b308938c1bf42d14fd2bea5391fb6e835deee9ec73e47aa9abbaa40604f39"
+              "sha256": "4fd086a8d88edf1c3c614e52b2a58a8ed09dada64325ed2076ee405fe1d11deb"
             }
           },
           "vdr": {
             "path": "xml-validator/1.13.0/xml-validator-1.13.0.vdr.json",
-            "sha256": "0626e69559bd9b4b2a2753f06b0d33f0832a0f28957a3d1515195065b061eed8",
+            "sha256": "06ffd5ad62f4413a79c8265066ea63b128138978ac9f38a3c3005e8f44db30a3",
             "signature": {
               "path": "xml-validator/1.13.0/xml-validator-1.13.0.vdr.json.sigstore.json",
-              "sha256": "d5cd488e22225b2b0c17cfc51907f7065899176dbeb1508536175380c134f8a9"
+              "sha256": "7344467fa3b49b0b7a8fc4cefbcb3966c57bac64be9a9fd7d4c3842f37b2aa64"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 0,
+            "notAffected": 3,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": true
+            "assessmentInProgress": false
           }
         }
       }

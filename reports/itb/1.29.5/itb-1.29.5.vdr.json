@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:cd8560c8-17f1-45bb-929a-94ad1cea43b2",
+  "serialNumber": "urn:uuid:b2be3dad-5eb7-4f9e-99e0-ad64a8bc7f9a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-08T16:18:07Z",
+    "timestamp": "2026-10-11T13:13:03Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.1.2"
+          "version": "5.2.0"
         }
       ]
     },
@@ -253,50 +253,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "2f60d07e-f542-4c1c-b06c-d34e24d63e8a",
-      "author": "The Babel Team",
-      "group": "@babel",
-      "name": "core",
-      "version": "7.29.0",
-      "description": "Babel compiler core.",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/%40babel/core@7.29.0",
-      "externalReferences": [
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/babel/babel.git#packages/babel-core",
-          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
-        },
-        {
-          "type": "website",
-          "url": "https://babel.dev/docs/en/next/babel-core",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:constraint:engine:node",
-          "value": ">=6.9.0"
-        },
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/@babel/core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "73e9f7ed-2042-405d-8486-58c3388b5044",
       "author": "angular",
       "group": "@angular",
@@ -336,6 +292,50 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/@angular/core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "2f60d07e-f542-4c1c-b06c-d34e24d63e8a",
+      "author": "The Babel Team",
+      "group": "@babel",
+      "name": "core",
+      "version": "7.29.0",
+      "description": "Babel compiler core.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40babel/core@7.29.0",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/babel/babel.git#packages/babel-core",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "type": "website",
+          "url": "https://babel.dev/docs/en/next/babel-core",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:constraint:engine:node",
+          "value": ">=6.9.0"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/@babel/core"
         }
       ]
     },
@@ -627,6 +627,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "a8fc0510-acbb-4c3c-a3c0-3cf74325f4d0",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.21.3",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0ae595293418fd4dd9c4527d4abc5610"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aa7ccec161c275f3e6332666ab758916f3120714"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f397563d8e67630c10cab8c2334ca0e55af832fa3ebde160a379c2c96d43bf25"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "47cf817512cd1482eeaa54ae68e62d3b13eafa11546d99ee933de28a9514f4a41e967fa378b40b17746bc98a26f7b387"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bf9df0232bd26b6f00b2227fad26cee40ef31e8e12e521ee1afe89dcea61ddb2b27cbc0d1f0679d1746cc35cc361e531c84324db68d43eaa60f15933bbbcf0ab"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f506e6ef4e26c5720065231dc654a0a99beb2e195e98e32fb5ad02ab4386e20b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a73c9798fa53f62bec6ca46cf8ad264d78b0a41ab9089ad8b8f4bfb8034d8eea8081bbcf3e2a9a3ac5ea018c13710098c6b1af033c088cec2385ccd62c1b84c0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d0a2f03bf3223f5ad6d84541f1027f56045689ec54dc8c594db9dc11d50c041d8487b1abcaf107b05da886f2b988c628"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "ae9c41be-2c22-42d6-84ff-ec6aa0977f02",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-databind",
@@ -687,63 +744,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-databind"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "a8fc0510-acbb-4c3c-a3c0-3cf74325f4d0",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.21.3",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "0ae595293418fd4dd9c4527d4abc5610"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "aa7ccec161c275f3e6332666ab758916f3120714"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "f397563d8e67630c10cab8c2334ca0e55af832fa3ebde160a379c2c96d43bf25"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "47cf817512cd1482eeaa54ae68e62d3b13eafa11546d99ee933de28a9514f4a41e967fa378b40b17746bc98a26f7b387"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bf9df0232bd26b6f00b2227fad26cee40ef31e8e12e521ee1afe89dcea61ddb2b27cbc0d1f0679d1746cc35cc361e531c84324db68d43eaa60f15933bbbcf0ab"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "f506e6ef4e26c5720065231dc654a0a99beb2e195e98e32fb5ad02ab4386e20b"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "a73c9798fa53f62bec6ca46cf8ad264d78b0a41ab9089ad8b8f4bfb8034d8eea8081bbcf3e2a9a3ac5ea018c13710098c6b1af033c088cec2385ccd62c1b84c0"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d0a2f03bf3223f5ad6d84541f1027f56045689ec54dc8c594db9dc11d50c041d8487b1abcaf107b05da886f2b988c628"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -1649,6 +1649,113 @@
           "value": "node_modules/mermaid/node_modules/uuid"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "c6c83810-7860-4d49-9384-df072e0c1558",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.2",
+      "description": "Commons XMLSchema is a light weight schema object model that can be used to manipulate or generate XML schema.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67a17743abad9de9b18ee4b491ac976e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/commons/xmlschema20/xmlschema-core/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/XMLSCHEMA"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/ws-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67a17743abad9de9b18ee4b491ac976e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=bundle"
     }
   ],
   "dependencies": [
@@ -1681,14 +1788,14 @@
       "dependsOn": []
     },
     {
-      "ref": "2f60d07e-f542-4c1c-b06c-d34e24d63e8a",
-      "dependsOn": []
-    },
-    {
       "ref": "73e9f7ed-2042-405d-8486-58c3388b5044",
       "dependsOn": [
         "3a38d63b-e1bc-4bb5-b9ca-c1fa371a19d6"
       ]
+    },
+    {
+      "ref": "2f60d07e-f542-4c1c-b06c-d34e24d63e8a",
+      "dependsOn": []
     },
     {
       "ref": "9e7c8582-726e-42be-8b01-5f46b129369f",
@@ -1711,15 +1818,15 @@
       "dependsOn": []
     },
     {
-      "ref": "ae9c41be-2c22-42d6-84ff-ec6aa0977f02",
-      "dependsOn": [
-        "642b2996-0c6c-4a9f-8408-7534db257d1c"
-      ]
-    },
-    {
       "ref": "a8fc0510-acbb-4c3c-a3c0-3cf74325f4d0",
       "dependsOn": [
         "b83bc0db-f55b-4f81-9c24-311b71ada9c5"
+      ]
+    },
+    {
+      "ref": "ae9c41be-2c22-42d6-84ff-ec6aa0977f02",
+      "dependsOn": [
+        "642b2996-0c6c-4a9f-8408-7534db257d1c"
       ]
     },
     {
@@ -1797,9 +1904,128 @@
     {
       "ref": "038d6599-44c0-4378-9a85-91927fadc052",
       "dependsOn": []
+    },
+    {
+      "ref": "c6c83810-7860-4d49-9384-df072e0c1558",
+      "dependsOn": []
+    },
+    {
+      "ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890",
+      "dependsOn": []
     }
   ],
   "vulnerabilities": [
+    {
+      "id": "CVE-2026-102495",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema imports and includes can be nested, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:53Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "c6c83810-7860-4d49-9384-df072e0c1558"
+        },
+        {
+          "ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102496",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema structures can be nested when it builds its schema model, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:42Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "c6c83810-7860-4d49-9384-df072e0c1558"
+        },
+        {
+          "ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102497",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "The Apache XmlSchema walker (xmlschema-walker) doesn't detect cycles in type derivation, substitution groups, model groups or attribute groups. A malicious schema with such a cycle can make the walker recurse until the stack overflows, causing a denial of service.\n\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:37:44Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "c6c83810-7860-4d49-9384-df072e0c1558"
+        },
+        {
+          "ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890"
+        }
+      ]
+    },
     {
       "id": "GHSA-qv9r-c865-cp47",
       "source": {

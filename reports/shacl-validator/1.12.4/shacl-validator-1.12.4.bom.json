@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:83c8db24-592e-4b38-93f4-8e8de618f487",
+  "serialNumber": "urn:uuid:34faafdb-b337-4047-a41e-b5563ca4fffb",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-08T16:18:40Z",
+    "timestamp": "2026-10-11T13:13:34Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.1.2"
+          "version": "5.2.0"
         }
       ]
     },
@@ -4630,71 +4630,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "d3945974-7234-4ab3-93b0-3bf2f9788757",
-      "group": "tools.jackson.core",
-      "name": "jackson-core",
-      "version": "3.2.2",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "c967c177625d111be4ab088bd57a01e7"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "33448a192d5b662438c859a57daf0f3e8ad9da4b"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "http://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "8f2a8539-ca2b-4ad6-8eca-e08341c81834",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -4760,44 +4695,44 @@
     },
     {
       "type": "library",
-      "bom-ref": "64727d5a-2dec-487c-aa88-f27ecff7b9ad",
+      "bom-ref": "d3945974-7234-4ab3-93b0-3bf2f9788757",
       "group": "tools.jackson.core",
-      "name": "jackson-databind",
+      "name": "jackson-core",
       "version": "3.2.2",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "e3087129e1319032032eab489831d284"
+          "content": "c967c177625d111be4ab088bd57a01e7"
         },
         {
           "alg": "SHA-1",
-          "content": "7415dfebcdfed0af627a087ed175e7ab08bb12e6"
+          "content": "33448a192d5b662438c859a57daf0f3e8ad9da4b"
         },
         {
           "alg": "SHA-256",
-          "content": "d27509f990d990fc779a01f3f612005ff6c67dc3bb0a720f5f4d9b2f5c713401"
+          "content": "93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca"
         },
         {
           "alg": "SHA-384",
-          "content": "83b06db15784a90f52d001f23eafcbbdedbcc636a5e4c43345f222d6aa1347da143d6034ba6912b18905aabc66036c5f"
+          "content": "3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc"
         },
         {
           "alg": "SHA-512",
-          "content": "8c3fd597e81e437ece1f83e70c147408627c46352e62c39a491294b1e96164b4b5759c846e7513ca5c34c42ce7cd98adbd5812d5f4b0437171f3e0ec3eca71b9"
+          "content": "90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb"
         },
         {
           "alg": "SHA3-256",
-          "content": "d4147b7e5947acbfc8f3535a8a678fe76dddb758482add51496ea46eb333dac3"
+          "content": "2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee"
         },
         {
           "alg": "SHA3-512",
-          "content": "d72c63316e59221b72533fa69434f3eaf13cd69c7b92914676a99fe0395cab2fc203fd8653f5a198823249005aa88ac638685b330a613ea6817a58e7a551513e"
+          "content": "c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5"
         },
         {
           "alg": "SHA3-384",
-          "content": "73557c50fc44fe84bdab0b74344204359b6f1f1d29083dd6248c20376d7352f5c3bfe8342dbbdfb4c21fa4523ef329c7"
+          "content": "20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f"
         }
       ],
       "licenses": [
@@ -4807,19 +4742,19 @@
           }
         }
       ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar",
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
+          "url": "https://github.com/FasterXML/jackson-core"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
+          "url": "https://github.com/FasterXML/jackson-core/issues"
         },
         {
           "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
+          "url": "http://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -4873,6 +4808,71 @@
         }
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "64727d5a-2dec-487c-aa88-f27ecff7b9ad",
+      "group": "tools.jackson.core",
+      "name": "jackson-databind",
+      "version": "3.2.2",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e3087129e1319032032eab489831d284"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7415dfebcdfed0af627a087ed175e7ab08bb12e6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d27509f990d990fc779a01f3f612005ff6c67dc3bb0a720f5f4d9b2f5c713401"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "83b06db15784a90f52d001f23eafcbbdedbcc636a5e4c43345f222d6aa1347da143d6034ba6912b18905aabc66036c5f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8c3fd597e81e437ece1f83e70c147408627c46352e62c39a491294b1e96164b4b5759c846e7513ca5c34c42ce7cd98adbd5812d5f4b0437171f3e0ec3eca71b9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d4147b7e5947acbfc8f3535a8a678fe76dddb758482add51496ea46eb333dac3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d72c63316e59221b72533fa69434f3eaf13cd69c7b92914676a99fe0395cab2fc203fd8653f5a198823249005aa88ac638685b330a613ea6817a58e7a551513e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "73557c50fc44fe84bdab0b74344204359b6f1f1d29083dd6248c20376d7352f5c3bfe8342dbbdfb4c21fa4523ef329c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -12966,67 +12966,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "a6548725-7c62-4610-a1c6-be83fa650340",
-      "group": "org.xmlresolver",
-      "name": "xmlresolver",
-      "version": "5.3.3",
-      "description": "An XML entity/uri resolver",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e883f28e14ce902f66941bd8bc25233a"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "1b838b0d69eef8d46c813d88a604e3cb4c6035fe"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "1fe4d5b92f708dcdb82dbce12919e0171e6b5ca62c6dca6220483625098feb5f"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "78c42fec61b2008f922152fdee78811bec25da32a27adce0eb228297b62b586bb8d7bd344fac914962c2d0393f66de32"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "e426f802202b69004b94d7ff67c907b1e10e3005854ed4b9fcf4898a8f727c782e06da58ebc746345e9ed30881a6006c8d588e604f3fd28a107b49f55a632f0a"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "c8c61aad263d72404d0ff57bc173d9195cb30cd320c6cf73a917ca44ee12ca21"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "7b0fab3b03366830d7bd8c1b2c6465971d80bb8cac00fb51f52f95f51040f5178a42abf469a3e31a74d8ae21c9578f16e0c90548b4eccc6da132c653c44cd038"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "bea5e339f64751df3e0606c53a850ff1f1e40cdc3c37ad2c3465d6f218e8a8fcde880652008ccfc2cc0a133ce91cd19c"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.xmlresolver/xmlresolver@5.3.3?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/xmlresolver/xmlresolver"
-        },
-        {
-          "type": "vcs",
-          "url": "scm:git@github.com:xmlresolver/xmlresolver.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "643056bb-d4cc-4f83-9aa2-4633f70abae1",
       "group": "org.xmlresolver",
       "name": "xmlresolver",
@@ -13088,6 +13027,67 @@
     },
     {
       "type": "library",
+      "bom-ref": "a6548725-7c62-4610-a1c6-be83fa650340",
+      "group": "org.xmlresolver",
+      "name": "xmlresolver",
+      "version": "5.3.3",
+      "description": "An XML entity/uri resolver",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e883f28e14ce902f66941bd8bc25233a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1b838b0d69eef8d46c813d88a604e3cb4c6035fe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1fe4d5b92f708dcdb82dbce12919e0171e6b5ca62c6dca6220483625098feb5f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "78c42fec61b2008f922152fdee78811bec25da32a27adce0eb228297b62b586bb8d7bd344fac914962c2d0393f66de32"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e426f802202b69004b94d7ff67c907b1e10e3005854ed4b9fcf4898a8f727c782e06da58ebc746345e9ed30881a6006c8d588e604f3fd28a107b49f55a632f0a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c8c61aad263d72404d0ff57bc173d9195cb30cd320c6cf73a917ca44ee12ca21"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7b0fab3b03366830d7bd8c1b2c6465971d80bb8cac00fb51f52f95f51040f5178a42abf469a3e31a74d8ae21c9578f16e0c90548b4eccc6da132c653c44cd038"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bea5e339f64751df3e0606c53a850ff1f1e40cdc3c37ad2c3465d6f218e8a8fcde880652008ccfc2cc0a133ce91cd19c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.xmlresolver/xmlresolver@5.3.3?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/xmlresolver/xmlresolver"
+        },
+        {
+          "type": "vcs",
+          "url": "scm:git@github.com:xmlresolver/xmlresolver.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "c35ae3f3-faab-4cd4-a276-1f56f98c0473",
       "group": "org.apache.ws.xmlschema",
       "name": "xmlschema-core",
@@ -13128,14 +13128,7 @@
           "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=jar",
       "externalReferences": [
         {
@@ -13717,25 +13710,25 @@
       "dependsOn": []
     },
     {
-      "ref": "d3945974-7234-4ab3-93b0-3bf2f9788757",
-      "dependsOn": []
-    },
-    {
       "ref": "8f2a8539-ca2b-4ad6-8eca-e08341c81834",
       "dependsOn": []
     },
     {
-      "ref": "64727d5a-2dec-487c-aa88-f27ecff7b9ad",
-      "dependsOn": [
-        "83b15111-b0a5-4cb1-a645-89d369c1bc64",
-        "d3945974-7234-4ab3-93b0-3bf2f9788757"
-      ]
+      "ref": "d3945974-7234-4ab3-93b0-3bf2f9788757",
+      "dependsOn": []
     },
     {
       "ref": "8621c818-4ecf-49a8-a423-a13726ae8647",
       "dependsOn": [
         "83b15111-b0a5-4cb1-a645-89d369c1bc64",
         "8f2a8539-ca2b-4ad6-8eca-e08341c81834"
+      ]
+    },
+    {
+      "ref": "64727d5a-2dec-487c-aa88-f27ecff7b9ad",
+      "dependsOn": [
+        "83b15111-b0a5-4cb1-a645-89d369c1bc64",
+        "d3945974-7234-4ab3-93b0-3bf2f9788757"
       ]
     },
     {
@@ -14683,11 +14676,11 @@
       ]
     },
     {
-      "ref": "a6548725-7c62-4610-a1c6-be83fa650340",
+      "ref": "643056bb-d4cc-4f83-9aa2-4633f70abae1",
       "dependsOn": []
     },
     {
-      "ref": "643056bb-d4cc-4f83-9aa2-4633f70abae1",
+      "ref": "a6548725-7c62-4610-a1c6-be83fa650340",
       "dependsOn": []
     },
     {

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:f63179b7-df03-4272-ba8d-52f606d7d1ba",
+  "serialNumber": "urn:uuid:b788cb11-6c7b-4377-94a7-f33a81c6ddf5",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-08T16:18:24Z",
+    "timestamp": "2026-10-11T13:13:19Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.1.2"
+          "version": "5.2.0"
         }
       ]
     },
@@ -545,63 +545,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "cc6a99f8-bd3e-4f30-ba4d-f3814d0756bd",
-      "group": "org.freemarker",
-      "name": "freemarker",
-      "version": "2.3.34",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://freemarker.apache.org/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "6b027965-5e08-4f80-9e82-fda4c6e0cd3d",
       "group": "org.freemarker",
       "name": "freemarker",
@@ -666,6 +609,63 @@
         {
           "type": "vcs",
           "url": "https://git-wip-us.apache.org/repos/asf?p=freemarker.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "cc6a99f8-bd3e-4f30-ba4d-f3814d0756bd",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.34",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://freemarker.apache.org/"
         }
       ]
     },
@@ -1068,63 +1068,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "0261ac8b-674e-425b-be06-57c0804ab895",
-      "group": "org.jsoup",
-      "name": "jsoup",
-      "version": "1.15.4",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "642bc7d013d5c950fbdf90d9bfffc246"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "The MIT License",
-            "url": "https://jsoup.org/license"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://jsoup.org/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "8c00a4f3-6c4c-4fbc-97b6-0817bb6ed708",
       "group": "org.jsoup",
       "name": "jsoup",
@@ -1185,6 +1128,63 @@
         {
           "type": "vcs",
           "url": "https://github.com/jhy/jsoup"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "0261ac8b-674e-425b-be06-57c0804ab895",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.15.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "642bc7d013d5c950fbdf90d9bfffc246"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License",
+            "url": "https://jsoup.org/license"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jsoup.org/"
         }
       ]
     },
@@ -1899,63 +1899,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "0bcdc686-df89-4254-9ffa-c9f3e8a76a14",
-      "group": "org.springframework",
-      "name": "spring-core",
-      "version": "6.2.18",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "3a7a829fc0311ed2dbaa8b5991e175c6"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "6a32464668a1666a87a62fd72fe50cbbbcacf672"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "8f4e9f833b952c9af78e7aa1e38d742df4471648e39bc5696d2f03c0543208d5"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "a3ad82deedc2ba6bf7cad2b1c034157334081e635c3bb45849065a2dc4f1166c102d312160f83948b8a854099c9a46f2"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "f6ec4eea0a5d85fb6f0f7a36c4cd47219bccb9ee63ca66abc240a21ff0daf545ae715552b4df85f24af88585b519b57783244f38456439097d3c981c03aee8eb"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "2c0de0ce917392843de2ff91b0e0eb6d65575aff8a73b3a431c2d629d3370bb0"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "85884454816953a1278beb99ad8c43dce5b3bdb6595ac97da0256f5b2ddc6e4465cc2a7cd93c24853b2d855e94eff35f87dcab4d5e5b9de40d53dca4598bc07a"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "0d8de446dcc16e821d310252e21282443e3fd22796263420ffe552fa2b058d1ee9fc3ff6bdd2a46c45734270bffaa5e6"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.springframework/spring-core@6.2.18",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/spring-projects/spring-framework"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "7368c219-33b8-4ace-8ffa-0d44a751c14d",
       "group": "org.springframework",
       "name": "spring-core",
@@ -2015,6 +1958,63 @@
         },
         {
           "type": "vcs",
+          "url": "https://github.com/spring-projects/spring-framework"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "0bcdc686-df89-4254-9ffa-c9f3e8a76a14",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "6.2.18",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3a7a829fc0311ed2dbaa8b5991e175c6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6a32464668a1666a87a62fd72fe50cbbbcacf672"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8f4e9f833b952c9af78e7aa1e38d742df4471648e39bc5696d2f03c0543208d5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a3ad82deedc2ba6bf7cad2b1c034157334081e635c3bb45849065a2dc4f1166c102d312160f83948b8a854099c9a46f2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f6ec4eea0a5d85fb6f0f7a36c4cd47219bccb9ee63ca66abc240a21ff0daf545ae715552b4df85f24af88585b519b57783244f38456439097d3c981c03aee8eb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2c0de0ce917392843de2ff91b0e0eb6d65575aff8a73b3a431c2d629d3370bb0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "85884454816953a1278beb99ad8c43dce5b3bdb6595ac97da0256f5b2ddc6e4465cc2a7cd93c24853b2d855e94eff35f87dcab4d5e5b9de40d53dca4598bc07a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0d8de446dcc16e821d310252e21282443e3fd22796263420ffe552fa2b058d1ee9fc3ff6bdd2a46c45734270bffaa5e6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@6.2.18",
+      "externalReferences": [
+        {
+          "type": "website",
           "url": "https://github.com/spring-projects/spring-framework"
         }
       ]
@@ -2314,6 +2314,113 @@
           "value": "node_modules/mermaid/node_modules/uuid"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "ccdd1d20-9f3f-4030-96ae-c54e60a0eb60",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.2",
+      "description": "Commons XMLSchema is a light weight schema object model that can be used to manipulate or generate XML schema.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67a17743abad9de9b18ee4b491ac976e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/commons/xmlschema20/xmlschema-core/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/XMLSCHEMA"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/ws-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "a16e516b-e128-4075-86b9-2e631068a659",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67a17743abad9de9b18ee4b491ac976e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=bundle"
     }
   ],
   "dependencies": [
@@ -2357,22 +2464,26 @@
     },
     {
       "ref": "4bab9e3a-d5f6-4239-bc55-c11a7fdf2144",
-      "dependsOn": []
+      "dependsOn": [
+        "ccdd1d20-9f3f-4030-96ae-c54e60a0eb60"
+      ]
     },
     {
       "ref": "e14022de-03f9-4242-a932-d139876cd47b",
-      "dependsOn": []
+      "dependsOn": [
+        "a16e516b-e128-4075-86b9-2e631068a659"
+      ]
     },
     {
       "ref": "00b75305-3e7c-4346-8cba-4715894e797b",
       "dependsOn": []
     },
     {
-      "ref": "cc6a99f8-bd3e-4f30-ba4d-f3814d0756bd",
+      "ref": "6b027965-5e08-4f80-9e82-fda4c6e0cd3d",
       "dependsOn": []
     },
     {
-      "ref": "6b027965-5e08-4f80-9e82-fda4c6e0cd3d",
+      "ref": "cc6a99f8-bd3e-4f30-ba4d-f3814d0756bd",
       "dependsOn": []
     },
     {
@@ -2410,11 +2521,11 @@
       "dependsOn": []
     },
     {
-      "ref": "0261ac8b-674e-425b-be06-57c0804ab895",
+      "ref": "8c00a4f3-6c4c-4fbc-97b6-0817bb6ed708",
       "dependsOn": []
     },
     {
-      "ref": "8c00a4f3-6c4c-4fbc-97b6-0817bb6ed708",
+      "ref": "0261ac8b-674e-425b-be06-57c0804ab895",
       "dependsOn": []
     },
     {
@@ -2478,11 +2589,11 @@
       "dependsOn": []
     },
     {
-      "ref": "0bcdc686-df89-4254-9ffa-c9f3e8a76a14",
+      "ref": "7368c219-33b8-4ace-8ffa-0d44a751c14d",
       "dependsOn": []
     },
     {
-      "ref": "7368c219-33b8-4ace-8ffa-0d44a751c14d",
+      "ref": "0bcdc686-df89-4254-9ffa-c9f3e8a76a14",
       "dependsOn": []
     },
     {
@@ -2511,6 +2622,14 @@
     },
     {
       "ref": "69ffb931-1fa3-4e0f-be13-810ad58af5e7",
+      "dependsOn": []
+    },
+    {
+      "ref": "ccdd1d20-9f3f-4030-96ae-c54e60a0eb60",
+      "dependsOn": []
+    },
+    {
+      "ref": "a16e516b-e128-4075-86b9-2e631068a659",
       "dependsOn": []
     }
   ],
@@ -2583,6 +2702,117 @@
         },
         {
           "ref": "e14022de-03f9-4242-a932-d139876cd47b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102495",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema imports and includes can be nested, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:53Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "a16e516b-e128-4075-86b9-2e631068a659"
+        },
+        {
+          "ref": "ccdd1d20-9f3f-4030-96ae-c54e60a0eb60"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102496",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "Apache XmlSchema doesn't limit how deeply schema structures can be nested when it builds its schema model, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:38:42Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "a16e516b-e128-4075-86b9-2e631068a659"
+        },
+        {
+          "ref": "ccdd1d20-9f3f-4030-96ae-c54e60a0eb60"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102497",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "The Apache XmlSchema walker (xmlschema-walker) doesn't detect cycles in type derivation, substitution groups, model groups or attribute groups. A malicious schema with such a cycle can make the walker recurse until the stack overflows, causing a denial of service.\n\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+      "published": "2026-09-29T12:17:09Z",
+      "updated": "2026-10-06T14:37:44Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This applies to the parsing of untrusted WSDLs which may take place when using SOAP-based GITB test service extensions. Although this is less probable given that test services are only declared by administrators, this still remains exploitable. Note that using the SoapMessagingV2 handler is unrelated and not affected by this vulnerability."
+      },
+      "affects": [
+        {
+          "ref": "a16e516b-e128-4075-86b9-2e631068a659"
+        },
+        {
+          "ref": "ccdd1d20-9f3f-4030-96ae-c54e60a0eb60"
         }
       ]
     },

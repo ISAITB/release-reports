@@ -28,7 +28,7 @@
             "notAffected": 26,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.1": {
@@ -54,7 +54,7 @@
             "notAffected": 26,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.2": {
@@ -80,7 +80,7 @@
             "notAffected": 26,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.3": {
@@ -106,7 +106,7 @@
             "notAffected": 18,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.4": {
@@ -132,7 +132,7 @@
             "notAffected": 8,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.13.0": {
@@ -158,7 +158,7 @@
             "notAffected": 3,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         }
       }
@@ -192,7 +192,7 @@
             "notAffected": 143,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.1": {
@@ -220,7 +220,7 @@
             "notAffected": 143,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.2": {
@@ -248,7 +248,7 @@
             "notAffected": 143,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.3": {
@@ -276,7 +276,7 @@
             "notAffected": 143,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.4": {
@@ -304,7 +304,7 @@
             "notAffected": 142,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.5": {
@@ -332,7 +332,7 @@
             "notAffected": 103,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.0": {
@@ -363,7 +363,7 @@
             "notAffected": 138,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.1": {
@@ -394,7 +394,7 @@
             "notAffected": 137,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.2": {
@@ -425,7 +425,7 @@
             "notAffected": 137,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.3": {
@@ -456,7 +456,7 @@
             "notAffected": 135,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.4": {
@@ -486,7 +486,7 @@
             "notAffected": 113,
             "falsePositive": 1,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.5": {
@@ -512,7 +512,7 @@
             "notAffected": 90,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.30.0": {
@@ -538,7 +538,7 @@
             "notAffected": 47,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.30.1": {
@@ -596,7 +596,7 @@
             "notAffected": 20,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.1": {
@@ -622,7 +622,7 @@
             "notAffected": 20,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.2": {
@@ -648,7 +648,7 @@
             "notAffected": 20,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.3": {
@@ -674,7 +674,7 @@
             "notAffected": 15,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.4": {
@@ -700,7 +700,7 @@
             "notAffected": 5,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.13.0": {
@@ -726,7 +726,7 @@
             "notAffected": 0,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         }
       }
@@ -758,7 +758,7 @@
             "notAffected": 21,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.1": {
@@ -784,7 +784,7 @@
             "notAffected": 21,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.2": {
@@ -810,7 +810,7 @@
             "notAffected": 21,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.3": {
@@ -836,7 +836,7 @@
             "notAffected": 15,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.4": {
@@ -862,7 +862,7 @@
             "notAffected": 5,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.13.0": {
@@ -888,7 +888,7 @@
             "notAffected": 0,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         }
       }
@@ -920,7 +920,7 @@
             "notAffected": 20,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.1": {
@@ -946,7 +946,7 @@
             "notAffected": 20,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.2": {
@@ -972,7 +972,7 @@
             "notAffected": 20,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.3": {
@@ -998,7 +998,7 @@
             "notAffected": 15,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.4": {
@@ -1024,7 +1024,7 @@
             "notAffected": 5,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.13.0": {
@@ -1050,7 +1050,7 @@
             "notAffected": 0,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         }
       }

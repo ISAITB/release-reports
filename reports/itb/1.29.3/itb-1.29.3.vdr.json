@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:12b5f21c-e8e2-4531-a279-a0586864aa56",
+  "serialNumber": "urn:uuid:9c816a98-36e8-470f-ba70-3ff4242e594a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T13:13:21Z",
+    "timestamp": "2026-10-11T14:07:04Z",
     "tools": {
       "components": [
         {
@@ -281,6 +281,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "5c7ed9c1-d539-4b83-8f2d-6ce0c43329ea",
+      "group": "org.apache.commons",
+      "name": "commons-configuration2",
+      "version": "2.13.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8bea49d7de93f931de41f3a56f45bbad"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dc795ed544554745c52d56e0ab5f42529a7cef4e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7622799663317f95c81019b32b39e0c82e42b388f00abe6e5ab26489d90d9a6b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4c60df1c5f922fd853eb83ff1fc9d1f167643561f6baa4406131ec01466e4824cd992c7cf81d38f297c82047955a9b9c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e35b81189e350b9a183bb9a85294561bb82fd07c9b9282e787bd59be5fff36f58dc5723f65d4c2dd0b5edf7769377af4c2961ccbe38289378651f961327b1d6d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "45291d9b8965bcc5628c0950d0318d8bdf3127419791a56dcdea72f0315be7e3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cdb1dd5cf527f64a285de78fde895a0d8de146f97d8b17d19be5f5769c6a139b9e1969ab8cac4b661a012b44233450987e953752785bebfac4ce27168deb978a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "275b41392d9f7d086767ac087dd8a4ba154bda0bbf7835cfeed137fa2beb941087509566c90bc0a0383b455100d62029"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.13.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://commons.apache.org/proper/commons-configuration/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "4cf8aea9-8a04-4ce0-affa-d3b9e617018b",
       "group": "org.apache.commons",
       "name": "commons-configuration2",
@@ -350,63 +407,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=commons-configuration.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "5c7ed9c1-d539-4b83-8f2d-6ce0c43329ea",
-      "group": "org.apache.commons",
-      "name": "commons-configuration2",
-      "version": "2.13.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "8bea49d7de93f931de41f3a56f45bbad"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "dc795ed544554745c52d56e0ab5f42529a7cef4e"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "7622799663317f95c81019b32b39e0c82e42b388f00abe6e5ab26489d90d9a6b"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "4c60df1c5f922fd853eb83ff1fc9d1f167643561f6baa4406131ec01466e4824cd992c7cf81d38f297c82047955a9b9c"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "e35b81189e350b9a183bb9a85294561bb82fd07c9b9282e787bd59be5fff36f58dc5723f65d4c2dd0b5edf7769377af4c2961ccbe38289378651f961327b1d6d"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "45291d9b8965bcc5628c0950d0318d8bdf3127419791a56dcdea72f0315be7e3"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "cdb1dd5cf527f64a285de78fde895a0d8de146f97d8b17d19be5f5769c6a139b9e1969ab8cac4b661a012b44233450987e953752785bebfac4ce27168deb978a"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "275b41392d9f7d086767ac087dd8a4ba154bda0bbf7835cfeed137fa2beb941087509566c90bc0a0383b455100d62029"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.13.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://commons.apache.org/proper/commons-configuration/"
         }
       ]
     },
@@ -559,6 +559,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "273d459b-263c-4830-b89e-d492a4e1d325",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.2.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ad4c38fe965d17612b4899491dbfc166"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b3aa43960c734f662269c57c0ae9de12f2b7c4c4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f514f302ea0d8c91b8931df276dccb8acb4614c770eec7eca60b3d9a7aa62f98"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "725c99266c3df97d2794677b83ff0b9173319df7a0f4a520d8ad80f52884bdde1678eb4f056968939d1f1d0ac13ccf47"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9e6332eed53cb2d25cb19ef7bb723c11d75dd62f7619629838295abe2b95a2bfcc423f372276ff90dba5da3ef0c0779a32828250ffddac5fdf3986a0ee129317"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b7ca6cb0f552d96a5d948db64aa50c01e29ac8ea3d00ba41e0e17c95a4eb9aa6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "552198b399f93423316c5c57c109a2ea58b199d6638754bcec73707c993666def0974dcd97e8180f48cc8a7fd3d71a7046d73c24cf4cbbe4096279efd1537a4e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d88bd8055481f0054ac63f3126af76c0fc900b6dad603d0a0ee8ce0ab0117a8c85a23d73ae96aae5672d6298e59e5ff2"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.0?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4",
       "group": "org.apache.cxf",
       "name": "cxf-core",
@@ -599,14 +649,7 @@
           "content": "d88bd8055481f0054ac63f3126af76c0fc900b6dad603d0a0ee8ce0ab0117a8c85a23d73ae96aae5672d6298e59e5ff2"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.0:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.0?type=jar",
       "externalReferences": [
         {
@@ -628,63 +671,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=cxf.git/cxf-parent/cxf-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "273d459b-263c-4830-b89e-d492a4e1d325",
-      "group": "org.apache.cxf",
-      "name": "cxf-core",
-      "version": "4.2.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "ad4c38fe965d17612b4899491dbfc166"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "b3aa43960c734f662269c57c0ae9de12f2b7c4c4"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "f514f302ea0d8c91b8931df276dccb8acb4614c770eec7eca60b3d9a7aa62f98"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "725c99266c3df97d2794677b83ff0b9173319df7a0f4a520d8ad80f52884bdde1678eb4f056968939d1f1d0ac13ccf47"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "9e6332eed53cb2d25cb19ef7bb723c11d75dd62f7619629838295abe2b95a2bfcc423f372276ff90dba5da3ef0c0779a32828250ffddac5fdf3986a0ee129317"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "b7ca6cb0f552d96a5d948db64aa50c01e29ac8ea3d00ba41e0e17c95a4eb9aa6"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "552198b399f93423316c5c57c109a2ea58b199d6638754bcec73707c993666def0974dcd97e8180f48cc8a7fd3d71a7046d73c24cf4cbbe4096279efd1537a4e"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d88bd8055481f0054ac63f3126af76c0fc900b6dad603d0a0ee8ce0ab0117a8c85a23d73ae96aae5672d6298e59e5ff2"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.0?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://cxf.apache.org"
         }
       ]
     },
@@ -728,6 +714,63 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/dompurify"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "cdf074fa-1f17-459a-af81-4a7c5f5997b2",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.34",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://freemarker.apache.org/"
         }
       ]
     },
@@ -797,63 +840,6 @@
         {
           "type": "vcs",
           "url": "https://git-wip-us.apache.org/repos/asf?p=freemarker.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "cdf074fa-1f17-459a-af81-4a7c5f5997b2",
-      "group": "org.freemarker",
-      "name": "freemarker",
-      "version": "2.3.34",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://freemarker.apache.org/"
         }
       ]
     },
@@ -981,6 +967,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "a3971bac-9aca-4b7c-a15b-109df15c4606",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.21.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "35fe6cc9ff7990e67f86a92092aa0569"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5615fb77652bfd386d87b95a1d663e1c0e38b372"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b011eb5202d9ec889e27f1dcbdf6c63f06a76e7a16c0a1b30c6048d556c9a28e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "42101498ef71f5b506c2b445217722949c57f634bc7cd5ca4a7d112faa8edb98b9ff1cce06a23d65389315da0e79cc31"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "837a94e20474d0ad3630663c0112e982914e5cfa3bbf397b8c31d00b68d7fc8e4514458b75dd39cf74edda7e33339504fa845864476786e94812bd36a5a428ee"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fb7b4d84416fc38f1b90b3e4dcd4ad6ffe484e4092530ac459d18b48a146479d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "17eb42ce90e339d66509adbb429296eafd283c72229c81deec2ca78e9e941c692b4ace7595f0fe5c5eb54b5bac93c7b3ab146be992ba9d974d2e388a2a964543"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0ca6e7f95c5600ff88712faec79a9f45438908abfdbb9367ceef7e3ccf37256212db617509fc68efae0d919418210777"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "b9db0e16-f540-44b0-a4ca-11baca1ce946",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-databind",
@@ -1041,63 +1084,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-databind"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "a3971bac-9aca-4b7c-a15b-109df15c4606",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.21.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "35fe6cc9ff7990e67f86a92092aa0569"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "5615fb77652bfd386d87b95a1d663e1c0e38b372"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "b011eb5202d9ec889e27f1dcbdf6c63f06a76e7a16c0a1b30c6048d556c9a28e"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "42101498ef71f5b506c2b445217722949c57f634bc7cd5ca4a7d112faa8edb98b9ff1cce06a23d65389315da0e79cc31"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "837a94e20474d0ad3630663c0112e982914e5cfa3bbf397b8c31d00b68d7fc8e4514458b75dd39cf74edda7e33339504fa845864476786e94812bd36a5a428ee"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "fb7b4d84416fc38f1b90b3e4dcd4ad6ffe484e4092530ac459d18b48a146479d"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "17eb42ce90e339d66509adbb429296eafd283c72229c81deec2ca78e9e941c692b4ace7595f0fe5c5eb54b5bac93c7b3ab146be992ba9d974d2e388a2a964543"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "0ca6e7f95c5600ff88712faec79a9f45438908abfdbb9367ceef7e3ccf37256212db617509fc68efae0d919418210777"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -1657,6 +1643,57 @@
     },
     {
       "type": "library",
+      "bom-ref": "b0523800-27de-42ea-b283-d8fe72c6189b",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.5.22",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a001d8dfa6910cbeb38fa7714778a046"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7c3ee4420b36bd499fa4f9f18a81d54a64fe0218"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7561b7a525364612966ff3823f8c62a81a3262742d455301f479273ef55570b8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "916427352b8cba45b04c5b9f2dbc87c52ef49e19b3ee8de2c7e07a7da51cb302a45d526e648b53d9f5467e8466100f79"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "89007be762c57d6827ab9c596e220e1d9e7b8ecf77309f51624f5d43b05d82cde59a1b3bc177bff0ab81c1e3968fb2aa03fa80d28be04f5ba5b7119001843414"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ad0d533b73915261200d0cdd1b4e2c9e37933aeb016e67ad07bf4d1b8a9df063"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5980f2691f04d6f6df1d2ec7102041d77b4cceeeb597c9bf29bb58009845d033b3cdb5200d8ac3bd64cb4f68652084d8238d0f155e24bf76851b5b0d52cacb26"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4f38355e05cd51440bd69febc47a7c5bd91a73b4b974079c088cef918d1574a39bbea03e94b0b07e9813b185245833b3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.22"
+    },
+    {
+      "type": "library",
       "bom-ref": "db105603-90cc-4bc7-9bde-a7520596d07c",
       "group": "ch.qos.logback",
       "name": "logback-core",
@@ -1715,57 +1752,6 @@
           "url": "https://github.com/qos-ch/logback/logback-core"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "b0523800-27de-42ea-b283-d8fe72c6189b",
-      "group": "ch.qos.logback",
-      "name": "logback-core",
-      "version": "1.5.22",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "a001d8dfa6910cbeb38fa7714778a046"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "7c3ee4420b36bd499fa4f9f18a81d54a64fe0218"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "7561b7a525364612966ff3823f8c62a81a3262742d455301f479273ef55570b8"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "916427352b8cba45b04c5b9f2dbc87c52ef49e19b3ee8de2c7e07a7da51cb302a45d526e648b53d9f5467e8466100f79"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "89007be762c57d6827ab9c596e220e1d9e7b8ecf77309f51624f5d43b05d82cde59a1b3bc177bff0ab81c1e3968fb2aa03fa80d28be04f5ba5b7119001843414"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "ad0d533b73915261200d0cdd1b4e2c9e37933aeb016e67ad07bf4d1b8a9df063"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "5980f2691f04d6f6df1d2ec7102041d77b4cceeeb597c9bf29bb58009845d033b3cdb5200d8ac3bd64cb4f68652084d8238d0f155e24bf76851b5b0d52cacb26"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "4f38355e05cd51440bd69febc47a7c5bd91a73b4b974079c088cef918d1574a39bbea03e94b0b07e9813b185245833b3"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "EPL-1.0",
-            "url": "http://www.eclipse.org/legal/epl-v10.html"
-          }
-        }
-      ],
-      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.22"
     },
     {
       "type": "library",
@@ -1871,6 +1857,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "52dcf96c-f8ed-47e7-9358-da79b2a07f3d",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6d100128ec1e1417687c4fc65cf925f1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2d239fd19646201c6dfcc01f3d805b9158d92c94"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9aafe21e37e11bebd3bd5b55aa5e97da79eabdd2af19faf0992cf7887d8db5f0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2bc2f9f5a01c4a16432c0a91362adc9af2b740f8c14695e6a697dbc8e3ac6218b2104beafa7dfd296c4593c3aaf4135f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6eee88d73b2f31c778af83bb6c443de252073636ddd11219c19437712d9695975cd6aabfeb5d8bc35e6736d0a19db477610f9c8ddae5821e914de9c85bec2f31"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1389e5a6d0bb8b3860ae7b7843827743000377d6e9c0a0639ab1b4b652c65652"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6ee240d4d1276438adeac59374dd836d7dc50eae93ef91c4293fa6942bda28f27494bc222889ea8b428bee8cd38b03e77f6e3cebd9a31060a982ba4d8f9fc6a6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "393cfa8d5c65a85d89d019c6ae3b8c51a3d2b50c093facecd859be921513468f416b39e20fd328d7928aa79287cb7b99"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.1?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "a001538f-854d-4f4b-9e9a-32cccb44afca",
       "group": "org.apache.neethi",
       "name": "neethi",
@@ -1936,63 +1979,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "52dcf96c-f8ed-47e7-9358-da79b2a07f3d",
-      "group": "org.apache.neethi",
-      "name": "neethi",
-      "version": "3.2.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "6d100128ec1e1417687c4fc65cf925f1"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2d239fd19646201c6dfcc01f3d805b9158d92c94"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "9aafe21e37e11bebd3bd5b55aa5e97da79eabdd2af19faf0992cf7887d8db5f0"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "2bc2f9f5a01c4a16432c0a91362adc9af2b740f8c14695e6a697dbc8e3ac6218b2104beafa7dfd296c4593c3aaf4135f"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "6eee88d73b2f31c778af83bb6c443de252073636ddd11219c19437712d9695975cd6aabfeb5d8bc35e6736d0a19db477610f9c8ddae5821e914de9c85bec2f31"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "1389e5a6d0bb8b3860ae7b7843827743000377d6e9c0a0639ab1b4b652c65652"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "6ee240d4d1276438adeac59374dd836d7dc50eae93ef91c4293fa6942bda28f27494bc222889ea8b428bee8cd38b03e77f6e3cebd9a31060a982ba4d8f9fc6a6"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "393cfa8d5c65a85d89d019c6ae3b8c51a3d2b50c093facecd859be921513468f416b39e20fd328d7928aa79287cb7b99"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.1?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://ws.apache.org/neethi/"
         }
       ]
     },
@@ -2432,63 +2418,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "57ce3785-f0c5-4c8b-96cc-52beac32cadc",
-      "group": "org.springframework",
-      "name": "spring-core",
-      "version": "6.2.15",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "421274822a93c26847d04406d1567602"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f4744d35266cf76d71e284308f194fb513364ca2"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "efebed60992aef00bfb88871e8ea590428425aa42d4cdbedcb88ca3e47cf05b0"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "78b55748048d11255b5c4d1ef6d7c74b386699a77a7f84b11de5d1b05f38e37965afbd231685fa8b96b5d4b0b7992465"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "0373214e5d6bc78de7998b5ea6b7ad9f662faa054ccc0c4812cd674a1b74b688f1da8a489c15a7fb3f31e742aae53eeddfe15508892e5677fd8583d8f26c4eff"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "97cc298f662116e1fed9fa82f76b5c66bc772a06caf5009eb98936a4cd8f6fb7"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "2e5ed3889ffeb40713afd56a514729dbde8d5ce0c42b1931496194aae49001f3bd80aae46b3fe48fe0ff959ac284ebf3c33d18763aca943c358eee27a3711365"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "4a0fe1e9efac47cd33302da15ddc2b3cda62de5b4a3e25c11db562f52f5a70c27ad7bf065df7d85d1861a361fa4afa57"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.springframework/spring-core@6.2.15",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/spring-projects/spring-framework"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "a33ebfb2-2236-49ef-9f81-83bccd9e9125",
       "group": "org.springframework",
       "name": "spring-core",
@@ -2548,6 +2477,63 @@
         },
         {
           "type": "vcs",
+          "url": "https://github.com/spring-projects/spring-framework"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "57ce3785-f0c5-4c8b-96cc-52beac32cadc",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "6.2.15",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "421274822a93c26847d04406d1567602"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f4744d35266cf76d71e284308f194fb513364ca2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "efebed60992aef00bfb88871e8ea590428425aa42d4cdbedcb88ca3e47cf05b0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "78b55748048d11255b5c4d1ef6d7c74b386699a77a7f84b11de5d1b05f38e37965afbd231685fa8b96b5d4b0b7992465"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0373214e5d6bc78de7998b5ea6b7ad9f662faa054ccc0c4812cd674a1b74b688f1da8a489c15a7fb3f31e742aae53eeddfe15508892e5677fd8583d8f26c4eff"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "97cc298f662116e1fed9fa82f76b5c66bc772a06caf5009eb98936a4cd8f6fb7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2e5ed3889ffeb40713afd56a514729dbde8d5ce0c42b1931496194aae49001f3bd80aae46b3fe48fe0ff959ac284ebf3c33d18763aca943c358eee27a3711365"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4a0fe1e9efac47cd33302da15ddc2b3cda62de5b4a3e25c11db562f52f5a70c27ad7bf065df7d85d1861a361fa4afa57"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@6.2.15",
+      "externalReferences": [
+        {
+          "type": "website",
           "url": "https://github.com/spring-projects/spring-framework"
         }
       ]
@@ -2986,11 +2972,11 @@
       ]
     },
     {
-      "ref": "4cf8aea9-8a04-4ce0-affa-d3b9e617018b",
+      "ref": "5c7ed9c1-d539-4b83-8f2d-6ce0c43329ea",
       "dependsOn": []
     },
     {
-      "ref": "5c7ed9c1-d539-4b83-8f2d-6ce0c43329ea",
+      "ref": "4cf8aea9-8a04-4ce0-affa-d3b9e617018b",
       "dependsOn": []
     },
     {
@@ -3008,15 +2994,15 @@
       ]
     },
     {
-      "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4",
-      "dependsOn": [
-        "ba4e1c2d-865f-405e-be1f-88474462dc0c"
-      ]
-    },
-    {
       "ref": "273d459b-263c-4830-b89e-d492a4e1d325",
       "dependsOn": [
         "73aedc46-d67d-4973-be2b-55debba53854"
+      ]
+    },
+    {
+      "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4",
+      "dependsOn": [
+        "ba4e1c2d-865f-405e-be1f-88474462dc0c"
       ]
     },
     {
@@ -3024,11 +3010,11 @@
       "dependsOn": []
     },
     {
-      "ref": "74c91b06-368b-499c-85b3-585dccdc2464",
+      "ref": "cdf074fa-1f17-459a-af81-4a7c5f5997b2",
       "dependsOn": []
     },
     {
-      "ref": "cdf074fa-1f17-459a-af81-4a7c5f5997b2",
+      "ref": "74c91b06-368b-499c-85b3-585dccdc2464",
       "dependsOn": []
     },
     {
@@ -3040,15 +3026,15 @@
       "dependsOn": []
     },
     {
-      "ref": "b9db0e16-f540-44b0-a4ca-11baca1ce946",
-      "dependsOn": [
-        "07ce5977-89e1-49aa-a638-3a0aad750408"
-      ]
-    },
-    {
       "ref": "a3971bac-9aca-4b7c-a15b-109df15c4606",
       "dependsOn": [
         "328de2a2-5ca7-4802-9443-f6425c795533"
+      ]
+    },
+    {
+      "ref": "b9db0e16-f540-44b0-a4ca-11baca1ce946",
+      "dependsOn": [
+        "07ce5977-89e1-49aa-a638-3a0aad750408"
       ]
     },
     {
@@ -3098,11 +3084,11 @@
       "dependsOn": []
     },
     {
-      "ref": "db105603-90cc-4bc7-9bde-a7520596d07c",
+      "ref": "b0523800-27de-42ea-b283-d8fe72c6189b",
       "dependsOn": []
     },
     {
-      "ref": "b0523800-27de-42ea-b283-d8fe72c6189b",
+      "ref": "db105603-90cc-4bc7-9bde-a7520596d07c",
       "dependsOn": []
     },
     {
@@ -3119,11 +3105,11 @@
       ]
     },
     {
-      "ref": "a001538f-854d-4f4b-9e9a-32cccb44afca",
+      "ref": "52dcf96c-f8ed-47e7-9358-da79b2a07f3d",
       "dependsOn": []
     },
     {
-      "ref": "52dcf96c-f8ed-47e7-9358-da79b2a07f3d",
+      "ref": "a001538f-854d-4f4b-9e9a-32cccb44afca",
       "dependsOn": []
     },
     {
@@ -3170,11 +3156,11 @@
       ]
     },
     {
-      "ref": "57ce3785-f0c5-4c8b-96cc-52beac32cadc",
+      "ref": "a33ebfb2-2236-49ef-9f81-83bccd9e9125",
       "dependsOn": []
     },
     {
-      "ref": "a33ebfb2-2236-49ef-9f81-83bccd9e9125",
+      "ref": "57ce3785-f0c5-4c8b-96cc-52beac32cadc",
       "dependsOn": []
     },
     {
@@ -3250,6 +3236,988 @@
         },
         {
           "ref": "5c7ed9c1-d539-4b83-8f2d-6ce0c43329ea"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-44417",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20,
+        15
+      ],
+      "description": "The fix for CVE-2025-48913: Apache CXF: Untrusted JMS configuration can lead to RCE was not complete, meaning that another path in the code might lead to code execution capabilities, if untrusted users are allowed to configure JMS for Apache CXF. \nUsers are recommended to upgrade to versions 4.2.1, 4.1.6 or 3.6.11, which fix this issue.",
+      "published": "2026-05-22T13:16:22Z",
+      "updated": "2026-07-23T16:10:00Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-44618",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 5.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        611
+      ],
+      "description": "Insecure XML parser configuration in Apache CXF's WS-Transfer module may allow attackers to perform XXE attacks.\nUsers are recommended to upgrade to versions 4.2.1, 4.1.6 or 3.6.11, which fix this issue.",
+      "published": "2026-05-22T13:16:22Z",
+      "updated": "2026-07-23T16:10:00Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-44930",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        90
+      ],
+      "description": "An LDAP injection vulnerability in the LDAP Certificate repository of the XKMS server in Apache CXF may allow an attacker to retrieve arbitrary certificates from the repository. \nUsers are recommended to upgrade to versions 4.2.1, 4.1.6 or 3.6.11, which fix this issue.",
+      "published": "2026-05-22T13:16:22Z",
+      "updated": "2026-07-23T16:10:00Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-49875",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        611
+      ],
+      "description": "Apache CXF's EndpointReferenceUtils and W3CMultiSchemaFactory classes construct a SAXParserFactory without the necessary JAXP hardening configurations, enabling out-of-band (OOB) \nexternal entity resolution. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue.",
+      "published": "2026-06-12T10:16:22Z",
+      "updated": "2026-08-07T13:16:49Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
+      },
+      "affects": [
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50623",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 4.8,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        287
+      ],
+      "description": "An authentication bypass vulnerability exists in the OAuth2 TokenIntrospectionService in Apache CXF. Due to a missing 'throw' keyword in the security context check, the introspection endpoint (/services/oauth2/introspect) can be accessed by any unauthenticated network attacker. However note that this is a safeguard only in the case that someone forgot to enable authentication on the service. Users are recommended to upgrade to version 4.2.2 or 4.1.7 or 3.6.12, which fixes this issue.",
+      "published": "2026-06-12T10:16:22Z",
+      "updated": "2026-08-07T13:16:50Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50627",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        289,
+        303
+      ],
+      "description": "The JwtAccessTokenValidator class in Apache CXF fails to validate the 'aud' (Audience) claims of incoming JWT access tokens. This allows a JWT issued for one Resource Server to be successfully replayed against a completely different Resource Server, leading to Token Confusion/Routing attacks. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fixes this issue.",
+      "published": "2026-06-12T10:16:22Z",
+      "updated": "2026-08-07T13:16:50Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50628",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20,
+        358
+      ],
+      "description": "A logic error in OAuthRequestFilter rejects legitimate requests originating from the bound IP address, while blindly allowing requests from any other IP address. Enabling this\n\nsecurity feature inadvertently creates an inverse security check. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fixes this issue.",
+      "published": "2026-06-12T10:16:22Z",
+      "updated": "2026-08-07T13:16:50Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50629",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 5.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        93
+      ],
+      "description": "The 'clientId' parameter from incoming HTTP requests is directly concatenated into OAuth2 server log warning messages without sanitizing control characters. This allows an attacker to inject arbitrary content, including fake log entries, into the server's log files. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fixes this issue.",
+      "published": "2026-06-12T10:16:22Z",
+      "updated": "2026-08-07T13:16:50Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50630",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        113
+      ],
+      "description": "A CRLF injection vulnerability exists in the OAuth2 AuthorizationUtils class. When constructing the WWW-Authenticate response header, the 'realm' parameter is concatenated without sanitizing Carriage Return (CR) and Line Feed (LF) characters. If an attacker can control the realm value, they can inject arbitrary HTTP headers or split the HTTP response entirely. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fixes this issue.",
+      "published": "2026-06-12T10:16:22Z",
+      "updated": "2026-08-07T13:16:51Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50631",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.4,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        367
+      ],
+      "description": "A race condition in AbstractOAuthDataProvider allows concurrent requests using the same Refresh Token to bypass single-use semantics and generate multiple valid Access Tokens, when 'recycleRefreshTokens' is set to false. A leaked refresh token can be replayed concurrently by multiple attackers or threads. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fixes this issue.",
+      "published": "2026-06-12T10:16:23Z",
+      "updated": "2026-08-07T13:16:51Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50632",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20,
+        502
+      ],
+      "description": "A further incomplete fix for a previous advisory CVE-2026-44417 (Untrusted JMS configuration can lead to RCE) for Apache CXF has been identified, which can allow code execution capabilities, if untrusted users are allowed to configure JMS for Apache CXF. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fixes this issue.",
+      "published": "2026-06-12T10:16:23Z",
+      "updated": "2026-08-07T13:16:51Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50633",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20,
+        502
+      ],
+      "description": "A JNDI Injection vulnerability has been discovered in Apache CXF's JCA integration module, which can allow for code execution, if an attacker is able to manipulate the JCA deployment descriptor (ra.xml) or runtime activation parameters. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fixes this issue.",
+      "published": "2026-06-12T10:16:23Z",
+      "updated": "2026-08-07T13:16:51Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50634",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        347
+      ],
+      "description": "A vulnerability in Apache CXF's JwsJsonContainerRequestFilter can be exploited to cause CXF to process metadata that was not authenticated by the accepted signature. This can bypass the application's assumption\n\nthat accepted `Content-Type` or protected HTTP-header metadata came from a verified signature entry, and may steer downstream JAX-RS entity parsing or signed-header consistency checks. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue.",
+      "published": "2026-06-12T10:16:23Z",
+      "updated": "2026-08-07T13:16:52Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50645",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "There is no restriction on the amount of attachment headers that a message can contain when being deserialized by Apache CXF, which can lead to uncontrolled resource consumption or a denial of service attack. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue by imposing a maximum default of 500 attachments per message.",
+      "published": "2026-06-12T10:16:23Z",
+      "updated": "2026-08-07T13:16:52Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
+      },
+      "affects": [
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-54225",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Apache CXF allows to control the maximum attachment size via the \"attachment-max-size\". Prior to Apache CXF 4.2.3 and 4.1.8 and 3.6.12, there was no default placed on this size, meaning that a denial of service attack is possible if the user doesn't explicitly set the limit. Users should update to Apache CXF 4.2.3 or 4.1.8 or 3.6.12 which fixes this problem by imposing a default attachment size limit of 50mb.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T00:16:31Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-57817",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20
+      ],
+      "description": "The OpenID Connect Core 1.0 specification mandates that the RP MUST validate the `c_hash` parameter when operating in the Hybrid Flow. If an Apache CXF RP is integrated with a non-compliant or misconfigured Identity Provider (IdP) that omits the `c_hash`, the RP becomes vulnerable to Authorization Code Substitution/Injection attacks. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T05:17:02Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-57819",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache CXF allows to set a limit on the number of form parameters in a JAX-RS message via the \"maxFormParameterCount\" configuration option. However, no default limit is set which may lead to denial of service attacks when processing  requests with very large numbers of form parameters. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue by using a default limit of 500 parameters.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T00:16:33Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-64958",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "An incomplete fix for CVE-2026-50645 means that it is still possible to perform a denial of service attack on Apache CXF by sending a message with many attachment headers. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-06T18:40:24Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This could apply when the gitb-srv test engine accepts calls from untrusted SOAP-based GITB test services. The vulnerability is considered exploitable, especially when the gitb-srv tes engine is exposed on untrusted networks."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-65432",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        611
+      ],
+      "description": "Apache CXF reads a top-level WSDL through its hardened StaxUtils path, which disables XML DTDs and external entities. However, any <wsdl:import> or <xsd:import> referenced from that top-level WSDL is handed off to WSDL4J, which does not disable DOCTYPE declarations or external entities. As a result, the protections applied to the top-level document do not extend to imported documents, leaving imported WSDL/XSD content vulnerable to XML External Entity (XXE) attacks. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T00:16:37Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Vulnerability applies when processing untrusted WSDLs which could occur when integrating SOAP-based GITB test services. Note that an exploit is unlikely given that such services are only declared by administrators, however the vulnerability is nonetheless considered exploitable."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66909",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        502
+      ],
+      "description": "Apache CXF's JMS transport deserializes the body of any inbound JMS ObjectMessage using native Java deserialization, with no type restrictions in place. Any attacker able to place a message on the service's JMS destination can submit a malicious serialized object, leading to denial of service or, if a suitable gadget class is on the classpath, remote code execution. The fix disables ObjectMessage deserialization by default, with a configuration switch to re-enable it if needed. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T00:16:39Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-57818",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        367
+      ],
+      "description": "A race condition in JCacheCodeDataProvider allows an attacker to redeem a single authorization code multiple times via concurrent requests, resulting in the issuance of multiple distinct, valid access tokens. Users are recommended to upgrade to versions 4.2.3, 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:27Z",
+      "updated": "2026-08-07T00:16:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-61466",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        304
+      ],
+      "description": "In Apache CXF's OAuth2 Dynamic Client Registration endpoint, the authorization server accepts and stores the `scope` value supplied in the client registration request verbatim, without validating it against an AS-defined allowlist. This could lead to a client self-assigning privileged scopes at registration time. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:27Z",
+      "updated": "2026-08-07T00:16:34Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-63687",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        345
+      ],
+      "description": "Apache CXF's JwtRequestCodeFilter copies all claims from a signed request JWT into the authorization parameter map without excluding security-sensitive parameters. A client that can produce a validly-signed request JWT (e.g., one whose client_secret is known or compromised) can thereby substitute the code_challenge, code_challenge_method, nonce, and state values that were set in the outer HTTP request, undermining PKCE integrity and OpenID Connect replay protection. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:27Z",
+      "updated": "2026-08-07T00:16:37Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-65583",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        345
+      ],
+      "description": "Apache CXF’s OIDC relying-party token validation could accept self-issued ID tokens without enforcing required claim checks (issuer/subject/audience/time and sub_jwk binding), enabling authentication bypass with crafted tokens. However, note that self-issued ID tokens are not accepted by default in the validator. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fixes this issue.",
+      "published": "2026-08-06T12:16:27Z",
+      "updated": "2026-08-07T00:16:38Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-68079",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        294
+      ],
+      "description": "In Apache CXF's DefaultEncryptingCodeDataProvider, a captured authorization code can be redeemed an unlimited number of times due to a flaw in the implementation of the removeCodeGrant functionality. This violates the RFC requirement that \"The authorization code MUST NOT be used more than once.\" Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:28Z",
+      "updated": "2026-08-07T00:16:39Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-68481",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        672
+      ],
+      "description": "In Apache CXF's DefaultEncryptingOAuthDataProvider, revoked access tokens still decrypt successfully, and TokenIntrospectionService reports active:true. The same applies to refresh tokens. This violates the RFC stipulations that 'The authorization server MUST invalidate the token.' and 'introspection of a revoked token MUST return {\"active\":false}'. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:28Z",
+      "updated": "2026-08-07T00:16:40Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        },
+        {
+          "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4"
         }
       ]
     },
@@ -5858,6 +6826,74 @@
       "affects": [
         {
           "ref": "b0523800-27de-42ea-b283-d8fe72c6189b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-49875",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        611
+      ],
+      "description": "Apache CXF's EndpointReferenceUtils and W3CMultiSchemaFactory classes construct a SAXParserFactory without the necessary JAXP hardening configurations, enabling out-of-band (OOB) \nexternal entity resolution. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue.",
+      "published": "2026-06-12T10:16:22Z",
+      "updated": "2026-08-07T13:16:49Z",
+      "analysis": {
+        "state": "false_positive",
+        "detail": "Duplicate entry."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-50645",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "There is no restriction on the amount of attachment headers that a message can contain when being deserialized by Apache CXF, which can lead to uncontrolled resource consumption or a denial of service attack. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue by imposing a maximum default of 500 attachments per message.",
+      "published": "2026-06-12T10:16:23Z",
+      "updated": "2026-08-07T13:16:52Z",
+      "analysis": {
+        "state": "false_positive",
+        "detail": "Duplicate entry."
+      },
+      "affects": [
+        {
+          "ref": "273d459b-263c-4830-b89e-d492a4e1d325"
         }
       ]
     },

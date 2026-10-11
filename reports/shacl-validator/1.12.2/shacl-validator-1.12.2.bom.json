@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:2654de63-7b16-43e0-8d62-77e648ef13ec",
+  "serialNumber": "urn:uuid:508b0606-0636-4e06-890e-88634b6b8533",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T13:13:36Z",
+    "timestamp": "2026-10-11T14:07:23Z",
     "tools": {
       "components": [
         {
@@ -2935,14 +2935,7 @@
           "content": "288bb1fbf055251c334900b8dd064ac68531b2f0fa03efcd435158a0a6348f77a9501c21077964c1d479f3d4d5d112ce"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.2:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.2?type=jar",
       "externalReferences": [
         {

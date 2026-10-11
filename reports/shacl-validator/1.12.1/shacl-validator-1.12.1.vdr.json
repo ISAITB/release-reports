@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:9e6b7774-9ec1-47ea-8518-9959e8ce17f2",
+  "serialNumber": "urn:uuid:23b38755-abd2-401f-b4ff-ee7ca6ff7b03",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T13:13:36Z",
+    "timestamp": "2026-10-11T14:07:24Z",
     "tools": {
       "components": [
         {
@@ -33,6 +33,73 @@
     }
   },
   "components": [
+    {
+      "type": "library",
+      "bom-ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.2.2",
+      "description": "Apache CXF Core",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1b0030828b414584a1fd83ca703bd7e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2fb7838332f23637f91b18274d5c68b14e9741d2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c28d0bece2ab5ddf9f3c06be9b9e25cbabde16a616e7f1b9bdfb73f7e28be863"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f10e9b9d2d5b2397418303e1c501bc41a9fb3ce8c037b51103f94f1307d0a89de859bcb3b96b4aef7cf7abf05a06e0d0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4df702b77b9e52ea12a7dc61b3df939606d745844e99610b93c541f5347231f7bf3b9faa736017f6794e2aec27b7ddc1fcb49b71e5b77d175452b2c99b59d591"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "127217f9aa056e159f1ab01b13c82b70a2f0c0e346d41d1997a5ed8be88a6811"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8d4cfc980735c0346b5adcd40af66e0b892bbebe8330ddbc84c5f45b064ac50964f50356d04de4bb650df1af78dc11135b6d883582ed634424766b9326ae852e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "288bb1fbf055251c334900b8dd064ac68531b2f0fa03efcd435158a0a6348f77a9501c21077964c1d479f3d4d5d112ce"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
+        },
+        {
+          "type": "build-system",
+          "url": "https://builds.apache.org/view/A-D/view/CXF/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/CXF"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/cxf-users"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=cxf.git/cxf-parent/cxf-core"
+        }
+      ]
+    },
     {
       "type": "library",
       "bom-ref": "54191c2f-37ad-4d08-9ad9-148526b85a4f",
@@ -752,6 +819,12 @@
     {
       "ref": "72ccb6e3-592b-40aa-8f18-cf1fe4040da7",
       "dependsOn": []
+    },
+    {
+      "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df",
+      "dependsOn": [
+        "1673b8ac-e467-41b7-86ef-9043c7d2a801"
+      ]
     },
     {
       "ref": "54191c2f-37ad-4d08-9ad9-148526b85a4f",
@@ -1474,6 +1547,424 @@
       "affects": [
         {
           "ref": "ba2efefb-cd79-4ee0-84ff-d1b38be9246e"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-54225",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Apache CXF allows to control the maximum attachment size via the \"attachment-max-size\". Prior to Apache CXF 4.2.3 and 4.1.8 and 3.6.12, there was no default placed on this size, meaning that a denial of service attack is possible if the user doesn't explicitly set the limit. Users should update to Apache CXF 4.2.3 or 4.1.8 or 3.6.12 which fixes this problem by imposing a default attachment size limit of 50mb.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T00:16:31Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-57817",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20
+      ],
+      "description": "The OpenID Connect Core 1.0 specification mandates that the RP MUST validate the `c_hash` parameter when operating in the Hybrid Flow. If an Apache CXF RP is integrated with a non-compliant or misconfigured Identity Provider (IdP) that omits the `c_hash`, the RP becomes vulnerable to Authorization Code Substitution/Injection attacks. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T05:17:02Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-57819",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache CXF allows to set a limit on the number of form parameters in a JAX-RS message via the \"maxFormParameterCount\" configuration option. However, no default limit is set which may lead to denial of service attacks when processing  requests with very large numbers of form parameters. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue by using a default limit of 500 parameters.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T00:16:33Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-64958",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "An incomplete fix for CVE-2026-50645 means that it is still possible to perform a denial of service attack on Apache CXF by sending a message with many attachment headers. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-06T18:40:24Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-65432",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        611
+      ],
+      "description": "Apache CXF reads a top-level WSDL through its hardened StaxUtils path, which disables XML DTDs and external entities. However, any <wsdl:import> or <xsd:import> referenced from that top-level WSDL is handed off to WSDL4J, which does not disable DOCTYPE declarations or external entities. As a result, the protections applied to the top-level document do not extend to imported documents, leaving imported WSDL/XSD content vulnerable to XML External Entity (XXE) attacks. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T00:16:37Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Applies only when Apache CXF is used to consume untrusted WSDLs which never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66909",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        502
+      ],
+      "description": "Apache CXF's JMS transport deserializes the body of any inbound JMS ObjectMessage using native Java deserialization, with no type restrictions in place. Any attacker able to place a message on the service's JMS destination can submit a malicious serialized object, leading to denial of service or, if a suitable gadget class is on the classpath, remote code execution. The fix disables ObjectMessage deserialization by default, with a configuration switch to re-enable it if needed. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T11:16:30Z",
+      "updated": "2026-08-07T00:16:39Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-57818",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        367
+      ],
+      "description": "A race condition in JCacheCodeDataProvider allows an attacker to redeem a single authorization code multiple times via concurrent requests, resulting in the issuance of multiple distinct, valid access tokens. Users are recommended to upgrade to versions 4.2.3, 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:27Z",
+      "updated": "2026-08-07T00:16:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-61466",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        304
+      ],
+      "description": "In Apache CXF's OAuth2 Dynamic Client Registration endpoint, the authorization server accepts and stores the `scope` value supplied in the client registration request verbatim, without validating it against an AS-defined allowlist. This could lead to a client self-assigning privileged scopes at registration time. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:27Z",
+      "updated": "2026-08-07T00:16:34Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-63687",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        345
+      ],
+      "description": "Apache CXF's JwtRequestCodeFilter copies all claims from a signed request JWT into the authorization parameter map without excluding security-sensitive parameters. A client that can produce a validly-signed request JWT (e.g., one whose client_secret is known or compromised) can thereby substitute the code_challenge, code_challenge_method, nonce, and state values that were set in the outer HTTP request, undermining PKCE integrity and OpenID Connect replay protection. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:27Z",
+      "updated": "2026-08-07T00:16:37Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-65583",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        345
+      ],
+      "description": "Apache CXF’s OIDC relying-party token validation could accept self-issued ID tokens without enforcing required claim checks (issuer/subject/audience/time and sub_jwk binding), enabling authentication bypass with crafted tokens. However, note that self-issued ID tokens are not accepted by default in the validator. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fixes this issue.",
+      "published": "2026-08-06T12:16:27Z",
+      "updated": "2026-08-07T00:16:38Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-68079",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        294
+      ],
+      "description": "In Apache CXF's DefaultEncryptingCodeDataProvider, a captured authorization code can be redeemed an unlimited number of times due to a flaw in the implementation of the removeCodeGrant functionality. This violates the RFC requirement that \"The authorization code MUST NOT be used more than once.\" Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:28Z",
+      "updated": "2026-08-07T00:16:39Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-68481",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        672
+      ],
+      "description": "In Apache CXF's DefaultEncryptingOAuthDataProvider, revoked access tokens still decrypt successfully, and TokenIntrospectionService reports active:true. The same applies to refresh tokens. This violates the RFC stipulations that 'The authorization server MUST invalidate the token.' and 'introspection of a revoked token MUST return {\"active\":false}'. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
+      "published": "2026-08-06T12:16:28Z",
+      "updated": "2026-08-07T00:16:40Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df"
         }
       ]
     },

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:23b38755-abd2-401f-b4ff-ee7ca6ff7b03",
+  "serialNumber": "urn:uuid:ebcc9968-eb32-4eb4-bc32-a5d725a787b0",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T14:07:24Z",
+    "timestamp": "2026-10-12T14:15:38Z",
     "tools": {
       "components": [
         {
@@ -631,6 +631,69 @@
     },
     {
       "type": "library",
+      "bom-ref": "86cff5fe-057a-4c05-89b6-24a102396e18",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.2",
+      "description": "Apache Neethi provides general framework for the programmers to use WS Policy. It is compliant with latest WS Policy specification which was published in March 2006. This framework is specifically written to enable the Apache Web services stack to use WS Policy as a way of expressing it's requirements and capabilities.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4180d706474f28c05e5216d4b0b8b14"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1051f0f8916f832d0e76623d851e6afa6cc06064"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b9385bb64ea84f1f42035c4926f3ff90aff9b995463a8ae7b6a61211f9e1a8e3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e7cc17208c3b160783c36675199e66e06321715c1b78802a84e6a28efe120ffcab56c6dfa93eca6765ff94c785b01750"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f2b1e150a851bcc8c99b1428f149ff6b104edc67a117ef8439888e9ae905d0f8a0cd20d3e7fec815f0b64f3891b85076f04443c5de63053db63b10a7f5adbad4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c695b229401dd5effb3cbeed6347b88ae4b9ee4b6f76776b7e4f4204a4ad9ef3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bd2959122c00db1693186594610a44bd2a5a51ebbb737a35f143a1abe09eae31e9bb0efdee6b7aeecd44cce53384aec137cd698a4193518eb749a9dcd9745f0d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7069f409132ef125b2daf8359ac6f9e2ba829b1af73b214268a6bd1ff94309bf9e1e6b66d58c51d3b564c842ff83f1bc"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/NEETHI"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/ws-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "ba2efefb-cd79-4ee0-84ff-d1b38be9246e",
       "group": "org.springframework",
       "name": "spring-webmvc",
@@ -860,6 +923,10 @@
     },
     {
       "ref": "4849fc70-231e-49c7-b54f-ffa62efe9649",
+      "dependsOn": []
+    },
+    {
+      "ref": "86cff5fe-057a-4c05-89b6-24a102396e18",
       "dependsOn": []
     },
     {
@@ -2070,6 +2137,281 @@
       "affects": [
         {
           "ref": "1673b8ac-e467-41b7-86ef-9043c7d2a801"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66142",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache Neethi is vulnerable to uncontrolled recursion when parsing policies that lack policy Ids or with deeply nested structures, which may lead to a denial of service attack when parsing policies due to runtime memory exhaustion. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:35:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "86cff5fe-057a-4c05-89b6-24a102396e18"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66143",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "It is possible to bypass the maximum number of normalized policy alternatives that was introduced in Apache Neethi 3.2.2 via certain crafted policies, which may lead to a denial of service attack via resource consumption. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:35:07Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "86cff5fe-057a-4c05-89b6-24a102396e18"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66144",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Although remote policy references are not retrieved during policy normalization, if they are manually retrieved via the API it can cause a denial of service attack if a huge policy is retrieved. Users are recommended to upgrade to version 3.2.3, which fixes this issue by imposing a default maximum size on data read from remote policy references.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:32:06Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "86cff5fe-057a-4c05-89b6-24a102396e18"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91863",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "A specially crafted WS-Policy document with deeply nested policy elements can bypass Neethi's nesting-depth limit and exhaust the thread stack, crashing the parser (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-24T20:34:14Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "86cff5fe-057a-4c05-89b6-24a102396e18"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91864",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A specially crafted WS-Policy document can pack unlimited content inside a policy assertion, which Neethi copies into memory without counting it against its size limits, exhausting the heap (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-25T13:09:39Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "86cff5fe-057a-4c05-89b6-24a102396e18"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91865",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A small WS-Policy document using repeated policy references can force Neethi to re-expand the same references exponentially during normalization, consuming huge amounts of CPU and memory (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-25T13:09:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "86cff5fe-057a-4c05-89b6-24a102396e18"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91866",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A specially crafted pair of WS-Policy documents can force Neethi's policy-intersection to do exponential amounts of work, pinning the CPU for a long time (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:25Z",
+      "updated": "2026-09-25T13:09:24Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "86cff5fe-057a-4c05-89b6-24a102396e18"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91867",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "When Neethi fetches a remote policy reference, it only limits the time per read, not the whole transfer, so a server that trickles bytes slowly can keep the fetch alive indefinitely and tie up the calling thread (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:25Z",
+      "updated": "2026-09-25T13:09:43Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "86cff5fe-057a-4c05-89b6-24a102396e18"
         }
       ]
     },

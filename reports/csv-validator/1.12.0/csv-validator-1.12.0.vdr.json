@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:779bfffa-1e0e-45ae-9c2b-36f220e39473",
+  "serialNumber": "urn:uuid:160dca1c-4b73-41e1-8a7a-cca57f621c07",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T14:06:39Z",
+    "timestamp": "2026-10-12T14:15:07Z",
     "tools": {
       "components": [
         {
@@ -833,6 +833,69 @@
     },
     {
       "type": "library",
+      "bom-ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.2",
+      "description": "Apache Neethi provides general framework for the programmers to use WS Policy. It is compliant with latest WS Policy specification which was published in March 2006. This framework is specifically written to enable the Apache Web services stack to use WS Policy as a way of expressing it's requirements and capabilities.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4180d706474f28c05e5216d4b0b8b14"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1051f0f8916f832d0e76623d851e6afa6cc06064"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b9385bb64ea84f1f42035c4926f3ff90aff9b995463a8ae7b6a61211f9e1a8e3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e7cc17208c3b160783c36675199e66e06321715c1b78802a84e6a28efe120ffcab56c6dfa93eca6765ff94c785b01750"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f2b1e150a851bcc8c99b1428f149ff6b104edc67a117ef8439888e9ae905d0f8a0cd20d3e7fec815f0b64f3891b85076f04443c5de63053db63b10a7f5adbad4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c695b229401dd5effb3cbeed6347b88ae4b9ee4b6f76776b7e4f4204a4ad9ef3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bd2959122c00db1693186594610a44bd2a5a51ebbb737a35f143a1abe09eae31e9bb0efdee6b7aeecd44cce53384aec137cd698a4193518eb749a9dcd9745f0d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7069f409132ef125b2daf8359ac6f9e2ba829b1af73b214268a6bd1ff94309bf9e1e6b66d58c51d3b564c842ff83f1bc"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/NEETHI"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/ws-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "03d4e02a-2e20-499a-8107-c878b46584f3",
       "group": "org.springframework",
       "name": "spring-webmvc",
@@ -1015,6 +1078,61 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "6258ba3b-9b35-4b29-9eb8-e94f3cd13e38",
+      "group": "org.tukaani",
+      "name": "xz",
+      "version": "1.12",
+      "description": "XZ data compression",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9c8773d7dc00a4d842cf78752ca6adfa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bb9703ba3753ab8665f65e6a25b3ddc7b09b1caf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3e158a87bd73d8afb4b6e8239c013b7d049c48563f45860ce99cd2e448cf4a6b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4c8366773c7bab2db88029ab4589687fbb62d41c3ec9d263e150e3edd85f0e163fe8729d8937ba299b85c2d621a59688"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a854dc65df5a07fbb026f624d2b10901f6f5d95a20091c52bfb64f88c14565ef1bb65733436ffd5b2a9d16329e523b650085fd4c36a1bb384d40788e727c1e60"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b655696201f997e38c838150d6885114c1eaa19ee07640098144f659b3826d8a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "529779b7118db46162b926524f2d4248b44240557bd325ac77d28d5cc7351f6f3f9edf16c6139a68a5e37ea296b872816fd0e1f84d4d148ed0971541eb835866"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "435b3751a390000897d8fc3998d63664ae090704e5bb9f832d85bcf361f10ee1a44eeecda0941c60ffb685169a1979de"
+        }
+      ],
+      "cpe": "cpe:2.3:a:tukaani:xz:1.12:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.tukaani/xz@1.12?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://tukaani.org/xz/java.html"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tukaani-project/xz-java"
+        }
+      ]
     }
   ],
   "dependencies": [
@@ -1077,6 +1195,10 @@
       "dependsOn": []
     },
     {
+      "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2",
+      "dependsOn": []
+    },
+    {
       "ref": "03d4e02a-2e20-499a-8107-c878b46584f3",
       "dependsOn": []
     },
@@ -1086,6 +1208,10 @@
     },
     {
       "ref": "9a3dc621-130e-4a01-85bf-ca416371c199",
+      "dependsOn": []
+    },
+    {
+      "ref": "6258ba3b-9b35-4b29-9eb8-e94f3cd13e38",
       "dependsOn": []
     }
   ],
@@ -1277,6 +1403,130 @@
       "affects": [
         {
           "ref": "bc3116f4-d35c-47df-8908-632331eba5ba"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-34743",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 5.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        },
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 1.7,
+          "severity": "low",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:U/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+        }
+      ],
+      "cwes": [
+        122
+      ],
+      "description": "XZ Utils provide a general-purpose data-compression library plus command-line tools. Prior to version 5.8.3, if lzma_index_decoder() was used to decode an Index that contained no Records, the resulting lzma_index was left in a state where where a subsequent lzma_index_append() would allocate too little memory, and a buffer overflow would occur. This issue has been patched in version 5.8.3.",
+      "published": "2026-04-02T19:21:33Z",
+      "updated": "2026-07-24T21:10:00Z",
+      "analysis": {
+        "state": "false_positive",
+        "detail": "False positive. This finding relates to the C variant of the library."
+      },
+      "affects": [
+        {
+          "ref": "6258ba3b-9b35-4b29-9eb8-e94f3cd13e38"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2022-1271",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        179,
+        20
+      ],
+      "description": "An arbitrary file write vulnerability was found in GNU gzip's zgrep utility. When zgrep is applied on the attacker's chosen file name (for example, a crafted file name), this can overwrite an attacker's content to an arbitrary attacker-selected file. This flaw occurs due to insufficient validation when processing filenames with two or more newlines where selected content and the target file names are embedded in crafted multi-line file names. This flaw allows a remote, low privileged attacker to force zgrep to write arbitrary files on the system.",
+      "published": "2022-08-31T16:15:09Z",
+      "updated": "2026-06-17T04:22:07Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "False positive. This finding does not relate to the Java library (which is used here)."
+      },
+      "affects": [
+        {
+          "ref": "6258ba3b-9b35-4b29-9eb8-e94f3cd13e38"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2015-4035",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 4.6,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.8,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20
+      ],
+      "description": "scripts/xzgrep.in in xzgrep 5.2.x before 5.2.0, before 5.0.0 does not properly process file names containing semicolons, which allows remote attackers to execute arbitrary code by having a user run xzgrep on a crafted file name.",
+      "published": "2017-07-25T18:29:00Z",
+      "updated": "2026-06-17T00:26:40Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "False positive. This finding does not relate to the Java library (which is used here)."
+      },
+      "affects": [
+        {
+          "ref": "6258ba3b-9b35-4b29-9eb8-e94f3cd13e38"
         }
       ]
     },
@@ -2575,6 +2825,281 @@
       "affects": [
         {
           "ref": "9a3dc621-130e-4a01-85bf-ca416371c199"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66142",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache Neethi is vulnerable to uncontrolled recursion when parsing policies that lack policy Ids or with deeply nested structures, which may lead to a denial of service attack when parsing policies due to runtime memory exhaustion. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:35:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66143",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "It is possible to bypass the maximum number of normalized policy alternatives that was introduced in Apache Neethi 3.2.2 via certain crafted policies, which may lead to a denial of service attack via resource consumption. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:35:07Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66144",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Although remote policy references are not retrieved during policy normalization, if they are manually retrieved via the API it can cause a denial of service attack if a huge policy is retrieved. Users are recommended to upgrade to version 3.2.3, which fixes this issue by imposing a default maximum size on data read from remote policy references.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:32:06Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91863",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "A specially crafted WS-Policy document with deeply nested policy elements can bypass Neethi's nesting-depth limit and exhaust the thread stack, crashing the parser (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-24T20:34:14Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91864",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A specially crafted WS-Policy document can pack unlimited content inside a policy assertion, which Neethi copies into memory without counting it against its size limits, exhausting the heap (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-25T13:09:39Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91865",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A small WS-Policy document using repeated policy references can force Neethi to re-expand the same references exponentially during normalization, consuming huge amounts of CPU and memory (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-25T13:09:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91866",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A specially crafted pair of WS-Policy documents can force Neethi's policy-intersection to do exponential amounts of work, pinning the CPU for a long time (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:25Z",
+      "updated": "2026-09-25T13:09:24Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91867",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "When Neethi fetches a remote policy reference, it only limits the time per read, not the whole transfer, so a server that trickles bytes slowly can keep the fetch alive indefinitely and tie up the calling thread (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:25Z",
+      "updated": "2026-09-25T13:09:43Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
         }
       ]
     }

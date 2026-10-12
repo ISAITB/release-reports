@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:508b0606-0636-4e06-890e-88634b6b8533",
+  "serialNumber": "urn:uuid:2b39b6e8-a59a-4415-b805-1396bd0409ea",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T14:07:23Z",
+    "timestamp": "2026-10-12T14:15:37Z",
     "tools": {
       "components": [
         {
@@ -7503,14 +7503,7 @@
           "content": "7069f409132ef125b2daf8359ac6f9e2ba829b1af73b214268a6bd1ff94309bf9e1e6b66d58c51d3b564c842ff83f1bc"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.2:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.neethi/neethi@3.2.2?type=jar",
       "externalReferences": [
         {

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:0121bb09-ae5b-4d01-93ca-e1ef33343a0f",
+  "serialNumber": "urn:uuid:c4eba029-0e82-476e-984a-7937a5cb1f85",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T14:06:50Z",
+    "timestamp": "2026-10-12T14:15:15Z",
     "tools": {
       "components": [
         {
@@ -190,6 +190,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "1767ca00-9d04-4645-b9cb-f347f8449391",
+      "group": "org.apache.commons",
+      "name": "commons-configuration2",
+      "version": "2.12.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e71e0d7a413b2bb6b3b2a2f55b5fc727"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0cab81350c85ca35db8c47621a19dcddf128883f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8834b3a04f303069dc66ccbf157e1fc337aa9169bb44dbf4eb4cbb6854ecfdbf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8c2070684731528aa61f490a2147eb90cc6a49b504ed3d2c6a18b5f28037a891ac7869ae5f240b3970e7f6f73d5dbc69"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bfc860c6a8f3131ac605aabf2336544381345ce55964d029a1a207e02a09aac97173f2f68efa019e1197ad5028e004f982a564277e3f540654970e37d46f343b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "40b9a45d0e4f0373a17ee8e794aa42998c49a22c750677b9f13861fa80becbf4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "770c45d3fd98df0e2c3ed5e530963b9c0cab9697a98472efea7cada98d8b76288de93d0ef42b86aefb64e060cb84a9497556e9eb4fbd6ac182cc1461aebe9450"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "76f4be47842008f8a225427d1a1c70978b96a0640a5e07c15322c8cd82e951ee5bbfb0b1f7adafc4869055bd14411a59"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.12.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://commons.apache.org/proper/commons-configuration/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "60b01211-2994-4577-8f2c-6a9d8235d300",
       "group": "org.apache.commons",
       "name": "commons-configuration2",
@@ -259,63 +316,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=commons-configuration.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "1767ca00-9d04-4645-b9cb-f347f8449391",
-      "group": "org.apache.commons",
-      "name": "commons-configuration2",
-      "version": "2.12.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e71e0d7a413b2bb6b3b2a2f55b5fc727"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "0cab81350c85ca35db8c47621a19dcddf128883f"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "8834b3a04f303069dc66ccbf157e1fc337aa9169bb44dbf4eb4cbb6854ecfdbf"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "8c2070684731528aa61f490a2147eb90cc6a49b504ed3d2c6a18b5f28037a891ac7869ae5f240b3970e7f6f73d5dbc69"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bfc860c6a8f3131ac605aabf2336544381345ce55964d029a1a207e02a09aac97173f2f68efa019e1197ad5028e004f982a564277e3f540654970e37d46f343b"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "40b9a45d0e4f0373a17ee8e794aa42998c49a22c750677b9f13861fa80becbf4"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "770c45d3fd98df0e2c3ed5e530963b9c0cab9697a98472efea7cada98d8b76288de93d0ef42b86aefb64e060cb84a9497556e9eb4fbd6ac182cc1461aebe9450"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "76f4be47842008f8a225427d1a1c70978b96a0640a5e07c15322c8cd82e951ee5bbfb0b1f7adafc4869055bd14411a59"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.12.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://commons.apache.org/proper/commons-configuration/"
         }
       ]
     },
@@ -705,6 +705,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "4e91c2e5-542e-42cd-8c26-6b5c36a3ecea",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.20.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3536b524a7106dae1b4feb71e6f5ff74"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3c97f7fad069f7cfae639d790bd93d6a0b2dff31"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc0cf46075877201f8406ee7de2741ae7df6c066f5f0457bd80632a718c06e72"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5f294aa2b3561b2dc5f6bd9958758783294ae31396b8af9cca1495f87d4b8fa470e41b62f6078a407cb6d7f5e8efecee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6fde805019901b0e6f6af56c48b60a08ead48e962e167308a3d8ed861470594a80e5c6aec340e7ce8dd12a32d8c0cbb46bc39bc381f027f5977953950e60b083"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3879cf4a3f6bfcea4181ec464142c7798f979d6cc0a561cd87dea8054f5abb50"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fc84b0702c51b31e4a6eaa0e6eff8914166a51dad8adbb768887ea580106d953e86bfc2fe8c5b99d03e64ef06bf6d33a4ef33e8f045d743b00cb0e05452ec082"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ef6efea299577b599d290fd0b48f44e239c0c051b0849b163b2f667641a6ff682bd68745ab3ecad1fb7939de0dd11e4e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "9dfbf77a-9a0b-4cf7-8172-b4a4390cde8c",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -770,43 +827,43 @@
     },
     {
       "type": "library",
-      "bom-ref": "4e91c2e5-542e-42cd-8c26-6b5c36a3ecea",
+      "bom-ref": "7cfa588e-f4be-4d59-ab53-07672398499a",
       "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
+      "name": "jackson-databind",
       "version": "2.20.0",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "3536b524a7106dae1b4feb71e6f5ff74"
+          "content": "7e33b9e657f74f0f95fe2c881e2f8f76"
         },
         {
           "alg": "SHA-1",
-          "content": "3c97f7fad069f7cfae639d790bd93d6a0b2dff31"
+          "content": "f0a5e62fbd21285e9a5498a60dccb097e1ef793b"
         },
         {
           "alg": "SHA-256",
-          "content": "bc0cf46075877201f8406ee7de2741ae7df6c066f5f0457bd80632a718c06e72"
+          "content": "a70e146a6bf2cba4f9cd367169787f50adcfbb57122bc2e9c8390cd0b397ac30"
         },
         {
           "alg": "SHA-384",
-          "content": "5f294aa2b3561b2dc5f6bd9958758783294ae31396b8af9cca1495f87d4b8fa470e41b62f6078a407cb6d7f5e8efecee"
+          "content": "e2ed967535db39c3da8a9842da1a1276522a171aaddf6d0f1861e642037e2951cacb1266535d1b08a3d451b19ec297d6"
         },
         {
           "alg": "SHA-512",
-          "content": "6fde805019901b0e6f6af56c48b60a08ead48e962e167308a3d8ed861470594a80e5c6aec340e7ce8dd12a32d8c0cbb46bc39bc381f027f5977953950e60b083"
+          "content": "a26054199811282897116632dc5175a05c1cdc30ab15cfc13325cb6074568de7b8fec08cb28f28835d31c522296b2460ce144972a2c952cfb8fc7467e1fa4a44"
         },
         {
           "alg": "SHA3-256",
-          "content": "3879cf4a3f6bfcea4181ec464142c7798f979d6cc0a561cd87dea8054f5abb50"
+          "content": "e5eff40214ecb55b9883b337ff84e69fbe69d318a87f120eb3fc79b82d55f9f7"
         },
         {
           "alg": "SHA3-512",
-          "content": "fc84b0702c51b31e4a6eaa0e6eff8914166a51dad8adbb768887ea580106d953e86bfc2fe8c5b99d03e64ef06bf6d33a4ef33e8f045d743b00cb0e05452ec082"
+          "content": "eb39a4f74c29f43ce442df9d5ed3bdd56013cc9adb33839dc9f36b8d58a8f581d53b3949527fdbdf2bc6851374d01a4c325ce572f1933a6b001aef17e21071ec"
         },
         {
           "alg": "SHA3-384",
-          "content": "ef6efea299577b599d290fd0b48f44e239c0c051b0849b163b2f667641a6ff682bd68745ab3ecad1fb7939de0dd11e4e"
+          "content": "42d74c09c4bdc3d68429ae72b5a2c5131f1515e3360f7a73446611fcd3b6e4002fedf70bc8da119c4d0138168ea0f521"
         }
       ],
       "licenses": [
@@ -817,11 +874,11 @@
           }
         }
       ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.0",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.0",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
+          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -887,63 +944,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-databind"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "7cfa588e-f4be-4d59-ab53-07672398499a",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.20.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "7e33b9e657f74f0f95fe2c881e2f8f76"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f0a5e62fbd21285e9a5498a60dccb097e1ef793b"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "a70e146a6bf2cba4f9cd367169787f50adcfbb57122bc2e9c8390cd0b397ac30"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "e2ed967535db39c3da8a9842da1a1276522a171aaddf6d0f1861e642037e2951cacb1266535d1b08a3d451b19ec297d6"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "a26054199811282897116632dc5175a05c1cdc30ab15cfc13325cb6074568de7b8fec08cb28f28835d31c522296b2460ce144972a2c952cfb8fc7467e1fa4a44"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "e5eff40214ecb55b9883b337ff84e69fbe69d318a87f120eb3fc79b82d55f9f7"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "eb39a4f74c29f43ce442df9d5ed3bdd56013cc9adb33839dc9f36b8d58a8f581d53b3949527fdbdf2bc6851374d01a4c325ce572f1933a6b001aef17e21071ec"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "42d74c09c4bdc3d68429ae72b5a2c5131f1515e3360f7a73446611fcd3b6e4002fedf70bc8da119c4d0138168ea0f521"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -1801,14 +1801,7 @@
           "content": "393cfa8d5c65a85d89d019c6ae3b8c51a3d2b50c093facecd859be921513468f416b39e20fd328d7928aa79287cb7b99"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.1:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.neethi/neethi@3.2.1?type=jar",
       "externalReferences": [
         {
@@ -1870,14 +1863,7 @@
           "content": "393cfa8d5c65a85d89d019c6ae3b8c51a3d2b50c093facecd859be921513468f416b39e20fd328d7928aa79287cb7b99"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.1:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.neethi/neethi@3.2.1?type=bundle",
       "externalReferences": [
         {
@@ -2587,50 +2573,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "04dccf81-4145-4fef-b4ee-2bb0271f77d8",
-      "group": "org.apache.ws.xmlschema",
-      "name": "xmlschema-core",
-      "version": "2.3.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "76e1deab5e6e1caa5fed31b3482cd266"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "5a83fc4e79d128f38c9e32138537060678151759"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "648f7f7e5228d89069cbc54c32404209f242581bc1c1e2e74229114f081071aa"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "456b8a1dab0dfbccc13d9b78b195aef80d6989ccbd3a421e3e60305a4d2d48704d2f6b157c593ac2371661a505098c13"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "c01a671e540963e96245c65b633f0d17da112307c95e75c869884e92cdf7b523"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "be1141504bbc979f485f8fcdb00de037489ab5fb2f7b1401b95d1157b21684c105eb5ce985b6798fe0fc287dd0126843d1c78597fbdb3bf66f0b82c6516df9c7"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5bb23dd4714285adb3e64b85d33df68f4368b818a4c94e74e036b416c34ff3dbdffc70651cf7f531323aba0141800dcd"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.1?type=bundle"
-    },
-    {
-      "type": "library",
       "bom-ref": "12a30669-2341-41e4-80bb-6fd26190b7c3",
       "group": "org.apache.ws.xmlschema",
       "name": "xmlschema-core",
@@ -2691,6 +2633,50 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "04dccf81-4145-4fef-b4ee-2bb0271f77d8",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "76e1deab5e6e1caa5fed31b3482cd266"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5a83fc4e79d128f38c9e32138537060678151759"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "648f7f7e5228d89069cbc54c32404209f242581bc1c1e2e74229114f081071aa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "456b8a1dab0dfbccc13d9b78b195aef80d6989ccbd3a421e3e60305a4d2d48704d2f6b157c593ac2371661a505098c13"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c01a671e540963e96245c65b633f0d17da112307c95e75c869884e92cdf7b523"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "be1141504bbc979f485f8fcdb00de037489ab5fb2f7b1401b95d1157b21684c105eb5ce985b6798fe0fc287dd0126843d1c78597fbdb3bf66f0b82c6516df9c7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5bb23dd4714285adb3e64b85d33df68f4368b818a4c94e74e036b416c34ff3dbdffc70651cf7f531323aba0141800dcd"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.1?type=bundle"
     }
   ],
   "dependencies": [
@@ -2713,11 +2699,11 @@
       ]
     },
     {
-      "ref": "60b01211-2994-4577-8f2c-6a9d8235d300",
+      "ref": "1767ca00-9d04-4645-b9cb-f347f8449391",
       "dependsOn": []
     },
     {
-      "ref": "1767ca00-9d04-4645-b9cb-f347f8449391",
+      "ref": "60b01211-2994-4577-8f2c-6a9d8235d300",
       "dependsOn": []
     },
     {
@@ -2753,23 +2739,23 @@
       "dependsOn": []
     },
     {
-      "ref": "9dfbf77a-9a0b-4cf7-8172-b4a4390cde8c",
-      "dependsOn": []
-    },
-    {
       "ref": "4e91c2e5-542e-42cd-8c26-6b5c36a3ecea",
       "dependsOn": []
     },
     {
-      "ref": "28b79197-9a31-4d08-bda4-1a89e2fdad0f",
-      "dependsOn": [
-        "9dfbf77a-9a0b-4cf7-8172-b4a4390cde8c"
-      ]
+      "ref": "9dfbf77a-9a0b-4cf7-8172-b4a4390cde8c",
+      "dependsOn": []
     },
     {
       "ref": "7cfa588e-f4be-4d59-ab53-07672398499a",
       "dependsOn": [
         "4e91c2e5-542e-42cd-8c26-6b5c36a3ecea"
+      ]
+    },
+    {
+      "ref": "28b79197-9a31-4d08-bda4-1a89e2fdad0f",
+      "dependsOn": [
+        "9dfbf77a-9a0b-4cf7-8172-b4a4390cde8c"
       ]
     },
     {
@@ -2917,11 +2903,11 @@
       "dependsOn": []
     },
     {
-      "ref": "04dccf81-4145-4fef-b4ee-2bb0271f77d8",
+      "ref": "12a30669-2341-41e4-80bb-6fd26190b7c3",
       "dependsOn": []
     },
     {
-      "ref": "12a30669-2341-41e4-80bb-6fd26190b7c3",
+      "ref": "04dccf81-4145-4fef-b4ee-2bb0271f77d8",
       "dependsOn": []
     }
   ],
@@ -4135,6 +4121,379 @@
         },
         {
           "ref": "12a30669-2341-41e4-80bb-6fd26190b7c3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-42402",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache Neethi is vulnerable to a Denial of Service attack through algorithmic complexity in policy normalization. Specially crafted WS-Policy documents can trigger an exponential Cartesian cross-product expansion during the normalization process, causing unbounded memory allocation that exhausts the JVM heap. This occurs when the normalization process generates an excessive number of policy alternatives without bounds, leading to runtime memory exhaustion.\n\nUsers should upgrade to 3.2.2 which limits the maximum number of normalized policy alternatives.",
+      "published": "2026-05-01T09:16:16Z",
+      "updated": "2026-06-17T10:47:47Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable: vulnerable code/feature is not used in this product."
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-42403",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache Neethi does not properly detect circular references in policy definitions. When a WS-Policy document contains circular policy references (where Policy A references Policy B which references Policy A), the policy normalization process can enter an infinite loop or cause excessive recursion, leading to a stack overflow or application hang. An attacker can craft malicious policy documents with circular references to cause a Denial of Service condition\n\nUsers are recommended to upgrade to version 3.2.2, which fixes this issue.",
+      "published": "2026-05-01T09:16:17Z",
+      "updated": "2026-06-17T10:47:47Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable: vulnerable code/feature is not used in this product."
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-42404",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        918
+      ],
+      "description": "Apache Neethi does not impose any restrictions on URIs when manually fetching remote policy references through the PolicyReference API. When an application explicitly calls the API to retrieve a policy from a remote URI, an outbound request is made for arbitrary protocols and internal IP adddresses. From 3.2.2, only http or https URIs are allowed, and link-local/multicast/any-local addresses are forbidden.\n\nUsers are recommended to upgrade to version 3.2.2, which fixes this issue.",
+      "published": "2026-05-01T11:16:19Z",
+      "updated": "2026-06-17T10:47:47Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable: vulnerable code/feature is not used in this product."
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66142",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache Neethi is vulnerable to uncontrolled recursion when parsing policies that lack policy Ids or with deeply nested structures, which may lead to a denial of service attack when parsing policies due to runtime memory exhaustion. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:35:32Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Applicable when processing WSDLs from untrusted SOAP-based GITB test services (considering however that these are defined only by administrators). Note that the SoapMessagingV2 handler is not affected."
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66144",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Although remote policy references are not retrieved during policy normalization, if they are manually retrieved via the API it can cause a denial of service attack if a huge policy is retrieved. Users are recommended to upgrade to version 3.2.3, which fixes this issue by imposing a default maximum size on data read from remote policy references.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:32:06Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Applicable when processing WSDLs from untrusted SOAP-based GITB test services (considering however that these are defined only by administrators). Note that the SoapMessagingV2 handler is not affected."
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91863",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "A specially crafted WS-Policy document with deeply nested policy elements can bypass Neethi's nesting-depth limit and exhaust the thread stack, crashing the parser (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-24T20:34:14Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91864",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A specially crafted WS-Policy document can pack unlimited content inside a policy assertion, which Neethi copies into memory without counting it against its size limits, exhausting the heap (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-25T13:09:39Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91865",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A small WS-Policy document using repeated policy references can force Neethi to re-expand the same references exponentially during normalization, consuming huge amounts of CPU and memory (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-25T13:09:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91866",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A specially crafted pair of WS-Policy documents can force Neethi's policy-intersection to do exponential amounts of work, pinning the CPU for a long time (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:25Z",
+      "updated": "2026-09-25T13:09:24Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91867",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "When Neethi fetches a remote policy reference, it only limits the time per read, not the whole transfer, so a server that trickles bytes slowly can keep the fetch alive indefinitely and tie up the calling thread (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:25Z",
+      "updated": "2026-09-25T13:09:43Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "022b64e0-aaa7-4a14-8259-2bcb810228ff"
+        },
+        {
+          "ref": "f9572b19-8cd5-4fb5-bfa7-68617f277195"
         }
       ]
     },

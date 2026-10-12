@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:5952173e-97f5-4201-8914-5d1a4a6f02c6",
+  "serialNumber": "urn:uuid:4a32537e-d034-4cbf-a36d-320a3d0b8701",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T14:06:38Z",
+    "timestamp": "2026-10-12T14:15:06Z",
     "tools": {
       "components": [
         {
@@ -379,71 +379,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
-      "group": "tools.jackson.core",
-      "name": "jackson-core",
-      "version": "3.2.0",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "f14bb53e35ab1a789de27b7bb463f4f5"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "ebf2fc67340907abfc4891ed74ba4c4419e2b47e"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "5e353ce53c6901105dfcbf183e3220c17072e334e552b818a4bb1b99decea596"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "2465cf3a1c5ca857117d15b015c9e2b9c5335bbfa1ecb9d6b4659d0278ea10dcecacfa8dbce1d1ab6b73116801f67308"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "41a7707787443d864cd8d5577d4dbdcdaa6c0d39ff2a64a89311b55f8feb40f27372489cccfc4bad9d9c94f3678ff19d7668ae639a11be2decfa7c07b006cb44"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "e1306ebcdbd74d8a62656fab99954f3bd383664a8e6d9177ee4400dd1008e6e2"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "4164a26dbecad10232831d0776e8bcf044a0652e0ca66d2c2ad45dd2dbc09e162d2de23b38793d271014aad4c09a8ba6b923d2725c2a7fc92e08ce96023a69fa"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "8476a4042e7ce3ca746b211d2d794408b4846cdfd04757113eedd5b4df5e8336c17a04d8cdf836c6490bd27169d5c9be"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.0?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "http://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -509,44 +444,44 @@
     },
     {
       "type": "library",
-      "bom-ref": "c0fbe614-90e9-47a3-9639-96ef0d270619",
+      "bom-ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
       "group": "tools.jackson.core",
-      "name": "jackson-databind",
+      "name": "jackson-core",
       "version": "3.2.0",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "01878930591de71cd903845a37ec13a0"
+          "content": "f14bb53e35ab1a789de27b7bb463f4f5"
         },
         {
           "alg": "SHA-1",
-          "content": "45c1083a04086e6b7a0d008ac6c56655567690d0"
+          "content": "ebf2fc67340907abfc4891ed74ba4c4419e2b47e"
         },
         {
           "alg": "SHA-256",
-          "content": "3ef94a3dddeafc247c50230fad0315981b2ce4ae6e91cfb4368a86f328904e4f"
+          "content": "5e353ce53c6901105dfcbf183e3220c17072e334e552b818a4bb1b99decea596"
         },
         {
           "alg": "SHA-384",
-          "content": "80f82af2893e3232e3c3e609b468fe2762543c32f31e5296eaaab3ceb55a5246addf1478d32099aac00bafa3e2f43796"
+          "content": "2465cf3a1c5ca857117d15b015c9e2b9c5335bbfa1ecb9d6b4659d0278ea10dcecacfa8dbce1d1ab6b73116801f67308"
         },
         {
           "alg": "SHA-512",
-          "content": "61295e775be5e06ddd7e141bf2183af20b854b0bc490cb848c441bcf6276dfd0d0721514eda9a59f899e78db2a24a9ed234f37bbd43683148d14656e0c7ad95c"
+          "content": "41a7707787443d864cd8d5577d4dbdcdaa6c0d39ff2a64a89311b55f8feb40f27372489cccfc4bad9d9c94f3678ff19d7668ae639a11be2decfa7c07b006cb44"
         },
         {
           "alg": "SHA3-256",
-          "content": "afbd86eca696a33d1d6cb2087982a8a6fe6e28c3849f306585d48ae52b4f16fb"
+          "content": "e1306ebcdbd74d8a62656fab99954f3bd383664a8e6d9177ee4400dd1008e6e2"
         },
         {
           "alg": "SHA3-512",
-          "content": "0874e3b5819a7bb0939497cbd5db8d9373fc0e697c35aae2724fb63da636c0e09b8af0a37ff92175ae28dd81ffd487aa5685f1cdba73a18172f54a6a70201b90"
+          "content": "4164a26dbecad10232831d0776e8bcf044a0652e0ca66d2c2ad45dd2dbc09e162d2de23b38793d271014aad4c09a8ba6b923d2725c2a7fc92e08ce96023a69fa"
         },
         {
           "alg": "SHA3-384",
-          "content": "2e778433441ce91656238589494eddefb9c6f6b906efd0d72bd0d25fe64cd3c45538e3ff9904aac6bdcf58e0276e76c9"
+          "content": "8476a4042e7ce3ca746b211d2d794408b4846cdfd04757113eedd5b4df5e8336c17a04d8cdf836c6490bd27169d5c9be"
         }
       ],
       "licenses": [
@@ -556,19 +491,19 @@
           }
         }
       ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.0?type=jar",
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.0?type=jar",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
+          "url": "https://github.com/FasterXML/jackson-core"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
+          "url": "https://github.com/FasterXML/jackson-core/issues"
         },
         {
           "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
+          "url": "http://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -622,6 +557,71 @@
         }
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "c0fbe614-90e9-47a3-9639-96ef0d270619",
+      "group": "tools.jackson.core",
+      "name": "jackson-databind",
+      "version": "3.2.0",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "01878930591de71cd903845a37ec13a0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "45c1083a04086e6b7a0d008ac6c56655567690d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3ef94a3dddeafc247c50230fad0315981b2ce4ae6e91cfb4368a86f328904e4f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "80f82af2893e3232e3c3e609b468fe2762543c32f31e5296eaaab3ceb55a5246addf1478d32099aac00bafa3e2f43796"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "61295e775be5e06ddd7e141bf2183af20b854b0bc490cb848c441bcf6276dfd0d0721514eda9a59f899e78db2a24a9ed234f37bbd43683148d14656e0c7ad95c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "afbd86eca696a33d1d6cb2087982a8a6fe6e28c3849f306585d48ae52b4f16fb"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0874e3b5819a7bb0939497cbd5db8d9373fc0e697c35aae2724fb63da636c0e09b8af0a37ff92175ae28dd81ffd487aa5685f1cdba73a18172f54a6a70201b90"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2e778433441ce91656238589494eddefb9c6f6b906efd0d72bd0d25fe64cd3c45538e3ff9904aac6bdcf58e0276e76c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.0?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -840,6 +840,69 @@
     },
     {
       "type": "library",
+      "bom-ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.2",
+      "description": "Apache Neethi provides general framework for the programmers to use WS Policy. It is compliant with latest WS Policy specification which was published in March 2006. This framework is specifically written to enable the Apache Web services stack to use WS Policy as a way of expressing it's requirements and capabilities.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4180d706474f28c05e5216d4b0b8b14"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1051f0f8916f832d0e76623d851e6afa6cc06064"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b9385bb64ea84f1f42035c4926f3ff90aff9b995463a8ae7b6a61211f9e1a8e3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e7cc17208c3b160783c36675199e66e06321715c1b78802a84e6a28efe120ffcab56c6dfa93eca6765ff94c785b01750"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f2b1e150a851bcc8c99b1428f149ff6b104edc67a117ef8439888e9ae905d0f8a0cd20d3e7fec815f0b64f3891b85076f04443c5de63053db63b10a7f5adbad4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c695b229401dd5effb3cbeed6347b88ae4b9ee4b6f76776b7e4f4204a4ad9ef3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bd2959122c00db1693186594610a44bd2a5a51ebbb737a35f143a1abe09eae31e9bb0efdee6b7aeecd44cce53384aec137cd698a4193518eb749a9dcd9745f0d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7069f409132ef125b2daf8359ac6f9e2ba829b1af73b214268a6bd1ff94309bf9e1e6b66d58c51d3b564c842ff83f1bc"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/NEETHI"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail-archives.apache.org/mod_mbox/ws-dev/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "5cb6abe2-b258-4820-b25c-90eb1205ba98",
       "group": "org.springframework",
       "name": "spring-webmvc",
@@ -1022,6 +1085,61 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "8178fb13-58ca-4c97-b33a-efeeac9eaddf",
+      "group": "org.tukaani",
+      "name": "xz",
+      "version": "1.12",
+      "description": "XZ data compression",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9c8773d7dc00a4d842cf78752ca6adfa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bb9703ba3753ab8665f65e6a25b3ddc7b09b1caf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3e158a87bd73d8afb4b6e8239c013b7d049c48563f45860ce99cd2e448cf4a6b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4c8366773c7bab2db88029ab4589687fbb62d41c3ec9d263e150e3edd85f0e163fe8729d8937ba299b85c2d621a59688"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a854dc65df5a07fbb026f624d2b10901f6f5d95a20091c52bfb64f88c14565ef1bb65733436ffd5b2a9d16329e523b650085fd4c36a1bb384d40788e727c1e60"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b655696201f997e38c838150d6885114c1eaa19ee07640098144f659b3826d8a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "529779b7118db46162b926524f2d4248b44240557bd325ac77d28d5cc7351f6f3f9edf16c6139a68a5e37ea296b872816fd0e1f84d4d148ed0971541eb835866"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "435b3751a390000897d8fc3998d63664ae090704e5bb9f832d85bcf361f10ee1a44eeecda0941c60ffb685169a1979de"
+        }
+      ],
+      "cpe": "cpe:2.3:a:tukaani:xz:1.12:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.tukaani/xz@1.12?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://tukaani.org/xz/java.html"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tukaani-project/xz-java"
+        }
+      ]
     }
   ],
   "dependencies": [
@@ -1052,23 +1170,23 @@
       "dependsOn": []
     },
     {
-      "ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
-      "dependsOn": []
-    },
-    {
       "ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
       "dependsOn": []
     },
     {
-      "ref": "c0fbe614-90e9-47a3-9639-96ef0d270619",
-      "dependsOn": [
-        "313cc8c6-a82d-46c9-94fa-80cd9e41c377"
-      ]
+      "ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
+      "dependsOn": []
     },
     {
       "ref": "d88891c8-0c57-4133-9414-1ecb54c84636",
       "dependsOn": [
         "14d22fd1-55fd-4309-95a4-d130c7a98359"
+      ]
+    },
+    {
+      "ref": "c0fbe614-90e9-47a3-9639-96ef0d270619",
+      "dependsOn": [
+        "313cc8c6-a82d-46c9-94fa-80cd9e41c377"
       ]
     },
     {
@@ -1084,6 +1202,10 @@
       "dependsOn": []
     },
     {
+      "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae",
+      "dependsOn": []
+    },
+    {
       "ref": "5cb6abe2-b258-4820-b25c-90eb1205ba98",
       "dependsOn": []
     },
@@ -1093,6 +1215,10 @@
     },
     {
       "ref": "b6bfb7bf-3d72-41f0-ab7e-a57b298788de",
+      "dependsOn": []
+    },
+    {
+      "ref": "8178fb13-58ca-4c97-b33a-efeeac9eaddf",
       "dependsOn": []
     }
   ],
@@ -1284,6 +1410,130 @@
       "affects": [
         {
           "ref": "12f67d42-7035-4d61-ab09-25c950a3a21c"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-34743",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 5.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        },
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 1.7,
+          "severity": "low",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:U/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+        }
+      ],
+      "cwes": [
+        122
+      ],
+      "description": "XZ Utils provide a general-purpose data-compression library plus command-line tools. Prior to version 5.8.3, if lzma_index_decoder() was used to decode an Index that contained no Records, the resulting lzma_index was left in a state where where a subsequent lzma_index_append() would allocate too little memory, and a buffer overflow would occur. This issue has been patched in version 5.8.3.",
+      "published": "2026-04-02T19:21:33Z",
+      "updated": "2026-07-24T21:10:00Z",
+      "analysis": {
+        "state": "false_positive",
+        "detail": "False positive. This finding relates to the C variant of the library."
+      },
+      "affects": [
+        {
+          "ref": "8178fb13-58ca-4c97-b33a-efeeac9eaddf"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2022-1271",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        179,
+        20
+      ],
+      "description": "An arbitrary file write vulnerability was found in GNU gzip's zgrep utility. When zgrep is applied on the attacker's chosen file name (for example, a crafted file name), this can overwrite an attacker's content to an arbitrary attacker-selected file. This flaw occurs due to insufficient validation when processing filenames with two or more newlines where selected content and the target file names are embedded in crafted multi-line file names. This flaw allows a remote, low privileged attacker to force zgrep to write arbitrary files on the system.",
+      "published": "2022-08-31T16:15:09Z",
+      "updated": "2026-06-17T04:22:07Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "False positive. This finding does not relate to the Java library (which is used here)."
+      },
+      "affects": [
+        {
+          "ref": "8178fb13-58ca-4c97-b33a-efeeac9eaddf"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2015-4035",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 4.6,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.8,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20
+      ],
+      "description": "scripts/xzgrep.in in xzgrep 5.2.x before 5.2.0, before 5.0.0 does not properly process file names containing semicolons, which allows remote attackers to execute arbitrary code by having a user run xzgrep on a crafted file name.",
+      "published": "2017-07-25T18:29:00Z",
+      "updated": "2026-06-17T00:26:40Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "False positive. This finding does not relate to the Java library (which is used here)."
+      },
+      "affects": [
+        {
+          "ref": "8178fb13-58ca-4c97-b33a-efeeac9eaddf"
         }
       ]
     },
@@ -2582,6 +2832,281 @@
       "affects": [
         {
           "ref": "b6bfb7bf-3d72-41f0-ab7e-a57b298788de"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66142",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache Neethi is vulnerable to uncontrolled recursion when parsing policies that lack policy Ids or with deeply nested structures, which may lead to a denial of service attack when parsing policies due to runtime memory exhaustion. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:35:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66143",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "It is possible to bypass the maximum number of normalized policy alternatives that was introduced in Apache Neethi 3.2.2 via certain crafted policies, which may lead to a denial of service attack via resource consumption. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:35:07Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-66144",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Although remote policy references are not retrieved during policy normalization, if they are manually retrieved via the API it can cause a denial of service attack if a huge policy is retrieved. Users are recommended to upgrade to version 3.2.3, which fixes this issue by imposing a default maximum size on data read from remote policy references.",
+      "published": "2026-07-24T13:18:29Z",
+      "updated": "2026-07-27T14:32:06Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable given that this only applies when processing untrusted WSDLs. This never occurs in this case."
+      },
+      "affects": [
+        {
+          "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91863",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        674
+      ],
+      "description": "A specially crafted WS-Policy document with deeply nested policy elements can bypass Neethi's nesting-depth limit and exhaust the thread stack, crashing the parser (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-24T20:34:14Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91864",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A specially crafted WS-Policy document can pack unlimited content inside a policy assertion, which Neethi copies into memory without counting it against its size limits, exhausting the heap (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-25T13:09:39Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91865",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A small WS-Policy document using repeated policy references can force Neethi to re-expand the same references exponentially during normalization, consuming huge amounts of CPU and memory (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:24Z",
+      "updated": "2026-09-25T13:09:32Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91866",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "A specially crafted pair of WS-Policy documents can force Neethi's policy-intersection to do exponential amounts of work, pinning the CPU for a long time (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:25Z",
+      "updated": "2026-09-25T13:09:24Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control"
+      },
+      "affects": [
+        {
+          "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-91867",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "When Neethi fetches a remote policy reference, it only limits the time per read, not the whole transfer, so a server that trickles bytes slowly can keep the fetch alive indefinitely and tie up the calling thread (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
+      "published": "2026-09-21T12:17:25Z",
+      "updated": "2026-09-25T13:09:43Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "53b577e2-3575-47f1-b14f-dd6bee5869ae"
         }
       ]
     }

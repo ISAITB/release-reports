@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:07e0aeb3-d535-40d1-8f62-585e0b8036af",
+  "serialNumber": "urn:uuid:04a2c49b-124d-4233-b8cf-881a1a324ff3",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T13:13:02Z",
+    "timestamp": "2026-10-12T14:15:07Z",
     "tools": {
       "components": [
         {
@@ -237,6 +237,61 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "8c7c3789-95d1-470f-9cfb-f2b082263f96",
+      "group": "org.tukaani",
+      "name": "xz",
+      "version": "1.12",
+      "description": "XZ data compression",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9c8773d7dc00a4d842cf78752ca6adfa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bb9703ba3753ab8665f65e6a25b3ddc7b09b1caf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3e158a87bd73d8afb4b6e8239c013b7d049c48563f45860ce99cd2e448cf4a6b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4c8366773c7bab2db88029ab4589687fbb62d41c3ec9d263e150e3edd85f0e163fe8729d8937ba299b85c2d621a59688"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a854dc65df5a07fbb026f624d2b10901f6f5d95a20091c52bfb64f88c14565ef1bb65733436ffd5b2a9d16329e523b650085fd4c36a1bb384d40788e727c1e60"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b655696201f997e38c838150d6885114c1eaa19ee07640098144f659b3826d8a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "529779b7118db46162b926524f2d4248b44240557bd325ac77d28d5cc7351f6f3f9edf16c6139a68a5e37ea296b872816fd0e1f84d4d148ed0971541eb835866"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "435b3751a390000897d8fc3998d63664ae090704e5bb9f832d85bcf361f10ee1a44eeecda0941c60ffb685169a1979de"
+        }
+      ],
+      "cpe": "cpe:2.3:a:tukaani:xz:1.12:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.tukaani/xz@1.12?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://tukaani.org/xz/java.html"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tukaani-project/xz-java"
+        }
+      ]
     }
   ],
   "dependencies": [
@@ -255,9 +310,137 @@
     {
       "ref": "26299392-df13-47da-88d1-da7fa3d41c71",
       "dependsOn": []
+    },
+    {
+      "ref": "8c7c3789-95d1-470f-9cfb-f2b082263f96",
+      "dependsOn": []
     }
   ],
   "vulnerabilities": [
+    {
+      "id": "CVE-2026-34743",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 5.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        },
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 1.7,
+          "severity": "low",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:U/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+        }
+      ],
+      "cwes": [
+        122
+      ],
+      "description": "XZ Utils provide a general-purpose data-compression library plus command-line tools. Prior to version 5.8.3, if lzma_index_decoder() was used to decode an Index that contained no Records, the resulting lzma_index was left in a state where where a subsequent lzma_index_append() would allocate too little memory, and a buffer overflow would occur. This issue has been patched in version 5.8.3.",
+      "published": "2026-04-02T19:21:33Z",
+      "updated": "2026-07-24T21:10:00Z",
+      "analysis": {
+        "state": "false_positive",
+        "detail": "False positive. This finding relates to the C variant of the library."
+      },
+      "affects": [
+        {
+          "ref": "8c7c3789-95d1-470f-9cfb-f2b082263f96"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2022-1271",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        179,
+        20
+      ],
+      "description": "An arbitrary file write vulnerability was found in GNU gzip's zgrep utility. When zgrep is applied on the attacker's chosen file name (for example, a crafted file name), this can overwrite an attacker's content to an arbitrary attacker-selected file. This flaw occurs due to insufficient validation when processing filenames with two or more newlines where selected content and the target file names are embedded in crafted multi-line file names. This flaw allows a remote, low privileged attacker to force zgrep to write arbitrary files on the system.",
+      "published": "2022-08-31T16:15:09Z",
+      "updated": "2026-06-17T04:22:07Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "False positive. This finding does not relate to the Java library (which is used here)."
+      },
+      "affects": [
+        {
+          "ref": "8c7c3789-95d1-470f-9cfb-f2b082263f96"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2015-4035",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 4.6,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.8,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20
+      ],
+      "description": "scripts/xzgrep.in in xzgrep 5.2.x before 5.2.0, before 5.0.0 does not properly process file names containing semicolons, which allows remote attackers to execute arbitrary code by having a user run xzgrep on a crafted file name.",
+      "published": "2017-07-25T18:29:00Z",
+      "updated": "2026-06-17T00:26:40Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "False positive. This finding does not relate to the Java library (which is used here)."
+      },
+      "affects": [
+        {
+          "ref": "8c7c3789-95d1-470f-9cfb-f2b082263f96"
+        }
+      ]
+    },
     {
       "id": "GHSA-wxr5-93ph-8wr9",
       "source": {

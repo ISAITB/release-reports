@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:5550a31f-caf5-4edb-b1ba-3710218ec517",
+  "serialNumber": "urn:uuid:40d855e1-5cc8-4cd8-8dcc-a5651e147c7a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T13:13:34Z",
+    "timestamp": "2026-10-12T12:51:29Z",
     "tools": {
       "components": [
         {
@@ -2660,14 +2660,7 @@
           "content": "f5cd998313bf4b81989dd4e33649b77c292c9af9675bbc44a5cc1ffe0ca4d23737d5f03c0e1e58457708d97b11b740ab"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.3:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.3?type=jar",
       "externalReferences": [
         {
@@ -4485,71 +4478,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "6d678f1c-58e8-40bc-ace8-c3124fdc698f",
-      "group": "tools.jackson.core",
-      "name": "jackson-databind",
-      "version": "3.2.3",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "60c5fc1b2ac506e9acfde1662aa8fbaf"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "edb121f17d1a441732b15919f531e529c5cc76ec"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "235b72436af983857e44efa42449f4f0a2c571e69d6c5d9dd1253ae7d192dcf2"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "12b53583bb5680904ea191a68f32ad7190847c7de806cae78de046d8df0df9c3cb46ed0c88a4131a01062eafcedbe0e5"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "72f4e366e0dc6fca769070d98131946fa79a45ba8d7c15be03916d8f2bfd5541ef90896b78bfdf36ad999e2f42d06d337b296b5996bb0fc0cccc6acb69e2514e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "0f77f46f5862cb6fb7874c3bd6286dc365f3e37ac7a241762bdeb89b4cba63ac"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "32c39b0c82a5b4994387e76b3096f8b6b75240a07ce442d2f66b74f014c47dad14e4b0b5c17ec866c450a9717a6be34dc1b3ad2201e244006a8378522468e388"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "3ffbfcaec1f312e450e64f7dac6117de4c716c8d136fd30236dcb47e2830b55ff1bcbd06331c60d5e6df1f0ad85927dd"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.3?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "b9b95f97-6fb1-4f8e-aea6-0803b85fd625",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-databind",
@@ -4615,44 +4543,44 @@
     },
     {
       "type": "library",
-      "bom-ref": "6deeb34f-daf9-41ec-99f9-3ce688b85ab3",
-      "group": "com.fasterxml.jackson.dataformat",
-      "name": "jackson-dataformat-yaml",
-      "version": "2.22.3",
-      "description": "Support for reading and writing YAML-encoded data via Jackson abstractions.",
+      "bom-ref": "6d678f1c-58e8-40bc-ace8-c3124fdc698f",
+      "group": "tools.jackson.core",
+      "name": "jackson-databind",
+      "version": "3.2.3",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "ba1c8448785cea71b8cc68275d0e542b"
+          "content": "60c5fc1b2ac506e9acfde1662aa8fbaf"
         },
         {
           "alg": "SHA-1",
-          "content": "520097fe76cde11c7448c622e8cb6e07714c8c7c"
+          "content": "edb121f17d1a441732b15919f531e529c5cc76ec"
         },
         {
           "alg": "SHA-256",
-          "content": "2bcbc3b9abaefbeba11409b9e30ec35ed7071a61a47c8c2a9c688e40e45b90f9"
+          "content": "235b72436af983857e44efa42449f4f0a2c571e69d6c5d9dd1253ae7d192dcf2"
         },
         {
           "alg": "SHA-384",
-          "content": "8241d6e22dc366a674e84ad5f0f8f93e47bb8172d4f093892a97236f1b312e88c3a40c3e561d3cb79d6acfbf1b849c66"
+          "content": "12b53583bb5680904ea191a68f32ad7190847c7de806cae78de046d8df0df9c3cb46ed0c88a4131a01062eafcedbe0e5"
         },
         {
           "alg": "SHA-512",
-          "content": "ee48047fd585539f236161c37160992d448ae88d25d846eb108e05c7b44611b70cf2b9d69f9eccf269cc6ba7c2009c00aace274571b8b8c71cc0ccc247ae0821"
+          "content": "72f4e366e0dc6fca769070d98131946fa79a45ba8d7c15be03916d8f2bfd5541ef90896b78bfdf36ad999e2f42d06d337b296b5996bb0fc0cccc6acb69e2514e"
         },
         {
           "alg": "SHA3-256",
-          "content": "f3897d47a0284457413c652eea70b93eb09dff8733eace11c269b6a5c144d44a"
+          "content": "0f77f46f5862cb6fb7874c3bd6286dc365f3e37ac7a241762bdeb89b4cba63ac"
         },
         {
           "alg": "SHA3-512",
-          "content": "878d4ec298b983906135a9ea09100c4c2b1f27b854a3da9d871d4012db9e2399abac73942605257b482cf698b77224462537d8f33cb1882cb688578956b3cee0"
+          "content": "32c39b0c82a5b4994387e76b3096f8b6b75240a07ce442d2f66b74f014c47dad14e4b0b5c17ec866c450a9717a6be34dc1b3ad2201e244006a8378522468e388"
         },
         {
           "alg": "SHA3-384",
-          "content": "515619c8e8dd4d6c2f254d8e80d15dae097449ace9639a4ed2ebc6689efcf433008e1c8a9e4ceb29586a97bd13a6415b"
+          "content": "3ffbfcaec1f312e450e64f7dac6117de4c716c8d136fd30236dcb47e2830b55ff1bcbd06331c60d5e6df1f0ad85927dd"
         }
       ],
       "licenses": [
@@ -4662,19 +4590,19 @@
           }
         }
       ],
-      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.22.3?type=jar",
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.3?type=jar",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson-dataformats-text"
+          "url": "https://github.com/FasterXML/jackson"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-dataformats-text/issues"
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
         },
         {
           "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-dataformats-text/jackson-dataformat-yaml"
+          "url": "https://github.com/FasterXML/jackson-databind"
         }
       ]
     },
@@ -4728,6 +4656,71 @@
         }
       ],
       "purl": "pkg:maven/tools.jackson.dataformat/jackson-dataformat-yaml@3.2.3?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-dataformats-text"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-dataformats-text/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-dataformats-text/jackson-dataformat-yaml"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "6deeb34f-daf9-41ec-99f9-3ce688b85ab3",
+      "group": "com.fasterxml.jackson.dataformat",
+      "name": "jackson-dataformat-yaml",
+      "version": "2.22.3",
+      "description": "Support for reading and writing YAML-encoded data via Jackson abstractions.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ba1c8448785cea71b8cc68275d0e542b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "520097fe76cde11c7448c622e8cb6e07714c8c7c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2bcbc3b9abaefbeba11409b9e30ec35ed7071a61a47c8c2a9c688e40e45b90f9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8241d6e22dc366a674e84ad5f0f8f93e47bb8172d4f093892a97236f1b312e88c3a40c3e561d3cb79d6acfbf1b849c66"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ee48047fd585539f236161c37160992d448ae88d25d846eb108e05c7b44611b70cf2b9d69f9eccf269cc6ba7c2009c00aace274571b8b8c71cc0ccc247ae0821"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f3897d47a0284457413c652eea70b93eb09dff8733eace11c269b6a5c144d44a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "878d4ec298b983906135a9ea09100c4c2b1f27b854a3da9d871d4012db9e2399abac73942605257b482cf698b77224462537d8f33cb1882cb688578956b3cee0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "515619c8e8dd4d6c2f254d8e80d15dae097449ace9639a4ed2ebc6689efcf433008e1c8a9e4ceb29586a97bd13a6415b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.22.3?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -6910,14 +6903,7 @@
           "content": "01e0f0e35f4b18cfa90ac03601b6e76b65093ed3a197a44f8c451369d6cae0cf05ef8903d5394fe90c47512a37dd08af"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.4:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.neethi/neethi@3.2.4?type=jar",
       "externalReferences": [
         {
@@ -12709,13 +12695,6 @@
       "dependsOn": []
     },
     {
-      "ref": "6d678f1c-58e8-40bc-ace8-c3124fdc698f",
-      "dependsOn": [
-        "4645b09c-6c30-48ed-8146-acc1c3bedd9c",
-        "af50b27f-1c2e-4cf8-86b3-7741f24ab5f1"
-      ]
-    },
-    {
       "ref": "b9b95f97-6fb1-4f8e-aea6-0803b85fd625",
       "dependsOn": [
         "4645b09c-6c30-48ed-8146-acc1c3bedd9c",
@@ -12723,11 +12702,10 @@
       ]
     },
     {
-      "ref": "6deeb34f-daf9-41ec-99f9-3ce688b85ab3",
+      "ref": "6d678f1c-58e8-40bc-ace8-c3124fdc698f",
       "dependsOn": [
-        "d8189a28-2087-42eb-b279-e5dcff6391e5",
-        "b9b95f97-6fb1-4f8e-aea6-0803b85fd625",
-        "460215c2-7237-4b13-a97f-b8d3c0d4deff"
+        "4645b09c-6c30-48ed-8146-acc1c3bedd9c",
+        "af50b27f-1c2e-4cf8-86b3-7741f24ab5f1"
       ]
     },
     {
@@ -12736,6 +12714,14 @@
         "3cfc30a0-f4df-4b9e-a35d-2f24be5d64d6",
         "af50b27f-1c2e-4cf8-86b3-7741f24ab5f1",
         "6d678f1c-58e8-40bc-ace8-c3124fdc698f"
+      ]
+    },
+    {
+      "ref": "6deeb34f-daf9-41ec-99f9-3ce688b85ab3",
+      "dependsOn": [
+        "d8189a28-2087-42eb-b279-e5dcff6391e5",
+        "b9b95f97-6fb1-4f8e-aea6-0803b85fd625",
+        "460215c2-7237-4b13-a97f-b8d3c0d4deff"
       ]
     },
     {

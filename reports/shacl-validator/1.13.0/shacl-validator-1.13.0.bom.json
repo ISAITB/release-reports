@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:4f186159-f51a-4fee-8bbb-8fbee88469eb",
+  "serialNumber": "urn:uuid:94ef291c-8a46-4c70-8fde-9eb4d7dc39b8",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T13:13:37Z",
+    "timestamp": "2026-10-12T12:51:31Z",
     "tools": {
       "components": [
         {
@@ -2935,14 +2935,7 @@
           "content": "f5cd998313bf4b81989dd4e33649b77c292c9af9675bbc44a5cc1ffe0ca4d23737d5f03c0e1e58457708d97b11b740ab"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.3:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.3?type=jar",
       "externalReferences": [
         {
@@ -4630,71 +4623,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "86937aa4-26c7-492c-89b3-0bbfe55c312d",
-      "group": "tools.jackson.core",
-      "name": "jackson-core",
-      "version": "3.2.3",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "2422ba3b4c39dc4a954620be4d6337df"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "94d7dab7ac8e336a4c7a5ce36b8ca206bfde18c5"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "a0c17e7e665a5e95c82f5fb45c0fec2ae3dc556c80f0016452c9c84cd23f3817"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "70c2fba9a91785dc098432dd6b6aa666454f2230234308c3a6d822122026cbc85e48f94c26c3945b6bb6171f4d33be0f"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "052e1b0422e66a713c127dc47839d35c9b4b64edf230051608a3d05d4ae83f0dff84cdf845d2115d0a47f59b693abd368b3ef2be613a8545b64f80290cef8d1d"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "356b07d732d69d00fbd72876285cfbe4c5c0098113be3ca8151f82f32fa6dbba"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "c6f11c9a9da0bce87f80b47d9f9763bb222e7cd06dfbd803c8c41cc5426cc87b4fa45c88b618ed612d34897c73ec04c8b5876927f28dc2ac1e156772bfb3ace0"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "c7b9a2e46ee2a3d14e02325ca9a48b786fbe9b9024b66d4afa27488e8eef467fd28046795c424a70c817d1df312e5470"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.3?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "http://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "0e9b6b22-a182-49a7-bcf4-99a3d06d99e9",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -4755,6 +4683,71 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "86937aa4-26c7-492c-89b3-0bbfe55c312d",
+      "group": "tools.jackson.core",
+      "name": "jackson-core",
+      "version": "3.2.3",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2422ba3b4c39dc4a954620be4d6337df"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "94d7dab7ac8e336a4c7a5ce36b8ca206bfde18c5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a0c17e7e665a5e95c82f5fb45c0fec2ae3dc556c80f0016452c9c84cd23f3817"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "70c2fba9a91785dc098432dd6b6aa666454f2230234308c3a6d822122026cbc85e48f94c26c3945b6bb6171f4d33be0f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "052e1b0422e66a713c127dc47839d35c9b4b64edf230051608a3d05d4ae83f0dff84cdf845d2115d0a47f59b693abd368b3ef2be613a8545b64f80290cef8d1d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "356b07d732d69d00fbd72876285cfbe4c5c0098113be3ca8151f82f32fa6dbba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c6f11c9a9da0bce87f80b47d9f9763bb222e7cd06dfbd803c8c41cc5426cc87b4fa45c88b618ed612d34897c73ec04c8b5876927f28dc2ac1e156772bfb3ace0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c7b9a2e46ee2a3d14e02325ca9a48b786fbe9b9024b66d4afa27488e8eef467fd28046795c424a70c817d1df312e5470"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.3?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -7518,14 +7511,7 @@
           "content": "01e0f0e35f4b18cfa90ac03601b6e76b65093ed3a197a44f8c451369d6cae0cf05ef8903d5394fe90c47512a37dd08af"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.4:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.neethi/neethi@3.2.4?type=jar",
       "externalReferences": [
         {
@@ -13710,11 +13696,11 @@
       "dependsOn": []
     },
     {
-      "ref": "86937aa4-26c7-492c-89b3-0bbfe55c312d",
+      "ref": "0e9b6b22-a182-49a7-bcf4-99a3d06d99e9",
       "dependsOn": []
     },
     {
-      "ref": "0e9b6b22-a182-49a7-bcf4-99a3d06d99e9",
+      "ref": "86937aa4-26c7-492c-89b3-0bbfe55c312d",
       "dependsOn": []
     },
     {

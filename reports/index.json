@@ -31,7 +31,7 @@
             "notAffected": 39,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.1": {
@@ -60,7 +60,7 @@
             "notAffected": 39,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.2": {
@@ -89,7 +89,7 @@
             "notAffected": 39,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.3": {
@@ -115,7 +115,7 @@
             "notAffected": 21,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.4": {
@@ -141,7 +141,7 @@
             "notAffected": 11,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.13.0": {
@@ -167,7 +167,7 @@
             "notAffected": 6,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         }
       }
@@ -209,7 +209,7 @@
             "notAffected": 164,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.1": {
@@ -245,7 +245,7 @@
             "notAffected": 164,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.2": {
@@ -281,7 +281,7 @@
             "notAffected": 164,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.3": {
@@ -317,7 +317,7 @@
             "notAffected": 164,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.4": {
@@ -353,7 +353,7 @@
             "notAffected": 163,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.28.5": {
@@ -389,7 +389,7 @@
             "notAffected": 124,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.0": {
@@ -428,7 +428,7 @@
             "notAffected": 159,
             "falsePositive": 3,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.1": {
@@ -467,7 +467,7 @@
             "notAffected": 158,
             "falsePositive": 3,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.2": {
@@ -506,7 +506,7 @@
             "notAffected": 158,
             "falsePositive": 3,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.3": {
@@ -545,7 +545,7 @@
             "notAffected": 156,
             "falsePositive": 3,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.4": {
@@ -587,7 +587,7 @@
             "notAffected": 131,
             "falsePositive": 3,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.29.5": {
@@ -624,24 +624,24 @@
             "notAffected": 99,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.30.0": {
           "bom": {
             "path": "itb/1.30.0/itb-1.30.0.bom.json",
-            "sha256": "39f9d44e9e66934838b1ef46df8768b723e4173a8c7de6235efb0eebc9083b42",
+            "sha256": "2044390ec7308df8421abb57055fc808f4ae26af38b908ac8efba46e982ec161",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.bom.json.sigstore.json",
-              "sha256": "64fce3ff98114a3fc136986101cc5cb85a2ff0d4db3f7fd8689e8f237b4139df"
+              "sha256": "8c41dd220e527f3fbd8a9d0a40b72ee9e8f4bdf69617b013f2d0da831e0f80bc"
             }
           },
           "vdr": {
             "path": "itb/1.30.0/itb-1.30.0.vdr.json",
-            "sha256": "d0b42bb30ae3f0514abdcfaa04f360cdac1e9e1f377d2eed0d55ff7c9a9c7f77",
+            "sha256": "65fd7de92af8b7562e552091e15064f0479465b1669528b33c60ccd9b48a7396",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.vdr.json.sigstore.json",
-              "sha256": "029dbe13f30b21b9bf5d564d9bcf165cf052671171337ea42dbf48b47671f4c6"
+              "sha256": "d205a3b4c3cb079b329e5dd3531377abea59a896e6a71a0d11c1e673ee1b298a"
             }
           },
           "summary": {
@@ -651,7 +651,7 @@
               "CVE-2026-102496",
               "CVE-2026-102497"
             ],
-            "notAffected": 47,
+            "notAffected": 52,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -660,18 +660,18 @@
         "1.30.1": {
           "bom": {
             "path": "itb/1.30.1/itb-1.30.1.bom.json",
-            "sha256": "681eab358c3debaf8258a5ecf5bf51aeb39d99c25bfa2c2e005a5c8726d84154",
+            "sha256": "215c871612b00bf1476bc47addee0fa445fd0d17512d5a77aab11149613add9f",
             "signature": {
               "path": "itb/1.30.1/itb-1.30.1.bom.json.sigstore.json",
-              "sha256": "b0d442a528a01b45663637531a3a8259c6c2b73bf06dcd531b0755c2ae293739"
+              "sha256": "9d868ec89fc019fa0a49ed706a6ed4c8766d923215018123a5deaab7db82057e"
             }
           },
           "vdr": {
             "path": "itb/1.30.1/itb-1.30.1.vdr.json",
-            "sha256": "e79705b2770601b5e005b19308abd3e15cf964c3fdc23ecfa552f8b688d2e482",
+            "sha256": "a9539347c8304bf376d16b61bd93df3f899ad94fb40bb724cc144948a008d587",
             "signature": {
               "path": "itb/1.30.1/itb-1.30.1.vdr.json.sigstore.json",
-              "sha256": "f3b7dff3e16e4beabd24eb40fd2fd87ce140f495e1798513666ea25ece1095f9"
+              "sha256": "cf6197964f40990728f3c9e601d3bb1736b78894f81e609b2952c946ac45e849"
             }
           },
           "summary": {
@@ -715,7 +715,7 @@
             "notAffected": 33,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.1": {
@@ -744,7 +744,7 @@
             "notAffected": 33,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.2": {
@@ -773,30 +773,30 @@
             "notAffected": 33,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.3": {
           "bom": {
             "path": "json-validator/1.12.3/json-validator-1.12.3.bom.json",
-            "sha256": "db748bc0cc82c9ab3e5c4f2bee4220b55f13234bf4673e0020814868fb0d9907",
+            "sha256": "f16b66b10b73a316d3c261fcd65c40044e13c3c6da0d011985eea0e1e5880a20",
             "signature": {
               "path": "json-validator/1.12.3/json-validator-1.12.3.bom.json.sigstore.json",
-              "sha256": "39da654613819a5f1f247aa527670075c852cd97a36417594effe66195379813"
+              "sha256": "77f866573aef63d6f0ed3a747856d73c9166c45385da4e7f9f0fd88d972ca948"
             }
           },
           "vdr": {
             "path": "json-validator/1.12.3/json-validator-1.12.3.vdr.json",
-            "sha256": "07b387b959c46f6333f532fae9948451cc870f05bd228278a0cf97aaee797cd8",
+            "sha256": "59acbe310b7ea371c32b39d28d09600a785ce647fb6441f2c592580c79ee78dd",
             "signature": {
               "path": "json-validator/1.12.3/json-validator-1.12.3.vdr.json.sigstore.json",
-              "sha256": "c1d63ec68ded92eca9cd734eeef3985605f329eedcadcaa16973bcf2733eb20f"
+              "sha256": "8c89f1a5ee23eb03902eaf396f14c98681057095d23a95f7f7a4860362fc5d38"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 18,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -805,24 +805,24 @@
         "1.12.4": {
           "bom": {
             "path": "json-validator/1.12.4/json-validator-1.12.4.bom.json",
-            "sha256": "96da6bbdfbc881e6d844948941dbaec0fe973fbac3e66c7953111d86105b6c03",
+            "sha256": "3794055483a4122f4ec7df0d96d81cfc38f9f5a09f3a2727f333afb4adbe4ccf",
             "signature": {
               "path": "json-validator/1.12.4/json-validator-1.12.4.bom.json.sigstore.json",
-              "sha256": "19d0d890ef918ad75376e2213f2d4ad9d0bbe56763eca51382c33f1c7f47f267"
+              "sha256": "aafbd3a2d57f2776ebc48509c0cb47ac9b27e35c54d653a39ed9b610da84414f"
             }
           },
           "vdr": {
             "path": "json-validator/1.12.4/json-validator-1.12.4.vdr.json",
-            "sha256": "c6ec3ef66ab70353b6ed083533e0da9a63252ffcffcb4cd6c28086994c64a961",
+            "sha256": "923d075e079c2e6e5ad4dc34aef1d6313dec250eaef8abf380d22c207333ce5d",
             "signature": {
               "path": "json-validator/1.12.4/json-validator-1.12.4.vdr.json.sigstore.json",
-              "sha256": "e2cbc57a03f3e4b5a5ef29bb30f9b6928e41ed530406a21d494c48e94c8831db"
+              "sha256": "d599bd1c95584372a18ecf677dff85fdd2c5277ecd51a3235a24a8c3fafc2628"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 8,
+            "notAffected": 13,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -831,18 +831,18 @@
         "1.13.0": {
           "bom": {
             "path": "json-validator/1.13.0/json-validator-1.13.0.bom.json",
-            "sha256": "97695800c311318263f510da245fe050ada52d61b2d6046cbd03e86bb448add4",
+            "sha256": "f47de756d1e1b7b708daf0d0c06a406b457a9618d8a560cc4af19f9c6f2c2489",
             "signature": {
               "path": "json-validator/1.13.0/json-validator-1.13.0.bom.json.sigstore.json",
-              "sha256": "8fdb1ba7dc01986ed269724ac64c3e33ca2c1f5692e67f3ce13eabd091681f16"
+              "sha256": "3239d0c2db18ad820393afdd30c0f0df4ab2786789625ee3b442a124dca510ac"
             }
           },
           "vdr": {
             "path": "json-validator/1.13.0/json-validator-1.13.0.vdr.json",
-            "sha256": "3adc3da63d9de89bfeddb5181a783d480655b67b197544ee83bed653bfd0acd8",
+            "sha256": "05ddb1abf4e173602024e794566a6708ed12a003ddfcb669fec4ba103e962b93",
             "signature": {
               "path": "json-validator/1.13.0/json-validator-1.13.0.vdr.json.sigstore.json",
-              "sha256": "d1a927cc97a6979e5a606679d50798f45c27373ac1f4c1b83fb594e49e0d0e07"
+              "sha256": "56d21c1e880c809e2777b8074e0792cff8bdcc4aacda2c864f81a883dbbd8903"
             }
           },
           "summary": {
@@ -886,7 +886,7 @@
             "notAffected": 34,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.1": {
@@ -915,7 +915,7 @@
             "notAffected": 34,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.2": {
@@ -944,30 +944,30 @@
             "notAffected": 34,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.3": {
           "bom": {
             "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.bom.json",
-            "sha256": "66bb8a1ac41388372b7a2ba7ac7dc313016c2703dc698d0f4ce309f0e80fd5d5",
+            "sha256": "8a3b9dff7df023a95680975b66f665ae044bc3436046538e731e8c12a42e44d9",
             "signature": {
               "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.bom.json.sigstore.json",
-              "sha256": "9d4befb874b1f1ec6d9dd3a5b10fea2f2cb5d3fe5ce1f10ac872c4abce96a17f"
+              "sha256": "4d2d8c3cebb1850c0c39540a7d34cef99c35b43c6a30c66a789e987a5eb55cb1"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.vdr.json",
-            "sha256": "41e247b1d17ac071268c9d08d948270016283051576eb3f1e74669e55544a76a",
+            "sha256": "f2cb0d8fca2b5607535671bd28855d80a2fef283f3bbed70b17a8ac7da0f129e",
             "signature": {
               "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.vdr.json.sigstore.json",
-              "sha256": "3e49e9dbdfc278c1df1653d8b16efb5f2836223dbcba30834985886abdfe7eb2"
+              "sha256": "646ef65dee78b8f913b6a49e4c621cefa55e238d0dde38692482e5bc9cbfab84"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 18,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -976,24 +976,24 @@
         "1.12.4": {
           "bom": {
             "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.bom.json",
-            "sha256": "26ccaf638a2eb12b0aa9973025c82f66c7ddcba634da9439f88c823b2e3ed66f",
+            "sha256": "f60347569353649b409a3b88550a07d49e78413d0e99fcb974728c2396706e01",
             "signature": {
               "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.bom.json.sigstore.json",
-              "sha256": "88f82722adcbca0614512338ab84e75f26ef232efb65c4861181875f537d0dc2"
+              "sha256": "7aaffb471472c8b7f58bba94c639b3cda361dee2629702c98975975cf7129ba9"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.vdr.json",
-            "sha256": "94aca48c05e689edc2f36a2c4d9976b87bf1cf0d9b7aab9a0c9d5ea411e3ec42",
+            "sha256": "826702af848b168c392e5a9844539083ab4a2a400804989f8e144fd51e3b968b",
             "signature": {
               "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.vdr.json.sigstore.json",
-              "sha256": "d98bd60866b9a92f92551d47ae2d15a087be40a951b2f4dc22cd8f3377d25c59"
+              "sha256": "240d0900b684a258af919a2240173410a443430f6bd43efae939f89383a320f5"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 8,
+            "notAffected": 13,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -1002,18 +1002,18 @@
         "1.13.0": {
           "bom": {
             "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.bom.json",
-            "sha256": "b8da6e28d924acd3972eaee329878752dbec53ade1893d7bb76f969fbdde6ec5",
+            "sha256": "b6e27b0e1ea5d9c88571fc200db906b7231e0e23ed993ec2da3c2db15630ae2d",
             "signature": {
               "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.bom.json.sigstore.json",
-              "sha256": "3c079ce7a1599cac3e9c5d96ec4c28269ef86032b5740cc1c6b9dd702dd873bb"
+              "sha256": "a557ae4ca3d9163aba74d59e2b15f1d376e83c4bf4f671ce680fba18bf438b3f"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.vdr.json",
-            "sha256": "6d13b26cd77a44802f6ce2e0df2ad5b1d0468142b32befd98c361341816ebdbb",
+            "sha256": "fddefffc0cbd051e60e9638953789b83addb47ea46acb5313c6347b34618b50a",
             "signature": {
               "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.vdr.json.sigstore.json",
-              "sha256": "cb1da0764ee1585f9041da16019ea51a8e496a22f60a53982f351f4631439d13"
+              "sha256": "9a7fd53f3f0ed8efe8e114b2f89877c50e6012c11e6e3a7e90476b96413013e8"
             }
           },
           "summary": {
@@ -1057,7 +1057,7 @@
             "notAffected": 33,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.1": {
@@ -1086,7 +1086,7 @@
             "notAffected": 33,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.2": {
@@ -1115,30 +1115,30 @@
             "notAffected": 33,
             "falsePositive": 0,
             "resolved": 0,
-            "assessmentInProgress": false
+            "assessmentInProgress": true
           }
         },
         "1.12.3": {
           "bom": {
             "path": "xml-validator/1.12.3/xml-validator-1.12.3.bom.json",
-            "sha256": "223ec530339087c90231cc2cd7ac42e44f2a484f6896f6b989f79009889a8ca1",
+            "sha256": "3f6a647ebef166c52a19959b9b781025eeb86ebbcb56f6120c03614aa9d4d3cc",
             "signature": {
               "path": "xml-validator/1.12.3/xml-validator-1.12.3.bom.json.sigstore.json",
-              "sha256": "96ab56084245c3be683f97bddf242f0c2f500f04f21f751864459d8cb5b433c7"
+              "sha256": "aeee2bb3302c4d2ed3aeae7cf21da35e642c38c165ec88e2350b784a9f3a936b"
             }
           },
           "vdr": {
             "path": "xml-validator/1.12.3/xml-validator-1.12.3.vdr.json",
-            "sha256": "9fb8fee2f4d43b1c0a26a8628fb5d7f8b55373f7398e59c919cbc53c470c3500",
+            "sha256": "5637a9da284cc5033a9ceb77f75c42dddd8df811f8e5a00e74514049f331dbcb",
             "signature": {
               "path": "xml-validator/1.12.3/xml-validator-1.12.3.vdr.json.sigstore.json",
-              "sha256": "087342c1d38c8fbcbc3cc844d94cac113c1f6a816019dcebc6329bcaa918e686"
+              "sha256": "0b4726e81882d48a06b99c9c22cc2efa528d905e3da5b7bed1f08a51809b3828"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 18,
+            "notAffected": 23,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -1147,24 +1147,24 @@
         "1.12.4": {
           "bom": {
             "path": "xml-validator/1.12.4/xml-validator-1.12.4.bom.json",
-            "sha256": "a43b68f31bac472d6d6666eab93392b4e142fd4ef683448b7e26cb5f0f2b0338",
+            "sha256": "1b9db5d4e939bd7919d9c471db52be0246f15ae835b8db3db32f787143509683",
             "signature": {
               "path": "xml-validator/1.12.4/xml-validator-1.12.4.bom.json.sigstore.json",
-              "sha256": "cf982b8caf72849b49d8c4b13bc787192067537433643ecdb9092706382299ec"
+              "sha256": "a1d747a3637ac281719d79b8a71a85cf827213f3f505c611bb3e77ae1a393836"
             }
           },
           "vdr": {
             "path": "xml-validator/1.12.4/xml-validator-1.12.4.vdr.json",
-            "sha256": "d2b742ed7746d88cba8178a922a10d2c80d9550c2df35526ef40342f16b2275b",
+            "sha256": "759df2bd898364158d6b2f0f1a088b699eeb05d13bddc7521946760e60385187",
             "signature": {
               "path": "xml-validator/1.12.4/xml-validator-1.12.4.vdr.json.sigstore.json",
-              "sha256": "daa581be179fda1fd369934c1bb090cbc3035d1dc7a7c15c48b873441824971e"
+              "sha256": "de086fc24465d0a1529c1f55586e6a7b0b789289ed88ce66473842bace7560e7"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
-            "notAffected": 8,
+            "notAffected": 13,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -1173,18 +1173,18 @@
         "1.13.0": {
           "bom": {
             "path": "xml-validator/1.13.0/xml-validator-1.13.0.bom.json",
-            "sha256": "2f85868cd085fcd6bf53256a29418e434d5911b640c5d4a43ff05fc934c1fa31",
+            "sha256": "9702f74608efa5233abe9c3d090629b9288ad1410ddd3d7019c82944fb58d6ec",
             "signature": {
               "path": "xml-validator/1.13.0/xml-validator-1.13.0.bom.json.sigstore.json",
-              "sha256": "4fd086a8d88edf1c3c614e52b2a58a8ed09dada64325ed2076ee405fe1d11deb"
+              "sha256": "787113713c97b7f9d7ea2637992ad66272ee5f3f1b7c889bdd58c993c13b37fb"
             }
           },
           "vdr": {
             "path": "xml-validator/1.13.0/xml-validator-1.13.0.vdr.json",
-            "sha256": "06ffd5ad62f4413a79c8265066ea63b128138978ac9f38a3c3005e8f44db30a3",
+            "sha256": "f31f6ba0b2dd6abb768f9e1aa5196bd30e9a1cbe2736a66180442983f3c4ef54",
             "signature": {
               "path": "xml-validator/1.13.0/xml-validator-1.13.0.vdr.json.sigstore.json",
-              "sha256": "7344467fa3b49b0b7a8fc4cefbcb3966c57bac64be9a9fd7d4c3842f37b2aa64"
+              "sha256": "ba63dd5f8320b1792fc0252ba99f16ffa8f76c3792378938767842fc1a4fdb25"
             }
           },
           "summary": {

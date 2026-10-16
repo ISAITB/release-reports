@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:160dca1c-4b73-41e1-8a7a-cca57f621c07",
+  "serialNumber": "urn:uuid:512157da-896d-4dfb-8ffd-fbfc01681f98",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-12T14:15:07Z",
+    "timestamp": "2026-10-16T06:30:10Z",
     "tools": {
       "components": [
         {
@@ -372,71 +372,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "12c93d5b-355a-4158-b7d0-d93f8f73fb15",
-      "group": "tools.jackson.core",
-      "name": "jackson-core",
-      "version": "3.1.4",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "521f9137ec231cad4309ffa4de454830"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f9fd39204bd3d4922b42f6a54b81f46bd8ed575a"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "3bda1cd6eff0a8d47bdfcaeae7c2bd5311d6c8ed494ef5f3e51029bb44aa9bdf"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "7dfa14841ee2e2f802a9757197c2753a245e01816963436026a622c1400dafea2a7c1fc5fdff5d269753a45ab71c5284"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "dbbfd41206f4f81b3c7691c4d28a0f9471dc724065e3b1221cce1d03f40c60e6885359f779367ed4c1c3e79b197a525f1793b31d3db07ad32f7a15294d8905c1"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "69d72d2ae5d0f5e0861ca591138848d444f6611de007f02400f524340f602cd0"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "261288f2b9577bfe26f6d5b0c662611f4416be7e93c67b3eb5b826ee56767245e1b58a52805f583fe24bc9fe8ae65a5d49fdfec9c44fa89ad5d1eb02b52e08e9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "e9be6368e92e0cff494edefd80bc19f46f6cfda3b9948519d46d4e6148056d08a8b7cec6221038de6ff44be018ff34a7"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.1.4?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "http://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "e5c009f2-878c-49f9-b614-a63514182698",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -502,44 +437,44 @@
     },
     {
       "type": "library",
-      "bom-ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.21.4",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "bom-ref": "12c93d5b-355a-4158-b7d0-d93f8f73fb15",
+      "group": "tools.jackson.core",
+      "name": "jackson-core",
+      "version": "3.1.4",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "99769ad660a66c43caee5d539d19ed96"
+          "content": "521f9137ec231cad4309ffa4de454830"
         },
         {
           "alg": "SHA-1",
-          "content": "09e495680be707d466527d734368ebf36e464da2"
+          "content": "f9fd39204bd3d4922b42f6a54b81f46bd8ed575a"
         },
         {
           "alg": "SHA-256",
-          "content": "3888e9e69ab66fbacaacc9aea0e9ffbf15368288e4aca468b024dba11c09fbf9"
+          "content": "3bda1cd6eff0a8d47bdfcaeae7c2bd5311d6c8ed494ef5f3e51029bb44aa9bdf"
         },
         {
           "alg": "SHA-384",
-          "content": "fdce9c6a945f19708b6b62134d581640de490ec5da5513548d714601dd676031d082cba8682467620df92fb7ad1da2ec"
+          "content": "7dfa14841ee2e2f802a9757197c2753a245e01816963436026a622c1400dafea2a7c1fc5fdff5d269753a45ab71c5284"
         },
         {
           "alg": "SHA-512",
-          "content": "11df9de9e69c0261b206a6c9add1d995af2e0711f895e2c8521d6bd2bb555671af0c3709931f9fa8abf987df9f37f46b891ea7b86d6edc3f437c43a757db45e7"
+          "content": "dbbfd41206f4f81b3c7691c4d28a0f9471dc724065e3b1221cce1d03f40c60e6885359f779367ed4c1c3e79b197a525f1793b31d3db07ad32f7a15294d8905c1"
         },
         {
           "alg": "SHA3-256",
-          "content": "f4518cc429021650e13029087ac3793d6fb0f6fbd2762dd7dd81124100d55c53"
+          "content": "69d72d2ae5d0f5e0861ca591138848d444f6611de007f02400f524340f602cd0"
         },
         {
           "alg": "SHA3-512",
-          "content": "3056ee2af42c04c1af119ff4e7bed127e4ed428015b2105f5a618e4c13a740755b90422e7da194425ae501f663716a68738fedbf98fef2b59cbbb5d7cdc57be2"
+          "content": "261288f2b9577bfe26f6d5b0c662611f4416be7e93c67b3eb5b826ee56767245e1b58a52805f583fe24bc9fe8ae65a5d49fdfec9c44fa89ad5d1eb02b52e08e9"
         },
         {
           "alg": "SHA3-384",
-          "content": "1802ae9db77d09667657e91e127edaaabc7f184173671fae18743974db7365b1862364910c52607f751602982fb82911"
+          "content": "e9be6368e92e0cff494edefd80bc19f46f6cfda3b9948519d46d4e6148056d08a8b7cec6221038de6ff44be018ff34a7"
         }
       ],
       "licenses": [
@@ -549,19 +484,19 @@
           }
         }
       ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4?type=jar",
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.1.4?type=jar",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
+          "url": "https://github.com/FasterXML/jackson-core"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
+          "url": "https://github.com/FasterXML/jackson-core/issues"
         },
         {
           "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
+          "url": "http://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -615,6 +550,71 @@
         }
       ],
       "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.1.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.21.4",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "99769ad660a66c43caee5d539d19ed96"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "09e495680be707d466527d734368ebf36e464da2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3888e9e69ab66fbacaacc9aea0e9ffbf15368288e4aca468b024dba11c09fbf9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fdce9c6a945f19708b6b62134d581640de490ec5da5513548d714601dd676031d082cba8682467620df92fb7ad1da2ec"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "11df9de9e69c0261b206a6c9add1d995af2e0711f895e2c8521d6bd2bb555671af0c3709931f9fa8abf987df9f37f46b891ea7b86d6edc3f437c43a757db45e7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f4518cc429021650e13029087ac3793d6fb0f6fbd2762dd7dd81124100d55c53"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3056ee2af42c04c1af119ff4e7bed127e4ed428015b2105f5a618e4c13a740755b90422e7da194425ae501f663716a68738fedbf98fef2b59cbbb5d7cdc57be2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1802ae9db77d09667657e91e127edaaabc7f184173671fae18743974db7365b1862364910c52607f751602982fb82911"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -1163,23 +1163,23 @@
       "dependsOn": []
     },
     {
-      "ref": "12c93d5b-355a-4158-b7d0-d93f8f73fb15",
-      "dependsOn": []
-    },
-    {
       "ref": "e5c009f2-878c-49f9-b614-a63514182698",
       "dependsOn": []
     },
     {
-      "ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
-      "dependsOn": [
-        "e5c009f2-878c-49f9-b614-a63514182698"
-      ]
+      "ref": "12c93d5b-355a-4158-b7d0-d93f8f73fb15",
+      "dependsOn": []
     },
     {
       "ref": "d4325aed-55c2-4b27-bb95-a30482f66c09",
       "dependsOn": [
         "12c93d5b-355a-4158-b7d0-d93f8f73fb15"
+      ]
+    },
+    {
+      "ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
+      "dependsOn": [
+        "e5c009f2-878c-49f9-b614-a63514182698"
       ]
     },
     {
@@ -1557,6 +1557,40 @@
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "cecf8658-722e-4452-906f-9d4143a388ea"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-h9h9-2rmf-rvhp",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        835
+      ],
+      "description": "### Summary\n\nJunrar's RAR virtual machine can be forced into a deterministic infinite loop while extracting a crafted RAR4 archive. The `RarVM.ExecuteCode` loop is intended to be bounded by `maxOpCount`, but jump instructions can bypass this limit when `setIP()` is called with a target instruction pointer greater than or equal to `codeSize`.\n\nAn unauthenticated attacker who can provide a RAR archive to an application using `Junrar.extract()` can cause the extraction thread to spin forever, consuming CPU and blocking the process. The issue is a denial of service vulnerability, not remote code execution.\n\n### Details\n\nThe root cause is in `src/main/java/com/github/junrar/unpack/vm/RarVM.java`.\n\n`setIP()` returns early when the target IP is outside the prepared VM program:\n\n```java\nprivate boolean setIP(int ip) {\n    if ((ip) >= codeSize) {\n        return (true);\n    }\n\n    if (--maxOpCount <= 0) {\n        return (false);\n    }\n\n    IP = ip;\n    return true;\n}\n```\n\nWhen `ip >= codeSize`, this branch:\n\n- does not update `IP`;\n- does not decrement `maxOpCount`;\n- returns `true`, so callers treat it as success.\n\nThe `VM_JMP` handler and the other jump-like handlers discard the return value of `setIP()` and immediately `continue` the main VM loop:\n\n```java\ncase VM_JMP:\n    setIP(getValue(false, mem, op1));\n    continue;\n```\n\nBecause of the `continue`, execution also skips the loop-end accounting:\n\n```java\nIP++;\n--maxOpCount;\n```\n\nAs a result, a VM program containing a single `VM_JMP` instruction can freeze both `IP` and `maxOpCount`:\n\n1. `IP` points to the `VM_JMP` instruction.\n2. The jump target resolves to `codeSize` or larger.\n3. `setIP()` returns before modifying `IP` or decrementing `maxOpCount`.\n4. The caller ignores the return value and continues.\n5. The same `VM_JMP` instruction is executed again forever.\n\n### Impact\n\nThis is a CPU denial of service vulnerability. Any application that uses junrar to extract untrusted RAR archives can have an extraction worker thread permanently blocked by a small crafted archive. In services that process uploads or attachments automatically, repeated submissions can exhaust worker capacity and degrade or stop archive-processing functionality.\n\nThe RAR VM does not provide native code execution, reflection, or process execution primitives, and Java array bounds checks prevent escaping the VM memory array. The expected security impact is availability only.",
+      "published": "2026-10-15T20:09:47Z",
+      "updated": "2026-10-15T20:09:48Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Relates to a transitive dependency of Tika which is used in this case to determine the true type of a processed archive. The vulnerability could in theory lead to increased CPU usage when a specially-crafted input is provided to the validator. Users should upgrade to the latest validator release which is unaffected."
       },
       "affects": [
         {

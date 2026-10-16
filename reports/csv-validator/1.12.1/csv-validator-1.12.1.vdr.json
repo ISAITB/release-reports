@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:4a32537e-d034-4cbf-a36d-320a3d0b8701",
+  "serialNumber": "urn:uuid:ad2f9ce3-675a-4c22-b568-6c5dda627f3d",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-12T14:15:06Z",
+    "timestamp": "2026-10-16T06:30:09Z",
     "tools": {
       "components": [
         {
@@ -379,71 +379,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
-      "version": "2.21.4",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "2f3d2557bb48afa00fe924c9689ab3b6"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "56a503ba45016714394807ea89f95f5093760089"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "4b40a06396f239f8de2da57419adde6e94e5edc18a2171d471ea05eeed4e5c2d"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f9903a49b02145b425737c96cce15a17f0f895ad358031d8e8503a4dc64c356167fd4bbba2b5d62870920034e4bcc882"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "61ae58e91d7773ee5afca6f51ffd3dd419017f6871a58825fec1f88badd9274d14fca81821a89b842f6f7467339797dfcf1e94051fdcfec6725fc4e50ad6a546"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "cff275255fe03dc2f99e7dda462236d4fe25e44a1214519047cfcfd68756d4d5"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "beae4ec10480d4b9ad9482ab203ebf13bdfaa719c20207c3f0e9110950fcc6db2dfca3b97bd2d3ea5e334b0701b01314105db8733fa527ec6c033b28c582ba49"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "85a4816ecf418a912a31e520ad1bd9a2e9d09d88ab3d746c076e5efef05d8dc08f8f14a38ddbf8bfad915f5adb8023be"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.4?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
       "group": "tools.jackson.core",
       "name": "jackson-core",
@@ -504,6 +439,71 @@
         {
           "type": "vcs",
           "url": "http://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.21.4",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2f3d2557bb48afa00fe924c9689ab3b6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "56a503ba45016714394807ea89f95f5093760089"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4b40a06396f239f8de2da57419adde6e94e5edc18a2171d471ea05eeed4e5c2d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f9903a49b02145b425737c96cce15a17f0f895ad358031d8e8503a4dc64c356167fd4bbba2b5d62870920034e4bcc882"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "61ae58e91d7773ee5afca6f51ffd3dd419017f6871a58825fec1f88badd9274d14fca81821a89b842f6f7467339797dfcf1e94051fdcfec6725fc4e50ad6a546"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cff275255fe03dc2f99e7dda462236d4fe25e44a1214519047cfcfd68756d4d5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "beae4ec10480d4b9ad9482ab203ebf13bdfaa719c20207c3f0e9110950fcc6db2dfca3b97bd2d3ea5e334b0701b01314105db8733fa527ec6c033b28c582ba49"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "85a4816ecf418a912a31e520ad1bd9a2e9d09d88ab3d746c076e5efef05d8dc08f8f14a38ddbf8bfad915f5adb8023be"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -1170,11 +1170,11 @@
       "dependsOn": []
     },
     {
-      "ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
+      "ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
       "dependsOn": []
     },
     {
-      "ref": "313cc8c6-a82d-46c9-94fa-80cd9e41c377",
+      "ref": "14d22fd1-55fd-4309-95a4-d130c7a98359",
       "dependsOn": []
     },
     {
@@ -1564,6 +1564,40 @@
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "2d073336-c010-47fe-8ded-7d9f9a8b3e18"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-h9h9-2rmf-rvhp",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        835
+      ],
+      "description": "### Summary\n\nJunrar's RAR virtual machine can be forced into a deterministic infinite loop while extracting a crafted RAR4 archive. The `RarVM.ExecuteCode` loop is intended to be bounded by `maxOpCount`, but jump instructions can bypass this limit when `setIP()` is called with a target instruction pointer greater than or equal to `codeSize`.\n\nAn unauthenticated attacker who can provide a RAR archive to an application using `Junrar.extract()` can cause the extraction thread to spin forever, consuming CPU and blocking the process. The issue is a denial of service vulnerability, not remote code execution.\n\n### Details\n\nThe root cause is in `src/main/java/com/github/junrar/unpack/vm/RarVM.java`.\n\n`setIP()` returns early when the target IP is outside the prepared VM program:\n\n```java\nprivate boolean setIP(int ip) {\n    if ((ip) >= codeSize) {\n        return (true);\n    }\n\n    if (--maxOpCount <= 0) {\n        return (false);\n    }\n\n    IP = ip;\n    return true;\n}\n```\n\nWhen `ip >= codeSize`, this branch:\n\n- does not update `IP`;\n- does not decrement `maxOpCount`;\n- returns `true`, so callers treat it as success.\n\nThe `VM_JMP` handler and the other jump-like handlers discard the return value of `setIP()` and immediately `continue` the main VM loop:\n\n```java\ncase VM_JMP:\n    setIP(getValue(false, mem, op1));\n    continue;\n```\n\nBecause of the `continue`, execution also skips the loop-end accounting:\n\n```java\nIP++;\n--maxOpCount;\n```\n\nAs a result, a VM program containing a single `VM_JMP` instruction can freeze both `IP` and `maxOpCount`:\n\n1. `IP` points to the `VM_JMP` instruction.\n2. The jump target resolves to `codeSize` or larger.\n3. `setIP()` returns before modifying `IP` or decrementing `maxOpCount`.\n4. The caller ignores the return value and continues.\n5. The same `VM_JMP` instruction is executed again forever.\n\n### Impact\n\nThis is a CPU denial of service vulnerability. Any application that uses junrar to extract untrusted RAR archives can have an extraction worker thread permanently blocked by a small crafted archive. In services that process uploads or attachments automatically, repeated submissions can exhaust worker capacity and degrade or stop archive-processing functionality.\n\nThe RAR VM does not provide native code execution, reflection, or process execution primitives, and Java array bounds checks prevent escaping the VM memory array. The expected security impact is availability only.",
+      "published": "2026-10-15T20:09:47Z",
+      "updated": "2026-10-15T20:09:48Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Relates to a transitive dependency of Tika which is used in this case to determine the true type of a processed archive. The vulnerability could in theory lead to increased CPU usage when a specially-crafted input is provided to the validator. Users should upgrade to the latest validator release which is unaffected."
       },
       "affects": [
         {

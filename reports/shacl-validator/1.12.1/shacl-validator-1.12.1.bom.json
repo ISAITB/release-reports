@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:7b28704a-a866-4401-8d8a-70078c0dc263",
+  "serialNumber": "urn:uuid:e30ace1c-4846-44be-b1c5-1f4742656b50",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-12T14:15:38Z",
+    "timestamp": "2026-10-21T14:27:07Z",
     "tools": {
       "components": [
         {
@@ -12944,67 +12944,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "0ffc3586-b03d-44fa-a5c6-057b0d586fb8",
-      "group": "org.xmlresolver",
-      "name": "xmlresolver",
-      "version": "5.3.3",
-      "description": "An XML entity/uri resolver",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "59c51b08ba448bc9473d92e68bf84873"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "e0c9cb7fcad389a50c1fbe3237af8857eca9c2b3"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "b0c487ad2f3e558be8d829c916d2458d10aca6a5bafa7a4d0524b70845e48a5c"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f79c1d4557cf6045010c01a9467f966f70120e7979281bfc4211960f3680285d8936143254de92307d0c32fd2f55f2a3"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "3968f78e0c36009f9bbb6e6ce3c0b95a91f6f723a71d93ef9855fe4de674a22c7fc0d426d0bf95d4cdfed4b2cd8213ab8a21d235f64cdd8add9729bac948af8c"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "eb68a8a8de6126987953b82f58b2bb58da107aed2cb22bfd169e0028b079174b"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "87b5283102a265524dc2259b2518cfb08db450a7bb738fea34cc666cea9d2e557abc73e50a2e542bb1874df6afa3d767e75875fa0a404c8387da5432e6a2688d"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "638fa3393665ade60320cb93378e6592da92f3fcb3d50d6d9331b7a01086e8f67c7f13ace73bb7a747f45f0574ab15dd"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.xmlresolver/xmlresolver@5.3.3?classifier=data&type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/xmlresolver/xmlresolver"
-        },
-        {
-          "type": "vcs",
-          "url": "scm:git@github.com:xmlresolver/xmlresolver.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "2974c74e-e5d2-4f5c-ab5c-e9c84e873430",
       "group": "org.xmlresolver",
       "name": "xmlresolver",
@@ -13053,6 +12992,67 @@
         }
       ],
       "purl": "pkg:maven/org.xmlresolver/xmlresolver@5.3.3?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/xmlresolver/xmlresolver"
+        },
+        {
+          "type": "vcs",
+          "url": "scm:git@github.com:xmlresolver/xmlresolver.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "0ffc3586-b03d-44fa-a5c6-057b0d586fb8",
+      "group": "org.xmlresolver",
+      "name": "xmlresolver",
+      "version": "5.3.3",
+      "description": "An XML entity/uri resolver",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "59c51b08ba448bc9473d92e68bf84873"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e0c9cb7fcad389a50c1fbe3237af8857eca9c2b3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b0c487ad2f3e558be8d829c916d2458d10aca6a5bafa7a4d0524b70845e48a5c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f79c1d4557cf6045010c01a9467f966f70120e7979281bfc4211960f3680285d8936143254de92307d0c32fd2f55f2a3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3968f78e0c36009f9bbb6e6ce3c0b95a91f6f723a71d93ef9855fe4de674a22c7fc0d426d0bf95d4cdfed4b2cd8213ab8a21d235f64cdd8add9729bac948af8c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "eb68a8a8de6126987953b82f58b2bb58da107aed2cb22bfd169e0028b079174b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "87b5283102a265524dc2259b2518cfb08db450a7bb738fea34cc666cea9d2e557abc73e50a2e542bb1874df6afa3d767e75875fa0a404c8387da5432e6a2688d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "638fa3393665ade60320cb93378e6592da92f3fcb3d50d6d9331b7a01086e8f67c7f13ace73bb7a747f45f0574ab15dd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.xmlresolver/xmlresolver@5.3.3?classifier=data&type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -14654,11 +14654,11 @@
       ]
     },
     {
-      "ref": "0ffc3586-b03d-44fa-a5c6-057b0d586fb8",
+      "ref": "2974c74e-e5d2-4f5c-ab5c-e9c84e873430",
       "dependsOn": []
     },
     {
-      "ref": "2974c74e-e5d2-4f5c-ab5c-e9c84e873430",
+      "ref": "0ffc3586-b03d-44fa-a5c6-057b0d586fb8",
       "dependsOn": []
     },
     {

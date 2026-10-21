@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:512157da-896d-4dfb-8ffd-fbfc01681f98",
+  "serialNumber": "urn:uuid:db11d029-5588-4497-9c70-761eff74e5f2",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-16T06:30:10Z",
+    "timestamp": "2026-10-21T14:26:35Z",
     "tools": {
       "components": [
         {
@@ -372,71 +372,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "e5c009f2-878c-49f9-b614-a63514182698",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
-      "version": "2.21.4",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "2f3d2557bb48afa00fe924c9689ab3b6"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "56a503ba45016714394807ea89f95f5093760089"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "4b40a06396f239f8de2da57419adde6e94e5edc18a2171d471ea05eeed4e5c2d"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f9903a49b02145b425737c96cce15a17f0f895ad358031d8e8503a4dc64c356167fd4bbba2b5d62870920034e4bcc882"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "61ae58e91d7773ee5afca6f51ffd3dd419017f6871a58825fec1f88badd9274d14fca81821a89b842f6f7467339797dfcf1e94051fdcfec6725fc4e50ad6a546"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "cff275255fe03dc2f99e7dda462236d4fe25e44a1214519047cfcfd68756d4d5"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "beae4ec10480d4b9ad9482ab203ebf13bdfaa719c20207c3f0e9110950fcc6db2dfca3b97bd2d3ea5e334b0701b01314105db8733fa527ec6c033b28c582ba49"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "85a4816ecf418a912a31e520ad1bd9a2e9d09d88ab3d746c076e5efef05d8dc08f8f14a38ddbf8bfad915f5adb8023be"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.4?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "12c93d5b-355a-4158-b7d0-d93f8f73fb15",
       "group": "tools.jackson.core",
       "name": "jackson-core",
@@ -502,44 +437,44 @@
     },
     {
       "type": "library",
-      "bom-ref": "d4325aed-55c2-4b27-bb95-a30482f66c09",
-      "group": "tools.jackson.core",
-      "name": "jackson-databind",
-      "version": "3.1.4",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "bom-ref": "e5c009f2-878c-49f9-b614-a63514182698",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.21.4",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "177c7c83c06cd3fd971fc1ec819bbe9f"
+          "content": "2f3d2557bb48afa00fe924c9689ab3b6"
         },
         {
           "alg": "SHA-1",
-          "content": "c7be3c757289893a791b2a4967ec09d1a8b6c576"
+          "content": "56a503ba45016714394807ea89f95f5093760089"
         },
         {
           "alg": "SHA-256",
-          "content": "14034bfdf392b6ebec1b4bb6c1de29d604f0aa97251259a19d5f19af8719bb20"
+          "content": "4b40a06396f239f8de2da57419adde6e94e5edc18a2171d471ea05eeed4e5c2d"
         },
         {
           "alg": "SHA-384",
-          "content": "9d0357646bde12c8c0b154709e926f0e27be129821dbd86792f5e7339015be744111fe1573f072c1fb6a13aca36ddd73"
+          "content": "f9903a49b02145b425737c96cce15a17f0f895ad358031d8e8503a4dc64c356167fd4bbba2b5d62870920034e4bcc882"
         },
         {
           "alg": "SHA-512",
-          "content": "f4361a8ab6dee7d5b5dbb15c7249ebf9960783c230b8b817704d53e21d1e5a05a42e570dd86a61dea2acc79edb2a3b21ccef535559b704a5c5245f19b2f09cc8"
+          "content": "61ae58e91d7773ee5afca6f51ffd3dd419017f6871a58825fec1f88badd9274d14fca81821a89b842f6f7467339797dfcf1e94051fdcfec6725fc4e50ad6a546"
         },
         {
           "alg": "SHA3-256",
-          "content": "18438bae47cc5e47e8a5b8ec69d32f58a03cab0419cf84b368f11b2125a5b3a5"
+          "content": "cff275255fe03dc2f99e7dda462236d4fe25e44a1214519047cfcfd68756d4d5"
         },
         {
           "alg": "SHA3-512",
-          "content": "2ac2f2c1b9780db84f08a84c9cee30ee143523d2f7fc53e7c59b20641f6b818b395412bb8f7e19b6ae927e09850dd1d7d3e2fb2afee39cc8beec0ef94aadd424"
+          "content": "beae4ec10480d4b9ad9482ab203ebf13bdfaa719c20207c3f0e9110950fcc6db2dfca3b97bd2d3ea5e334b0701b01314105db8733fa527ec6c033b28c582ba49"
         },
         {
           "alg": "SHA3-384",
-          "content": "47b940f5ac8e63b9d9a3f61ae7a53126ae9cc638b2d97493deaa374565bcb885427811ceee005cc41c20e71da5868e77"
+          "content": "85a4816ecf418a912a31e520ad1bd9a2e9d09d88ab3d746c076e5efef05d8dc08f8f14a38ddbf8bfad915f5adb8023be"
         }
       ],
       "licenses": [
@@ -549,19 +484,19 @@
           }
         }
       ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.1.4?type=jar",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.4?type=jar",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
+          "url": "https://github.com/FasterXML/jackson-core"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
+          "url": "https://github.com/FasterXML/jackson-core/issues"
         },
         {
           "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
+          "url": "https://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -615,6 +550,71 @@
         }
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "d4325aed-55c2-4b27-bb95-a30482f66c09",
+      "group": "tools.jackson.core",
+      "name": "jackson-databind",
+      "version": "3.1.4",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "177c7c83c06cd3fd971fc1ec819bbe9f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c7be3c757289893a791b2a4967ec09d1a8b6c576"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "14034bfdf392b6ebec1b4bb6c1de29d604f0aa97251259a19d5f19af8719bb20"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9d0357646bde12c8c0b154709e926f0e27be129821dbd86792f5e7339015be744111fe1573f072c1fb6a13aca36ddd73"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f4361a8ab6dee7d5b5dbb15c7249ebf9960783c230b8b817704d53e21d1e5a05a42e570dd86a61dea2acc79edb2a3b21ccef535559b704a5c5245f19b2f09cc8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "18438bae47cc5e47e8a5b8ec69d32f58a03cab0419cf84b368f11b2125a5b3a5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2ac2f2c1b9780db84f08a84c9cee30ee143523d2f7fc53e7c59b20641f6b818b395412bb8f7e19b6ae927e09850dd1d7d3e2fb2afee39cc8beec0ef94aadd424"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "47b940f5ac8e63b9d9a3f61ae7a53126ae9cc638b2d97493deaa374565bcb885427811ceee005cc41c20e71da5868e77"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.1.4?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -1163,23 +1163,23 @@
       "dependsOn": []
     },
     {
-      "ref": "e5c009f2-878c-49f9-b614-a63514182698",
-      "dependsOn": []
-    },
-    {
       "ref": "12c93d5b-355a-4158-b7d0-d93f8f73fb15",
       "dependsOn": []
     },
     {
-      "ref": "d4325aed-55c2-4b27-bb95-a30482f66c09",
-      "dependsOn": [
-        "12c93d5b-355a-4158-b7d0-d93f8f73fb15"
-      ]
+      "ref": "e5c009f2-878c-49f9-b614-a63514182698",
+      "dependsOn": []
     },
     {
       "ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
       "dependsOn": [
         "e5c009f2-878c-49f9-b614-a63514182698"
+      ]
+    },
+    {
+      "ref": "d4325aed-55c2-4b27-bb95-a30482f66c09",
+      "dependsOn": [
+        "12c93d5b-355a-4158-b7d0-d93f8f73fb15"
       ]
     },
     {
@@ -1473,7 +1473,7 @@
       ],
       "description": "An arbitrary file write vulnerability was found in GNU gzip's zgrep utility. When zgrep is applied on the attacker's chosen file name (for example, a crafted file name), this can overwrite an attacker's content to an arbitrary attacker-selected file. This flaw occurs due to insufficient validation when processing filenames with two or more newlines where selected content and the target file names are embedded in crafted multi-line file names. This flaw allows a remote, low privileged attacker to force zgrep to write arbitrary files on the system.",
       "published": "2022-08-31T16:15:09Z",
-      "updated": "2026-06-17T04:22:07Z",
+      "updated": "2026-10-14T13:17:17Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -1744,7 +1744,7 @@
       ],
       "description": "## Summary\n`UnwrappedPropertyHandler.processUnwrapped()` replays the buffered JSON for a `@JsonUnwrapped` property by iterating its properties and calling `prop.deserializeAndSet()` with **no `prop.visibleInView(ctxt.getActiveView())` guard** — the exact guard `processUnwrappedCreatorProperties()` received in the #5971 / GHSA-rcqc-6cw3-h962 fix, and the guard `BeanDeserializer.deserializeWithUnwrapped` applies to directly-matched properties. As a result, a property annotated with both `@JsonView(PrivilegedView.class)` and `@JsonUnwrapped` is written from attacker JSON even when deserializing under a more-restrictive active view.\n\n**Correction to the original framing (runtime-verified):** the gap is NOT a per-field inner `@JsonView` (the unwrapped sub-object's own `BeanDeserializer` gates inner fields correctly). The unchecked gate is the **view of the unwrapped CONTAINER property**.\n\n## Intent proof (runtime, 2.x HEAD 21dd70dd and 3.x HEAD 7a5939d6)\nAn `@JsonView(AdminView)` property that is NOT `@JsonUnwrapped` → `null` under `PublicView` (correctly gated). The identical property WITH `@JsonUnwrapped` → fully populated (bypass). The fix the creator path already received, not applied to the regular-property method.\n\n## Impact — write-side mass-assignment / privilege escalation\n`@JsonView` is commonly used as a write-side authorization guard: a public endpoint binds the body under `readerWithView(PublicView.class)` and groups privileged state in a nested object whose container property is `@JsonView(AdminView)`. When that property is `@JsonUnwrapped`, an untrusted caller mass-assigns it. PoC: a self-service registration where `AccountFlags{role,approved,creditBalance}` is `@JsonView(AdminView) @JsonUnwrapped`; attacker JSON `{role:ADMIN,approved:true,creditBalance:1000000}` under `PublicView` binds all three → approved admin with arbitrary balance. The failing gate is a WRITE gate, hence integrity-high (`C:N/I:H/A:N`); no worse than the C:L/I:L parent and arguably higher as `@JsonView`-as-write-guard is the exact use case #5971/#5969 defended.\n\n## Affected\n- `com.fasterxml.jackson.core:jackson-databind` 2.x: confirmed bypass at 21dd70dd (== released 2.21.4 / 2.22.0 line; includes the #5973 backport). `DEFAULT_VIEW_INCLUSION` default=true.\n- `tools.jackson.core:jackson-databind` 3.x: confirmed bypass at HEAD 7a5939d6 (latest 3.x). `DEFAULT_VIEW_INCLUSION` default=false → the stock-config repro is the common shape where privileged inner fields are individually `@JsonView(PublicView)` and the developer relies on the container `@JsonView(AdminView)`; the 3.x PoC mass-assigns role/approved/creditBalance under PublicView. (The other simultaneous report's PoC was reportedly fixed on 3.x; this distinct container-property path is not.)\n\n## Additive variants (runtime-confirmed both branches; all closed by the same one-line guard)\n- nested `@JsonUnwrapped` (unwrapped-in-unwrapped) — recursive bypass.\n- merge / `readerWithView(...).withValueToUpdate(...)` (PATCH/partial-update) — bypass; non-unwrapped merge control gates correctly.\n- builder-based deserializer (`@JsonDeserialize(builder=...)`) — `BuilderBasedDeserializer` routes through the same `processUnwrapped`.\n- Honest non-findings: read-side serialization correctly honors views (no leak); `@JsonAnySetter`+view and `@JsonTypeInfo`+`@JsonUnwrapped` are separate/unsupported behaviors, not this bug.\n\n## Fix\nAdd `prop.visibleInView(ctxt.getActiveView())` (when `MapperFeature.DEFAULT_VIEW_INCLUSION`/active-view applies) to the `processUnwrapped()` property loop, mirroring `processUnwrappedCreatorProperties()`. One change closes the impact PoC + all three variants across `BeanDeserializer` and `BuilderBasedDeserializer`. Full runnable PoCs (2.x + 3.x) + variant harnesses available on request.",
       "published": "2026-07-21T22:00:43Z",
-      "updated": "2026-08-03T20:51:32Z",
+      "updated": "2026-10-19T19:31:36Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -2750,6 +2750,389 @@
         "state": "not_affected",
         "justification": "code_not_present",
         "detail": "Vulnerability is not applicable at it relates to Apache CXF features that are never used."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-100227",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        362
+      ],
+      "description": "Improper Verification of Cryptographic Signature vulnerability in Apache CXF's JAX-RS XML Security module. The JAX-RS XML Signature interceptors (XmlSigInHandler, XmlSigInInterceptor and the streaming XmlSecInInterceptor) did not ensure that the XML passed to the application was covered by the signature. An attacker with any document signed by a trusted key could wrap it in unsigned content, which the application would then treat as signed.\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:01Z",
+      "updated": "2026-10-16T18:09:15Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a Apache CXF feature that is never used in the application."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-107937",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "In Apache CXF, the parser for multipart/MTOM attachment part headers did not fully enforce the configured attachment-max-header-size (default 300 characters) and attachment-headers-max-count (default 500) limits. The size limit was applied only to each physical line, not to a header value built from continuation lines or to the combined values of a repeated header. The count limit was checked against the number of distinct header names, not the total number of header lines. A remote, unauthenticated attacker could send a multipart request with very large folded or repeated part headers. The server would then allocate memory without bound, causing a denial of service. \nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-16T18:10:19Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This is exploitable when the validator's SOAP API is enabled (which it is by default). Users are advised to upgrade to the latest validator release which includes the patched CXF library."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-107938",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        297
+      ],
+      "description": "In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify that the hostname in the server’s TLS certificate matched the host being called. This applied over both HTTP/1.1 and HTTP/2, even when disableCNCheck was left at its default value of false. The certificate chain was validated against the configured trust store, but the endpoint’s identity was not. A network attacker able to intercept traffic could present any certificate trusted by the client, such as a publicly issued certificate for a domain they control, and impersonate the target service. They could then read or modify the exchanged messages, including credentials. \nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-16T18:11:30Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a Apache CXF feature that is never used in the application."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-108039",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        776
+      ],
+      "description": "By default, StaxUtils placed no limit on the total number of elements or the total number of characters in an XML document. A very large request could therefore use a lot of memory and CPU during parsing, especially where CXF builds a DOM from the input (for example SAAJ or WS-Security), and could cause a denial of service when no request size limit was configured. Both limits now have defaults: the maximum element count is 100 × maxChildElements (5,000,000 by default), and the maximum document size is 256M characters. Applications that process larger documents can raise the limits with the org.apache.cxf.stax.maxElementCount and org.apache.cxf.stax.maxXMLCharacters properties.\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-16T18:04:25Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This is exploitable when the validator's SOAP API is enabled (which it is by default). Users are advised to upgrade to the latest validator release which includes the patched CXF library."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-71575",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        613
+      ],
+      "description": "The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a milliseconds/seconds unit mismatch and an inverted comparison polarity. Any relying party using setMaxAgeOffset to enforce re-authentication would silently accept sessions of any age, bypassing step-up authentication policies. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-16T18:07:16Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a Apache CXF feature that is never used in the application."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-73179",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        367
+      ],
+      "description": "Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant provider in Apache CXFallows a remote attacker to obtain multiple valid access tokens from a single authorization code via concurrent token exchange requests that race the non-atomic find-then-delete operation against a shared relational database under READ_COMMITTED isolation. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fixes this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-20T12:44:11Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-78384",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        409
+      ],
+      "description": "CompressionUtils.inflate() decompressed attacker-controlled DEFLATE data with no output-size cap. A small (~KB) crafted payload could expand to gigabytes on the heap. Reachable via JWE decryption when zip=DEF (e.g. JoseSessionTokenProvider with RSA-OAEP key wrap) and via SAML redirect/POST binding token inflation — in both cases decompression happens before/independent of trust validation.\n\nFix: Added a configurable maximum inflated-size cap (default 10 MiB, org.apache.cxf.compression-max-inflated-size system property) to CompressionUtils.inflate(); aborts with DataFormatException once exceeded.\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-20T12:43:34Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-79650",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 6.1,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        601
+      ],
+      "description": "Apache CXF’s OIDC relying-party component could redirect users to an attacker-controlled URL after successful authentication. The issue occurs because attacker-controlled state parameters are preserved and later used as redirect targets without validating that the final decoded URI belongs to the RP’s origin. Both directly encoded and double-encoded external URLs can trigger the issue, depending on which validation path is used. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:03Z",
+      "updated": "2026-10-20T12:42:38Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-86463",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache CXF's FIQL query parser has a vulnerability in how it searches for operators in query expressions. The search pattern can get stuck trying many combinations when it encounters a long string without an operator, causing the parser to consume excessive CPU time. An attacker can send a crafted query to make the server use up CPU resources, potentially slowing down or stopping other requests. The fix was to limit FIQL expressions to 4 KiB by default, preventing attackers from sending extremely long inputs while still allowing normal queries.\n\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:03Z",
+      "updated": "2026-10-20T12:41:49Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-97468",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        328
+      ],
+      "description": "Apache CXF's STSTokenValidator and Security Token Service (STS) cached validated security tokens under a non-cryptographic 32-bit hash of the token (Java Arrays.hashCode/hashCode()), and treated a cache hit as proof that the presented token had already been validated. An attacker could craft a token (for example a UsernameToken or a self-signed SAML Assertion) whose hash collides with a cached entry. The token would then be accepted without password validation, signature trust verification or a call to the STS. This could let the attacker authenticate as another user and, through STS token validation or renewal, obtain STS-signed tokens for that identity.\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:03Z",
+      "updated": "2026-10-20T12:40:41Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "b254bb78-0806-4a7e-a1fd-39fc81045959"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-97791",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        362
+      ],
+      "description": "In Apache CXF, STSTokenValidator checks whether a SAML assertion is signed by a trusted certificate before deciding to send it to the STS. That result was stored in one object shared by all requests, so one request could read another's result. A remote, unauthenticated attacker could send a forged assertion signed with an untrusted certificate while legitimate requests were being processed, and it could be accepted as trusted without ever reaching the STS. Only services that use STSTokenValidator to validate SAML tokens without alwaysValidateToSts set are affected. \nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:03Z",
+      "updated": "2026-10-20T12:38:56Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
       },
       "affects": [
         {

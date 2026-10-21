@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:af57c4c6-2cac-458d-a76b-a7616ba4c3d6",
+  "serialNumber": "urn:uuid:7043a2ee-1ab7-4e91-a08c-99233be8efff",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-16T06:30:08Z",
+    "timestamp": "2026-10-21T14:26:33Z",
     "tools": {
       "components": [
         {
@@ -5082,67 +5082,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "d09ccef2-8813-4296-9f90-58e2ba29a4ee",
-      "group": "com.google.errorprone",
-      "name": "error_prone_annotations",
-      "version": "2.3.4",
-      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "67beeee58df00366100061c7da82f4c2"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f034bbbaad111dc7935696875e09d103ae0e4d2e6ae1dab7f69cc93c6d1ebf48d73e7f42c5f7c0610fb43cf528c32049"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "d48080d877aa121a7e46323f0af3581c583c6375ad3b4632332a63290c0a4bd454f908caf777448ba83288968d532fcdb5400ea2a84bc0549f4fd4c38a9bfd7a"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "6ea64e731417e1230c440c44f52fffa9b90682249b835e97ca9980ac76ea0742"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "9196dde8dbffc6e111d1b17c57709e453dc999e1f8d601cef8d8c1c9618ab1008ff80f132d139b47c3110cbcd6c4e8e565045e55ac43e5653517b0cf0069e2f9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "dd8e705636f0ce876bb7d05cb94ffd233599f1e65e618c20a048fa9d1962c494c7c6b61b50cf0504d9db4021043772b7"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/google/error-prone/error_prone_annotations"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "5e81b678-0f04-42b3-8528-17c781d02389",
       "group": "com.google.errorprone",
       "name": "error_prone_annotations",
@@ -5195,6 +5134,67 @@
         {
           "type": "website",
           "url": "https://errorprone.info/error_prone_annotations"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/google/error-prone/error_prone_annotations"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "d09ccef2-8813-4296-9f90-58e2ba29a4ee",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.3.4",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67beeee58df00366100061c7da82f4c2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f034bbbaad111dc7935696875e09d103ae0e4d2e6ae1dab7f69cc93c6d1ebf48d73e7f42c5f7c0610fb43cf528c32049"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d48080d877aa121a7e46323f0af3581c583c6375ad3b4632332a63290c0a4bd454f908caf777448ba83288968d532fcdb5400ea2a84bc0549f4fd4c38a9bfd7a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6ea64e731417e1230c440c44f52fffa9b90682249b835e97ca9980ac76ea0742"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9196dde8dbffc6e111d1b17c57709e453dc999e1f8d601cef8d8c1c9618ab1008ff80f132d139b47c3110cbcd6c4e8e565045e55ac43e5653517b0cf0069e2f9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "dd8e705636f0ce876bb7d05cb94ffd233599f1e65e618c20a048fa9d1962c494c7c6b61b50cf0504d9db4021043772b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
         },
         {
           "type": "vcs",
@@ -17956,11 +17956,11 @@
       "dependsOn": []
     },
     {
-      "ref": "d09ccef2-8813-4296-9f90-58e2ba29a4ee",
+      "ref": "5e81b678-0f04-42b3-8528-17c781d02389",
       "dependsOn": []
     },
     {
-      "ref": "5e81b678-0f04-42b3-8528-17c781d02389",
+      "ref": "d09ccef2-8813-4296-9f90-58e2ba29a4ee",
       "dependsOn": []
     },
     {

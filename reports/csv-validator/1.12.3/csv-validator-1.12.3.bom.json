@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:c216fb8f-87a2-485e-886c-f4ef1a53f1b7",
+  "serialNumber": "urn:uuid:4c1d6f93-4e2a-439a-8115-0b45e489e113",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-12T14:15:05Z",
+    "timestamp": "2026-10-21T14:26:32Z",
     "tools": {
       "components": [
         {
@@ -5082,67 +5082,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "18b280db-8f33-481a-bbd6-b6ceb3743884",
-      "group": "com.google.errorprone",
-      "name": "error_prone_annotations",
-      "version": "2.3.4",
-      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "67beeee58df00366100061c7da82f4c2"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f034bbbaad111dc7935696875e09d103ae0e4d2e6ae1dab7f69cc93c6d1ebf48d73e7f42c5f7c0610fb43cf528c32049"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "d48080d877aa121a7e46323f0af3581c583c6375ad3b4632332a63290c0a4bd454f908caf777448ba83288968d532fcdb5400ea2a84bc0549f4fd4c38a9bfd7a"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "6ea64e731417e1230c440c44f52fffa9b90682249b835e97ca9980ac76ea0742"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "9196dde8dbffc6e111d1b17c57709e453dc999e1f8d601cef8d8c1c9618ab1008ff80f132d139b47c3110cbcd6c4e8e565045e55ac43e5653517b0cf0069e2f9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "dd8e705636f0ce876bb7d05cb94ffd233599f1e65e618c20a048fa9d1962c494c7c6b61b50cf0504d9db4021043772b7"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/google/error-prone/error_prone_annotations"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "b6a84312-fccc-4883-bcda-f366707e70ee",
       "group": "com.google.errorprone",
       "name": "error_prone_annotations",
@@ -5195,6 +5134,67 @@
         {
           "type": "website",
           "url": "https://errorprone.info/error_prone_annotations"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/google/error-prone/error_prone_annotations"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "18b280db-8f33-481a-bbd6-b6ceb3743884",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.3.4",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67beeee58df00366100061c7da82f4c2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f034bbbaad111dc7935696875e09d103ae0e4d2e6ae1dab7f69cc93c6d1ebf48d73e7f42c5f7c0610fb43cf528c32049"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d48080d877aa121a7e46323f0af3581c583c6375ad3b4632332a63290c0a4bd454f908caf777448ba83288968d532fcdb5400ea2a84bc0549f4fd4c38a9bfd7a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6ea64e731417e1230c440c44f52fffa9b90682249b835e97ca9980ac76ea0742"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9196dde8dbffc6e111d1b17c57709e453dc999e1f8d601cef8d8c1c9618ab1008ff80f132d139b47c3110cbcd6c4e8e565045e55ac43e5653517b0cf0069e2f9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "dd8e705636f0ce876bb7d05cb94ffd233599f1e65e618c20a048fa9d1962c494c7c6b61b50cf0504d9db4021043772b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
         },
         {
           "type": "vcs",
@@ -6118,71 +6118,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "0a023a1e-d45e-44dc-8035-c89c9cfbeb2a",
-      "group": "tools.jackson.core",
-      "name": "jackson-core",
-      "version": "3.2.1",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "7fb8949692eb2d7ee38d07d8fd245c0e"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "5bff2a525073cff8a8206751f6f6bc4650b81b94"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "2688aaa60b207403287e16a71fb5644bf2f9cfc464cc601ae95c6c86a5af1f94"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "1713f31a2b2e2aec42109cddd0c1fcafa0d7d4f1fa86e5b31ddd28c050044bfb4bd7a2299ac17c7d0a8884b68b2f32ce"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "e9fe35e4e3806932904204e9d96bf040b38dc0761ccfbc112e48fc24a1fc7c9c60d65cce6bf46876c4a815688ef225fb90c4a94cefa364225fd67e5b760f0a36"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "eeb15c37e503c4e49ee87148586092d414ec0d4708dfe83117201629bde48515"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "f8b6b62b4d08ad3d0ac492245fe9218ea4d8d372b9e388e71d2d04e716ce7bb13a71b560caa0fef6551f307967378439c1e13332e5b90c906f004513a11b29c0"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "6c6361cf59d850ef6c33fa90da76b09c39894352826fcb06829f3c21f66c8bb4243a37141b5d767b1dac736436861d20"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.1?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "http://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "107c8890-3afa-4ca7-9e3d-5d30687bff7a",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -6243,6 +6178,71 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "0a023a1e-d45e-44dc-8035-c89c9cfbeb2a",
+      "group": "tools.jackson.core",
+      "name": "jackson-core",
+      "version": "3.2.1",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7fb8949692eb2d7ee38d07d8fd245c0e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5bff2a525073cff8a8206751f6f6bc4650b81b94"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2688aaa60b207403287e16a71fb5644bf2f9cfc464cc601ae95c6c86a5af1f94"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1713f31a2b2e2aec42109cddd0c1fcafa0d7d4f1fa86e5b31ddd28c050044bfb4bd7a2299ac17c7d0a8884b68b2f32ce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e9fe35e4e3806932904204e9d96bf040b38dc0761ccfbc112e48fc24a1fc7c9c60d65cce6bf46876c4a815688ef225fb90c4a94cefa364225fd67e5b760f0a36"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "eeb15c37e503c4e49ee87148586092d414ec0d4708dfe83117201629bde48515"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f8b6b62b4d08ad3d0ac492245fe9218ea4d8d372b9e388e71d2d04e716ce7bb13a71b560caa0fef6551f307967378439c1e13332e5b90c906f004513a11b29c0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6c6361cf59d850ef6c33fa90da76b09c39894352826fcb06829f3c21f66c8bb4243a37141b5d767b1dac736436861d20"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -17956,11 +17956,11 @@
       "dependsOn": []
     },
     {
-      "ref": "18b280db-8f33-481a-bbd6-b6ceb3743884",
+      "ref": "b6a84312-fccc-4883-bcda-f366707e70ee",
       "dependsOn": []
     },
     {
-      "ref": "b6a84312-fccc-4883-bcda-f366707e70ee",
+      "ref": "18b280db-8f33-481a-bbd6-b6ceb3743884",
       "dependsOn": []
     },
     {
@@ -18046,11 +18046,11 @@
       "dependsOn": []
     },
     {
-      "ref": "0a023a1e-d45e-44dc-8035-c89c9cfbeb2a",
+      "ref": "107c8890-3afa-4ca7-9e3d-5d30687bff7a",
       "dependsOn": []
     },
     {
-      "ref": "107c8890-3afa-4ca7-9e3d-5d30687bff7a",
+      "ref": "0a023a1e-d45e-44dc-8035-c89c9cfbeb2a",
       "dependsOn": []
     },
     {

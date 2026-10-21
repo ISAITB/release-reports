@@ -1,0 +1,192 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ecf8971d-a90e-47f5-84eb-9c18661255ec",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-21T14:26:36Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "supplier": {
+            "name": "OWASP"
+          },
+          "name": "Dependency-Track",
+          "version": "5.2.0"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "1a2785c4-48f0-465d-95ac-cd1dd58eb48c",
+      "publisher": "European Commission, DIGIT, Interoperable Europe Unit",
+      "name": "CSV validator",
+      "version": "1.13.1",
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csv-validator@1.13.1?type=pom",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/csv-validator/issues"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "d55ad780-24bb-4d3a-8043-f3ca1dd4db15",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "29.0-jre",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c87962fe0522b105531f37fe351b3b0c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "801142b4c3d0f0770dd29abea50906cacfddd447"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b22c5fb66d61e7b9522531d04b2f915b5158e80aa0b40ee7282c8bfb07b0da25"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "205e5f8cf87ddd36af26ffe36190ac34e967e53af7c6d37ac6ad19238f3dafd67b31da41a008b9ba205a645c2049398e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4d2fe3d5ea032f4717fbdb6855e341a24295cb351387a1255bd4224ab2a46c7c78f5a339a5d42a9b829a5420a66353f1d937d7ef87378b1f23028dcfef717f02"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4ee0c02517cacabcbeb99990add3c83abe357f1a9878ed6c66fcad664502e567"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8912eee35e164feff5d0fbb4a17c3f31595dca310ac06d3448b29dfc0ef8027ebbc1252d41545bb98cd28e2fcbf49fa06e0ec93db4e8ea6491849c1c48e1eca6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7b84f5a783ba132daea8b4745a430d5f949747b507f07ba5003a0164fc0cdb59003d984363e038f0b578ce2ff1178255"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@29.0-jre?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/google/guava/guava"
+        },
+        {
+          "type": "build-system",
+          "url": "https://travis-ci.org/google/guava"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/google/guava/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/google/guava/guava"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "1a2785c4-48f0-465d-95ac-cd1dd58eb48c",
+      "dependsOn": []
+    },
+    {
+      "ref": "d55ad780-24bb-4d3a-8043-f3ca1dd4db15",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "GHSA-5mg8-w23w-74h3",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 3.3,
+          "severity": "low",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        173,
+        200,
+        378,
+        732
+      ],
+      "description": "A temp directory creation vulnerability exists in Guava prior to version 32.0.0 allowing an attacker with access to the machine to potentially access data in a temporary directory created by the Guava `com.google.common.io.Files.createTempDir()`. The permissions granted to the directory created default to the standard unix-like /tmp ones, leaving the files open. Maintainers recommend explicitly changing the permissions after the creation of the directory, or removing uses of the vulnerable method.",
+      "published": "2021-03-25T17:04:19Z",
+      "updated": "2026-02-23T22:45:55Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Non-exploitable in how Guava is used in the validator."
+      },
+      "affects": [
+        {
+          "ref": "d55ad780-24bb-4d3a-8043-f3ca1dd4db15"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-7g45-4rm6-3mm3",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        379,
+        552
+      ],
+      "description": "Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class.\n\nEven though the security vulnerability is fixed in version 32.0.0, maintainers recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.",
+      "published": "2023-06-14T18:30:38Z",
+      "updated": "2025-11-04T16:44:28Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Non-exploitable in how Guava is used in the validator."
+      },
+      "affects": [
+        {
+          "ref": "d55ad780-24bb-4d3a-8043-f3ca1dd4db15"
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:fca9a828-6b1d-424d-b1b9-0bab90e72df2",
+  "serialNumber": "urn:uuid:32d8a8e1-019d-456b-907e-fcbd862635a9",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-12T14:15:19Z",
+    "timestamp": "2026-10-22T16:32:37Z",
     "tools": {
       "components": [
         {
@@ -190,63 +190,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "85278f13-839b-4ab0-bb18-8349ef6aca74",
-      "group": "org.apache.commons",
-      "name": "commons-configuration2",
-      "version": "2.12.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e71e0d7a413b2bb6b3b2a2f55b5fc727"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "0cab81350c85ca35db8c47621a19dcddf128883f"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "8834b3a04f303069dc66ccbf157e1fc337aa9169bb44dbf4eb4cbb6854ecfdbf"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "8c2070684731528aa61f490a2147eb90cc6a49b504ed3d2c6a18b5f28037a891ac7869ae5f240b3970e7f6f73d5dbc69"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bfc860c6a8f3131ac605aabf2336544381345ce55964d029a1a207e02a09aac97173f2f68efa019e1197ad5028e004f982a564277e3f540654970e37d46f343b"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "40b9a45d0e4f0373a17ee8e794aa42998c49a22c750677b9f13861fa80becbf4"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "770c45d3fd98df0e2c3ed5e530963b9c0cab9697a98472efea7cada98d8b76288de93d0ef42b86aefb64e060cb84a9497556e9eb4fbd6ac182cc1461aebe9450"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "76f4be47842008f8a225427d1a1c70978b96a0640a5e07c15322c8cd82e951ee5bbfb0b1f7adafc4869055bd14411a59"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.12.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://commons.apache.org/proper/commons-configuration/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "9bea00d2-f0b5-4699-9d67-2cdde9bab6d2",
       "group": "org.apache.commons",
       "name": "commons-configuration2",
@@ -316,6 +259,63 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=commons-configuration.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "85278f13-839b-4ab0-bb18-8349ef6aca74",
+      "group": "org.apache.commons",
+      "name": "commons-configuration2",
+      "version": "2.12.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e71e0d7a413b2bb6b3b2a2f55b5fc727"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0cab81350c85ca35db8c47621a19dcddf128883f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8834b3a04f303069dc66ccbf157e1fc337aa9169bb44dbf4eb4cbb6854ecfdbf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8c2070684731528aa61f490a2147eb90cc6a49b504ed3d2c6a18b5f28037a891ac7869ae5f240b3970e7f6f73d5dbc69"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bfc860c6a8f3131ac605aabf2336544381345ce55964d029a1a207e02a09aac97173f2f68efa019e1197ad5028e004f982a564277e3f540654970e37d46f343b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "40b9a45d0e4f0373a17ee8e794aa42998c49a22c750677b9f13861fa80becbf4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "770c45d3fd98df0e2c3ed5e530963b9c0cab9697a98472efea7cada98d8b76288de93d0ef42b86aefb64e060cb84a9497556e9eb4fbd6ac182cc1461aebe9450"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "76f4be47842008f8a225427d1a1c70978b96a0640a5e07c15322c8cd82e951ee5bbfb0b1f7adafc4869055bd14411a59"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.12.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://commons.apache.org/proper/commons-configuration/"
         }
       ]
     },
@@ -827,63 +827,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "60ad418b-a4a4-4463-a745-a2b3cbd92ad6",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.20.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "7e33b9e657f74f0f95fe2c881e2f8f76"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f0a5e62fbd21285e9a5498a60dccb097e1ef793b"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "a70e146a6bf2cba4f9cd367169787f50adcfbb57122bc2e9c8390cd0b397ac30"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "e2ed967535db39c3da8a9842da1a1276522a171aaddf6d0f1861e642037e2951cacb1266535d1b08a3d451b19ec297d6"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "a26054199811282897116632dc5175a05c1cdc30ab15cfc13325cb6074568de7b8fec08cb28f28835d31c522296b2460ce144972a2c952cfb8fc7467e1fa4a44"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "e5eff40214ecb55b9883b337ff84e69fbe69d318a87f120eb3fc79b82d55f9f7"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "eb39a4f74c29f43ce442df9d5ed3bdd56013cc9adb33839dc9f36b8d58a8f581d53b3949527fdbdf2bc6851374d01a4c325ce572f1933a6b001aef17e21071ec"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "42d74c09c4bdc3d68429ae72b5a2c5131f1515e3360f7a73446611fcd3b6e4002fedf70bc8da119c4d0138168ea0f521"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "71f3cdc4-8c20-41cb-b9de-5acadc820d8a",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-databind",
@@ -944,6 +887,63 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "60ad418b-a4a4-4463-a745-a2b3cbd92ad6",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.20.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7e33b9e657f74f0f95fe2c881e2f8f76"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f0a5e62fbd21285e9a5498a60dccb097e1ef793b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a70e146a6bf2cba4f9cd367169787f50adcfbb57122bc2e9c8390cd0b397ac30"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e2ed967535db39c3da8a9842da1a1276522a171aaddf6d0f1861e642037e2951cacb1266535d1b08a3d451b19ec297d6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a26054199811282897116632dc5175a05c1cdc30ab15cfc13325cb6074568de7b8fec08cb28f28835d31c522296b2460ce144972a2c952cfb8fc7467e1fa4a44"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e5eff40214ecb55b9883b337ff84e69fbe69d318a87f120eb3fc79b82d55f9f7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "eb39a4f74c29f43ce442df9d5ed3bdd56013cc9adb33839dc9f36b8d58a8f581d53b3949527fdbdf2bc6851374d01a4c325ce572f1933a6b001aef17e21071ec"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "42d74c09c4bdc3d68429ae72b5a2c5131f1515e3360f7a73446611fcd3b6e4002fedf70bc8da119c4d0138168ea0f521"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -1153,63 +1153,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "8be38df7-d035-4e92-8eb6-7c8f31e3330e",
-      "group": "org.jsoup",
-      "name": "jsoup",
-      "version": "1.15.4",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "642bc7d013d5c950fbdf90d9bfffc246"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "The MIT License",
-            "url": "https://jsoup.org/license"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://jsoup.org/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "6f4a24e7-42ab-43a4-a0c6-5f346df36a1e",
       "group": "org.jsoup",
       "name": "jsoup",
@@ -1270,6 +1213,63 @@
         {
           "type": "vcs",
           "url": "https://github.com/jhy/jsoup"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "8be38df7-d035-4e92-8eb6-7c8f31e3330e",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.15.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "642bc7d013d5c950fbdf90d9bfffc246"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License",
+            "url": "https://jsoup.org/license"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jsoup.org/"
         }
       ]
     },
@@ -1761,6 +1761,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "c313b198-e9db-403c-8c5b-8141408a71fc",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6d100128ec1e1417687c4fc65cf925f1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2d239fd19646201c6dfcc01f3d805b9158d92c94"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9aafe21e37e11bebd3bd5b55aa5e97da79eabdd2af19faf0992cf7887d8db5f0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2bc2f9f5a01c4a16432c0a91362adc9af2b740f8c14695e6a697dbc8e3ac6218b2104beafa7dfd296c4593c3aaf4135f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6eee88d73b2f31c778af83bb6c443de252073636ddd11219c19437712d9695975cd6aabfeb5d8bc35e6736d0a19db477610f9c8ddae5821e914de9c85bec2f31"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1389e5a6d0bb8b3860ae7b7843827743000377d6e9c0a0639ab1b4b652c65652"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6ee240d4d1276438adeac59374dd836d7dc50eae93ef91c4293fa6942bda28f27494bc222889ea8b428bee8cd38b03e77f6e3cebd9a31060a982ba4d8f9fc6a6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "393cfa8d5c65a85d89d019c6ae3b8c51a3d2b50c093facecd859be921513468f416b39e20fd328d7928aa79287cb7b99"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.1?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "45defa7b-cc9f-4083-9afc-8cb470116c90",
       "group": "org.apache.neethi",
       "name": "neethi",
@@ -1819,56 +1869,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "c313b198-e9db-403c-8c5b-8141408a71fc",
-      "group": "org.apache.neethi",
-      "name": "neethi",
-      "version": "3.2.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "6d100128ec1e1417687c4fc65cf925f1"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2d239fd19646201c6dfcc01f3d805b9158d92c94"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "9aafe21e37e11bebd3bd5b55aa5e97da79eabdd2af19faf0992cf7887d8db5f0"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "2bc2f9f5a01c4a16432c0a91362adc9af2b740f8c14695e6a697dbc8e3ac6218b2104beafa7dfd296c4593c3aaf4135f"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "6eee88d73b2f31c778af83bb6c443de252073636ddd11219c19437712d9695975cd6aabfeb5d8bc35e6736d0a19db477610f9c8ddae5821e914de9c85bec2f31"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "1389e5a6d0bb8b3860ae7b7843827743000377d6e9c0a0639ab1b4b652c65652"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "6ee240d4d1276438adeac59374dd836d7dc50eae93ef91c4293fa6942bda28f27494bc222889ea8b428bee8cd38b03e77f6e3cebd9a31060a982ba4d8f9fc6a6"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "393cfa8d5c65a85d89d019c6ae3b8c51a3d2b50c093facecd859be921513468f416b39e20fd328d7928aa79287cb7b99"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:neethi:3.2.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.1?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://ws.apache.org/neethi/"
         }
       ]
     },
@@ -2573,6 +2573,50 @@
     },
     {
       "type": "library",
+      "bom-ref": "11a2b228-2ea2-49c7-8884-cce485257e41",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "76e1deab5e6e1caa5fed31b3482cd266"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5a83fc4e79d128f38c9e32138537060678151759"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "648f7f7e5228d89069cbc54c32404209f242581bc1c1e2e74229114f081071aa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "456b8a1dab0dfbccc13d9b78b195aef80d6989ccbd3a421e3e60305a4d2d48704d2f6b157c593ac2371661a505098c13"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c01a671e540963e96245c65b633f0d17da112307c95e75c869884e92cdf7b523"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "be1141504bbc979f485f8fcdb00de037489ab5fb2f7b1401b95d1157b21684c105eb5ce985b6798fe0fc287dd0126843d1c78597fbdb3bf66f0b82c6516df9c7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5bb23dd4714285adb3e64b85d33df68f4368b818a4c94e74e036b416c34ff3dbdffc70651cf7f531323aba0141800dcd"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.1?type=bundle"
+    },
+    {
+      "type": "library",
       "bom-ref": "d63ba13a-b910-440d-a567-183f19331bdb",
       "group": "org.apache.ws.xmlschema",
       "name": "xmlschema-core",
@@ -2633,50 +2677,6 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "11a2b228-2ea2-49c7-8884-cce485257e41",
-      "group": "org.apache.ws.xmlschema",
-      "name": "xmlschema-core",
-      "version": "2.3.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "76e1deab5e6e1caa5fed31b3482cd266"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "5a83fc4e79d128f38c9e32138537060678151759"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "648f7f7e5228d89069cbc54c32404209f242581bc1c1e2e74229114f081071aa"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "456b8a1dab0dfbccc13d9b78b195aef80d6989ccbd3a421e3e60305a4d2d48704d2f6b157c593ac2371661a505098c13"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "c01a671e540963e96245c65b633f0d17da112307c95e75c869884e92cdf7b523"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "be1141504bbc979f485f8fcdb00de037489ab5fb2f7b1401b95d1157b21684c105eb5ce985b6798fe0fc287dd0126843d1c78597fbdb3bf66f0b82c6516df9c7"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5bb23dd4714285adb3e64b85d33df68f4368b818a4c94e74e036b416c34ff3dbdffc70651cf7f531323aba0141800dcd"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.1?type=bundle"
     }
   ],
   "dependencies": [
@@ -2699,11 +2699,11 @@
       ]
     },
     {
-      "ref": "85278f13-839b-4ab0-bb18-8349ef6aca74",
+      "ref": "9bea00d2-f0b5-4699-9d67-2cdde9bab6d2",
       "dependsOn": []
     },
     {
-      "ref": "9bea00d2-f0b5-4699-9d67-2cdde9bab6d2",
+      "ref": "85278f13-839b-4ab0-bb18-8349ef6aca74",
       "dependsOn": []
     },
     {
@@ -2747,15 +2747,15 @@
       "dependsOn": []
     },
     {
-      "ref": "60ad418b-a4a4-4463-a745-a2b3cbd92ad6",
-      "dependsOn": [
-        "a515af76-2793-4cfe-bab4-39f64f769cf3"
-      ]
-    },
-    {
       "ref": "71f3cdc4-8c20-41cb-b9de-5acadc820d8a",
       "dependsOn": [
         "3d746f30-cccb-486d-8ae4-fe2152de1743"
+      ]
+    },
+    {
+      "ref": "60ad418b-a4a4-4463-a745-a2b3cbd92ad6",
+      "dependsOn": [
+        "a515af76-2793-4cfe-bab4-39f64f769cf3"
       ]
     },
     {
@@ -2781,11 +2781,11 @@
       "dependsOn": []
     },
     {
-      "ref": "8be38df7-d035-4e92-8eb6-7c8f31e3330e",
+      "ref": "6f4a24e7-42ab-43a4-a0c6-5f346df36a1e",
       "dependsOn": []
     },
     {
-      "ref": "6f4a24e7-42ab-43a4-a0c6-5f346df36a1e",
+      "ref": "8be38df7-d035-4e92-8eb6-7c8f31e3330e",
       "dependsOn": []
     },
     {
@@ -2830,11 +2830,11 @@
       ]
     },
     {
-      "ref": "45defa7b-cc9f-4083-9afc-8cb470116c90",
+      "ref": "c313b198-e9db-403c-8c5b-8141408a71fc",
       "dependsOn": []
     },
     {
-      "ref": "c313b198-e9db-403c-8c5b-8141408a71fc",
+      "ref": "45defa7b-cc9f-4083-9afc-8cb470116c90",
       "dependsOn": []
     },
     {
@@ -2903,11 +2903,11 @@
       "dependsOn": []
     },
     {
-      "ref": "d63ba13a-b910-440d-a567-183f19331bdb",
+      "ref": "11a2b228-2ea2-49c7-8884-cce485257e41",
       "dependsOn": []
     },
     {
-      "ref": "11a2b228-2ea2-49c7-8884-cce485257e41",
+      "ref": "d63ba13a-b910-440d-a567-183f19331bdb",
       "dependsOn": []
     }
   ],
@@ -4003,6 +4003,422 @@
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable XXE vulnerability in Apache CXF when parsing external GITB test service WSDLs. This vulnerability does not affect the SoapMessagingV2 built-in handler."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-100227",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        362
+      ],
+      "description": "Improper Verification of Cryptographic Signature vulnerability in Apache CXF's JAX-RS XML Security module. The JAX-RS XML Signature interceptors (XmlSigInHandler, XmlSigInInterceptor and the streaming XmlSecInInterceptor) did not ensure that the XML passed to the application was covered by the signature. An attacker with any document signed by a trusted key could wrap it in unsigned content, which the application would then treat as signed.\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:01Z",
+      "updated": "2026-10-16T18:09:15Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a Apache CXF feature that is never used in the application."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-107937",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "In Apache CXF, the parser for multipart/MTOM attachment part headers did not fully enforce the configured attachment-max-header-size (default 300 characters) and attachment-headers-max-count (default 500) limits. The size limit was applied only to each physical line, not to a header value built from continuation lines or to the combined values of a repeated header. The count limit was checked against the number of distinct header names, not the total number of header lines. A remote, unauthenticated attacker could send a multipart request with very large folded or repeated part headers. The server would then allocate memory without bound, causing a denial of service. \nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-16T18:10:19Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Applicable vulnerability affecting the gitb-srv component that can lead to increased resource usage for received SOAP messages on the SOAP callback API for SOAP-based GITB test services. Note that the SoapMessagingV2 handler is not affected by this. Users are advised to upgrade to release 1.30.2 (or later) that includes the patched CXF version."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-107938",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        297
+      ],
+      "description": "In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify that the hostname in the server’s TLS certificate matched the host being called. This applied over both HTTP/1.1 and HTTP/2, even when disableCNCheck was left at its default value of false. The certificate chain was validated against the configured trust store, but the endpoint’s identity was not. A network attacker able to intercept traffic could present any certificate trusted by the client, such as a publicly issued certificate for a domain they control, and impersonate the target service. They could then read or modify the exchanged messages, including credentials. \nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-16T18:11:30Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a Apache CXF feature that is never used in the application."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-108039",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        776
+      ],
+      "description": "By default, StaxUtils placed no limit on the total number of elements or the total number of characters in an XML document. A very large request could therefore use a lot of memory and CPU during parsing, especially where CXF builds a DOM from the input (for example SAAJ or WS-Security), and could cause a denial of service when no request size limit was configured. Both limits now have defaults: the maximum element count is 100 × maxChildElements (5,000,000 by default), and the maximum document size is 256M characters. Applications that process larger documents can raise the limits with the org.apache.cxf.stax.maxElementCount and org.apache.cxf.stax.maxXMLCharacters properties.\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-16T18:04:25Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Applicable vulnerability affecting the gitb-srv component that can lead to increased resource usage for received SOAP messages on the SOAP callback API for SOAP-based GITB test services. Note that the SoapMessagingV2 handler is not affected by this. Users are advised to upgrade to release 1.30.2 (or later) that includes the patched CXF version."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-71575",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        613
+      ],
+      "description": "The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a milliseconds/seconds unit mismatch and an inverted comparison polarity. Any relying party using setMaxAgeOffset to enforce re-authentication would silently accept sessions of any age, bypassing step-up authentication policies. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-16T18:07:16Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a Apache CXF feature that is never used in the application."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-73179",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        367
+      ],
+      "description": "Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant provider in Apache CXFallows a remote attacker to obtain multiple valid access tokens from a single authorization code via concurrent token exchange requests that race the non-atomic find-then-delete operation against a shared relational database under READ_COMMITTED isolation. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fixes this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-20T12:44:11Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-78384",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        409
+      ],
+      "description": "CompressionUtils.inflate() decompressed attacker-controlled DEFLATE data with no output-size cap. A small (~KB) crafted payload could expand to gigabytes on the heap. Reachable via JWE decryption when zip=DEF (e.g. JoseSessionTokenProvider with RSA-OAEP key wrap) and via SAML redirect/POST binding token inflation — in both cases decompression happens before/independent of trust validation.\n\nFix: Added a configurable maximum inflated-size cap (default 10 MiB, org.apache.cxf.compression-max-inflated-size system property) to CompressionUtils.inflate(); aborts with DataFormatException once exceeded.\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:02Z",
+      "updated": "2026-10-20T12:43:34Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-79650",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 6.1,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        601
+      ],
+      "description": "Apache CXF’s OIDC relying-party component could redirect users to an attacker-controlled URL after successful authentication. The issue occurs because attacker-controlled state parameters are preserved and later used as redirect targets without validating that the final decoded URI belongs to the RP’s origin. Both directly encoded and double-encoded external URLs can trigger the issue, depending on which validation path is used. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:03Z",
+      "updated": "2026-10-20T12:42:38Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-86463",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "Apache CXF's FIQL query parser has a vulnerability in how it searches for operators in query expressions. The search pattern can get stuck trying many combinations when it encounters a long string without an operator, causing the parser to consume excessive CPU time. An attacker can send a crafted query to make the server use up CPU resources, potentially slowing down or stopping other requests. The fix was to limit FIQL expressions to 4 KiB by default, preventing attackers from sending extremely long inputs while still allowing normal queries.\n\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:03Z",
+      "updated": "2026-10-20T12:41:49Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-97468",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        328
+      ],
+      "description": "Apache CXF's STSTokenValidator and Security Token Service (STS) cached validated security tokens under a non-cryptographic 32-bit hash of the token (Java Arrays.hashCode/hashCode()), and treated a cache hit as proof that the presented token had already been validated. An attacker could craft a token (for example a UsernameToken or a self-signed SAML Assertion) whose hash collides with a cached entry. The token would then be accepted without password validation, signature trust verification or a call to the STS. This could let the attacker authenticate as another user and, through STS token validation or renewal, obtain STS-signed tokens for that identity.\nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:03Z",
+      "updated": "2026-10-20T12:40:41Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
+      },
+      "affects": [
+        {
+          "ref": "8d803939-4cfb-4828-b61e-bef54cf09336"
+        },
+        {
+          "ref": "d3991937-3e49-4059-9a09-4f93e5f68a1b"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-97791",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes": [
+        362
+      ],
+      "description": "In Apache CXF, STSTokenValidator checks whether a SAML assertion is signed by a trusted certificate before deciding to send it to the STS. That result was stored in one object shared by all requests, so one request could read another's result. A remote, unauthenticated attacker could send a forged assertion signed with an untrusted certificate while legitimate requests were being processed, and it could be accepted as trusted without ever reaching the STS. Only services that use STSTokenValidator to validate SAML tokens without alwaysValidateToSts set are affected. \nUsers are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.",
+      "published": "2026-10-09T11:17:03Z",
+      "updated": "2026-10-20T12:38:56Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Relates to a feature in Apache CXF that is not used."
       },
       "affects": [
         {
@@ -6275,6 +6691,44 @@
       ]
     },
     {
+      "id": "GHSA-5gvw-p9qm-jgwh",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        863
+      ],
+      "description": "## Summary\n`UnwrappedPropertyHandler.processUnwrapped()` replays the buffered JSON for a `@JsonUnwrapped` property by iterating its properties and calling `prop.deserializeAndSet()` with **no `prop.visibleInView(ctxt.getActiveView())` guard** — the exact guard `processUnwrappedCreatorProperties()` received in the #5971 / GHSA-rcqc-6cw3-h962 fix, and the guard `BeanDeserializer.deserializeWithUnwrapped` applies to directly-matched properties. As a result, a property annotated with both `@JsonView(PrivilegedView.class)` and `@JsonUnwrapped` is written from attacker JSON even when deserializing under a more-restrictive active view.\n\n**Correction to the original framing (runtime-verified):** the gap is NOT a per-field inner `@JsonView` (the unwrapped sub-object's own `BeanDeserializer` gates inner fields correctly). The unchecked gate is the **view of the unwrapped CONTAINER property**.\n\n## Intent proof (runtime, 2.x HEAD 21dd70dd and 3.x HEAD 7a5939d6)\nAn `@JsonView(AdminView)` property that is NOT `@JsonUnwrapped` → `null` under `PublicView` (correctly gated). The identical property WITH `@JsonUnwrapped` → fully populated (bypass). The fix the creator path already received, not applied to the regular-property method.\n\n## Impact — write-side mass-assignment / privilege escalation\n`@JsonView` is commonly used as a write-side authorization guard: a public endpoint binds the body under `readerWithView(PublicView.class)` and groups privileged state in a nested object whose container property is `@JsonView(AdminView)`. When that property is `@JsonUnwrapped`, an untrusted caller mass-assigns it. PoC: a self-service registration where `AccountFlags{role,approved,creditBalance}` is `@JsonView(AdminView) @JsonUnwrapped`; attacker JSON `{role:ADMIN,approved:true,creditBalance:1000000}` under `PublicView` binds all three → approved admin with arbitrary balance. The failing gate is a WRITE gate, hence integrity-high (`C:N/I:H/A:N`); no worse than the C:L/I:L parent and arguably higher as `@JsonView`-as-write-guard is the exact use case #5971/#5969 defended.\n\n## Affected\n- `com.fasterxml.jackson.core:jackson-databind` 2.x: confirmed bypass at 21dd70dd (== released 2.21.4 / 2.22.0 line; includes the #5973 backport). `DEFAULT_VIEW_INCLUSION` default=true.\n- `tools.jackson.core:jackson-databind` 3.x: confirmed bypass at HEAD 7a5939d6 (latest 3.x). `DEFAULT_VIEW_INCLUSION` default=false → the stock-config repro is the common shape where privileged inner fields are individually `@JsonView(PublicView)` and the developer relies on the container `@JsonView(AdminView)`; the 3.x PoC mass-assigns role/approved/creditBalance under PublicView. (The other simultaneous report's PoC was reportedly fixed on 3.x; this distinct container-property path is not.)\n\n## Additive variants (runtime-confirmed both branches; all closed by the same one-line guard)\n- nested `@JsonUnwrapped` (unwrapped-in-unwrapped) — recursive bypass.\n- merge / `readerWithView(...).withValueToUpdate(...)` (PATCH/partial-update) — bypass; non-unwrapped merge control gates correctly.\n- builder-based deserializer (`@JsonDeserialize(builder=...)`) — `BuilderBasedDeserializer` routes through the same `processUnwrapped`.\n- Honest non-findings: read-side serialization correctly honors views (no leak); `@JsonAnySetter`+view and `@JsonTypeInfo`+`@JsonUnwrapped` are separate/unsupported behaviors, not this bug.\n\n## Fix\nAdd `prop.visibleInView(ctxt.getActiveView())` (when `MapperFeature.DEFAULT_VIEW_INCLUSION`/active-view applies) to the `processUnwrapped()` property loop, mirroring `processUnwrappedCreatorProperties()`. One change closes the impact PoC + all three variants across `BeanDeserializer` and `BuilderBasedDeserializer`. Full runnable PoCs (2.x + 3.x) + variant harnesses available on request.",
+      "published": "2026-07-21T22:00:43Z",
+      "updated": "2026-10-19T19:31:36Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. The prerequisite deserialization JsonView annotation is not used."
+      },
+      "affects": [
+        {
+          "ref": "60ad418b-a4a4-4463-a745-a2b3cbd92ad6"
+        },
+        {
+          "ref": "71f3cdc4-8c20-41cb-b9de-5acadc820d8a"
+        }
+      ]
+    },
+    {
       "id": "GHSA-5jmj-h7xm-6q6v",
       "source": {
         "name": "GITHUB",
@@ -8106,6 +8560,41 @@
       ]
     },
     {
+      "id": "GHSA-jfgx-762w-99vr",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 5.9,
+          "severity": "medium",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        201,
+        359
+      ],
+      "description": "An incomplete fix for [GHSA-58c5-g7wp-6w37](https://github.com/angular/angular/security/advisories/GHSA-58c5-g7wp-6w37) (`CVE-2025-66035`) in `@angular/common`'s HTTP Client (`HttpClient`) allows Cross-Site Request Forgery (XSRF) tokens to be leaked to attacker-controlled cross-origin domains when requests use URLs that exploit parsing discrepancies between regular expressions and the browser's WHATWG URL parser.\n\n### Technical Description\n\nTo address `CVE-2025-66035`, `xsrfInterceptorFn` introduced a regular expression (`const ABSOLUTE_URL_REGEX = /^(?:https?:)?\\/\\//i`) to detect and skip absolute and protocol-relative URLs before attaching the `X-XSRF-TOKEN` header.\n\nHowever, browsers resolve request URLs passed to `fetch()` and `XMLHttpRequest.open()` using the **WHATWG URL parser**. For `http:` and `https:` schemes, the WHATWG URL standard performs several normalizations prior to resolving the authority/origin:\n* Backslashes (`\\`) are treated as forward slashes (`/`) — e.g., `/\\evil.example/x`, `\\\\evil.example/x`, `\\/evil.example/x`, `https:\\\\evil.example/x`, `https:/\\evil.example/x`.\n* Leading and trailing C0 control characters and spaces (`<= 0x20`) are stripped — e.g., `' //evil.example/x'`, `'\\0//evil.example/x'`, `'\\x1f//evil.example/x'`.\n* ASCII tab (`\\t`), newline (`\\n`), and carriage return (`\\r`) characters are removed anywhere in the input — e.g., `'/\\t/evil.example/x'`, `'/\\n/evil.example/x'`, `'htt\\tps://evil.example/x'`.\n\nBecause these URLs do not match `/^(?:https?:)?\\/\\//i`, `xsrfInterceptorFn` treats them as relative same-origin URLs and attaches the `X-XSRF-TOKEN` header, while the browser resolves and dispatches the request to the cross-origin host (`evil.example`).\n\nNote: Angular `21.0.3+` and `22.x` replaced the regular expression with a WHATWG `new URL(req.url, locationOrigin)` origin comparison in [#65683](https://github.com/angular/angular/pull/65683) and were already unaffected. However, the `20.3.x` LTS branch retained the regular expression until `20.3.34`.\n\n### Impact\n\nThe token leakage bypasses Angular's built-in XSRF protection on affected versions, allowing an attacker to capture the user's valid `X-XSRF-TOKEN` header if their server permits the request and custom header via CORS. Once obtained, the attacker can perform Cross-Site Request Forgery (CSRF) attacks against the victim user's session.\n\n### Attack Preconditions\n\n1. The victim's Angular application must have **XSRF protection enabled** (enabled by default in `HttpClient`).\n2. The attacker must be able to make the application send a state-changing HTTP request (e.g., `POST`, `PUT`, `DELETE`, `PATCH`) to a URL they control (such as `/\\attacker.example/api` or ` //attacker.example/api`).\n\n### Patches\n\nThe issue is resolved by parsing and comparing the request URL's origin against the application's current origin using the standard `URL` constructor (`new URL(req.url, locationOrigin)`).\n\n* `21.0.3` (and all `22.x` releases)\n* `20.3.34`\n\n### Workarounds\n\nIf you cannot immediately upgrade to a patched version:\n* Validate and normalize outgoing request URLs using `new URL(url, window.location.origin)` and verify that `parsedUrl.origin === window.location.origin` before passing dynamic URLs to mutating `HttpClient` requests.\n* Avoid passing untrusted or user-controlled URLs to `HttpClient` mutating methods.",
+      "published": "2026-10-20T20:37:57Z",
+      "updated": "2026-10-20T20:37:58Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Angular's X-XSRF-TOKEN is not used here as we use a separate Bearer Authorization header."
+      },
+      "affects": [
+        {
+          "ref": "8fb32b68-2c30-471f-bc49-d8eeb942ca15"
+        }
+      ]
+    },
+    {
       "id": "GHSA-58w9-8g37-x9v5",
       "source": {
         "name": "GITHUB",
@@ -8549,6 +9038,41 @@
         "state": "not_affected",
         "justification": "code_not_present",
         "detail": "Relates to SSR which is not use in our case."
+      },
+      "affects": [
+        {
+          "ref": "2a392cc3-6aa6-4901-b5af-1141d4f7822c"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-62vg-58rm-qff7",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 8.2,
+          "severity": "high",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        400,
+        405
+      ],
+      "description": "A denial of service (DoS) vulnerability was identified in `@angular/router` when Server-Side Rendering (SSR) is enabled on Node.js (V8).\n\nDuring route recognition, `@angular/router` fails to validate whether an auxiliary outlet segment in the URL matches a route configured for that specific outlet name. Because unconfigured empty-path outlet groups (such as `a:/()`, `x:/(...)`, or `///(...)`) are not rejected during matching, the router repeatedly re-evaluates the route configuration against each arbitrary outlet segment provided in the URL.\n\nWhen a request URL contains multiple arbitrary empty-path outlet segments, this improper matching forces the router to instantiate duplicate `ActivatedRouteSnapshot` trees, repeatedly execute `canMatch` guards and route resolvers, and allocate separate copies of route parameters and `queryParams` for each unconfigured outlet.\n\nAn unauthenticated remote attacker can exploit this behavior by sending requests with crafted outlet segments to exhaust the Node.js memory heap or overwhelm CPU resources, leading to SSR worker termination and service disruption.\n\n### Impact\n\nSuccessful exploitation allows an unauthenticated remote attacker to exhaust the Node.js heap with a single crafted request or a small number of concurrent requests, terminating the SSR worker process with a fatal JavaScript heap out-of-memory crash. When the matched routes declare `canMatch` guards or resolvers, a single short request can also trigger repeated guard or resolver executions, increasing load on backend services and holding worker connections open.\n\n* **Transient Allocation:** Memory is released once route recognition completes; there is no persistent memory leak. The primary impact is process termination.\n* **Client-side SPAs Unaffected:** Client-side Angular applications running in the browser are not vulnerable, as browser memory consumption does not cross a security boundary.\n* **Prerendering (SSG) Unaffected:** Build-time prerendering does not process attacker-supplied request URLs.\n\n### Attack Preconditions & Vulnerable Configurations\n\nAn application is affected only if all of the following conditions are met:\n\n1. **SSR Enabled:** The application renders on demand on a Node.js / V8 server.\n2. **Susceptible Route Configuration:** At least one level of the route configuration contains either:\n   * an empty-path (`path: \"\"`) route (e.g., `{path: \"\", component: ShopPage}`), or\n   * a route assigned to a named outlet (e.g., `{path: \"dashboard\", children: [{path: \":id\", outlet: \"detail\", component: DetailPanel}]}`).\n3. **Upstream Request Line Forwarding:** Request lines reach the Node.js process without being rejected upstream by edge proxies. Node.js accepts request headers up to 16 KiB by default. Guard/resolver amplification requires only a short URL.\n4. **Constrained Heap Size:** Worker heaps are sized small enough relative to the request payload and concurrency (e.g., containers or serverless instances configured with 128 MiB–1 GiB).\n\n### Exploit Payload Examples\n\nAgainst a configuration with empty-path (`path: \"\"`) routes and query parameters:\n\n```http\nGET /shop/(a:/()//b:/()//c:/()//...)?param1=value&param2=value... HTTP/1.1\nHost: example.com\n```\n\nAgainst a configuration with named-outlet or sibling routes:\n\n```http\nGET /dashboard/(detail:1//x:/(detail:1//x:/(...)//y:/(...))//y:/(...)) HTTP/1.1\nHost: example.com\n```\n\n### Patches\n\nThe issue is resolved in [angular/angular#71055](https://github.com/angular/angular/pull/71055). The router now requires every child outlet segment group to match a route configured for its target outlet before unwrapping child segments or completing a match, and prevents unconfigured empty-path outlet groups from matching routes declared for other outlets.\n\nPatched versions:\n* `22.2.1`\n* `21.2.25`\n* `20.3.33`\n\nVersions prior to v20 are also affected but are no longer supported and will not receive a patch.\n\n### Workarounds & Mitigations\n\nIf you cannot immediately upgrade to a patched version, apply one or more of the following mitigations:\n\n1. **Reject Parenthesized or Empty-Path Outlet URLs in Middleware or WAF (Recommended):**\n   In `@angular/router`, auxiliary outlet groups in a URL always use parentheses `(...)`, and empty-path outlet groups in a URL always take the form `:/( `, `(/ `, or `///( `.\n\n   * If your application does **not** use named (auxiliary) outlets in URLs, reject requests whose path contains `(` or `)` before Angular SSR handles the request.\n   * If your application does use named outlets, reject requests whose path contains empty-path outlet sequences (`:/( `, `(/ `, or `///( `).\n\n   Unlike URL length limits, this completely blocks both heap exhaustion and short-URL guard/resolver amplification:\n\n   ```typescript\n   // server.ts (placed before Angular SSR handler)\n   app.use((req, res, next) => {\n     let pathname: string;\n     try {\n       pathname = decodeURI(req.url.split(/[?#]/, 1)[0]);\n     } catch {\n       res.status(400).send(\"Bad Request\");\n       return;\n     }\n\n     // Option A: If the app does not use named outlets in URLs, block all parenthesized groups:\n     if (/[()]/.test(pathname)) {\n       res.status(400).send(\"Bad Request\");\n       return;\n     }\n\n     // Option B: If the app uses named outlets, block only empty-path outlet groups:\n     if (/:\\/\\(|\\(\\//\\(|\\/\\/\\/\\(/.test(pathname)) {\n       res.status(400).send(\"Bad Request\");\n       return;\n     }\n\n     next();\n   });\n   ```\n\n2. **Limit URL Length at Reverse Proxy or Middleware:**\n   Configure your edge proxy, web application firewall (WAF), or reverse proxy to reject requests with excessively long URLs (e.g., exceeding 2,048 bytes). The outlet portion of the payload is in the path, so limit the full request target, not only the query string. This reduces, but does not eliminate, guard/resolver amplification, which requires only a short URL.\n\n3. **Increase Node.js Old Space:**\n   Increasing `--max-old-space-size` raises the request size and concurrency required to exhaust memory, though it does not eliminate the issue.",
+      "published": "2026-10-20T14:36:39Z",
+      "updated": "2026-10-20T14:36:40Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Requires Angular's Server-Side Rendering (SSR) which is not used."
       },
       "affects": [
         {

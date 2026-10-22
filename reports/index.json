@@ -1180,18 +1180,18 @@
         "1.13.1.1": {
           "bom": {
             "path": "shacl-validator/1.13.1.1/shacl-validator-1.13.1.1.bom.json",
-            "sha256": "46f036245033b5da7bf188f3b07624fc1009241ec888f4c844c95b8a9b1dc3a2",
+            "sha256": "69f0521194999adfa3ca1266b760904ec9bee8095a8aa3e11d382a19fa14fa9e",
             "signature": {
               "path": "shacl-validator/1.13.1.1/shacl-validator-1.13.1.1.bom.json.sigstore.json",
-              "sha256": "04fb728dee45d6867278e86a1cb66f53d20b6610a83e0cae7b523c83d73868b2"
+              "sha256": "43bbe58565c63273097e5c456f5a6d303b9c4137d2a36184a5291eb4d2a84247"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.13.1.1/shacl-validator-1.13.1.1.vdr.json",
-            "sha256": "bbf459f35544f6c470444a4e3a8cbd8fffab162dd798f4a9dca62a42bec483c6",
+            "sha256": "825ba4fb26739c070d5b16295ade377820cf21b917761218b3e49c7d918b3f4f",
             "signature": {
               "path": "shacl-validator/1.13.1.1/shacl-validator-1.13.1.1.vdr.json.sigstore.json",
-              "sha256": "f9ade8a8d55483fbe2f5029b7764a0848d8b792ef0bf9edf642c1a50cce88853"
+              "sha256": "3ac1418825751c01a8f09e656d7ece11f4fd7b7e6b553205b77a622fbf20900c"
             }
           },
           "summary": {

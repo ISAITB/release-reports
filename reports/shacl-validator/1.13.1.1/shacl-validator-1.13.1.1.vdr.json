@@ -1,0 +1,41 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0d20b2b9-4e6d-436b-8a58-ac0ce9e6dd6b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-22T10:08:04Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "supplier": {
+            "name": "OWASP"
+          },
+          "name": "Dependency-Track",
+          "version": "5.2.0"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "cd4219f8-a808-477c-99c4-b24865a8e388",
+      "publisher": "European Commission, DIGIT, Interoperable Europe Unit",
+      "name": "SHACL validator",
+      "version": "1.13.1.1",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator@1.13.1.1?type=pom",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/shacl-validator/issues"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "cd4219f8-a808-477c-99c4-b24865a8e388",
+      "dependsOn": []
+    }
+  ]
+}

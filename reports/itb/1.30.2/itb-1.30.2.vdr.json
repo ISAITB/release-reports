@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:9fd90989-0123-4b4e-86ff-4f43bcf3e5a5",
+  "serialNumber": "urn:uuid:38ece0b0-0683-4663-9688-5cef557aaa54",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-23T17:20:47Z",
+    "timestamp": "2026-10-28T10:17:40Z",
     "tools": {
       "components": [
         {
@@ -156,6 +156,63 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/dompurify"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "8537f3a7-c02b-417f-8654-2095c3e441fc",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.6.0-jre",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "34a4f258ed23d2e876a6e4666bb3b1c5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c376b13067cc99a5774403530953f7b05a91e218"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dc573e1fca4fd5454f4a5fd3d7da2df03002876a4175bafc14a95980dd7713b3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e75be17b490c9f059676f5fb4e18e74542eeb6236891cc1e3fc8d3def0ec1afb07e34279ffef8e55273431e6eece3a38"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1442688a4409e961f2cee38ac904c0869bb6c9f06bf8b67b80eeafb20bc1af518cc4e9f786b2f4917855b2b9ad8ed4a3dec6f1a12f10616e25398c127914433b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9e0f02ce2f5afac968f6045de0d467a23c4c570e9ea1ae0fbee0de0c40547327"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4d6845505f11539b91f610721f9fb4006dbdd8b2366ae8993380be9e3e9adaf045d4e435e2f5459b574920dfc692240a866b382bfd5901fe16482d539a4ce156"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a37b65c84e2ee662cf4cea2f9b60f231d7012bd82a234c9f4e2b7a358f1db6ad8135c9705407b1a4a64fe8fadd6bcd00"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@33.6.0-jre?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/google/guava"
         }
       ]
     },
@@ -358,6 +415,10 @@
       "dependsOn": []
     },
     {
+      "ref": "8537f3a7-c02b-417f-8654-2095c3e441fc",
+      "dependsOn": []
+    },
+    {
       "ref": "665fc7e3-8da4-4207-9693-11ba0e2c7307",
       "dependsOn": []
     },
@@ -482,6 +543,52 @@
       "affects": [
         {
           "ref": "8b57b453-a2bd-423c-a207-acef98e84a08"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-xxph-c9ww-hj94",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 5.9,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 8.2,
+          "severity": "high",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        400,
+        502,
+        770
+      ],
+      "description": "# CompactHashMap/CompactHashSet/MapMakerInternalMap native deserialization triggers uncontrolled memory allocation\n\n## Summary\n\n`CompactHashMap`, `CompactHashSet`, and `MapMakerInternalMap` implement `readObject(ObjectInputStream)` by reading an attacker-controlled `elementCount` or `initialCapacity` from the stream. On the very first insertion during or after deserialization (for the `CompactHash*` collections, inside `allocArrays()`) or immediately during deserialization (for `MapMakerInternalMap`), the implementation eagerly allocates arrays sized to that full, unvalidated value (up to `CompactHashing.MAX_SIZE` = 2^30-1, ~1.07 billion, for example) before the rest of the stream's actual content has been consumed. A 72-byte malicious serialized stream containing a single tiny element can force a multi-gigabyte allocation and crash a JVM with `OutOfMemoryError`, dynamically confirmed against the current release.\n\n## Details\n\n`CompactHashMap.readObject()` (`guava/src/com/google/common/collect/CompactHashMap.java`):\n\n```java\nprivate void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException {\n  stream.defaultReadObject();\n  int elementCount = stream.readInt();\n  if (elementCount < 0) {\n    throw new InvalidObjectException(\"Invalid size: \" + elementCount);\n  }\n  init(elementCount);\n  for (int i = 0; i < elementCount; i++) {\n    K key = (K) stream.readObject();\n    V value = (V) stream.readObject();\n    put(key, value);\n  }\n}\n```\n\n`elementCount` is only checked for being non-negative; there is no upper bound and no relationship enforced between the declared count and how much data actually follows in the stream. `init(elementCount)` (line 251) just stores the value (clamped to `[1, CompactHashing.MAX_SIZE]`, i.e. up to 2^30-1):\n\n```java\nvoid init(int expectedSize) {\n  Preconditions.checkArgument(expectedSize >= 0, \"Expected size must be >= 0\");\n  this.metadata = Ints.constrainToRange(expectedSize, 1, CompactHashing.MAX_SIZE);\n}\n```\n\nThe real allocation is deferred to `allocArrays()`, which fires lazily on the *first* `put()` call — i.e. after only one key/value pair has actually been read off the wire:\n\n```java\nint allocArrays() {\n  ...\n  int expectedSize = metadata;\n  int buckets = CompactHashing.tableSize(expectedSize);\n  this.table = CompactHashing.createTable(buckets);\n  setHashTableMask(buckets - 1);\n  this.entries = new int[expectedSize];\n  this.keys = new Object[expectedSize];\n  this.values = new Object[expectedSize];\n  return expectedSize;\n}\n```\n\nWith `expectedSize` near `CompactHashing.MAX_SIZE` (2^30-1), this single call allocates a hash `table` plus three `expectedSize`-length arrays — multiple gigabytes — triggered by a stream that has, at that point, only supplied one small real element. `CompactHashSet.readObject()`/`allocArrays()` have the identical shape. `CompactLinkedHashMap`/`CompactLinkedHashSet` extend these classes and inherit the same unguarded path.\n\nThe problem with `MapMakerInternalMap` is similar, with [a size read from the serialized data and stored in a `MapMaker` instance](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2848-L2851) for [later user during deserialization](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2897), when [the `MapMaker` is passed back to `MapMakerInternalMap`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMaker.java#L287) and [segments are allocated](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L173-L200) by [calling `newSegment`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1143), whose implementations ([example](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L443)) create `Segment` instances ([example](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2019)) that [allocate arrays of the requested capacity](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1234) through [the `newTable`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1262) helper.\n\nThis is the same amplification shape as the already-fixed **CVE-2018-10237** (`AtomicDoubleArray`/`CompoundOrdering`: attacker declares a large size, library eagerly allocates before validating against actual stream content). That fix rewrote `AtomicDoubleArray.readObject()` to grow an `ImmutableLongArray.Builder` incrementally per element actually read, rather than pre-allocating from the declared size — Guava's own `HashBiMap.readObject()` documents the same defensive principle explicitly in a comment: `init(16); // resist hostile attempts to allocate gratuitous heap`. `CompactHashMap`/`CompactHashSet` do not follow either of these two patterns already present elsewhere in the same codebase.\n\n**Reachability**: All classes are top-level, `implements ... Serializable`, and require no special classpath setup beyond Guava being present (near-ubiquitous on JVM backends). A native Java deserialization attacker names the class directly in a hand-crafted stream — no particular Guava factory method needs to have been used by the victim application, exactly as with the precedent CVE.\n\n## PoC\n\nFull source and run instructions in the attached `poc-guava-compacthash-dos.zip` (Maven project, `guava:33.7.1-jre` — the current latest release — as the only dependency). The PoC:\n\n1. Uses reflection only to legitimately obtain a `CompactHashSet` instance (it is package-private; a real attacker does not need this step, since they craft the serialized bytes directly rather than calling Guava's own serialization code).\n2. Serializes one set with 1 element and one with 2 elements, diffs the two byte streams to locate the exact offset of the `elementCount` field (byte-precise, not guessed).\n3. Patches that one 4-byte field in the 1-element stream from `1` to `0x3FFFFFFF` (`CompactHashing.MAX_SIZE`), leaving the rest of the 72-byte stream (one real `\"A\"` element) untouched.\n4. Feeds the resulting 72-byte malicious stream into a plain `new ObjectInputStream(...).readObject()` call against the real, unmodified `guava-33.7.1-jre.jar`.\n\nActual run output:\n\n```\n### -Xmx8g (generous heap) ###\nLocated size field at offset 63, value=1 (expected 1)\nMalicious stream size: 72 bytes\nDeclared elementCount: 1073741823 (~1.07 billion)\nReal payload: 1 tiny string element (\"A\")\n=== RESULT ===\nException: java.lang.OutOfMemoryError: Java heap space\nTime to allocate+fail: 4013 ms\nHeap used before: 3 MB\nHeap used after (at failure point): 4103 MB\nJVM max heap (-Xmx): 8192 MB\n\n### -Xmx128m (ordinary service-sized heap) ###\nLocated size field at offset 63, value=1 (expected 1)\nMalicious stream size: 72 bytes\nDeclared elementCount: 1073741823 (~1.07 billion)\nReal payload: 1 tiny string element (\"A\")\n=== RESULT ===\nException: java.lang.OutOfMemoryError: Java heap space\nTime to allocate+fail: 24 ms\nHeap used before: 4 MB\nHeap used after (at failure point): 2 MB\nJVM max heap (-Xmx): 128 MB\n```\n\nA 72-byte input forces ~4.1 GB of real allocation before failing on an 8 GB heap, and crashes a 128 MB heap in 24 ms — over 50,000x amplification between input size and forced allocation.\n\nTo reproduce: `mvn -q compile dependency:build-classpath -Dmdep.outputFile=cp.txt && java -Xmx128m -cp \"target/classes:$(cat cp.txt)\" poc.Poc`\n\n## Impact\n\nUncontrolled resource consumption (CWE-770 / CWE-400) via native Java deserialization: any application that runs `ObjectInputStream.readObject()` on data reachable by an attacker, and has Guava on its classpath (true for a large fraction of the JVM ecosystem), can be crashed with a single ~72-byte payload, regardless of what type the application itself expected to deserialize.\n\n## Severity\n\nCVSS 3.1: `AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H` — identical vector to CVE-2018-10237, the precedent this is a sibling of. Recomputed with the full formula: exploitability = 8.22×0.85×0.44×0.85×0.85 = 2.221; ISS = 1-(1×1×0.44) = 0.56; impact = 6.42×0.56 = 3.595; base = roundup(5.816) = **5.9 (Medium)**.\n\n## Affected\n\n`com.google.guava:guava`, all editions (`-jre`/`-android`) — confirmed on the current latest release, 33.7.1-jre. `CompactHashMap`/`CompactHashSet`/`CompactLinkedHashMap`/`CompactLinkedHashSet` have had this same `readObject`/`allocArrays` shape for a long time (probably since they were added in Guava 23.6), and similarly for `MapMakerInternalMap` (which was introduced in Guava 4.0); not tested against older individual releases.\n\n## Suggested fix\n\nApply the same defense already used elsewhere in this codebase: either clamp the initial `init()` capacity to a small constant regardless of the declared `elementCount` (as `HashBiMap.readObject()` already does — `init(16); // resist hostile attempts to allocate gratuitous heap`) and grow incrementally as elements are actually read, or grow the backing arrays incrementally per iteration of the deserialization loop (as the fixed `AtomicDoubleArray.readObject()` does via `ImmutableLongArray.Builder`) instead of eagerly sizing to the full attacker-declared count on first insert.",
+      "published": "2026-10-27T14:27:53Z",
+      "updated": "2026-10-27T14:45:04Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable. Guava is a transitive dependency and not vulnerable in this case considering the described exploit approach."
+      },
+      "affects": [
+        {
+          "ref": "8537f3a7-c02b-417f-8654-2095c3e441fc"
         }
       ]
     },

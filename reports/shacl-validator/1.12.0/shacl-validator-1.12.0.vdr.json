@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:ff7fdcff-47d5-4a88-b6a0-8a4ed6f2fa92",
+  "serialNumber": "urn:uuid:21eadb8e-ec7e-47ff-adb9-25c231aa2754",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-21T14:27:08Z",
+    "timestamp": "2026-10-28T10:17:54Z",
     "tools": {
       "components": [
         {
@@ -1541,6 +1541,41 @@
       ]
     },
     {
+      "id": "GHSA-f525-44xv-f2qj",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20
+      ],
+      "description": "Improper Input Validation vulnerability in Apache Tomcat due to incomplete fix for CVE-2026-32990.\n\nThis issue affects Apache Tomcat: from 11.0.20 through 11.0.24, from 10.1.53 through 10.1.57, from 9.0.115 through 9.0.120.\n\nUsers are recommended to upgrade to version 11.0.25, 10.1.59 or 9.0.121, which fix the issue.",
+      "published": "2026-08-26T00:30:52Z",
+      "updated": "2026-10-27T15:10:58Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Tomcat is not directly involved in any input validation."
+      },
+      "affects": [
+        {
+          "ref": "7e4e3162-6033-449a-a28d-880100145b9d"
+        }
+      ]
+    },
+    {
       "id": "GHSA-pc63-qcmh-9cmg",
       "source": {
         "name": "GITHUB",
@@ -1633,7 +1668,7 @@
       ],
       "description": "Apache CXF allows to control the maximum attachment size via the \"attachment-max-size\". Prior to Apache CXF 4.2.3 and 4.1.8 and 3.6.12, there was no default placed on this size, meaning that a denial of service attack is possible if the user doesn't explicitly set the limit. Users should update to Apache CXF 4.2.3 or 4.1.8 or 3.6.12 which fixes this problem by imposing a default attachment size limit of 50mb.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T00:16:31Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -1667,7 +1702,7 @@
       ],
       "description": "The OpenID Connect Core 1.0 specification mandates that the RP MUST validate the `c_hash` parameter when operating in the Hybrid Flow. If an Apache CXF RP is integrated with a non-compliant or misconfigured Identity Provider (IdP) that omits the `c_hash`, the RP becomes vulnerable to Authorization Code Substitution/Injection attacks. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T05:17:02Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -1702,7 +1737,7 @@
       ],
       "description": "Apache CXF allows to set a limit on the number of form parameters in a JAX-RS message via the \"maxFormParameterCount\" configuration option. However, no default limit is set which may lead to denial of service attacks when processing  requests with very large numbers of form parameters. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue by using a default limit of 500 parameters.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T00:16:33Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -1737,7 +1772,7 @@
       ],
       "description": "An incomplete fix for CVE-2026-50645 means that it is still possible to perform a denial of service attack on Apache CXF by sending a message with many attachment headers. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-06T18:40:24Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -1771,7 +1806,7 @@
       ],
       "description": "Apache CXF reads a top-level WSDL through its hardened StaxUtils path, which disables XML DTDs and external entities. However, any <wsdl:import> or <xsd:import> referenced from that top-level WSDL is handed off to WSDL4J, which does not disable DOCTYPE declarations or external entities. As a result, the protections applied to the top-level document do not extend to imported documents, leaving imported WSDL/XSD content vulnerable to XML External Entity (XXE) attacks. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T00:16:37Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -1806,7 +1841,7 @@
       ],
       "description": "Apache CXF's JMS transport deserializes the body of any inbound JMS ObjectMessage using native Java deserialization, with no type restrictions in place. Any attacker able to place a message on the service's JMS destination can submit a malicious serialized object, leading to denial of service or, if a suitable gadget class is on the classpath, remote code execution. The fix disables ObjectMessage deserialization by default, with a configuration switch to re-enable it if needed. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T00:16:39Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -1841,7 +1876,7 @@
       ],
       "description": "A race condition in JCacheCodeDataProvider allows an attacker to redeem a single authorization code multiple times via concurrent requests, resulting in the issuance of multiple distinct, valid access tokens. Users are recommended to upgrade to versions 4.2.3, 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:27Z",
-      "updated": "2026-08-07T00:16:32Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -1876,7 +1911,7 @@
       ],
       "description": "In Apache CXF's OAuth2 Dynamic Client Registration endpoint, the authorization server accepts and stores the `scope` value supplied in the client registration request verbatim, without validating it against an AS-defined allowlist. This could lead to a client self-assigning privileged scopes at registration time. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:27Z",
-      "updated": "2026-08-07T00:16:34Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -1911,7 +1946,7 @@
       ],
       "description": "Apache CXF's JwtRequestCodeFilter copies all claims from a signed request JWT into the authorization parameter map without excluding security-sensitive parameters. A client that can produce a validly-signed request JWT (e.g., one whose client_secret is known or compromised) can thereby substitute the code_challenge, code_challenge_method, nonce, and state values that were set in the outer HTTP request, undermining PKCE integrity and OpenID Connect replay protection. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:27Z",
-      "updated": "2026-08-07T00:16:37Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -1946,7 +1981,7 @@
       ],
       "description": "Apache CXF’s OIDC relying-party token validation could accept self-issued ID tokens without enforcing required claim checks (issuer/subject/audience/time and sub_jwk binding), enabling authentication bypass with crafted tokens. However, note that self-issued ID tokens are not accepted by default in the validator. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fixes this issue.",
       "published": "2026-08-06T12:16:27Z",
-      "updated": "2026-08-07T00:16:38Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -1981,7 +2016,7 @@
       ],
       "description": "In Apache CXF's DefaultEncryptingCodeDataProvider, a captured authorization code can be redeemed an unlimited number of times due to a flaw in the implementation of the removeCodeGrant functionality. This violates the RFC requirement that \"The authorization code MUST NOT be used more than once.\" Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:28Z",
-      "updated": "2026-08-07T00:16:39Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2016,7 +2051,7 @@
       ],
       "description": "In Apache CXF's DefaultEncryptingOAuthDataProvider, revoked access tokens still decrypt successfully, and TokenIntrospectionService reports active:true. The same applies to refresh tokens. This violates the RFC stipulations that 'The authorization server MUST invalidate the token.' and 'introspection of a revoked token MUST return {\"active\":false}'. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:28Z",
-      "updated": "2026-08-07T00:16:40Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2539,7 +2574,7 @@
       ],
       "description": "Apache Neethi is vulnerable to uncontrolled recursion when parsing policies that lack policy Ids or with deeply nested structures, which may lead to a denial of service attack when parsing policies due to runtime memory exhaustion. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
       "published": "2026-07-24T13:18:29Z",
-      "updated": "2026-07-27T14:35:32Z",
+      "updated": "2026-10-24T13:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -2574,7 +2609,7 @@
       ],
       "description": "It is possible to bypass the maximum number of normalized policy alternatives that was introduced in Apache Neethi 3.2.2 via certain crafted policies, which may lead to a denial of service attack via resource consumption. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
       "published": "2026-07-24T13:18:29Z",
-      "updated": "2026-07-27T14:35:07Z",
+      "updated": "2026-10-24T13:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -2609,7 +2644,7 @@
       ],
       "description": "Although remote policy references are not retrieved during policy normalization, if they are manually retrieved via the API it can cause a denial of service attack if a huge policy is retrieved. Users are recommended to upgrade to version 3.2.3, which fixes this issue by imposing a default maximum size on data read from remote policy references.",
       "published": "2026-07-24T13:18:29Z",
-      "updated": "2026-07-27T14:32:06Z",
+      "updated": "2026-10-24T13:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",

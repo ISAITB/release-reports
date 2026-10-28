@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:a00b9594-ed97-4d3b-85ec-97c49f393d10",
+  "serialNumber": "urn:uuid:cb98b447-7c9c-433d-a901-ec40c24c3f79",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-23T17:20:07Z",
+    "timestamp": "2026-10-28T10:16:53Z",
     "tools": {
       "components": [
         {
@@ -341,6 +341,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "659846c0-60e2-46dd-bc0c-3fdbc3b7e229",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.2.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1b0030828b414584a1fd83ca703bd7e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2fb7838332f23637f91b18274d5c68b14e9741d2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c28d0bece2ab5ddf9f3c06be9b9e25cbabde16a616e7f1b9bdfb73f7e28be863"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f10e9b9d2d5b2397418303e1c501bc41a9fb3ce8c037b51103f94f1307d0a89de859bcb3b96b4aef7cf7abf05a06e0d0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4df702b77b9e52ea12a7dc61b3df939606d745844e99610b93c541f5347231f7bf3b9faa736017f6794e2aec27b7ddc1fcb49b71e5b77d175452b2c99b59d591"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "127217f9aa056e159f1ab01b13c82b70a2f0c0e346d41d1997a5ed8be88a6811"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8d4cfc980735c0346b5adcd40af66e0b892bbebe8330ddbc84c5f45b064ac50964f50356d04de4bb650df1af78dc11135b6d883582ed634424766b9326ae852e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "288bb1fbf055251c334900b8dd064ac68531b2f0fa03efcd435158a0a6348f77a9501c21077964c1d479f3d4d5d112ce"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.2?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "2f4da9fd-99fc-4980-b36c-32ca52891084",
       "group": "org.apache.cxf",
       "name": "cxf-core",
@@ -408,56 +458,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "659846c0-60e2-46dd-bc0c-3fdbc3b7e229",
-      "group": "org.apache.cxf",
-      "name": "cxf-core",
-      "version": "4.2.2",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "1b0030828b414584a1fd83ca703bd7e7"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2fb7838332f23637f91b18274d5c68b14e9741d2"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "c28d0bece2ab5ddf9f3c06be9b9e25cbabde16a616e7f1b9bdfb73f7e28be863"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f10e9b9d2d5b2397418303e1c501bc41a9fb3ce8c037b51103f94f1307d0a89de859bcb3b96b4aef7cf7abf05a06e0d0"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "4df702b77b9e52ea12a7dc61b3df939606d745844e99610b93c541f5347231f7bf3b9faa736017f6794e2aec27b7ddc1fcb49b71e5b77d175452b2c99b59d591"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "127217f9aa056e159f1ab01b13c82b70a2f0c0e346d41d1997a5ed8be88a6811"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "8d4cfc980735c0346b5adcd40af66e0b892bbebe8330ddbc84c5f45b064ac50964f50356d04de4bb650df1af78dc11135b6d883582ed634424766b9326ae852e"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "288bb1fbf055251c334900b8dd064ac68531b2f0fa03efcd435158a0a6348f77a9501c21077964c1d479f3d4d5d112ce"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:cxf:4.2.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.2?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://cxf.apache.org"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "9e7c8582-726e-42be-8b01-5f46b129369f",
       "author": "Dr.-Ing. Mario Heiderich, Cure53",
       "name": "dompurify",
@@ -491,6 +491,63 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/dompurify"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "0606a4ca-b78d-4ba6-bfca-8f94c6a8554e",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.34",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://freemarker.apache.org/"
         }
       ]
     },
@@ -565,43 +622,43 @@
     },
     {
       "type": "library",
-      "bom-ref": "0606a4ca-b78d-4ba6-bfca-8f94c6a8554e",
-      "group": "org.freemarker",
-      "name": "freemarker",
-      "version": "2.3.34",
+      "bom-ref": "0ef44046-8458-4c18-953b-cf1208b650b3",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.6.0-jre",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+          "content": "34a4f258ed23d2e876a6e4666bb3b1c5"
         },
         {
           "alg": "SHA-1",
-          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+          "content": "c376b13067cc99a5774403530953f7b05a91e218"
         },
         {
           "alg": "SHA-256",
-          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+          "content": "dc573e1fca4fd5454f4a5fd3d7da2df03002876a4175bafc14a95980dd7713b3"
         },
         {
           "alg": "SHA-384",
-          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+          "content": "e75be17b490c9f059676f5fb4e18e74542eeb6236891cc1e3fc8d3def0ec1afb07e34279ffef8e55273431e6eece3a38"
         },
         {
           "alg": "SHA-512",
-          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+          "content": "1442688a4409e961f2cee38ac904c0869bb6c9f06bf8b67b80eeafb20bc1af518cc4e9f786b2f4917855b2b9ad8ed4a3dec6f1a12f10616e25398c127914433b"
         },
         {
           "alg": "SHA3-256",
-          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+          "content": "9e0f02ce2f5afac968f6045de0d467a23c4c570e9ea1ae0fbee0de0c40547327"
         },
         {
           "alg": "SHA3-512",
-          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+          "content": "4d6845505f11539b91f610721f9fb4006dbdd8b2366ae8993380be9e3e9adaf045d4e435e2f5459b574920dfc692240a866b382bfd5901fe16482d539a4ce156"
         },
         {
           "alg": "SHA3-384",
-          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+          "content": "a37b65c84e2ee662cf4cea2f9b60f231d7012bd82a234c9f4e2b7a358f1db6ad8135c9705407b1a4a64fe8fadd6bcd00"
         }
       ],
       "licenses": [
@@ -612,11 +669,11 @@
           }
         }
       ],
-      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
+      "purl": "pkg:maven/com.google.guava/guava@33.6.0-jre?type=bundle",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://freemarker.apache.org/"
+          "url": "https://github.com/google/guava"
         }
       ]
     },
@@ -866,6 +923,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "2c0edd90-619d-4966-89fe-5e55b6a5d8da",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.15.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "642bc7d013d5c950fbdf90d9bfffc246"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License",
+            "url": "https://jsoup.org/license"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jsoup.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "ca95af17-f9da-4ca8-a539-5dbb6b38d389",
       "group": "org.jsoup",
       "name": "jsoup",
@@ -926,63 +1040,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/jhy/jsoup"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "2c0edd90-619d-4966-89fe-5e55b6a5d8da",
-      "group": "org.jsoup",
-      "name": "jsoup",
-      "version": "1.15.4",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "642bc7d013d5c950fbdf90d9bfffc246"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "The MIT License",
-            "url": "https://jsoup.org/license"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://jsoup.org/"
         }
       ]
     },
@@ -1412,6 +1469,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "ef0dac23-ffd1-463a-97dd-1f96c5c9758a",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4180d706474f28c05e5216d4b0b8b14"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1051f0f8916f832d0e76623d851e6afa6cc06064"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b9385bb64ea84f1f42035c4926f3ff90aff9b995463a8ae7b6a61211f9e1a8e3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e7cc17208c3b160783c36675199e66e06321715c1b78802a84e6a28efe120ffcab56c6dfa93eca6765ff94c785b01750"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f2b1e150a851bcc8c99b1428f149ff6b104edc67a117ef8439888e9ae905d0f8a0cd20d3e7fec815f0b64f3891b85076f04443c5de63053db63b10a7f5adbad4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c695b229401dd5effb3cbeed6347b88ae4b9ee4b6f76776b7e4f4204a4ad9ef3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bd2959122c00db1693186594610a44bd2a5a51ebbb737a35f143a1abe09eae31e9bb0efdee6b7aeecd44cce53384aec137cd698a4193518eb749a9dcd9745f0d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7069f409132ef125b2daf8359ac6f9e2ba829b1af73b214268a6bd1ff94309bf9e1e6b66d58c51d3b564c842ff83f1bc"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.2?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "f3a9f9f4-ef88-4a7c-bb72-9fbcfa746055",
       "group": "org.apache.neethi",
       "name": "neethi",
@@ -1470,56 +1577,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "ef0dac23-ffd1-463a-97dd-1f96c5c9758a",
-      "group": "org.apache.neethi",
-      "name": "neethi",
-      "version": "3.2.2",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "f4180d706474f28c05e5216d4b0b8b14"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "1051f0f8916f832d0e76623d851e6afa6cc06064"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "b9385bb64ea84f1f42035c4926f3ff90aff9b995463a8ae7b6a61211f9e1a8e3"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "e7cc17208c3b160783c36675199e66e06321715c1b78802a84e6a28efe120ffcab56c6dfa93eca6765ff94c785b01750"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "f2b1e150a851bcc8c99b1428f149ff6b104edc67a117ef8439888e9ae905d0f8a0cd20d3e7fec815f0b64f3891b85076f04443c5de63053db63b10a7f5adbad4"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "c695b229401dd5effb3cbeed6347b88ae4b9ee4b6f76776b7e4f4204a4ad9ef3"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "bd2959122c00db1693186594610a44bd2a5a51ebbb737a35f143a1abe09eae31e9bb0efdee6b7aeecd44cce53384aec137cd698a4193518eb749a9dcd9745f0d"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "7069f409132ef125b2daf8359ac6f9e2ba829b1af73b214268a6bd1ff94309bf9e1e6b66d58c51d3b564c842ff83f1bc"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:neethi:3.2.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.2?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://ws.apache.org/neethi/"
         }
       ]
     },
@@ -1940,6 +1997,50 @@
     },
     {
       "type": "library",
+      "bom-ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67a17743abad9de9b18ee4b491ac976e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=bundle"
+    },
+    {
+      "type": "library",
       "bom-ref": "c6c83810-7860-4d49-9384-df072e0c1558",
       "group": "org.apache.ws.xmlschema",
       "name": "xmlschema-core",
@@ -2000,50 +2101,6 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890",
-      "group": "org.apache.ws.xmlschema",
-      "name": "xmlschema-core",
-      "version": "2.3.2",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "67a17743abad9de9b18ee4b491ac976e"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=bundle"
     }
   ],
   "dependencies": [
@@ -2086,15 +2143,15 @@
       ]
     },
     {
-      "ref": "2f4da9fd-99fc-4980-b36c-32ca52891084",
-      "dependsOn": [
-        "c6c83810-7860-4d49-9384-df072e0c1558"
-      ]
-    },
-    {
       "ref": "659846c0-60e2-46dd-bc0c-3fdbc3b7e229",
       "dependsOn": [
         "fbb9a8a7-6463-4f21-9307-79ac2fc3e890"
+      ]
+    },
+    {
+      "ref": "2f4da9fd-99fc-4980-b36c-32ca52891084",
+      "dependsOn": [
+        "c6c83810-7860-4d49-9384-df072e0c1558"
       ]
     },
     {
@@ -2102,11 +2159,15 @@
       "dependsOn": []
     },
     {
+      "ref": "0606a4ca-b78d-4ba6-bfca-8f94c6a8554e",
+      "dependsOn": []
+    },
+    {
       "ref": "6be2f7a7-f11c-4933-8cbb-a4fe32fe2e62",
       "dependsOn": []
     },
     {
-      "ref": "0606a4ca-b78d-4ba6-bfca-8f94c6a8554e",
+      "ref": "0ef44046-8458-4c18-953b-cf1208b650b3",
       "dependsOn": []
     },
     {
@@ -2130,11 +2191,11 @@
       ]
     },
     {
-      "ref": "ca95af17-f9da-4ca8-a539-5dbb6b38d389",
+      "ref": "2c0edd90-619d-4966-89fe-5e55b6a5d8da",
       "dependsOn": []
     },
     {
-      "ref": "2c0edd90-619d-4966-89fe-5e55b6a5d8da",
+      "ref": "ca95af17-f9da-4ca8-a539-5dbb6b38d389",
       "dependsOn": []
     },
     {
@@ -2175,11 +2236,11 @@
       "dependsOn": []
     },
     {
-      "ref": "f3a9f9f4-ef88-4a7c-bb72-9fbcfa746055",
+      "ref": "ef0dac23-ffd1-463a-97dd-1f96c5c9758a",
       "dependsOn": []
     },
     {
-      "ref": "ef0dac23-ffd1-463a-97dd-1f96c5c9758a",
+      "ref": "f3a9f9f4-ef88-4a7c-bb72-9fbcfa746055",
       "dependsOn": []
     },
     {
@@ -2218,11 +2279,11 @@
       "dependsOn": []
     },
     {
-      "ref": "c6c83810-7860-4d49-9384-df072e0c1558",
+      "ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890",
       "dependsOn": []
     },
     {
-      "ref": "fbb9a8a7-6463-4f21-9307-79ac2fc3e890",
+      "ref": "c6c83810-7860-4d49-9384-df072e0c1558",
       "dependsOn": []
     }
   ],
@@ -2250,7 +2311,7 @@
       ],
       "description": "Apache CXF allows to control the maximum attachment size via the \"attachment-max-size\". Prior to Apache CXF 4.2.3 and 4.1.8 and 3.6.12, there was no default placed on this size, meaning that a denial of service attack is possible if the user doesn't explicitly set the limit. Users should update to Apache CXF 4.2.3 or 4.1.8 or 3.6.12 which fixes this problem by imposing a default attachment size limit of 50mb.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T00:16:31Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -2287,7 +2348,7 @@
       ],
       "description": "The OpenID Connect Core 1.0 specification mandates that the RP MUST validate the `c_hash` parameter when operating in the Hybrid Flow. If an Apache CXF RP is integrated with a non-compliant or misconfigured Identity Provider (IdP) that omits the `c_hash`, the RP becomes vulnerable to Authorization Code Substitution/Injection attacks. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T05:17:02Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2325,7 +2386,7 @@
       ],
       "description": "Apache CXF allows to set a limit on the number of form parameters in a JAX-RS message via the \"maxFormParameterCount\" configuration option. However, no default limit is set which may lead to denial of service attacks when processing  requests with very large numbers of form parameters. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue by using a default limit of 500 parameters.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T00:16:33Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2363,7 +2424,7 @@
       ],
       "description": "An incomplete fix for CVE-2026-50645 means that it is still possible to perform a denial of service attack on Apache CXF by sending a message with many attachment headers. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-06T18:40:24Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -2400,7 +2461,7 @@
       ],
       "description": "Apache CXF reads a top-level WSDL through its hardened StaxUtils path, which disables XML DTDs and external entities. However, any <wsdl:import> or <xsd:import> referenced from that top-level WSDL is handed off to WSDL4J, which does not disable DOCTYPE declarations or external entities. As a result, the protections applied to the top-level document do not extend to imported documents, leaving imported WSDL/XSD content vulnerable to XML External Entity (XXE) attacks. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T00:16:37Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Vulnerability applies when processing untrusted WSDLs which could occur when integrating SOAP-based GITB test services. Note that an exploit is unlikely given that such services are only declared by administrators, however the vulnerability is nonetheless considered exploitable."
@@ -2437,7 +2498,7 @@
       ],
       "description": "Apache CXF's JMS transport deserializes the body of any inbound JMS ObjectMessage using native Java deserialization, with no type restrictions in place. Any attacker able to place a message on the service's JMS destination can submit a malicious serialized object, leading to denial of service or, if a suitable gadget class is on the classpath, remote code execution. The fix disables ObjectMessage deserialization by default, with a configuration switch to re-enable it if needed. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T11:16:30Z",
-      "updated": "2026-08-07T00:16:39Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2475,7 +2536,7 @@
       ],
       "description": "A race condition in JCacheCodeDataProvider allows an attacker to redeem a single authorization code multiple times via concurrent requests, resulting in the issuance of multiple distinct, valid access tokens. Users are recommended to upgrade to versions 4.2.3, 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:27Z",
-      "updated": "2026-08-07T00:16:32Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2513,7 +2574,7 @@
       ],
       "description": "In Apache CXF's OAuth2 Dynamic Client Registration endpoint, the authorization server accepts and stores the `scope` value supplied in the client registration request verbatim, without validating it against an AS-defined allowlist. This could lead to a client self-assigning privileged scopes at registration time. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:27Z",
-      "updated": "2026-08-07T00:16:34Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2551,7 +2612,7 @@
       ],
       "description": "Apache CXF's JwtRequestCodeFilter copies all claims from a signed request JWT into the authorization parameter map without excluding security-sensitive parameters. A client that can produce a validly-signed request JWT (e.g., one whose client_secret is known or compromised) can thereby substitute the code_challenge, code_challenge_method, nonce, and state values that were set in the outer HTTP request, undermining PKCE integrity and OpenID Connect replay protection. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:27Z",
-      "updated": "2026-08-07T00:16:37Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2589,7 +2650,7 @@
       ],
       "description": "Apache CXF’s OIDC relying-party token validation could accept self-issued ID tokens without enforcing required claim checks (issuer/subject/audience/time and sub_jwk binding), enabling authentication bypass with crafted tokens. However, note that self-issued ID tokens are not accepted by default in the validator. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fixes this issue.",
       "published": "2026-08-06T12:16:27Z",
-      "updated": "2026-08-07T00:16:38Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2627,7 +2688,7 @@
       ],
       "description": "In Apache CXF's DefaultEncryptingCodeDataProvider, a captured authorization code can be redeemed an unlimited number of times due to a flaw in the implementation of the removeCodeGrant functionality. This violates the RFC requirement that \"The authorization code MUST NOT be used more than once.\" Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:28Z",
-      "updated": "2026-08-07T00:16:39Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -2665,7 +2726,7 @@
       ],
       "description": "In Apache CXF's DefaultEncryptingOAuthDataProvider, revoked access tokens still decrypt successfully, and TokenIntrospectionService reports active:true. The same applies to refresh tokens. This violates the RFC stipulations that 'The authorization server MUST invalidate the token.' and 'introspection of a revoked token MUST return {\"active\":false}'. Users are recommended to upgrade to versions 4.2.3 or 4.1.8 or 3.6.12, which fix this issue.",
       "published": "2026-08-06T12:16:28Z",
-      "updated": "2026-08-07T00:16:40Z",
+      "updated": "2026-10-24T16:10:00Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -3230,7 +3291,7 @@
       ],
       "description": "Apache Neethi is vulnerable to uncontrolled recursion when parsing policies that lack policy Ids or with deeply nested structures, which may lead to a denial of service attack when parsing policies due to runtime memory exhaustion. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
       "published": "2026-07-24T13:18:29Z",
-      "updated": "2026-07-27T14:35:32Z",
+      "updated": "2026-10-24T13:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Applicable when processing WSDLs from untrusted SOAP-based GITB test services (considering however that these are defined only by administrators). Note that the SoapMessagingV2 handler is not affected."
@@ -3267,7 +3328,7 @@
       ],
       "description": "It is possible to bypass the maximum number of normalized policy alternatives that was introduced in Apache Neethi 3.2.2 via certain crafted policies, which may lead to a denial of service attack via resource consumption. Users are recommended to upgrade to version 3.2.3, which fixes this issue.",
       "published": "2026-07-24T13:18:29Z",
-      "updated": "2026-07-27T14:35:07Z",
+      "updated": "2026-10-24T13:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Applicable when processing WSDLs from untrusted SOAP-based GITB test services (considering however that these are defined only by administrators). Note that the SoapMessagingV2 handler is not affected."
@@ -3304,7 +3365,7 @@
       ],
       "description": "Although remote policy references are not retrieved during policy normalization, if they are manually retrieved via the API it can cause a denial of service attack if a huge policy is retrieved. Users are recommended to upgrade to version 3.2.3, which fixes this issue by imposing a default maximum size on data read from remote policy references.",
       "published": "2026-07-24T13:18:29Z",
-      "updated": "2026-07-27T14:32:06Z",
+      "updated": "2026-10-24T13:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Applicable when processing WSDLs from untrusted SOAP-based GITB test services (considering however that these are defined only by administrators). Note that the SoapMessagingV2 handler is not affected."
@@ -3631,6 +3692,41 @@
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "01173686-b826-4f7b-8864-3229023e6b50"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-f525-44xv-f2qj",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20
+      ],
+      "description": "Improper Input Validation vulnerability in Apache Tomcat due to incomplete fix for CVE-2026-32990.\n\nThis issue affects Apache Tomcat: from 11.0.20 through 11.0.24, from 10.1.53 through 10.1.57, from 9.0.115 through 9.0.120.\n\nUsers are recommended to upgrade to version 11.0.25, 10.1.59 or 9.0.121, which fix the issue.",
+      "published": "2026-08-26T00:30:52Z",
+      "updated": "2026-10-27T15:10:58Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Tomcat is not directly involved in any input validation."
       },
       "affects": [
         {
@@ -4879,7 +4975,7 @@
       ],
       "description": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 9.7.0-9.7.1. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  While the vulnerability is in MySQL Connectors, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all MySQL Connectors accessible data. CVSS 3.1 Base Score 7.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N).",
       "published": "2026-07-21T22:17:59Z",
-      "updated": "2026-09-03T18:33:44Z",
+      "updated": "2026-10-24T18:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -4913,7 +5009,7 @@
       ],
       "description": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 9.7.0-9.7.1. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all MySQL Connectors accessible data as well as  unauthorized access to critical data or complete access to all MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.1 Base Score 7.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:L).",
       "published": "2026-07-21T22:18:02Z",
-      "updated": "2026-09-03T18:34:06Z",
+      "updated": "2026-10-24T18:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -4947,7 +5043,7 @@
       ],
       "description": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 9.7.0-9.7.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H).",
       "published": "2026-07-21T22:18:02Z",
-      "updated": "2026-09-03T18:33:57Z",
+      "updated": "2026-10-24T18:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -4984,7 +5080,7 @@
       ],
       "description": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 9.7.0-9.7.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all MySQL Connectors accessible data. CVSS 3.1 Base Score 6.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N).",
       "published": "2026-07-21T22:18:39Z",
-      "updated": "2026-09-03T18:40:52Z",
+      "updated": "2026-10-24T15:10:00Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -5165,6 +5261,52 @@
       "affects": [
         {
           "ref": "b83bc0db-f55b-4f81-9c24-311b71ada9c5"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-xxph-c9ww-hj94",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 5.9,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 8.2,
+          "severity": "high",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        400,
+        502,
+        770
+      ],
+      "description": "# CompactHashMap/CompactHashSet/MapMakerInternalMap native deserialization triggers uncontrolled memory allocation\n\n## Summary\n\n`CompactHashMap`, `CompactHashSet`, and `MapMakerInternalMap` implement `readObject(ObjectInputStream)` by reading an attacker-controlled `elementCount` or `initialCapacity` from the stream. On the very first insertion during or after deserialization (for the `CompactHash*` collections, inside `allocArrays()`) or immediately during deserialization (for `MapMakerInternalMap`), the implementation eagerly allocates arrays sized to that full, unvalidated value (up to `CompactHashing.MAX_SIZE` = 2^30-1, ~1.07 billion, for example) before the rest of the stream's actual content has been consumed. A 72-byte malicious serialized stream containing a single tiny element can force a multi-gigabyte allocation and crash a JVM with `OutOfMemoryError`, dynamically confirmed against the current release.\n\n## Details\n\n`CompactHashMap.readObject()` (`guava/src/com/google/common/collect/CompactHashMap.java`):\n\n```java\nprivate void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException {\n  stream.defaultReadObject();\n  int elementCount = stream.readInt();\n  if (elementCount < 0) {\n    throw new InvalidObjectException(\"Invalid size: \" + elementCount);\n  }\n  init(elementCount);\n  for (int i = 0; i < elementCount; i++) {\n    K key = (K) stream.readObject();\n    V value = (V) stream.readObject();\n    put(key, value);\n  }\n}\n```\n\n`elementCount` is only checked for being non-negative; there is no upper bound and no relationship enforced between the declared count and how much data actually follows in the stream. `init(elementCount)` (line 251) just stores the value (clamped to `[1, CompactHashing.MAX_SIZE]`, i.e. up to 2^30-1):\n\n```java\nvoid init(int expectedSize) {\n  Preconditions.checkArgument(expectedSize >= 0, \"Expected size must be >= 0\");\n  this.metadata = Ints.constrainToRange(expectedSize, 1, CompactHashing.MAX_SIZE);\n}\n```\n\nThe real allocation is deferred to `allocArrays()`, which fires lazily on the *first* `put()` call — i.e. after only one key/value pair has actually been read off the wire:\n\n```java\nint allocArrays() {\n  ...\n  int expectedSize = metadata;\n  int buckets = CompactHashing.tableSize(expectedSize);\n  this.table = CompactHashing.createTable(buckets);\n  setHashTableMask(buckets - 1);\n  this.entries = new int[expectedSize];\n  this.keys = new Object[expectedSize];\n  this.values = new Object[expectedSize];\n  return expectedSize;\n}\n```\n\nWith `expectedSize` near `CompactHashing.MAX_SIZE` (2^30-1), this single call allocates a hash `table` plus three `expectedSize`-length arrays — multiple gigabytes — triggered by a stream that has, at that point, only supplied one small real element. `CompactHashSet.readObject()`/`allocArrays()` have the identical shape. `CompactLinkedHashMap`/`CompactLinkedHashSet` extend these classes and inherit the same unguarded path.\n\nThe problem with `MapMakerInternalMap` is similar, with [a size read from the serialized data and stored in a `MapMaker` instance](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2848-L2851) for [later user during deserialization](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2897), when [the `MapMaker` is passed back to `MapMakerInternalMap`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMaker.java#L287) and [segments are allocated](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L173-L200) by [calling `newSegment`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1143), whose implementations ([example](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L443)) create `Segment` instances ([example](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2019)) that [allocate arrays of the requested capacity](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1234) through [the `newTable`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1262) helper.\n\nThis is the same amplification shape as the already-fixed **CVE-2018-10237** (`AtomicDoubleArray`/`CompoundOrdering`: attacker declares a large size, library eagerly allocates before validating against actual stream content). That fix rewrote `AtomicDoubleArray.readObject()` to grow an `ImmutableLongArray.Builder` incrementally per element actually read, rather than pre-allocating from the declared size — Guava's own `HashBiMap.readObject()` documents the same defensive principle explicitly in a comment: `init(16); // resist hostile attempts to allocate gratuitous heap`. `CompactHashMap`/`CompactHashSet` do not follow either of these two patterns already present elsewhere in the same codebase.\n\n**Reachability**: All classes are top-level, `implements ... Serializable`, and require no special classpath setup beyond Guava being present (near-ubiquitous on JVM backends). A native Java deserialization attacker names the class directly in a hand-crafted stream — no particular Guava factory method needs to have been used by the victim application, exactly as with the precedent CVE.\n\n## PoC\n\nFull source and run instructions in the attached `poc-guava-compacthash-dos.zip` (Maven project, `guava:33.7.1-jre` — the current latest release — as the only dependency). The PoC:\n\n1. Uses reflection only to legitimately obtain a `CompactHashSet` instance (it is package-private; a real attacker does not need this step, since they craft the serialized bytes directly rather than calling Guava's own serialization code).\n2. Serializes one set with 1 element and one with 2 elements, diffs the two byte streams to locate the exact offset of the `elementCount` field (byte-precise, not guessed).\n3. Patches that one 4-byte field in the 1-element stream from `1` to `0x3FFFFFFF` (`CompactHashing.MAX_SIZE`), leaving the rest of the 72-byte stream (one real `\"A\"` element) untouched.\n4. Feeds the resulting 72-byte malicious stream into a plain `new ObjectInputStream(...).readObject()` call against the real, unmodified `guava-33.7.1-jre.jar`.\n\nActual run output:\n\n```\n### -Xmx8g (generous heap) ###\nLocated size field at offset 63, value=1 (expected 1)\nMalicious stream size: 72 bytes\nDeclared elementCount: 1073741823 (~1.07 billion)\nReal payload: 1 tiny string element (\"A\")\n=== RESULT ===\nException: java.lang.OutOfMemoryError: Java heap space\nTime to allocate+fail: 4013 ms\nHeap used before: 3 MB\nHeap used after (at failure point): 4103 MB\nJVM max heap (-Xmx): 8192 MB\n\n### -Xmx128m (ordinary service-sized heap) ###\nLocated size field at offset 63, value=1 (expected 1)\nMalicious stream size: 72 bytes\nDeclared elementCount: 1073741823 (~1.07 billion)\nReal payload: 1 tiny string element (\"A\")\n=== RESULT ===\nException: java.lang.OutOfMemoryError: Java heap space\nTime to allocate+fail: 24 ms\nHeap used before: 4 MB\nHeap used after (at failure point): 2 MB\nJVM max heap (-Xmx): 128 MB\n```\n\nA 72-byte input forces ~4.1 GB of real allocation before failing on an 8 GB heap, and crashes a 128 MB heap in 24 ms — over 50,000x amplification between input size and forced allocation.\n\nTo reproduce: `mvn -q compile dependency:build-classpath -Dmdep.outputFile=cp.txt && java -Xmx128m -cp \"target/classes:$(cat cp.txt)\" poc.Poc`\n\n## Impact\n\nUncontrolled resource consumption (CWE-770 / CWE-400) via native Java deserialization: any application that runs `ObjectInputStream.readObject()` on data reachable by an attacker, and has Guava on its classpath (true for a large fraction of the JVM ecosystem), can be crashed with a single ~72-byte payload, regardless of what type the application itself expected to deserialize.\n\n## Severity\n\nCVSS 3.1: `AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H` — identical vector to CVE-2018-10237, the precedent this is a sibling of. Recomputed with the full formula: exploitability = 8.22×0.85×0.44×0.85×0.85 = 2.221; ISS = 1-(1×1×0.44) = 0.56; impact = 6.42×0.56 = 3.595; base = roundup(5.816) = **5.9 (Medium)**.\n\n## Affected\n\n`com.google.guava:guava`, all editions (`-jre`/`-android`) — confirmed on the current latest release, 33.7.1-jre. `CompactHashMap`/`CompactHashSet`/`CompactLinkedHashMap`/`CompactLinkedHashSet` have had this same `readObject`/`allocArrays` shape for a long time (probably since they were added in Guava 23.6), and similarly for `MapMakerInternalMap` (which was introduced in Guava 4.0); not tested against older individual releases.\n\n## Suggested fix\n\nApply the same defense already used elsewhere in this codebase: either clamp the initial `init()` capacity to a small constant regardless of the declared `elementCount` (as `HashBiMap.readObject()` already does — `init(16); // resist hostile attempts to allocate gratuitous heap`) and grow incrementally as elements are actually read, or grow the backing arrays incrementally per iteration of the deserialization loop (as the fixed `AtomicDoubleArray.readObject()` does via `ImmutableLongArray.Builder`) instead of eagerly sizing to the full attacker-declared count on first insert.",
+      "published": "2026-10-27T14:27:53Z",
+      "updated": "2026-10-27T14:45:04Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable. Guava is a transitive dependency and not vulnerable in this case considering the described exploit approach."
+      },
+      "affects": [
+        {
+          "ref": "0ef44046-8458-4c18-953b-cf1208b650b3"
         }
       ]
     },

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:90e1c9f4-2ce7-46f9-8366-c7a157c5c91f",
+  "serialNumber": "urn:uuid:981d2529-7aa9-4258-a92d-9386746e83ae",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-21T14:27:10Z",
+    "timestamp": "2026-10-28T10:18:00Z",
     "tools": {
       "components": [
         {
@@ -1356,6 +1356,41 @@
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present"
+      },
+      "affects": [
+        {
+          "ref": "cde65d2a-c693-473b-87b2-dc131fb61895"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-f525-44xv-f2qj",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20
+      ],
+      "description": "Improper Input Validation vulnerability in Apache Tomcat due to incomplete fix for CVE-2026-32990.\n\nThis issue affects Apache Tomcat: from 11.0.20 through 11.0.24, from 10.1.53 through 10.1.57, from 9.0.115 through 9.0.120.\n\nUsers are recommended to upgrade to version 11.0.25, 10.1.59 or 9.0.121, which fix the issue.",
+      "published": "2026-08-26T00:30:52Z",
+      "updated": "2026-10-27T15:10:58Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Tomcat is not directly involved in any input validation."
       },
       "affects": [
         {

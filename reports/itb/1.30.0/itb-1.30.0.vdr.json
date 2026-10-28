@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:ab2a3667-0e46-4fc2-9cc2-b6f4b5794f5f",
+  "serialNumber": "urn:uuid:4c5dccba-8377-49ed-9178-0caffc7c35f2",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-23T17:20:13Z",
+    "timestamp": "2026-10-28T10:17:00Z",
     "tools": {
       "components": [
         {
@@ -278,123 +278,58 @@
     },
     {
       "type": "library",
-      "bom-ref": "401a4a6a-6ace-46d4-8106-72885b8d37ef",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
-      "version": "2.22.2",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "bom-ref": "7b217d02-3610-4e03-b5c0-fa456e567fe9",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.6.0-jre",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "f341c2ed9f8d995ac068841925cf34d1"
+          "content": "34a4f258ed23d2e876a6e4666bb3b1c5"
         },
         {
           "alg": "SHA-1",
-          "content": "13a748ea3e329fa220076e021b45c8391b32420c"
+          "content": "c376b13067cc99a5774403530953f7b05a91e218"
         },
         {
           "alg": "SHA-256",
-          "content": "ff167a6317be15895706c26668f45b898efe40ab8780970658210fe1393d52a6"
+          "content": "dc573e1fca4fd5454f4a5fd3d7da2df03002876a4175bafc14a95980dd7713b3"
         },
         {
           "alg": "SHA-384",
-          "content": "6f3e0b1be8babb69ce366cca655bbceb234d47f3dfb095641a070d3c99a6b3eccef5d74d0bfdd36360252a0089cad202"
+          "content": "e75be17b490c9f059676f5fb4e18e74542eeb6236891cc1e3fc8d3def0ec1afb07e34279ffef8e55273431e6eece3a38"
         },
         {
           "alg": "SHA-512",
-          "content": "e7f0941685b4e0216e6290c42924a7d76d1ba91eec3f9c226dd9949a2d217502d5f6e6d657760d5d95284a2684ae227a820da914386e54ba2f53ceafb3b57154"
+          "content": "1442688a4409e961f2cee38ac904c0869bb6c9f06bf8b67b80eeafb20bc1af518cc4e9f786b2f4917855b2b9ad8ed4a3dec6f1a12f10616e25398c127914433b"
         },
         {
           "alg": "SHA3-256",
-          "content": "493219e39d35ee273727563d9bc5afb43db9f4a8c1d84db502d91b45b685285b"
+          "content": "9e0f02ce2f5afac968f6045de0d467a23c4c570e9ea1ae0fbee0de0c40547327"
         },
         {
           "alg": "SHA3-512",
-          "content": "3fb3f6dec9ccd7a07c30d2cc626d029e73bd8b9f849a89311744c4cc77afa1a5bd8baca1c8ea9b6b062dbddec2005be89bd9e6a4a26948b0fe0d29d3bba7676a"
+          "content": "4d6845505f11539b91f610721f9fb4006dbdd8b2366ae8993380be9e3e9adaf045d4e435e2f5459b574920dfc692240a866b382bfd5901fe16482d539a4ce156"
         },
         {
           "alg": "SHA3-384",
-          "content": "a1abd6fe56f53f1452eee9eeddc1b9c1b197fb7800f4cee24a46ce2da035648f2b3f8c3f73e77a847ad8614688548057"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.2?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "679c4221-fdb1-4bdd-8493-46049ef406a1",
-      "group": "tools.jackson.core",
-      "name": "jackson-core",
-      "version": "3.2.2",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "c967c177625d111be4ab088bd57a01e7"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "33448a192d5b662438c859a57daf0f3e8ad9da4b"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f"
+          "content": "a37b65c84e2ee662cf4cea2f9b60f231d7012bd82a234c9f4e2b7a358f1db6ad8135c9705407b1a4a64fe8fadd6bcd00"
         }
       ],
       "licenses": [
         {
           "license": {
             "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
           }
         }
       ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.2",
+      "purl": "pkg:maven/com.google.guava/guava@33.6.0-jre?type=bundle",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
+          "url": "https://github.com/google/guava"
         }
       ]
     },
@@ -465,6 +400,128 @@
     },
     {
       "type": "library",
+      "bom-ref": "679c4221-fdb1-4bdd-8493-46049ef406a1",
+      "group": "tools.jackson.core",
+      "name": "jackson-core",
+      "version": "3.2.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c967c177625d111be4ab088bd57a01e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "33448a192d5b662438c859a57daf0f3e8ad9da4b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "401a4a6a-6ace-46d4-8106-72885b8d37ef",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.22.2",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f341c2ed9f8d995ac068841925cf34d1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "13a748ea3e329fa220076e021b45c8391b32420c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ff167a6317be15895706c26668f45b898efe40ab8780970658210fe1393d52a6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6f3e0b1be8babb69ce366cca655bbceb234d47f3dfb095641a070d3c99a6b3eccef5d74d0bfdd36360252a0089cad202"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e7f0941685b4e0216e6290c42924a7d76d1ba91eec3f9c226dd9949a2d217502d5f6e6d657760d5d95284a2684ae227a820da914386e54ba2f53ceafb3b57154"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "493219e39d35ee273727563d9bc5afb43db9f4a8c1d84db502d91b45b685285b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3fb3f6dec9ccd7a07c30d2cc626d029e73bd8b9f849a89311744c4cc77afa1a5bd8baca1c8ea9b6b062dbddec2005be89bd9e6a4a26948b0fe0d29d3bba7676a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a1abd6fe56f53f1452eee9eeddc1b9c1b197fb7800f4cee24a46ce2da035648f2b3f8c3f73e77a847ad8614688548057"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "e4dc8464-19f2-4b9f-8235-abda3cc147b4",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -522,10 +579,11 @@
     },
     {
       "type": "library",
-      "bom-ref": "af9e1ad4-8d79-4005-bc0a-11859861e5f3",
+      "bom-ref": "12539d79-64d8-4f95-969e-bf7f1db695f6",
       "group": "tools.jackson.core",
       "name": "jackson-databind",
       "version": "3.2.2",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
       "scope": "required",
       "hashes": [
         {
@@ -564,69 +622,11 @@
       "licenses": [
         {
           "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.2",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "b33904d1-6630-4932-9510-70a406063c47",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.22.2",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "f67b45152b83310e3d75ffefc5b7ce32"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "921bd2092b0c539b2876de7063d55c72edcd05d3"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "d0da14c12b16b5d54719aa172d83b542ff4abeb8b0fb7db476fde8ceece760ca"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "389ca679455dd30539d60004f728638bbdc811b42157571eda59a1abb7acb22928840980c186cb32408c3e0205e6faac"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "09c60f98f71bc4b291da44d46299a008abd44118e48729dfdf96627796026d091053b06b9d15ba204c3675c66015f683b91910d7b445600019dd9435d8fd7509"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "3a762adb227512e61e7940ba408cbc0db24fc8a3b46e420f37eb28caefd5fcf9"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "92ba9a9e258666ce1cca852a327570cd1c5ec02aac416167f1245dda8585d6413be8ba0c5e9296f26b309543ae5cbe1d74ca7a3d9792ff70f14a2fadc66f7974"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "bea100854710de8cb290fc821e1ac42117a23ad12939cd93c38bdecd9307ab780f00e7e91d2af94593e0c609470aa7a5"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
             "id": "Apache-2.0"
           }
         }
       ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.2?type=jar",
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -701,11 +701,75 @@
     },
     {
       "type": "library",
-      "bom-ref": "12539d79-64d8-4f95-969e-bf7f1db695f6",
+      "bom-ref": "b33904d1-6630-4932-9510-70a406063c47",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.22.2",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f67b45152b83310e3d75ffefc5b7ce32"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "921bd2092b0c539b2876de7063d55c72edcd05d3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d0da14c12b16b5d54719aa172d83b542ff4abeb8b0fb7db476fde8ceece760ca"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "389ca679455dd30539d60004f728638bbdc811b42157571eda59a1abb7acb22928840980c186cb32408c3e0205e6faac"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "09c60f98f71bc4b291da44d46299a008abd44118e48729dfdf96627796026d091053b06b9d15ba204c3675c66015f683b91910d7b445600019dd9435d8fd7509"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3a762adb227512e61e7940ba408cbc0db24fc8a3b46e420f37eb28caefd5fcf9"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "92ba9a9e258666ce1cca852a327570cd1c5ec02aac416167f1245dda8585d6413be8ba0c5e9296f26b309543ae5cbe1d74ca7a3d9792ff70f14a2fadc66f7974"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bea100854710de8cb290fc821e1ac42117a23ad12939cd93c38bdecd9307ab780f00e7e91d2af94593e0c609470aa7a5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "af9e1ad4-8d79-4005-bc0a-11859861e5f3",
       "group": "tools.jackson.core",
       "name": "jackson-databind",
       "version": "3.2.2",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
       "scope": "required",
       "hashes": [
         {
@@ -744,23 +808,16 @@
       "licenses": [
         {
           "license": {
-            "id": "Apache-2.0"
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
           }
         }
       ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar",
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.2",
       "externalReferences": [
         {
           "type": "website",
           "url": "https://github.com/FasterXML/jackson"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
         }
       ]
     },
@@ -1008,6 +1065,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "133e3176-c06e-48f8-ad86-4bc56913733a",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.3",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "212c6c24278525868910329a9540dc23"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "950b489b01da88d1918404fb8226d6d5b50fa75d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3f0d54f77f0474bd22e87502253c7d1dfb6b2025e77245a281a0fc3731537b1a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f1b7d176794f8e542c13b3f1f095d4add546a8c4dcb8dfa75f103a040a092fd2862ca36fa2cc67f4c2652d4f0e687cde"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0b3d9648fb9f532d3f878d388b5c4958921f8be13e35e743526e3481955833517c01f5d65b2ef338d108c54585a53a0f02a2a0f67ea438d88daf8f7f59ba3f5c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1b449aee5c84962a092a8bbe2c85c0656ace7ea632ab068d07692aac10d834e1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c69d4b9e558012eadc469074ed58a1b1794d0d3df76ff0ba8ddab4ec5ee0ef74d7fc62cf9f0c9acd096377ae30bc3a462c7e932b1f1331b6e6b0f4e6806f1bb9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cdf7bbbf06a6da5c8afd6de1329fab6a5a3a0b6ed4d898f52b614994db8258f106d8dbbe8d896201425fccfc5a42ea51"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.3?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "1dbc1e60-5334-4aeb-8226-fb0db8cd0b96",
       "group": "org.apache.neethi",
       "name": "neethi",
@@ -1066,56 +1173,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "133e3176-c06e-48f8-ad86-4bc56913733a",
-      "group": "org.apache.neethi",
-      "name": "neethi",
-      "version": "3.2.3",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "212c6c24278525868910329a9540dc23"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "950b489b01da88d1918404fb8226d6d5b50fa75d"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "3f0d54f77f0474bd22e87502253c7d1dfb6b2025e77245a281a0fc3731537b1a"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f1b7d176794f8e542c13b3f1f095d4add546a8c4dcb8dfa75f103a040a092fd2862ca36fa2cc67f4c2652d4f0e687cde"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "0b3d9648fb9f532d3f878d388b5c4958921f8be13e35e743526e3481955833517c01f5d65b2ef338d108c54585a53a0f02a2a0f67ea438d88daf8f7f59ba3f5c"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "1b449aee5c84962a092a8bbe2c85c0656ace7ea632ab068d07692aac10d834e1"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "c69d4b9e558012eadc469074ed58a1b1794d0d3df76ff0ba8ddab4ec5ee0ef74d7fc62cf9f0c9acd096377ae30bc3a462c7e932b1f1331b6e6b0f4e6806f1bb9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "cdf7bbbf06a6da5c8afd6de1329fab6a5a3a0b6ed4d898f52b614994db8258f106d8dbbe8d896201425fccfc5a42ea51"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:neethi:3.2.3:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.3?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://ws.apache.org/neethi/"
         }
       ]
     },
@@ -1214,6 +1271,50 @@
     },
     {
       "type": "library",
+      "bom-ref": "93672acf-eb0e-4055-aa1c-173e5fd110e6",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67a17743abad9de9b18ee4b491ac976e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=bundle"
+    },
+    {
+      "type": "library",
       "bom-ref": "69b67258-6e87-4289-9e7d-42b857bd0a93",
       "group": "org.apache.ws.xmlschema",
       "name": "xmlschema-core",
@@ -1274,50 +1375,6 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "93672acf-eb0e-4055-aa1c-173e5fd110e6",
-      "group": "org.apache.ws.xmlschema",
-      "name": "xmlschema-core",
-      "version": "2.3.2",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "67a17743abad9de9b18ee4b491ac976e"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "34aaf48b18ae47015001237e93b5f3f05f1ece55"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "ef6ee27d7bd5fff4950c6737b68263ed63dd088f8ed5f04245be49a5f6a06590"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "8cc8d00ef7cd5b76d191bfc408d0d03ce60c9346ff5a119cab605568e792cb9fc2fc8d24fec0fccd67f0b1c5377bcc07"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "77b020063365eb4df1c9fd6628031d5de7261288921b016302736deffbe5f0427af8c22dfeb5e3efd3f792c1790bba1c38e61dc8be43ccaff3051f010cdb8327"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "2a25e8760f087f0e1bcd8dccaa9992174a6b98325ffed282dfa68395d2eac41d"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "55f0873589b3893f25f3cfdfdc61e2f83db1249ef615a62b4a1e69c2b86f18657a1f50929f39016d24293f1f1caba204d0864b1ee285e01fce4192becddf3fdb"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "21462cad6440441043ed928be70876ed7f42d6f8d1087acec746b31e7a8c6b9c5c5505b58e27107ce9228798feb33b21"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.2?type=bundle"
     }
   ],
   "dependencies": [
@@ -1352,11 +1409,7 @@
       "dependsOn": []
     },
     {
-      "ref": "401a4a6a-6ace-46d4-8106-72885b8d37ef",
-      "dependsOn": []
-    },
-    {
-      "ref": "679c4221-fdb1-4bdd-8493-46049ef406a1",
+      "ref": "7b217d02-3610-4e03-b5c0-fa456e567fe9",
       "dependsOn": []
     },
     {
@@ -1364,19 +1417,21 @@
       "dependsOn": []
     },
     {
+      "ref": "679c4221-fdb1-4bdd-8493-46049ef406a1",
+      "dependsOn": []
+    },
+    {
+      "ref": "401a4a6a-6ace-46d4-8106-72885b8d37ef",
+      "dependsOn": []
+    },
+    {
       "ref": "e4dc8464-19f2-4b9f-8235-abda3cc147b4",
       "dependsOn": []
     },
     {
-      "ref": "af9e1ad4-8d79-4005-bc0a-11859861e5f3",
+      "ref": "12539d79-64d8-4f95-969e-bf7f1db695f6",
       "dependsOn": [
-        "679c4221-fdb1-4bdd-8493-46049ef406a1"
-      ]
-    },
-    {
-      "ref": "b33904d1-6630-4932-9510-70a406063c47",
-      "dependsOn": [
-        "401a4a6a-6ace-46d4-8106-72885b8d37ef"
+        "5b0d52e1-f8fd-4a76-b435-58edd7875985"
       ]
     },
     {
@@ -1386,9 +1441,15 @@
       ]
     },
     {
-      "ref": "12539d79-64d8-4f95-969e-bf7f1db695f6",
+      "ref": "b33904d1-6630-4932-9510-70a406063c47",
       "dependsOn": [
-        "5b0d52e1-f8fd-4a76-b435-58edd7875985"
+        "401a4a6a-6ace-46d4-8106-72885b8d37ef"
+      ]
+    },
+    {
+      "ref": "af9e1ad4-8d79-4005-bc0a-11859861e5f3",
+      "dependsOn": [
+        "679c4221-fdb1-4bdd-8493-46049ef406a1"
       ]
     },
     {
@@ -1417,11 +1478,11 @@
       ]
     },
     {
-      "ref": "1dbc1e60-5334-4aeb-8226-fb0db8cd0b96",
+      "ref": "133e3176-c06e-48f8-ad86-4bc56913733a",
       "dependsOn": []
     },
     {
-      "ref": "133e3176-c06e-48f8-ad86-4bc56913733a",
+      "ref": "1dbc1e60-5334-4aeb-8226-fb0db8cd0b96",
       "dependsOn": []
     },
     {
@@ -1433,11 +1494,11 @@
       "dependsOn": []
     },
     {
-      "ref": "69b67258-6e87-4289-9e7d-42b857bd0a93",
+      "ref": "93672acf-eb0e-4055-aa1c-173e5fd110e6",
       "dependsOn": []
     },
     {
-      "ref": "93672acf-eb0e-4055-aa1c-173e5fd110e6",
+      "ref": "69b67258-6e87-4289-9e7d-42b857bd0a93",
       "dependsOn": []
     }
   ],
@@ -2494,6 +2555,52 @@
       "affects": [
         {
           "ref": "a1952f76-7966-4000-ad2e-ecd345ff433d"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-xxph-c9ww-hj94",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 5.9,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 8.2,
+          "severity": "high",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        400,
+        502,
+        770
+      ],
+      "description": "# CompactHashMap/CompactHashSet/MapMakerInternalMap native deserialization triggers uncontrolled memory allocation\n\n## Summary\n\n`CompactHashMap`, `CompactHashSet`, and `MapMakerInternalMap` implement `readObject(ObjectInputStream)` by reading an attacker-controlled `elementCount` or `initialCapacity` from the stream. On the very first insertion during or after deserialization (for the `CompactHash*` collections, inside `allocArrays()`) or immediately during deserialization (for `MapMakerInternalMap`), the implementation eagerly allocates arrays sized to that full, unvalidated value (up to `CompactHashing.MAX_SIZE` = 2^30-1, ~1.07 billion, for example) before the rest of the stream's actual content has been consumed. A 72-byte malicious serialized stream containing a single tiny element can force a multi-gigabyte allocation and crash a JVM with `OutOfMemoryError`, dynamically confirmed against the current release.\n\n## Details\n\n`CompactHashMap.readObject()` (`guava/src/com/google/common/collect/CompactHashMap.java`):\n\n```java\nprivate void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException {\n  stream.defaultReadObject();\n  int elementCount = stream.readInt();\n  if (elementCount < 0) {\n    throw new InvalidObjectException(\"Invalid size: \" + elementCount);\n  }\n  init(elementCount);\n  for (int i = 0; i < elementCount; i++) {\n    K key = (K) stream.readObject();\n    V value = (V) stream.readObject();\n    put(key, value);\n  }\n}\n```\n\n`elementCount` is only checked for being non-negative; there is no upper bound and no relationship enforced between the declared count and how much data actually follows in the stream. `init(elementCount)` (line 251) just stores the value (clamped to `[1, CompactHashing.MAX_SIZE]`, i.e. up to 2^30-1):\n\n```java\nvoid init(int expectedSize) {\n  Preconditions.checkArgument(expectedSize >= 0, \"Expected size must be >= 0\");\n  this.metadata = Ints.constrainToRange(expectedSize, 1, CompactHashing.MAX_SIZE);\n}\n```\n\nThe real allocation is deferred to `allocArrays()`, which fires lazily on the *first* `put()` call — i.e. after only one key/value pair has actually been read off the wire:\n\n```java\nint allocArrays() {\n  ...\n  int expectedSize = metadata;\n  int buckets = CompactHashing.tableSize(expectedSize);\n  this.table = CompactHashing.createTable(buckets);\n  setHashTableMask(buckets - 1);\n  this.entries = new int[expectedSize];\n  this.keys = new Object[expectedSize];\n  this.values = new Object[expectedSize];\n  return expectedSize;\n}\n```\n\nWith `expectedSize` near `CompactHashing.MAX_SIZE` (2^30-1), this single call allocates a hash `table` plus three `expectedSize`-length arrays — multiple gigabytes — triggered by a stream that has, at that point, only supplied one small real element. `CompactHashSet.readObject()`/`allocArrays()` have the identical shape. `CompactLinkedHashMap`/`CompactLinkedHashSet` extend these classes and inherit the same unguarded path.\n\nThe problem with `MapMakerInternalMap` is similar, with [a size read from the serialized data and stored in a `MapMaker` instance](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2848-L2851) for [later user during deserialization](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2897), when [the `MapMaker` is passed back to `MapMakerInternalMap`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMaker.java#L287) and [segments are allocated](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L173-L200) by [calling `newSegment`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1143), whose implementations ([example](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L443)) create `Segment` instances ([example](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L2019)) that [allocate arrays of the requested capacity](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1234) through [the `newTable`](https://github.com/google/guava/blob/1278ad9c2257f48dc82fb7b7c625ab563605aa24/guava/src/com/google/common/collect/MapMakerInternalMap.java#L1262) helper.\n\nThis is the same amplification shape as the already-fixed **CVE-2018-10237** (`AtomicDoubleArray`/`CompoundOrdering`: attacker declares a large size, library eagerly allocates before validating against actual stream content). That fix rewrote `AtomicDoubleArray.readObject()` to grow an `ImmutableLongArray.Builder` incrementally per element actually read, rather than pre-allocating from the declared size — Guava's own `HashBiMap.readObject()` documents the same defensive principle explicitly in a comment: `init(16); // resist hostile attempts to allocate gratuitous heap`. `CompactHashMap`/`CompactHashSet` do not follow either of these two patterns already present elsewhere in the same codebase.\n\n**Reachability**: All classes are top-level, `implements ... Serializable`, and require no special classpath setup beyond Guava being present (near-ubiquitous on JVM backends). A native Java deserialization attacker names the class directly in a hand-crafted stream — no particular Guava factory method needs to have been used by the victim application, exactly as with the precedent CVE.\n\n## PoC\n\nFull source and run instructions in the attached `poc-guava-compacthash-dos.zip` (Maven project, `guava:33.7.1-jre` — the current latest release — as the only dependency). The PoC:\n\n1. Uses reflection only to legitimately obtain a `CompactHashSet` instance (it is package-private; a real attacker does not need this step, since they craft the serialized bytes directly rather than calling Guava's own serialization code).\n2. Serializes one set with 1 element and one with 2 elements, diffs the two byte streams to locate the exact offset of the `elementCount` field (byte-precise, not guessed).\n3. Patches that one 4-byte field in the 1-element stream from `1` to `0x3FFFFFFF` (`CompactHashing.MAX_SIZE`), leaving the rest of the 72-byte stream (one real `\"A\"` element) untouched.\n4. Feeds the resulting 72-byte malicious stream into a plain `new ObjectInputStream(...).readObject()` call against the real, unmodified `guava-33.7.1-jre.jar`.\n\nActual run output:\n\n```\n### -Xmx8g (generous heap) ###\nLocated size field at offset 63, value=1 (expected 1)\nMalicious stream size: 72 bytes\nDeclared elementCount: 1073741823 (~1.07 billion)\nReal payload: 1 tiny string element (\"A\")\n=== RESULT ===\nException: java.lang.OutOfMemoryError: Java heap space\nTime to allocate+fail: 4013 ms\nHeap used before: 3 MB\nHeap used after (at failure point): 4103 MB\nJVM max heap (-Xmx): 8192 MB\n\n### -Xmx128m (ordinary service-sized heap) ###\nLocated size field at offset 63, value=1 (expected 1)\nMalicious stream size: 72 bytes\nDeclared elementCount: 1073741823 (~1.07 billion)\nReal payload: 1 tiny string element (\"A\")\n=== RESULT ===\nException: java.lang.OutOfMemoryError: Java heap space\nTime to allocate+fail: 24 ms\nHeap used before: 4 MB\nHeap used after (at failure point): 2 MB\nJVM max heap (-Xmx): 128 MB\n```\n\nA 72-byte input forces ~4.1 GB of real allocation before failing on an 8 GB heap, and crashes a 128 MB heap in 24 ms — over 50,000x amplification between input size and forced allocation.\n\nTo reproduce: `mvn -q compile dependency:build-classpath -Dmdep.outputFile=cp.txt && java -Xmx128m -cp \"target/classes:$(cat cp.txt)\" poc.Poc`\n\n## Impact\n\nUncontrolled resource consumption (CWE-770 / CWE-400) via native Java deserialization: any application that runs `ObjectInputStream.readObject()` on data reachable by an attacker, and has Guava on its classpath (true for a large fraction of the JVM ecosystem), can be crashed with a single ~72-byte payload, regardless of what type the application itself expected to deserialize.\n\n## Severity\n\nCVSS 3.1: `AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H` — identical vector to CVE-2018-10237, the precedent this is a sibling of. Recomputed with the full formula: exploitability = 8.22×0.85×0.44×0.85×0.85 = 2.221; ISS = 1-(1×1×0.44) = 0.56; impact = 6.42×0.56 = 3.595; base = roundup(5.816) = **5.9 (Medium)**.\n\n## Affected\n\n`com.google.guava:guava`, all editions (`-jre`/`-android`) — confirmed on the current latest release, 33.7.1-jre. `CompactHashMap`/`CompactHashSet`/`CompactLinkedHashMap`/`CompactLinkedHashSet` have had this same `readObject`/`allocArrays` shape for a long time (probably since they were added in Guava 23.6), and similarly for `MapMakerInternalMap` (which was introduced in Guava 4.0); not tested against older individual releases.\n\n## Suggested fix\n\nApply the same defense already used elsewhere in this codebase: either clamp the initial `init()` capacity to a small constant regardless of the declared `elementCount` (as `HashBiMap.readObject()` already does — `init(16); // resist hostile attempts to allocate gratuitous heap`) and grow incrementally as elements are actually read, or grow the backing arrays incrementally per iteration of the deserialization loop (as the fixed `AtomicDoubleArray.readObject()` does via `ImmutableLongArray.Builder`) instead of eagerly sizing to the full attacker-declared count on first insert.",
+      "published": "2026-10-27T14:27:53Z",
+      "updated": "2026-10-27T14:45:04Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not applicable. Guava is a transitive dependency and not vulnerable in this case considering the described exploit approach."
+      },
+      "affects": [
+        {
+          "ref": "7b217d02-3610-4e03-b5c0-fa456e567fe9"
         }
       ]
     },

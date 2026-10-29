@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:73e60f59-dccf-4064-a350-537a6df553d1",
+  "serialNumber": "urn:uuid:93afabd7-fdef-4424-829a-140f229ccc28",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:17:11Z",
+    "timestamp": "2026-10-29T08:05:49Z",
     "tools": {
       "components": [
         {
@@ -10505,51 +10505,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "083f3867-8a0e-49d5-88d3-51bb3ba7336f",
-      "group": "@types",
-      "name": "d3-time-format",
-      "version": "4.0.3",
-      "description": "TypeScript definitions for d3-time-format",
-      "scope": "optional",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/%40types/d3-time-format@4.0.3",
-      "externalReferences": [
-        {
-          "type": "distribution",
-          "url": "https://registry.npmjs.org/@types/d3-time-format/-/d3-time-format-4.0.3.tgz",
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git#types/d3-time-format",
-          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
-        },
-        {
-          "type": "website",
-          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3-time-format",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/@types/d3-time-format"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "2e399d55-c089-4b21-96ba-0691525d60a8",
       "author": "Mike Bostock",
       "name": "d3-time-format",
@@ -10599,50 +10554,46 @@
     },
     {
       "type": "library",
-      "bom-ref": "4138f5f8-f07a-44b7-802b-e124fef335bd",
-      "author": "Mike Bostock",
-      "name": "d3-timer",
-      "version": "3.0.1",
-      "description": "An efficient queue capable of managing thousands of concurrent animations.",
+      "bom-ref": "083f3867-8a0e-49d5-88d3-51bb3ba7336f",
+      "group": "@types",
+      "name": "d3-time-format",
+      "version": "4.0.3",
+      "description": "TypeScript definitions for d3-time-format",
       "scope": "optional",
       "licenses": [
         {
           "license": {
-            "id": "ISC"
+            "id": "MIT"
           }
         }
       ],
-      "purl": "pkg:npm/d3-timer@3.0.1",
+      "purl": "pkg:npm/%40types/d3-time-format@4.0.3",
       "externalReferences": [
         {
           "type": "distribution",
-          "url": "https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz",
+          "url": "https://registry.npmjs.org/@types/d3-time-format/-/d3-time-format-4.0.3.tgz",
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-timer/issues",
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues",
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
           "type": "vcs",
-          "url": "git+https://github.com/d3/d3-timer.git",
-          "comment": "as detected from PackageJson property \"repository.url\""
+          "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git#types/d3-time-format",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
         },
         {
           "type": "website",
-          "url": "https://d3js.org/d3-timer/",
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3-time-format",
           "comment": "as detected from PackageJson property \"homepage\""
         }
       ],
       "properties": [
         {
-          "name": "cdx:npm:package:constraint:engine:node",
-          "value": ">=12"
-        },
-        {
           "name": "cdx:npm:package:path",
-          "value": "node_modules/d3-timer"
+          "value": "node_modules/@types/d3-time-format"
         }
       ]
     },
@@ -10688,6 +10639,55 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/@types/d3-timer"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "4138f5f8-f07a-44b7-802b-e124fef335bd",
+      "author": "Mike Bostock",
+      "name": "d3-timer",
+      "version": "3.0.1",
+      "description": "An efficient queue capable of managing thousands of concurrent animations.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/d3-timer@3.0.1",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz",
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/d3/d3-timer/issues",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/d3/d3-timer.git",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "type": "website",
+          "url": "https://d3js.org/d3-timer/",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:constraint:engine:node",
+          "value": ">=12"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/d3-timer"
         }
       ]
     },
@@ -12089,63 +12089,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "12cc2023-5ec1-4d51-bd55-63744f915b7f",
-      "group": "org.freemarker",
-      "name": "freemarker",
-      "version": "2.3.34",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://freemarker.apache.org/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "9514f0da-3c0d-4806-b8cd-3571c65a7a21",
       "group": "org.freemarker",
       "name": "freemarker",
@@ -12210,6 +12153,63 @@
         {
           "type": "vcs",
           "url": "https://git-wip-us.apache.org/repos/asf?p=freemarker.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "12cc2023-5ec1-4d51-bd55-63744f915b7f",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.34",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://freemarker.apache.org/"
         }
       ]
     },
@@ -12742,57 +12742,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "cb317d3d-26a8-40b8-a19d-e7dea109317c",
-      "group": "eu.europa.ec.itb",
-      "name": "gitb-types-jakarta",
-      "version": "1.28.2",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e53a426bd2fa8d907beb0b1a5412641d"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "7ee44dd97d062ef36398e728c111053a71557796"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "fbe3bc08a6782d5d4e17a1a3e2079f85edd80b2f2b623761191c8bdf79055806"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "c98a25fce52765c8983e3a5fb6ce43c3cec46b4cb7621506253deba3dd970983fdaede480b0fdcc24c7e62e725399206"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "3c3d22d3b18addc0df71700b8c25e9251b30de1701d0742745f214b334e3f7dbaca6a4097ed15e45476ede58478110e959f33d2f023d058ca466b1fef3918d00"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "159e23f2bbae9054f2ec55a9fbbc098ba608c11591bb7f96f3ba4cf53ca95eda"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "b16eadbfbc373685ae350a28ecdda1354a69df1d71a06721a974d5add94021a7d4504dca80b2f9fcc5a8a0209a0758c7a67c7960edbe2789faac072e1005b018"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "096eb8cf77408d0b2d37547b1acb3aba5c1aa3b3980eee8f27699b685ba9520acfd1250d0627491762f4ddce5a53815a"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "European Union Public Licence (EUPL) Version 1.2",
-            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
-          }
-        }
-      ],
-      "purl": "pkg:maven/eu.europa.ec.itb/gitb-types-jakarta@1.28.2"
-    },
-    {
-      "type": "library",
       "bom-ref": "13bd49dc-0b9d-4c27-a45a-8191abf04352",
       "group": "eu.europa.ec.itb",
       "name": "gitb-types-jakarta",
@@ -12855,43 +12804,43 @@
     },
     {
       "type": "library",
-      "bom-ref": "e95d3225-fa6c-4798-8229-6f6913143ff1",
+      "bom-ref": "cb317d3d-26a8-40b8-a19d-e7dea109317c",
       "group": "eu.europa.ec.itb",
-      "name": "gitb-types-specs",
+      "name": "gitb-types-jakarta",
       "version": "1.28.2",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "b17b145eb324386778ab0dea2ecf7b84"
+          "content": "e53a426bd2fa8d907beb0b1a5412641d"
         },
         {
           "alg": "SHA-1",
-          "content": "0c6ca26f8f7fe63421e924eb8ac0bd134a8723cb"
+          "content": "7ee44dd97d062ef36398e728c111053a71557796"
         },
         {
           "alg": "SHA-256",
-          "content": "f6e7847531e8612291481d9ff36a74c05c16bc25962854f646c865c6d42a18ed"
+          "content": "fbe3bc08a6782d5d4e17a1a3e2079f85edd80b2f2b623761191c8bdf79055806"
         },
         {
           "alg": "SHA-384",
-          "content": "4cfb9fa7564d11f7204d810bc4372963e021fdfcd67e93114cbfcb34c8e3b2866e2d39e549a61ffda8ca29efc059510a"
+          "content": "c98a25fce52765c8983e3a5fb6ce43c3cec46b4cb7621506253deba3dd970983fdaede480b0fdcc24c7e62e725399206"
         },
         {
           "alg": "SHA-512",
-          "content": "17a69f587650ebbb21cf70981a376491fcac9d4245d2544aafb6b36444c5867e3590a46f4ff76843c21cce45ac780234c074c65add00e0065e6e39d11e4b83ca"
+          "content": "3c3d22d3b18addc0df71700b8c25e9251b30de1701d0742745f214b334e3f7dbaca6a4097ed15e45476ede58478110e959f33d2f023d058ca466b1fef3918d00"
         },
         {
           "alg": "SHA3-256",
-          "content": "d6d2f8f4292582b2a0a4e31b36b8ffc9a40a672bbee2a6dd1f0bb3d2388fabd9"
+          "content": "159e23f2bbae9054f2ec55a9fbbc098ba608c11591bb7f96f3ba4cf53ca95eda"
         },
         {
           "alg": "SHA3-512",
-          "content": "f6774cc4ec72b013498eec60bccc1a12f0e1dafc02d0877b57c18bb048fdf4af40da88c8ba3de3ae047526d7a86443fc1957357843051191b00fa473d9f95e6a"
+          "content": "b16eadbfbc373685ae350a28ecdda1354a69df1d71a06721a974d5add94021a7d4504dca80b2f9fcc5a8a0209a0758c7a67c7960edbe2789faac072e1005b018"
         },
         {
           "alg": "SHA3-384",
-          "content": "f7c5f447d83cf2cb20dfa468fa736923ed2815ad4c80c8658ead6a13ffacddf8756a0e141b5613bd6a708957fea966ac"
+          "content": "096eb8cf77408d0b2d37547b1acb3aba5c1aa3b3980eee8f27699b685ba9520acfd1250d0627491762f4ddce5a53815a"
         }
       ],
       "licenses": [
@@ -12902,7 +12851,7 @@
           }
         }
       ],
-      "purl": "pkg:maven/eu.europa.ec.itb/gitb-types-specs@1.28.2"
+      "purl": "pkg:maven/eu.europa.ec.itb/gitb-types-jakarta@1.28.2"
     },
     {
       "type": "library",
@@ -12965,6 +12914,57 @@
           "url": "https://github.com/ISAITB/gitb-types/gitb-types-specs"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "e95d3225-fa6c-4798-8229-6f6913143ff1",
+      "group": "eu.europa.ec.itb",
+      "name": "gitb-types-specs",
+      "version": "1.28.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b17b145eb324386778ab0dea2ecf7b84"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0c6ca26f8f7fe63421e924eb8ac0bd134a8723cb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f6e7847531e8612291481d9ff36a74c05c16bc25962854f646c865c6d42a18ed"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4cfb9fa7564d11f7204d810bc4372963e021fdfcd67e93114cbfcb34c8e3b2866e2d39e549a61ffda8ca29efc059510a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "17a69f587650ebbb21cf70981a376491fcac9d4245d2544aafb6b36444c5867e3590a46f4ff76843c21cce45ac780234c074c65add00e0065e6e39d11e4b83ca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d6d2f8f4292582b2a0a4e31b36b8ffc9a40a672bbee2a6dd1f0bb3d2388fabd9"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f6774cc4ec72b013498eec60bccc1a12f0e1dafc02d0877b57c18bb048fdf4af40da88c8ba3de3ae047526d7a86443fc1957357843051191b00fa473d9f95e6a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f7c5f447d83cf2cb20dfa468fa736923ed2815ad4c80c8658ead6a13ffacddf8756a0e141b5613bd6a708957fea966ac"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/eu.europa.ec.itb/gitb-types-specs@1.28.2"
     },
     {
       "type": "application",
@@ -13223,57 +13223,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "842246a3-7b0d-484b-b829-12a3713749b9",
-      "group": "de.rototor.pdfbox",
-      "name": "graphics2d",
-      "version": "3.0.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "f144f460c9c4f58bf84c3c9af326c612"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "660c5e7359e89403e14ebd8803ca3e12ab750eda"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "4849aaa6f536d75dea1b835a71086702216787036f42716adfad438c6e7928c0"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "17b881cdf991ccf6a600328d3d8d82d44131ac921615e1be54138285cb0698accfe9fedd2704f63b02db84410d349381"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "7c16ee803207579147b95a4dedde499d8c243eb5c840349f008c233542df6f349fb8538467405022fa53ec0bb7ffa2b46a150f3eb2127e5ca89f52d264fddcdf"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "7b3405c61715760a9bdd91723bc201bf030a068b9f4697bc4626fbf454c84663"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "8140ea99b0427fcc4193ceaa3d7c68aba8f86e176ed66eafee414095c08eb187d0560ecfb86700488ec855981fc4605d949b710c8394048ff06272c4b784ad74"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "23b0c34b4c7859d09a4ed2a237a3c87ed04829444d84b6a4844580185a7a7330e8a37c48e86b6a9aa1fe2eabf20d4f89"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/de.rototor.pdfbox/graphics2d@3.0.1"
-    },
-    {
-      "type": "library",
       "bom-ref": "f5afa634-7bd7-4e0f-92a3-cb65fea6891a",
       "group": "de.rototor.pdfbox",
       "name": "graphics2d",
@@ -13332,6 +13281,57 @@
           "url": "https://github.com/rototor/pdfbox-graphics2d/graphics2d"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "842246a3-7b0d-484b-b829-12a3713749b9",
+      "group": "de.rototor.pdfbox",
+      "name": "graphics2d",
+      "version": "3.0.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f144f460c9c4f58bf84c3c9af326c612"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "660c5e7359e89403e14ebd8803ca3e12ab750eda"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4849aaa6f536d75dea1b835a71086702216787036f42716adfad438c6e7928c0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "17b881cdf991ccf6a600328d3d8d82d44131ac921615e1be54138285cb0698accfe9fedd2704f63b02db84410d349381"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7c16ee803207579147b95a4dedde499d8c243eb5c840349f008c233542df6f349fb8538467405022fa53ec0bb7ffa2b46a150f3eb2127e5ca89f52d264fddcdf"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7b3405c61715760a9bdd91723bc201bf030a068b9f4697bc4626fbf454c84663"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8140ea99b0427fcc4193ceaa3d7c68aba8f86e176ed66eafee414095c08eb187d0560ecfb86700488ec855981fc4605d949b710c8394048ff06272c4b784ad74"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "23b0c34b4c7859d09a4ed2a237a3c87ed04829444d84b6a4844580185a7a7330e8a37c48e86b6a9aa1fe2eabf20d4f89"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/de.rototor.pdfbox/graphics2d@3.0.1"
     },
     {
       "type": "library",
@@ -13793,6 +13793,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "c15bff63-45a7-4732-bce2-c333ffa21e5a",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.16",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "28d2cd9bf8789fd2ec774fb88436ebd1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "51cf043c87253c9f58b539c9f7e44c8894223850"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6c9b3dd142a09dc468e23ad39aad6f75a0f2b85125104469f026e52a474e464f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ba9ceaee1a37ca3201d6a1315ecb0327b495489efd0baa155c219c475df8d3eb69fe77ab0026563db406497626da6562"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "168026436a6bcf5e96c0c59606638abbdc30de4b405ae55afde70fdf2895e267a3d48bba6bdadc5a89f38e31da3d9a9dc91e1cab7ea76f5e04322cf1ec63b838"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fd8ab51846476c6c18822151c9ec07b39a9633010b5d20ea937fc6910407bc64"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b42fa528242981a9d70e4f68ab75a24292df5112c44c21b6f18cb9201ce747885ba1d4dc69bc3d14d0da46a6c2638f937c11bc45749abeb55dc89ddada90cdda"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b9dc44dcc7cc86d5036f26d54c4003a2d72808ae7b07a0808bb53505c6d4281b5ad213eb1f3d0fef1113dec57cb0dfe1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://hc.apache.org/httpcomponents-core-ga"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "dd42d884-fa73-42bc-8dd0-e2318bdb7d54",
       "group": "org.apache.httpcomponents",
       "name": "httpcore",
@@ -13857,63 +13914,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/apache/httpcomponents-core/tree/4.4.16/httpcore"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "c15bff63-45a7-4732-bce2-c333ffa21e5a",
-      "group": "org.apache.httpcomponents",
-      "name": "httpcore",
-      "version": "4.4.16",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "28d2cd9bf8789fd2ec774fb88436ebd1"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "51cf043c87253c9f58b539c9f7e44c8894223850"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "6c9b3dd142a09dc468e23ad39aad6f75a0f2b85125104469f026e52a474e464f"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "ba9ceaee1a37ca3201d6a1315ecb0327b495489efd0baa155c219c475df8d3eb69fe77ab0026563db406497626da6562"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "168026436a6bcf5e96c0c59606638abbdc30de4b405ae55afde70fdf2895e267a3d48bba6bdadc5a89f38e31da3d9a9dc91e1cab7ea76f5e04322cf1ec63b838"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "fd8ab51846476c6c18822151c9ec07b39a9633010b5d20ea937fc6910407bc64"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "b42fa528242981a9d70e4f68ab75a24292df5112c44c21b6f18cb9201ce747885ba1d4dc69bc3d14d0da46a6c2638f937c11bc45749abeb55dc89ddada90cdda"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "b9dc44dcc7cc86d5036f26d54c4003a2d72808ae7b07a0808bb53505c6d4281b5ad213eb1f3d0fef1113dec57cb0dfe1"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "http://hc.apache.org/httpcomponents-core-ga"
         }
       ]
     },
@@ -14171,6 +14171,51 @@
     },
     {
       "type": "library",
+      "bom-ref": "ecb34da7-711c-4311-be9f-4d8656ac3aba",
+      "author": "Mike Bostock",
+      "name": "internmap",
+      "version": "1.0.1",
+      "description": "Map and Set with automatic key interning",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/internmap@1.0.1",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/internmap/-/internmap-1.0.1.tgz",
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mbostock/internmap/issues",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mbostock/internmap.git",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mbostock/internmap/",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/d3-sankey/node_modules/internmap"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "dd4d8687-5d56-403f-9ebb-3da2192f9c7f",
       "author": "Mike Bostock",
       "name": "internmap",
@@ -14215,51 +14260,6 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/internmap"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "ecb34da7-711c-4311-be9f-4d8656ac3aba",
-      "author": "Mike Bostock",
-      "name": "internmap",
-      "version": "1.0.1",
-      "description": "Map and Set with automatic key interning",
-      "scope": "optional",
-      "licenses": [
-        {
-          "license": {
-            "id": "ISC"
-          }
-        }
-      ],
-      "purl": "pkg:npm/internmap@1.0.1",
-      "externalReferences": [
-        {
-          "type": "distribution",
-          "url": "https://registry.npmjs.org/internmap/-/internmap-1.0.1.tgz",
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/mbostock/internmap/issues",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/mbostock/internmap.git",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "type": "website",
-          "url": "https://github.com/mbostock/internmap/",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/d3-sankey/node_modules/internmap"
         }
       ]
     },
@@ -14625,63 +14625,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "c00e835e-6169-4a7c-bfef-e5ced397a54d",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
-      "version": "2.20.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "3536b524a7106dae1b4feb71e6f5ff74"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "3c97f7fad069f7cfae639d790bd93d6a0b2dff31"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "bc0cf46075877201f8406ee7de2741ae7df6c066f5f0457bd80632a718c06e72"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "5f294aa2b3561b2dc5f6bd9958758783294ae31396b8af9cca1495f87d4b8fa470e41b62f6078a407cb6d7f5e8efecee"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "6fde805019901b0e6f6af56c48b60a08ead48e962e167308a3d8ed861470594a80e5c6aec340e7ce8dd12a32d8c0cbb46bc39bc381f027f5977953950e60b083"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "3879cf4a3f6bfcea4181ec464142c7798f979d6cc0a561cd87dea8054f5abb50"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "fc84b0702c51b31e4a6eaa0e6eff8914166a51dad8adbb768887ea580106d953e86bfc2fe8c5b99d03e64ef06bf6d33a4ef33e8f045d743b00cb0e05452ec082"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "ef6efea299577b599d290fd0b48f44e239c0c051b0849b163b2f667641a6ff682bd68745ab3ecad1fb7939de0dd11e4e"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "d027f282-17b2-42f0-95e5-2ed22deba694",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -14741,6 +14684,63 @@
         },
         {
           "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "c00e835e-6169-4a7c-bfef-e5ced397a54d",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.20.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3536b524a7106dae1b4feb71e6f5ff74"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3c97f7fad069f7cfae639d790bd93d6a0b2dff31"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc0cf46075877201f8406ee7de2741ae7df6c066f5f0457bd80632a718c06e72"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5f294aa2b3561b2dc5f6bd9958758783294ae31396b8af9cca1495f87d4b8fa470e41b62f6078a407cb6d7f5e8efecee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6fde805019901b0e6f6af56c48b60a08ead48e962e167308a3d8ed861470594a80e5c6aec340e7ce8dd12a32d8c0cbb46bc39bc381f027f5977953950e60b083"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3879cf4a3f6bfcea4181ec464142c7798f979d6cc0a561cd87dea8054f5abb50"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fc84b0702c51b31e4a6eaa0e6eff8914166a51dad8adbb768887ea580106d953e86bfc2fe8c5b99d03e64ef06bf6d33a4ef33e8f045d743b00cb0e05452ec082"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ef6efea299577b599d290fd0b48f44e239c0c051b0849b163b2f667641a6ff682bd68745ab3ecad1fb7939de0dd11e4e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.0",
+      "externalReferences": [
+        {
+          "type": "website",
           "url": "https://github.com/FasterXML/jackson-core"
         }
       ]
@@ -33477,21 +33477,21 @@
       ]
     },
     {
-      "ref": "083f3867-8a0e-49d5-88d3-51bb3ba7336f",
-      "dependsOn": []
-    },
-    {
       "ref": "2e399d55-c089-4b21-96ba-0691525d60a8",
       "dependsOn": [
         "82183802-d797-4e82-9577-d6bdee276142"
       ]
     },
     {
-      "ref": "4138f5f8-f07a-44b7-802b-e124fef335bd",
+      "ref": "083f3867-8a0e-49d5-88d3-51bb3ba7336f",
       "dependsOn": []
     },
     {
       "ref": "8052dd3a-17c9-4d82-ac9e-57ec52f184c8",
+      "dependsOn": []
+    },
+    {
+      "ref": "4138f5f8-f07a-44b7-802b-e124fef335bd",
       "dependsOn": []
     },
     {
@@ -33660,11 +33660,11 @@
       ]
     },
     {
-      "ref": "12cc2023-5ec1-4d51-bd55-63744f915b7f",
+      "ref": "9514f0da-3c0d-4806-b8cd-3571c65a7a21",
       "dependsOn": []
     },
     {
-      "ref": "9514f0da-3c0d-4806-b8cd-3571c65a7a21",
+      "ref": "12cc2023-5ec1-4d51-bd55-63744f915b7f",
       "dependsOn": []
     },
     {
@@ -33836,13 +33836,6 @@
       ]
     },
     {
-      "ref": "cb317d3d-26a8-40b8-a19d-e7dea109317c",
-      "dependsOn": [
-        "c23f0e0f-a166-4bc6-9997-d74fec441091",
-        "ca811e0d-0913-4e64-9e3f-265257c12678"
-      ]
-    },
-    {
       "ref": "13bd49dc-0b9d-4c27-a45a-8191abf04352",
       "dependsOn": [
         "7c85e423-9e0b-4e63-b803-05c1a4626105",
@@ -33850,11 +33843,18 @@
       ]
     },
     {
-      "ref": "e95d3225-fa6c-4798-8229-6f6913143ff1",
-      "dependsOn": []
+      "ref": "cb317d3d-26a8-40b8-a19d-e7dea109317c",
+      "dependsOn": [
+        "c23f0e0f-a166-4bc6-9997-d74fec441091",
+        "ca811e0d-0913-4e64-9e3f-265257c12678"
+      ]
     },
     {
       "ref": "95142e49-1bef-4919-b5b5-36f0e7f8511b",
+      "dependsOn": []
+    },
+    {
+      "ref": "e95d3225-fa6c-4798-8229-6f6913143ff1",
       "dependsOn": []
     },
     {
@@ -33976,11 +33976,11 @@
       ]
     },
     {
-      "ref": "842246a3-7b0d-484b-b829-12a3713749b9",
+      "ref": "f5afa634-7bd7-4e0f-92a3-cb65fea6891a",
       "dependsOn": []
     },
     {
-      "ref": "f5afa634-7bd7-4e0f-92a3-cb65fea6891a",
+      "ref": "842246a3-7b0d-484b-b829-12a3713749b9",
       "dependsOn": []
     },
     {
@@ -34044,11 +34044,11 @@
       ]
     },
     {
-      "ref": "dd42d884-fa73-42bc-8dd0-e2318bdb7d54",
+      "ref": "c15bff63-45a7-4732-bce2-c333ffa21e5a",
       "dependsOn": []
     },
     {
-      "ref": "c15bff63-45a7-4732-bce2-c333ffa21e5a",
+      "ref": "dd42d884-fa73-42bc-8dd0-e2318bdb7d54",
       "dependsOn": []
     },
     {
@@ -34087,11 +34087,11 @@
       ]
     },
     {
-      "ref": "dd4d8687-5d56-403f-9ebb-3da2192f9c7f",
+      "ref": "ecb34da7-711c-4311-be9f-4d8656ac3aba",
       "dependsOn": []
     },
     {
-      "ref": "ecb34da7-711c-4311-be9f-4d8656ac3aba",
+      "ref": "dd4d8687-5d56-403f-9ebb-3da2192f9c7f",
       "dependsOn": []
     },
     {
@@ -34119,11 +34119,11 @@
       "dependsOn": []
     },
     {
-      "ref": "c00e835e-6169-4a7c-bfef-e5ced397a54d",
+      "ref": "d027f282-17b2-42f0-95e5-2ed22deba694",
       "dependsOn": []
     },
     {
-      "ref": "d027f282-17b2-42f0-95e5-2ed22deba694",
+      "ref": "c00e835e-6169-4a7c-bfef-e5ced397a54d",
       "dependsOn": []
     },
     {

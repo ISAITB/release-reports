@@ -223,18 +223,18 @@
         "1.28.0": {
           "bom": {
             "path": "itb/1.28.0/itb-1.28.0.bom.json",
-            "sha256": "3ff40371c048b34e2c58c3eb8e8af47327dbad0440bb58e941b76efe76082013",
+            "sha256": "69225c10729875198e9a24f25bbf49fb32d212e2b6d80cb847f797d5386e98d0",
             "signature": {
               "path": "itb/1.28.0/itb-1.28.0.bom.json.sigstore.json",
-              "sha256": "e597869662bc832553bb77b466f4ca6989c177e4f7f3cc7a5f60647579f651f8"
+              "sha256": "35d9208d0413147dab6855c004bcef4359cf23a3d9157207066b494018cd0a61"
             }
           },
           "vdr": {
             "path": "itb/1.28.0/itb-1.28.0.vdr.json",
-            "sha256": "3f9f7cb83ed300c9cd5f41fab09551d3bc3b32e4233612888eccaa5d2f6dded3",
+            "sha256": "2b16c3ae92c6f9a2bfb4676e940cb1efe9f241b180a84a7b11769d1e6809d039",
             "signature": {
               "path": "itb/1.28.0/itb-1.28.0.vdr.json.sigstore.json",
-              "sha256": "4cb3ddeb4de4ef9b48f3185edd17f4a6ec282583227232ef50ef00792542364d"
+              "sha256": "0d83dda8a1f98ba8df5d15e47ea61743ae066d1de045a9d1d9bfe5cb4154c992"
             }
           },
           "summary": {
@@ -254,7 +254,7 @@
               "CVE-2026-66144",
               "GHSA-xw5h-cmh3-8j6j"
             ],
-            "notAffected": 187,
+            "notAffected": 188,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -263,18 +263,18 @@
         "1.28.1": {
           "bom": {
             "path": "itb/1.28.1/itb-1.28.1.bom.json",
-            "sha256": "cc905723d3f4acf392c155b35571c9371e780c82a054f0b144b0bda6257029b6",
+            "sha256": "e87e87654ff78f6071447366fef23c72bb3972501490224cf34beacf851447f8",
             "signature": {
               "path": "itb/1.28.1/itb-1.28.1.bom.json.sigstore.json",
-              "sha256": "0bb00d7bfc0f168321117d8aa159516cf343ea9f6d2ef036390c6d04e456952a"
+              "sha256": "8e938e87b700cea4db6a4e3f28ab01c9d0c8be35a335f8c54e5c0131570eafc9"
             }
           },
           "vdr": {
             "path": "itb/1.28.1/itb-1.28.1.vdr.json",
-            "sha256": "e2a2a7018eb4fe58970d948b217c208cfa7fb96584bdfb6b3ceab8df36e0f7f4",
+            "sha256": "881fd0c43aea45cf3c75690e35be5ed1200578b26dc8f49d4ad431bee513307b",
             "signature": {
               "path": "itb/1.28.1/itb-1.28.1.vdr.json.sigstore.json",
-              "sha256": "0e4ee4a24cd60cb025e64660e60782e6fc9a68d5438ece0ee3b444959e04a165"
+              "sha256": "b2169a9d75ce4a0fb16a1ff908fded0d876b4fe20dc9392a5560ab4b6474fac5"
             }
           },
           "summary": {
@@ -294,7 +294,7 @@
               "CVE-2026-66144",
               "GHSA-xw5h-cmh3-8j6j"
             ],
-            "notAffected": 187,
+            "notAffected": 188,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -303,18 +303,18 @@
         "1.28.2": {
           "bom": {
             "path": "itb/1.28.2/itb-1.28.2.bom.json",
-            "sha256": "88cdbf575f95c97b53fbdda010aeddc1c3dbc90775e07821efaf3a1b71726b8b",
+            "sha256": "4a4d73e5634f5a3baddf3d00e1d099740845bd90108f334a7ea1d5824fc79aa2",
             "signature": {
               "path": "itb/1.28.2/itb-1.28.2.bom.json.sigstore.json",
-              "sha256": "160278d65dfd127a3f485551a3b491d460128cb7ceca16d2a48399b4a7ebafce"
+              "sha256": "67fd293197412a7b5e89c2ffcaf7f1418615ed9d78612d61d78fc4f18250c55f"
             }
           },
           "vdr": {
             "path": "itb/1.28.2/itb-1.28.2.vdr.json",
-            "sha256": "f8f22a68c3c99e44f44040d41cdceb5dcd9321f8f12910f2c952b44e5fb1142b",
+            "sha256": "0d43b4e5dbb491eda9c950ec2bc8ad927cf04b61d437bd225f0429af96d3e5d0",
             "signature": {
               "path": "itb/1.28.2/itb-1.28.2.vdr.json.sigstore.json",
-              "sha256": "d1dd4da6bb331929f02085b1d4155add0246473e841ed3f69fb8f720c88fe7f8"
+              "sha256": "a464fac290ffdebb6b63346c151074dfcadb46f84f97d5bc55561ff06ed1a148"
             }
           },
           "summary": {
@@ -334,7 +334,7 @@
               "CVE-2026-66144",
               "GHSA-xw5h-cmh3-8j6j"
             ],
-            "notAffected": 187,
+            "notAffected": 188,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -343,18 +343,58 @@
         "1.28.3": {
           "bom": {
             "path": "itb/1.28.3/itb-1.28.3.bom.json",
-            "sha256": "4af3a878397a29358ac29696f4fb6045ffeef650f859deaa746c5137e5d459d0",
+            "sha256": "6f8496185663bb4d3d87460a2e795b9f500121a715642d5cb413438c2236882f",
             "signature": {
               "path": "itb/1.28.3/itb-1.28.3.bom.json.sigstore.json",
-              "sha256": "4ea322c73b50bd65b664b56d7d44e7bcbc6d2dab3b8046fb40d953226700cc0c"
+              "sha256": "c037a8835f2f09f399f637accb3847633e49279019c8472140152252903fdf12"
             }
           },
           "vdr": {
             "path": "itb/1.28.3/itb-1.28.3.vdr.json",
-            "sha256": "80f25ccd4e377e8efec20cb3dd4cebf62bdc2da48c30d473537302295a26c92e",
+            "sha256": "aa7e80a9e444f7b3f04828544a8bd41c327ebfef59f232332653742f7c48ea64",
             "signature": {
               "path": "itb/1.28.3/itb-1.28.3.vdr.json.sigstore.json",
-              "sha256": "38e65e8dee2f9ebebc9319b2e57a465bc90c4726b8e05368c8067b4d818f5d66"
+              "sha256": "079aa50f083ba2025193ec497cf8de8a333322abd9db61c24dee26350e0e176e"
+            }
+          },
+          "summary": {
+            "exploitable": 13,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "CVE-2026-107937",
+              "CVE-2026-108039",
+              "CVE-2026-49875",
+              "CVE-2026-50645",
+              "CVE-2026-54225",
+              "CVE-2026-64958",
+              "CVE-2026-65432",
+              "CVE-2026-66142",
+              "CVE-2026-66144",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 188,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.28.4": {
+          "bom": {
+            "path": "itb/1.28.4/itb-1.28.4.bom.json",
+            "sha256": "f37f491795ec1c40bf2aff9aeeb67a0d49e9a9f808f067a17bb0839adf04fb94",
+            "signature": {
+              "path": "itb/1.28.4/itb-1.28.4.bom.json.sigstore.json",
+              "sha256": "1c233a0e6ca7790f4499520100002c27873b40b2d066f0d634fff5a4f4294cb3"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.28.4/itb-1.28.4.vdr.json",
+            "sha256": "a02998301b47a78199d87579d5ae4c045f95a6edb0415dacd6a85ccca8bf2841",
+            "signature": {
+              "path": "itb/1.28.4/itb-1.28.4.vdr.json.sigstore.json",
+              "sha256": "a860c66b470ba884a3e4d59cdcc270818cb37618f8274afc80bf28bf49fa2347"
             }
           },
           "summary": {
@@ -380,61 +420,21 @@
             "assessmentInProgress": false
           }
         },
-        "1.28.4": {
-          "bom": {
-            "path": "itb/1.28.4/itb-1.28.4.bom.json",
-            "sha256": "f350fc38a9220042e59cb7e29812380b38d6358b62e1492b79c1c32a9fdcc2a1",
-            "signature": {
-              "path": "itb/1.28.4/itb-1.28.4.bom.json.sigstore.json",
-              "sha256": "862b820ce1322a336339043c1be6e696776156df9592ca7cfe808ce2bf1ecad3"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.28.4/itb-1.28.4.vdr.json",
-            "sha256": "920a755e77cd4237c8523eb6fa4e2d5489ca2026d53ecf278cd3b3184797fc4b",
-            "signature": {
-              "path": "itb/1.28.4/itb-1.28.4.vdr.json.sigstore.json",
-              "sha256": "cc7c5478f5562bf12fad154f2dd3c820db19372033ea386736f1e2345c0b9e2e"
-            }
-          },
-          "summary": {
-            "exploitable": 13,
-            "exploitableIds": [
-              "CVE-2026-102495",
-              "CVE-2026-102496",
-              "CVE-2026-102497",
-              "CVE-2026-107937",
-              "CVE-2026-108039",
-              "CVE-2026-49875",
-              "CVE-2026-50645",
-              "CVE-2026-54225",
-              "CVE-2026-64958",
-              "CVE-2026-65432",
-              "CVE-2026-66142",
-              "CVE-2026-66144",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 186,
-            "falsePositive": 0,
-            "resolved": 0,
-            "assessmentInProgress": false
-          }
-        },
         "1.28.5": {
           "bom": {
             "path": "itb/1.28.5/itb-1.28.5.bom.json",
-            "sha256": "a2828e92fdceb3abb437e0c33213de1bbcdaebb4f672b1de955aed99b878fb09",
+            "sha256": "d1d6af889d1b4ad8f9514f7a49e602ef3704b46261e8f3c05716f496685cbfed",
             "signature": {
               "path": "itb/1.28.5/itb-1.28.5.bom.json.sigstore.json",
-              "sha256": "7bfb94f479907fd7fcda32a9208da0fe41f5cb85db611ce38102f97550045896"
+              "sha256": "85411bb8df1b15fa62eb58d5d048e2064e4a299ed51da884a900a6fd0f17ada7"
             }
           },
           "vdr": {
             "path": "itb/1.28.5/itb-1.28.5.vdr.json",
-            "sha256": "0179c13835732672b07025d2be3880f3c267b49291137cae4ade7c7f108ef2c6",
+            "sha256": "542e38af5c43a28b7bc2f92bbc11fd1398e622f623c86cf2b89bdb75b544f725",
             "signature": {
               "path": "itb/1.28.5/itb-1.28.5.vdr.json.sigstore.json",
-              "sha256": "3669e890af33ed63691001e3378ffdfd93a087eb894e597af5cd25a3040d03bc"
+              "sha256": "44c8d3b1918fe5930848fa387bcbeff8455f42f179e748278ccf4b7bec563a86"
             }
           },
           "summary": {
@@ -454,7 +454,7 @@
               "CVE-2026-66144",
               "GHSA-xw5h-cmh3-8j6j"
             ],
-            "notAffected": 148,
+            "notAffected": 149,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -463,18 +463,61 @@
         "1.29.0": {
           "bom": {
             "path": "itb/1.29.0/itb-1.29.0.bom.json",
-            "sha256": "3c714ffdab635d5c07c8e188612c72dd1a5b44e1fb2b3905692dcca3b4079b85",
+            "sha256": "b0fb4ab8103730825670e91c33c76607cbb82211e78477fb4253336cd0574deb",
             "signature": {
               "path": "itb/1.29.0/itb-1.29.0.bom.json.sigstore.json",
-              "sha256": "be693d0039d5e823629d13b1e274f9c7e5ac2599c2d4d204c2b3bbc9dc70f194"
+              "sha256": "12219f51c82b46b070463b97468e169b67c353b6ce36adf19f80287cd2c1fd44"
             }
           },
           "vdr": {
             "path": "itb/1.29.0/itb-1.29.0.vdr.json",
-            "sha256": "c24a75b6f6485e039baa5cba9aa03cad4b613b0f4a4f211300d57c29597f620d",
+            "sha256": "82d9f135367a7a33e68d67811f53cdac756aaf310eb7319ad6f21d9bfdab1cc0",
             "signature": {
               "path": "itb/1.29.0/itb-1.29.0.vdr.json.sigstore.json",
-              "sha256": "49f6ac79080ccdef1b8fb7494947358dc2d35c457e26a6ae90f42f535a6c5b7e"
+              "sha256": "a5206b61711117f37bdde2698f1e6d4a0ab0c13c8a65d885080fd0501d918f37"
+            }
+          },
+          "summary": {
+            "exploitable": 16,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "CVE-2026-107937",
+              "CVE-2026-108039",
+              "CVE-2026-49875",
+              "CVE-2026-50645",
+              "CVE-2026-54225",
+              "CVE-2026-64958",
+              "CVE-2026-65432",
+              "CVE-2026-66142",
+              "CVE-2026-66144",
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j"
+            ],
+            "notAffected": 183,
+            "falsePositive": 3,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.29.1": {
+          "bom": {
+            "path": "itb/1.29.1/itb-1.29.1.bom.json",
+            "sha256": "2330cdb29dd150b14e2080cb9747c4a0ae2353fbae43fe51a60474c8facb9042",
+            "signature": {
+              "path": "itb/1.29.1/itb-1.29.1.bom.json.sigstore.json",
+              "sha256": "3d3b795c4ef1f5b080fe9049bac5001673c79e1ef2f984a4594cc07a14defc48"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.29.1/itb-1.29.1.vdr.json",
+            "sha256": "22ff0321b1dc7b7d21ff60029637eee94a1a487d5e9ffd4b8eb88b98e52ca0b8",
+            "signature": {
+              "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
+              "sha256": "060226b3fb3a0eef21e4369d12dd8802f8c71db138e6b80af0ce6e53a57a674d"
             }
           },
           "summary": {
@@ -503,64 +546,21 @@
             "assessmentInProgress": false
           }
         },
-        "1.29.1": {
-          "bom": {
-            "path": "itb/1.29.1/itb-1.29.1.bom.json",
-            "sha256": "702a1533a1e3cee8e415966e7be3d90dd7aed9201a6b74ef02f12c7c731bd7e4",
-            "signature": {
-              "path": "itb/1.29.1/itb-1.29.1.bom.json.sigstore.json",
-              "sha256": "7660522b524a5987957f56285124bd2f3b951cfc40ae0ff18d31fbf38c407072"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.29.1/itb-1.29.1.vdr.json",
-            "sha256": "8604bdb06d8943b3747661a6f51088c781e591a90ca12c7d855ea1434ea76839",
-            "signature": {
-              "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
-              "sha256": "8a3b9ca3bbad52177cee9b58a4e1956066b351e36975887aa07fcaf28b6e0476"
-            }
-          },
-          "summary": {
-            "exploitable": 16,
-            "exploitableIds": [
-              "CVE-2026-102495",
-              "CVE-2026-102496",
-              "CVE-2026-102497",
-              "CVE-2026-107937",
-              "CVE-2026-108039",
-              "CVE-2026-49875",
-              "CVE-2026-50645",
-              "CVE-2026-54225",
-              "CVE-2026-64958",
-              "CVE-2026-65432",
-              "CVE-2026-66142",
-              "CVE-2026-66144",
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 181,
-            "falsePositive": 3,
-            "resolved": 0,
-            "assessmentInProgress": false
-          }
-        },
         "1.29.2": {
           "bom": {
             "path": "itb/1.29.2/itb-1.29.2.bom.json",
-            "sha256": "b828188e4c7209852e539ebce975c1d59b342298b62f8e3cb55677db0a6b0e9e",
+            "sha256": "9b5d029f8444591981d4a054bea57d9edbb642082e5f458e711bb2e2a0215b7a",
             "signature": {
               "path": "itb/1.29.2/itb-1.29.2.bom.json.sigstore.json",
-              "sha256": "54987f73dd15ac8eb4450f25b45c09375eae5af769dafb81eaa938bbe4bfd21c"
+              "sha256": "911839f515d324b9f30c4a0439fb81c8634f79b0959be931d8078bab8cd82e13"
             }
           },
           "vdr": {
             "path": "itb/1.29.2/itb-1.29.2.vdr.json",
-            "sha256": "f41be29a6995aeb2dc49abb93fef7d476b7b65b1ed81a54b334ae74b4f192058",
+            "sha256": "0b0268d7f7ed1264843a06eb62532f1ae0ccb4ab0dc315a0d950409415318e49",
             "signature": {
               "path": "itb/1.29.2/itb-1.29.2.vdr.json.sigstore.json",
-              "sha256": "07250f0f29e9f0e0d0fa621560dec224ad9490c5073d2e2673729feea0d78a21"
+              "sha256": "daa027663a1940172a2192d9788581e89d406782a260d5a81ebc17cc763c8720"
             }
           },
           "summary": {
@@ -583,7 +583,7 @@
               "GHSA-r29c-68gh-xp6x",
               "GHSA-xw5h-cmh3-8j6j"
             ],
-            "notAffected": 181,
+            "notAffected": 182,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -592,18 +592,18 @@
         "1.29.3": {
           "bom": {
             "path": "itb/1.29.3/itb-1.29.3.bom.json",
-            "sha256": "bda26fd98d5d3ea914b11070d7caa5f0620822c3c55947112574702b42478763",
+            "sha256": "02e355d3c6868279b60d8d8a888d415682d8d7a4ab37a6298268556d73ca6ca5",
             "signature": {
               "path": "itb/1.29.3/itb-1.29.3.bom.json.sigstore.json",
-              "sha256": "a38ec2dd42ce3f31a09192e2915fa86e7453fc9ffd9947ddfd6115938b12dfe6"
+              "sha256": "b9c6078131d67100b91ced4f1f6c3fa3a3fa219093546715af86fa18a8d4f008"
             }
           },
           "vdr": {
             "path": "itb/1.29.3/itb-1.29.3.vdr.json",
-            "sha256": "8588076d1fe409007e60e57dca661deed2d4b853e5330b8e5129cfc0ecf230f9",
+            "sha256": "1585433172eba2a4d03694a292344d42bc52cfe7968d3156334a222fdab89e72",
             "signature": {
               "path": "itb/1.29.3/itb-1.29.3.vdr.json.sigstore.json",
-              "sha256": "27c64e134fecef4c21b84a1fde0ffc0f68a674dc8a7e5c40988ed51e5304d85f"
+              "sha256": "7e2e9e503b8134748f508ba48a46a80c25b32648d598ab125464b9c71d5a0ee0"
             }
           },
           "summary": {
@@ -626,7 +626,7 @@
               "GHSA-r29c-68gh-xp6x",
               "GHSA-xw5h-cmh3-8j6j"
             ],
-            "notAffected": 179,
+            "notAffected": 180,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false

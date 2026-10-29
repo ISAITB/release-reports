@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:07f6ee87-a367-4d6e-ad94-6a8bf2cf4452",
+  "serialNumber": "urn:uuid:140a08aa-ee6a-4e79-b1f9-14dde6c8cde1",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:17:09Z",
+    "timestamp": "2026-10-29T08:05:47Z",
     "tools": {
       "components": [
         {
@@ -190,6 +190,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "b2e6e74a-e707-45dc-a095-d9299babcff9",
+      "group": "org.apache.commons",
+      "name": "commons-configuration2",
+      "version": "2.12.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e71e0d7a413b2bb6b3b2a2f55b5fc727"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0cab81350c85ca35db8c47621a19dcddf128883f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8834b3a04f303069dc66ccbf157e1fc337aa9169bb44dbf4eb4cbb6854ecfdbf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8c2070684731528aa61f490a2147eb90cc6a49b504ed3d2c6a18b5f28037a891ac7869ae5f240b3970e7f6f73d5dbc69"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bfc860c6a8f3131ac605aabf2336544381345ce55964d029a1a207e02a09aac97173f2f68efa019e1197ad5028e004f982a564277e3f540654970e37d46f343b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "40b9a45d0e4f0373a17ee8e794aa42998c49a22c750677b9f13861fa80becbf4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "770c45d3fd98df0e2c3ed5e530963b9c0cab9697a98472efea7cada98d8b76288de93d0ef42b86aefb64e060cb84a9497556e9eb4fbd6ac182cc1461aebe9450"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "76f4be47842008f8a225427d1a1c70978b96a0640a5e07c15322c8cd82e951ee5bbfb0b1f7adafc4869055bd14411a59"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.12.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://commons.apache.org/proper/commons-configuration/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "065b334e-a602-42e2-b537-0fde04e6cf42",
       "group": "org.apache.commons",
       "name": "commons-configuration2",
@@ -259,63 +316,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=commons-configuration.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "b2e6e74a-e707-45dc-a095-d9299babcff9",
-      "group": "org.apache.commons",
-      "name": "commons-configuration2",
-      "version": "2.12.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e71e0d7a413b2bb6b3b2a2f55b5fc727"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "0cab81350c85ca35db8c47621a19dcddf128883f"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "8834b3a04f303069dc66ccbf157e1fc337aa9169bb44dbf4eb4cbb6854ecfdbf"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "8c2070684731528aa61f490a2147eb90cc6a49b504ed3d2c6a18b5f28037a891ac7869ae5f240b3970e7f6f73d5dbc69"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bfc860c6a8f3131ac605aabf2336544381345ce55964d029a1a207e02a09aac97173f2f68efa019e1197ad5028e004f982a564277e3f540654970e37d46f343b"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "40b9a45d0e4f0373a17ee8e794aa42998c49a22c750677b9f13861fa80becbf4"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "770c45d3fd98df0e2c3ed5e530963b9c0cab9697a98472efea7cada98d8b76288de93d0ef42b86aefb64e060cb84a9497556e9eb4fbd6ac182cc1461aebe9450"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "76f4be47842008f8a225427d1a1c70978b96a0640a5e07c15322c8cd82e951ee5bbfb0b1f7adafc4869055bd14411a59"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.12.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://commons.apache.org/proper/commons-configuration/"
         }
       ]
     },
@@ -884,63 +884,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "5b4d0985-f802-4b3f-8503-6c9cfafcebb3",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.20.0",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "7e33b9e657f74f0f95fe2c881e2f8f76"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f0a5e62fbd21285e9a5498a60dccb097e1ef793b"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "a70e146a6bf2cba4f9cd367169787f50adcfbb57122bc2e9c8390cd0b397ac30"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "e2ed967535db39c3da8a9842da1a1276522a171aaddf6d0f1861e642037e2951cacb1266535d1b08a3d451b19ec297d6"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "a26054199811282897116632dc5175a05c1cdc30ab15cfc13325cb6074568de7b8fec08cb28f28835d31c522296b2460ce144972a2c952cfb8fc7467e1fa4a44"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "e5eff40214ecb55b9883b337ff84e69fbe69d318a87f120eb3fc79b82d55f9f7"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "eb39a4f74c29f43ce442df9d5ed3bdd56013cc9adb33839dc9f36b8d58a8f581d53b3949527fdbdf2bc6851374d01a4c325ce572f1933a6b001aef17e21071ec"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "42d74c09c4bdc3d68429ae72b5a2c5131f1515e3360f7a73446611fcd3b6e4002fedf70bc8da119c4d0138168ea0f521"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "3c70c885-9b35-4b2d-ae08-719ec5a4a414",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-databind",
@@ -1001,6 +944,63 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "5b4d0985-f802-4b3f-8503-6c9cfafcebb3",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.20.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7e33b9e657f74f0f95fe2c881e2f8f76"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f0a5e62fbd21285e9a5498a60dccb097e1ef793b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a70e146a6bf2cba4f9cd367169787f50adcfbb57122bc2e9c8390cd0b397ac30"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e2ed967535db39c3da8a9842da1a1276522a171aaddf6d0f1861e642037e2951cacb1266535d1b08a3d451b19ec297d6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a26054199811282897116632dc5175a05c1cdc30ab15cfc13325cb6074568de7b8fec08cb28f28835d31c522296b2460ce144972a2c952cfb8fc7467e1fa4a44"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e5eff40214ecb55b9883b337ff84e69fbe69d318a87f120eb3fc79b82d55f9f7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "eb39a4f74c29f43ce442df9d5ed3bdd56013cc9adb33839dc9f36b8d58a8f581d53b3949527fdbdf2bc6851374d01a4c325ce572f1933a6b001aef17e21071ec"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "42d74c09c4bdc3d68429ae72b5a2c5131f1515e3360f7a73446611fcd3b6e4002fedf70bc8da119c4d0138168ea0f521"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -1210,6 +1210,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "e2d6da68-48b8-4e9a-8426-ee1adfd776bf",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.15.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "642bc7d013d5c950fbdf90d9bfffc246"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License",
+            "url": "https://jsoup.org/license"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jsoup.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "f711246f-d67a-414f-a6a8-c7eecb758a04",
       "group": "org.jsoup",
       "name": "jsoup",
@@ -1270,63 +1327,6 @@
         {
           "type": "vcs",
           "url": "https://github.com/jhy/jsoup"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "e2d6da68-48b8-4e9a-8426-ee1adfd776bf",
-      "group": "org.jsoup",
-      "name": "jsoup",
-      "version": "1.15.4",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "642bc7d013d5c950fbdf90d9bfffc246"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "The MIT License",
-            "url": "https://jsoup.org/license"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://jsoup.org/"
         }
       ]
     },
@@ -1604,57 +1604,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "2eb05ede-9c03-4f96-b553-26c961b204c3",
-      "group": "ch.qos.logback",
-      "name": "logback-core",
-      "version": "1.5.18",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "10bcea83842beead15f072799b9c923d"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "6c0375624f6f36b4e089e2488ba21334a11ef13f"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "85139e7b57b464f8e5e36326dd81317648bed199ccc4f98cd42585f8d7571027"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "36a6553051967acc565898a7b7678a44d4568bfb81b7238bc12bd13d9c436799a98a49b49d8a34cd9a872a6db206463a"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "fe6e259238f349839b6a30e71e533b5f2fa0a33a462efe9d09152518d3ad7759ce036f7c66744f1edf95eec4f7c2b7261de616aded28def93de85b8c7ab77d8f"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "8809ebf823a7d2b5f525c43717e4075b328edaed164ae497e2f00deb0304f7e5"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "34936208bf9fb09a7bdf4726f3c2c831f1801ea3b2288123f114c945c221d7d01aaadeb545a2f234679facb930ec3d889aa062fd38bc61747c3119a3afa4e66b"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "6f71dd40416fc84baaba562db7ad10f2c29a516b1b3573b3f4b7301815038679791ec30fb7ec1f3b71dfb880123ce536"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "EPL-1.0",
-            "url": "http://www.eclipse.org/legal/epl-v10.html"
-          }
-        }
-      ],
-      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.18"
-    },
-    {
-      "type": "library",
       "bom-ref": "ca0c0d62-6c98-4e8f-acb4-a53af6d28502",
       "group": "ch.qos.logback",
       "name": "logback-core",
@@ -1713,6 +1662,57 @@
           "url": "https://github.com/qos-ch/logback/logback-core"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "2eb05ede-9c03-4f96-b553-26c961b204c3",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.5.18",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "10bcea83842beead15f072799b9c923d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6c0375624f6f36b4e089e2488ba21334a11ef13f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "85139e7b57b464f8e5e36326dd81317648bed199ccc4f98cd42585f8d7571027"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "36a6553051967acc565898a7b7678a44d4568bfb81b7238bc12bd13d9c436799a98a49b49d8a34cd9a872a6db206463a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fe6e259238f349839b6a30e71e533b5f2fa0a33a462efe9d09152518d3ad7759ce036f7c66744f1edf95eec4f7c2b7261de616aded28def93de85b8c7ab77d8f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8809ebf823a7d2b5f525c43717e4075b328edaed164ae497e2f00deb0304f7e5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "34936208bf9fb09a7bdf4726f3c2c831f1801ea3b2288123f114c945c221d7d01aaadeb545a2f234679facb930ec3d889aa062fd38bc61747c3119a3afa4e66b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6f71dd40416fc84baaba562db7ad10f2c29a516b1b3573b3f4b7301815038679791ec30fb7ec1f3b71dfb880123ce536"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.18"
     },
     {
       "type": "library",
@@ -1818,6 +1818,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "010ca74e-8e90-4081-9d1a-cb6d66de4bf2",
+      "group": "org.apache.neethi",
+      "name": "neethi",
+      "version": "3.2.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6d100128ec1e1417687c4fc65cf925f1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2d239fd19646201c6dfcc01f3d805b9158d92c94"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9aafe21e37e11bebd3bd5b55aa5e97da79eabdd2af19faf0992cf7887d8db5f0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2bc2f9f5a01c4a16432c0a91362adc9af2b740f8c14695e6a697dbc8e3ac6218b2104beafa7dfd296c4593c3aaf4135f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6eee88d73b2f31c778af83bb6c443de252073636ddd11219c19437712d9695975cd6aabfeb5d8bc35e6736d0a19db477610f9c8ddae5821e914de9c85bec2f31"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1389e5a6d0bb8b3860ae7b7843827743000377d6e9c0a0639ab1b4b652c65652"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6ee240d4d1276438adeac59374dd836d7dc50eae93ef91c4293fa6942bda28f27494bc222889ea8b428bee8cd38b03e77f6e3cebd9a31060a982ba4d8f9fc6a6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "393cfa8d5c65a85d89d019c6ae3b8c51a3d2b50c093facecd859be921513468f416b39e20fd328d7928aa79287cb7b99"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:neethi:3.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.1?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ws.apache.org/neethi/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "285eb8b7-e768-4498-a6a9-a11c6fe2e69e",
       "group": "org.apache.neethi",
       "name": "neethi",
@@ -1876,56 +1926,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=ws-neethi.git;a=summary"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "010ca74e-8e90-4081-9d1a-cb6d66de4bf2",
-      "group": "org.apache.neethi",
-      "name": "neethi",
-      "version": "3.2.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "6d100128ec1e1417687c4fc65cf925f1"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2d239fd19646201c6dfcc01f3d805b9158d92c94"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "9aafe21e37e11bebd3bd5b55aa5e97da79eabdd2af19faf0992cf7887d8db5f0"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "2bc2f9f5a01c4a16432c0a91362adc9af2b740f8c14695e6a697dbc8e3ac6218b2104beafa7dfd296c4593c3aaf4135f"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "6eee88d73b2f31c778af83bb6c443de252073636ddd11219c19437712d9695975cd6aabfeb5d8bc35e6736d0a19db477610f9c8ddae5821e914de9c85bec2f31"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "1389e5a6d0bb8b3860ae7b7843827743000377d6e9c0a0639ab1b4b652c65652"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "6ee240d4d1276438adeac59374dd836d7dc50eae93ef91c4293fa6942bda28f27494bc222889ea8b428bee8cd38b03e77f6e3cebd9a31060a982ba4d8f9fc6a6"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "393cfa8d5c65a85d89d019c6ae3b8c51a3d2b50c093facecd859be921513468f416b39e20fd328d7928aa79287cb7b99"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:neethi:3.2.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.neethi/neethi@3.2.1?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://ws.apache.org/neethi/"
         }
       ]
     },
@@ -2630,6 +2630,50 @@
     },
     {
       "type": "library",
+      "bom-ref": "dbc5aaae-e549-43a9-b1ab-ed20f2bbf020",
+      "group": "org.apache.ws.xmlschema",
+      "name": "xmlschema-core",
+      "version": "2.3.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "76e1deab5e6e1caa5fed31b3482cd266"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5a83fc4e79d128f38c9e32138537060678151759"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "648f7f7e5228d89069cbc54c32404209f242581bc1c1e2e74229114f081071aa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "456b8a1dab0dfbccc13d9b78b195aef80d6989ccbd3a421e3e60305a4d2d48704d2f6b157c593ac2371661a505098c13"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c01a671e540963e96245c65b633f0d17da112307c95e75c869884e92cdf7b523"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "be1141504bbc979f485f8fcdb00de037489ab5fb2f7b1401b95d1157b21684c105eb5ce985b6798fe0fc287dd0126843d1c78597fbdb3bf66f0b82c6516df9c7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5bb23dd4714285adb3e64b85d33df68f4368b818a4c94e74e036b416c34ff3dbdffc70651cf7f531323aba0141800dcd"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.1?type=bundle"
+    },
+    {
+      "type": "library",
       "bom-ref": "801cb6ce-1ab4-4cdd-a480-3814c6f27d3b",
       "group": "org.apache.ws.xmlschema",
       "name": "xmlschema-core",
@@ -2690,50 +2734,6 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "dbc5aaae-e549-43a9-b1ab-ed20f2bbf020",
-      "group": "org.apache.ws.xmlschema",
-      "name": "xmlschema-core",
-      "version": "2.3.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "76e1deab5e6e1caa5fed31b3482cd266"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "5a83fc4e79d128f38c9e32138537060678151759"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "648f7f7e5228d89069cbc54c32404209f242581bc1c1e2e74229114f081071aa"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "456b8a1dab0dfbccc13d9b78b195aef80d6989ccbd3a421e3e60305a4d2d48704d2f6b157c593ac2371661a505098c13"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "c01a671e540963e96245c65b633f0d17da112307c95e75c869884e92cdf7b523"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "be1141504bbc979f485f8fcdb00de037489ab5fb2f7b1401b95d1157b21684c105eb5ce985b6798fe0fc287dd0126843d1c78597fbdb3bf66f0b82c6516df9c7"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5bb23dd4714285adb3e64b85d33df68f4368b818a4c94e74e036b416c34ff3dbdffc70651cf7f531323aba0141800dcd"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:xmlschema:2.3.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.3.1?type=bundle"
     }
   ],
   "dependencies": [
@@ -2756,11 +2756,11 @@
       ]
     },
     {
-      "ref": "065b334e-a602-42e2-b537-0fde04e6cf42",
+      "ref": "b2e6e74a-e707-45dc-a095-d9299babcff9",
       "dependsOn": []
     },
     {
-      "ref": "b2e6e74a-e707-45dc-a095-d9299babcff9",
+      "ref": "065b334e-a602-42e2-b537-0fde04e6cf42",
       "dependsOn": []
     },
     {
@@ -2808,15 +2808,15 @@
       "dependsOn": []
     },
     {
-      "ref": "5b4d0985-f802-4b3f-8503-6c9cfafcebb3",
-      "dependsOn": [
-        "c00e835e-6169-4a7c-bfef-e5ced397a54d"
-      ]
-    },
-    {
       "ref": "3c70c885-9b35-4b2d-ae08-719ec5a4a414",
       "dependsOn": [
         "d027f282-17b2-42f0-95e5-2ed22deba694"
+      ]
+    },
+    {
+      "ref": "5b4d0985-f802-4b3f-8503-6c9cfafcebb3",
+      "dependsOn": [
+        "c00e835e-6169-4a7c-bfef-e5ced397a54d"
       ]
     },
     {
@@ -2842,11 +2842,11 @@
       "dependsOn": []
     },
     {
-      "ref": "f711246f-d67a-414f-a6a8-c7eecb758a04",
+      "ref": "e2d6da68-48b8-4e9a-8426-ee1adfd776bf",
       "dependsOn": []
     },
     {
-      "ref": "e2d6da68-48b8-4e9a-8426-ee1adfd776bf",
+      "ref": "f711246f-d67a-414f-a6a8-c7eecb758a04",
       "dependsOn": []
     },
     {
@@ -2870,11 +2870,11 @@
       "dependsOn": []
     },
     {
-      "ref": "2eb05ede-9c03-4f96-b553-26c961b204c3",
+      "ref": "ca0c0d62-6c98-4e8f-acb4-a53af6d28502",
       "dependsOn": []
     },
     {
-      "ref": "ca0c0d62-6c98-4e8f-acb4-a53af6d28502",
+      "ref": "2eb05ede-9c03-4f96-b553-26c961b204c3",
       "dependsOn": []
     },
     {
@@ -2891,11 +2891,11 @@
       ]
     },
     {
-      "ref": "285eb8b7-e768-4498-a6a9-a11c6fe2e69e",
+      "ref": "010ca74e-8e90-4081-9d1a-cb6d66de4bf2",
       "dependsOn": []
     },
     {
-      "ref": "010ca74e-8e90-4081-9d1a-cb6d66de4bf2",
+      "ref": "285eb8b7-e768-4498-a6a9-a11c6fe2e69e",
       "dependsOn": []
     },
     {
@@ -2964,11 +2964,11 @@
       "dependsOn": []
     },
     {
-      "ref": "801cb6ce-1ab4-4cdd-a480-3814c6f27d3b",
+      "ref": "dbc5aaae-e549-43a9-b1ab-ed20f2bbf020",
       "dependsOn": []
     },
     {
-      "ref": "dbc5aaae-e549-43a9-b1ab-ed20f2bbf020",
+      "ref": "801cb6ce-1ab4-4cdd-a480-3814c6f27d3b",
       "dependsOn": []
     }
   ],
@@ -6706,6 +6706,42 @@
         "state": "not_affected",
         "justification": "code_not_reachable",
         "detail": "Accounted for in published vulnerabilities of the GITB software version information. Imported from OWASP Dependency-Check suppression (cve match): C:/Users/CostasSimatos/Downloads/gitb-1-srv-owasp-suppressions.xml [rule purl: ^pkg:maven/org\\.apache\\.thrift/.*@.*$]"
+      },
+      "affects": [
+        {
+          "ref": "2a946310-5471-4dda-b885-1d4569641f2a"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-gf47-qgg5-9g9q",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.4,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        295,
+        297
+      ],
+      "description": "Improper Validation of Certificate with Host Mismatch vulnerability in Apache Thrift.\n\nThis issue affects Apache Thrift: before 0.23.0.\n\nUsers are recommended to upgrade to version 0.23.0, which fixes the issue.",
+      "published": "2026-04-28T12:31:30Z",
+      "updated": "2026-10-28T19:51:11Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. This affects libthrift's TLS handling which is not used directly, nor does it affect indirect processing paths through jena-arq (which introduced the dependency)."
       },
       "affects": [
         {

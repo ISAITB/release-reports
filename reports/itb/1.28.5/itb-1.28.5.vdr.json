@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:9428e0a0-a6fc-49d4-a679-aa40e5e5db16",
+  "serialNumber": "urn:uuid:a08b51fe-e1b9-4b74-a60d-2aa43b12738b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-29T08:05:35Z",
+    "timestamp": "2026-11-05T07:55:44Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -1515,6 +1515,57 @@
     },
     {
       "type": "library",
+      "bom-ref": "8ef09101-64b1-45f4-8bcd-a3a1ff8e33c4",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.5.18",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "10bcea83842beead15f072799b9c923d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6c0375624f6f36b4e089e2488ba21334a11ef13f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "85139e7b57b464f8e5e36326dd81317648bed199ccc4f98cd42585f8d7571027"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "36a6553051967acc565898a7b7678a44d4568bfb81b7238bc12bd13d9c436799a98a49b49d8a34cd9a872a6db206463a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fe6e259238f349839b6a30e71e533b5f2fa0a33a462efe9d09152518d3ad7759ce036f7c66744f1edf95eec4f7c2b7261de616aded28def93de85b8c7ab77d8f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8809ebf823a7d2b5f525c43717e4075b328edaed164ae497e2f00deb0304f7e5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "34936208bf9fb09a7bdf4726f3c2c831f1801ea3b2288123f114c945c221d7d01aaadeb545a2f234679facb930ec3d889aa062fd38bc61747c3119a3afa4e66b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6f71dd40416fc84baaba562db7ad10f2c29a516b1b3573b3f4b7301815038679791ec30fb7ec1f3b71dfb880123ce536"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.18"
+    },
+    {
+      "type": "library",
       "bom-ref": "84eb2bd1-03b4-4291-8a77-856138da4dac",
       "group": "ch.qos.logback",
       "name": "logback-core",
@@ -1573,57 +1624,6 @@
           "url": "https://github.com/qos-ch/logback/logback-core"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "8ef09101-64b1-45f4-8bcd-a3a1ff8e33c4",
-      "group": "ch.qos.logback",
-      "name": "logback-core",
-      "version": "1.5.18",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "10bcea83842beead15f072799b9c923d"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "6c0375624f6f36b4e089e2488ba21334a11ef13f"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "85139e7b57b464f8e5e36326dd81317648bed199ccc4f98cd42585f8d7571027"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "36a6553051967acc565898a7b7678a44d4568bfb81b7238bc12bd13d9c436799a98a49b49d8a34cd9a872a6db206463a"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "fe6e259238f349839b6a30e71e533b5f2fa0a33a462efe9d09152518d3ad7759ce036f7c66744f1edf95eec4f7c2b7261de616aded28def93de85b8c7ab77d8f"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "8809ebf823a7d2b5f525c43717e4075b328edaed164ae497e2f00deb0304f7e5"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "34936208bf9fb09a7bdf4726f3c2c831f1801ea3b2288123f114c945c221d7d01aaadeb545a2f234679facb930ec3d889aa062fd38bc61747c3119a3afa4e66b"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "6f71dd40416fc84baaba562db7ad10f2c29a516b1b3573b3f4b7301815038679791ec30fb7ec1f3b71dfb880123ce536"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "EPL-1.0",
-            "url": "http://www.eclipse.org/legal/epl-v10.html"
-          }
-        }
-      ],
-      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.18"
     },
     {
       "type": "library",
@@ -2684,11 +2684,11 @@
       "dependsOn": []
     },
     {
-      "ref": "84eb2bd1-03b4-4291-8a77-856138da4dac",
+      "ref": "8ef09101-64b1-45f4-8bcd-a3a1ff8e33c4",
       "dependsOn": []
     },
     {
-      "ref": "8ef09101-64b1-45f4-8bcd-a3a1ff8e33c4",
+      "ref": "84eb2bd1-03b4-4291-8a77-856138da4dac",
       "dependsOn": []
     },
     {
@@ -2950,7 +2950,7 @@
       ],
       "description": "Apache CXF's EndpointReferenceUtils and W3CMultiSchemaFactory classes construct a SAXParserFactory without the necessary JAXP hardening configurations, enabling out-of-band (OOB) \nexternal entity resolution. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue.",
       "published": "2026-06-12T10:16:22Z",
-      "updated": "2026-10-26T11:10:00Z",
+      "updated": "2026-10-29T14:43:06Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -5681,11 +5681,12 @@
         }
       ],
       "cwes": [
-        20
+        20,
+        295
       ],
       "description": "Improper Input Validation vulnerability in Apache Tomcat Native, Apache Tomcat.\n\nWhen using an OCSP responder, Tomcat Native (and Tomcat's FFM port of the Tomcat Native code) did not complete verification or freshness checks on the OCSP response which could allow certificate revocation to be bypassed.\n\nThis issue affects Apache Tomcat Native:  from 1.3.0 through 1.3.4, from 2.0.0 through 2.0.11; Apache Tomcat: from 11.0.0-M1 through 11.0.17, from 10.1.0-M7 through 10.1.51, from 9.0.83 through 9.0.114.\n\n\nThe following versions were EOL at the time the CVE was created but are \nknown to be affected: from 1.1.23 through 1.1.34, from 1.2.0 through 1.2.39. Older EOL versions are not affected.\n\nApache Tomcat Native users are recommended to upgrade to versions 1.3.5 or later or 2.0.12 or later, which fix the issue.\n\nApache Tomcat users are recommended to upgrade to versions 11.0.18 or later, 10.1.52 or later or 9.0.115 or later which fix the issue.",
       "published": "2026-02-17T21:31:13Z",
-      "updated": "2026-03-19T19:04:12Z",
+      "updated": "2026-11-04T03:12:32Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -5795,6 +5796,111 @@
         "state": "not_affected",
         "justification": "code_not_reachable",
         "detail": "EncryptInterceptor not used. Imported from OWASP Dependency-Check suppression (cve match): C:/Users/CostasSimatos/Downloads/gitb-1-srv-owasp-suppressions.xml [rule purl: ^pkg:maven/org\\.apache\\.tomcat\\..*/.*@.*$]"
+      },
+      "affects": [
+        {
+          "ref": "2a048c66-1a0a-48e5-9a1d-cd7dd86a396c"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-5v3h-fjv2-54fg",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        285
+      ],
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:19:56Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
+      },
+      "affects": [
+        {
+          "ref": "2a048c66-1a0a-48e5-9a1d-cd7dd86a396c"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-h792-v28v-ppgr",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.3,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+        }
+      ],
+      "cwes": [
+        670
+      ],
+      "description": "Always-Incorrect Control Flow Implementation vulnerability in Apache Tomcat's rewrite valve meant that if the first condition in an OR chain matched, subsequent non-OR conditions were skipped.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:43:25Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
+      },
+      "affects": [
+        {
+          "ref": "2a048c66-1a0a-48e5-9a1d-cd7dd86a396c"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-mqg3-r7h5-24x4",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        670
+      ],
+      "description": "Always-Incorrect Control Flow Implementation vulnerability in Apache Tomcat meant that special roles and empty authorisation constraints were not included when the effective web.xml was logged.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119 which fixes the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:41:45Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
       },
       "affects": [
         {
@@ -8088,6 +8194,16 @@
             "name": "GITHUB",
             "url": "https://github.com/advisories"
           },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
           "score": 5.5,
           "severity": "medium",
           "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:P/RE:M/U:Amber"
@@ -8096,9 +8212,9 @@
       "cwes": [
         90
       ],
-      "description": "Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA bcprov on all (prov modules). This vulnerability is associated with program files LDAPStoreHelper.\n\nThis issue affects BC-JAVA: from 1.74 before 1.84.",
+      "description": "Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA bcprov on all (prov modules). This vulnerability is associated with program files LDAPStoreHelper.\n\nIssue affecting: BC 1.74 to 1.80.1, BC 1.81, BC 1.82 to BC 1.83.\n\nFixed versions: BC 1.80.2, BC 1.81.1, BC 1.84",
       "published": "2026-04-17T18:31:50Z",
-      "updated": "2026-04-18T01:06:03Z",
+      "updated": "2026-11-04T03:24:31Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present"
@@ -8121,6 +8237,16 @@
             "name": "GITHUB",
             "url": "https://github.com/advisories"
           },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
           "score": 8.9,
           "severity": "high",
           "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:H/SI:H/SA:N/E:U/S:P/AU:Y/U:Red"
@@ -8131,7 +8257,7 @@
       ],
       "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java.\n\nThis issue only affects users of the FrodoKEM algorithm involved in the decryption of encapsulations.\n\nThis issue affects BC-JAVA: from 1.71 to 1.80.1, 1.81, 1.82 to 1.83.\n\nFixed versions: 1.80.2, 1.81.1, 1.84",
       "published": "2026-04-17T18:31:50Z",
-      "updated": "2026-06-19T15:20:41Z",
+      "updated": "2026-11-04T03:20:47Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present"

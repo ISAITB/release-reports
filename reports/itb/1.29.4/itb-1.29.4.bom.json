@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:51d94fdf-f43d-4f4f-b41f-e1d3576e4e1a",
+  "serialNumber": "urn:uuid:9bb7e819-40dd-4253-84e6-aa1f9de08540",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:17:23Z",
+    "timestamp": "2026-11-05T07:56:07Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },

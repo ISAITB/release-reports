@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:cb98b447-7c9c-433d-a901-ec40c24c3f79",
+  "serialNumber": "urn:uuid:fba6d2e2-b1a7-423c-a20a-1df4ebc6eec9",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:16:53Z",
+    "timestamp": "2026-11-05T07:55:41Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -253,50 +253,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "2f60d07e-f542-4c1c-b06c-d34e24d63e8a",
-      "author": "The Babel Team",
-      "group": "@babel",
-      "name": "core",
-      "version": "7.29.0",
-      "description": "Babel compiler core.",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/%40babel/core@7.29.0",
-      "externalReferences": [
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/babel/babel.git#packages/babel-core",
-          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
-        },
-        {
-          "type": "website",
-          "url": "https://babel.dev/docs/en/next/babel-core",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:constraint:engine:node",
-          "value": ">=6.9.0"
-        },
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/@babel/core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "73e9f7ed-2042-405d-8486-58c3388b5044",
       "author": "angular",
       "group": "@angular",
@@ -341,51 +297,45 @@
     },
     {
       "type": "library",
-      "bom-ref": "659846c0-60e2-46dd-bc0c-3fdbc3b7e229",
-      "group": "org.apache.cxf",
-      "name": "cxf-core",
-      "version": "4.2.2",
-      "scope": "required",
-      "hashes": [
+      "bom-ref": "2f60d07e-f542-4c1c-b06c-d34e24d63e8a",
+      "author": "The Babel Team",
+      "group": "@babel",
+      "name": "core",
+      "version": "7.29.0",
+      "description": "Babel compiler core.",
+      "licenses": [
         {
-          "alg": "MD5",
-          "content": "1b0030828b414584a1fd83ca703bd7e7"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2fb7838332f23637f91b18274d5c68b14e9741d2"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "c28d0bece2ab5ddf9f3c06be9b9e25cbabde16a616e7f1b9bdfb73f7e28be863"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f10e9b9d2d5b2397418303e1c501bc41a9fb3ce8c037b51103f94f1307d0a89de859bcb3b96b4aef7cf7abf05a06e0d0"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "4df702b77b9e52ea12a7dc61b3df939606d745844e99610b93c541f5347231f7bf3b9faa736017f6794e2aec27b7ddc1fcb49b71e5b77d175452b2c99b59d591"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "127217f9aa056e159f1ab01b13c82b70a2f0c0e346d41d1997a5ed8be88a6811"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "8d4cfc980735c0346b5adcd40af66e0b892bbebe8330ddbc84c5f45b064ac50964f50356d04de4bb650df1af78dc11135b6d883582ed634424766b9326ae852e"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "288bb1fbf055251c334900b8dd064ac68531b2f0fa03efcd435158a0a6348f77a9501c21077964c1d479f3d4d5d112ce"
+          "license": {
+            "id": "MIT"
+          }
         }
       ],
-      "cpe": "cpe:2.3:a:apache:cxf:4.2.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.2?type=bundle",
+      "purl": "pkg:npm/%40babel/core@7.29.0",
       "externalReferences": [
         {
+          "type": "issue-tracker",
+          "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/babel/babel.git#packages/babel-core",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
           "type": "website",
-          "url": "https://cxf.apache.org"
+          "url": "https://babel.dev/docs/en/next/babel-core",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:constraint:engine:node",
+          "value": ">=6.9.0"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/@babel/core"
         }
       ]
     },
@@ -458,6 +408,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "659846c0-60e2-46dd-bc0c-3fdbc3b7e229",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.2.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1b0030828b414584a1fd83ca703bd7e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2fb7838332f23637f91b18274d5c68b14e9741d2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c28d0bece2ab5ddf9f3c06be9b9e25cbabde16a616e7f1b9bdfb73f7e28be863"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f10e9b9d2d5b2397418303e1c501bc41a9fb3ce8c037b51103f94f1307d0a89de859bcb3b96b4aef7cf7abf05a06e0d0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4df702b77b9e52ea12a7dc61b3df939606d745844e99610b93c541f5347231f7bf3b9faa736017f6794e2aec27b7ddc1fcb49b71e5b77d175452b2c99b59d591"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "127217f9aa056e159f1ab01b13c82b70a2f0c0e346d41d1997a5ed8be88a6811"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8d4cfc980735c0346b5adcd40af66e0b892bbebe8330ddbc84c5f45b064ac50964f50356d04de4bb650df1af78dc11135b6d883582ed634424766b9326ae852e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "288bb1fbf055251c334900b8dd064ac68531b2f0fa03efcd435158a0a6348f77a9501c21077964c1d479f3d4d5d112ce"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.2?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "9e7c8582-726e-42be-8b01-5f46b129369f",
       "author": "Dr.-Ing. Mario Heiderich, Cure53",
       "name": "dompurify",
@@ -491,63 +491,6 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/dompurify"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "0606a4ca-b78d-4ba6-bfca-8f94c6a8554e",
-      "group": "org.freemarker",
-      "name": "freemarker",
-      "version": "2.3.34",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://freemarker.apache.org/"
         }
       ]
     },
@@ -622,6 +565,63 @@
     },
     {
       "type": "library",
+      "bom-ref": "0606a4ca-b78d-4ba6-bfca-8f94c6a8554e",
+      "group": "org.freemarker",
+      "name": "freemarker",
+      "version": "2.3.34",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1704fd3c579385ca5fd0ebcdf50df73c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c2fa47a1c3b6dcdfca90e952e51211967a4baa54"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a9fb91cd64199232eb1ca9766148a5d30ef8944be5fac051018f96c70c8f6a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3def74003978738e770a121746f2fd5b3f179f117050fac529ba9a6eee104ac7d20f74a1e815f97a5bf451b3f36f0ed1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58bc6e157452f6b3a70a7d1bcfb89013e7204e716e267386014f6834fb66a56333fe4b538ef25b651913ab585bfa5c8fa010159d96ab952de42a82edb9552fca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "22113afa6de5d146e0be2840ffd3103323b87849f020b06f24d9a70f3dfd3571"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "69c49e3ffb693fbeb98515f578c5a1bf1a6f81baf04efb21d8b2cdcbe93d59eff28f3e6d82a785c9c5b27222fc6f1bfa16a33bc08c92ea792a26a5d1b6068df9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5636e107cd5406439d57e41ebcfa3cb068e32639941f1b7d780efb5acdb50ee99f7966b9174c52e9cfb27de22666fec6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.freemarker/freemarker@2.3.34",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://freemarker.apache.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "0ef44046-8458-4c18-953b-cf1208b650b3",
       "group": "com.google.guava",
       "name": "guava",
@@ -674,6 +674,63 @@
         {
           "type": "website",
           "url": "https://github.com/google/guava"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "b83bc0db-f55b-4f81-9c24-311b71ada9c5",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.21.3",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "513c4f2160300c336a02bb13592d0d98"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3358e9345dd0f2537c47bee152c0377df6c81ad5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "baf8b739e9d9b93bcdb33f25046bfdb8dbd74c97de2a8698539fbe0c7eeac0bb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7a6d40916c50e4c8f3471cf21ef9d123c38757387e98c5c209fac558b976e8628f343f1629a7903ebc428a724581e639"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3b1140a023f12df08e891aa1d623d01c79d1932d310cc90907603103abf1d5b1b288eba45c45a3fd292f44642d042c541ec50a17be4c6c8ec6a2e6cc6a1644d6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "04754d7de00152f4923b4053603280bc5d88117a6e4e4257809f705b4014a321"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "56e4801e9037f7ec12ae63ac581a71cac68e2eada3723f0a834af65ff18c852350fe13486ea4458c314861455c58d79f0329eab32f9e35778ee330f879a43c22"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d090d6e06798b7ad7db8aa5a481d36ef8bccb38c1b026af34936d5182963e4a30db88e15ccbf3a24a45cdfd613d03d10"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -744,43 +801,43 @@
     },
     {
       "type": "library",
-      "bom-ref": "b83bc0db-f55b-4f81-9c24-311b71ada9c5",
+      "bom-ref": "a8fc0510-acbb-4c3c-a3c0-3cf74325f4d0",
       "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
+      "name": "jackson-databind",
       "version": "2.21.3",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "513c4f2160300c336a02bb13592d0d98"
+          "content": "0ae595293418fd4dd9c4527d4abc5610"
         },
         {
           "alg": "SHA-1",
-          "content": "3358e9345dd0f2537c47bee152c0377df6c81ad5"
+          "content": "aa7ccec161c275f3e6332666ab758916f3120714"
         },
         {
           "alg": "SHA-256",
-          "content": "baf8b739e9d9b93bcdb33f25046bfdb8dbd74c97de2a8698539fbe0c7eeac0bb"
+          "content": "f397563d8e67630c10cab8c2334ca0e55af832fa3ebde160a379c2c96d43bf25"
         },
         {
           "alg": "SHA-384",
-          "content": "7a6d40916c50e4c8f3471cf21ef9d123c38757387e98c5c209fac558b976e8628f343f1629a7903ebc428a724581e639"
+          "content": "47cf817512cd1482eeaa54ae68e62d3b13eafa11546d99ee933de28a9514f4a41e967fa378b40b17746bc98a26f7b387"
         },
         {
           "alg": "SHA-512",
-          "content": "3b1140a023f12df08e891aa1d623d01c79d1932d310cc90907603103abf1d5b1b288eba45c45a3fd292f44642d042c541ec50a17be4c6c8ec6a2e6cc6a1644d6"
+          "content": "bf9df0232bd26b6f00b2227fad26cee40ef31e8e12e521ee1afe89dcea61ddb2b27cbc0d1f0679d1746cc35cc361e531c84324db68d43eaa60f15933bbbcf0ab"
         },
         {
           "alg": "SHA3-256",
-          "content": "04754d7de00152f4923b4053603280bc5d88117a6e4e4257809f705b4014a321"
+          "content": "f506e6ef4e26c5720065231dc654a0a99beb2e195e98e32fb5ad02ab4386e20b"
         },
         {
           "alg": "SHA3-512",
-          "content": "56e4801e9037f7ec12ae63ac581a71cac68e2eada3723f0a834af65ff18c852350fe13486ea4458c314861455c58d79f0329eab32f9e35778ee330f879a43c22"
+          "content": "a73c9798fa53f62bec6ca46cf8ad264d78b0a41ab9089ad8b8f4bfb8034d8eea8081bbcf3e2a9a3ac5ea018c13710098c6b1af033c088cec2385ccd62c1b84c0"
         },
         {
           "alg": "SHA3-384",
-          "content": "d090d6e06798b7ad7db8aa5a481d36ef8bccb38c1b026af34936d5182963e4a30db88e15ccbf3a24a45cdfd613d03d10"
+          "content": "d0a2f03bf3223f5ad6d84541f1027f56045689ec54dc8c594db9dc11d50c041d8487b1abcaf107b05da886f2b988c628"
         }
       ],
       "licenses": [
@@ -791,11 +848,11 @@
           }
         }
       ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
+          "url": "https://github.com/FasterXML/jackson"
         }
       ]
     },
@@ -866,120 +923,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "a8fc0510-acbb-4c3c-a3c0-3cf74325f4d0",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.21.3",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "0ae595293418fd4dd9c4527d4abc5610"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "aa7ccec161c275f3e6332666ab758916f3120714"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "f397563d8e67630c10cab8c2334ca0e55af832fa3ebde160a379c2c96d43bf25"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "47cf817512cd1482eeaa54ae68e62d3b13eafa11546d99ee933de28a9514f4a41e967fa378b40b17746bc98a26f7b387"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bf9df0232bd26b6f00b2227fad26cee40ef31e8e12e521ee1afe89dcea61ddb2b27cbc0d1f0679d1746cc35cc361e531c84324db68d43eaa60f15933bbbcf0ab"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "f506e6ef4e26c5720065231dc654a0a99beb2e195e98e32fb5ad02ab4386e20b"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "a73c9798fa53f62bec6ca46cf8ad264d78b0a41ab9089ad8b8f4bfb8034d8eea8081bbcf3e2a9a3ac5ea018c13710098c6b1af033c088cec2385ccd62c1b84c0"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d0a2f03bf3223f5ad6d84541f1027f56045689ec54dc8c594db9dc11d50c041d8487b1abcaf107b05da886f2b988c628"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "2c0edd90-619d-4966-89fe-5e55b6a5d8da",
-      "group": "org.jsoup",
-      "name": "jsoup",
-      "version": "1.15.4",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "642bc7d013d5c950fbdf90d9bfffc246"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "The MIT License",
-            "url": "https://jsoup.org/license"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://jsoup.org/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "ca95af17-f9da-4ca8-a539-5dbb6b38d389",
       "group": "org.jsoup",
       "name": "jsoup",
@@ -1040,6 +983,63 @@
         {
           "type": "vcs",
           "url": "https://github.com/jhy/jsoup"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "2c0edd90-619d-4966-89fe-5e55b6a5d8da",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.15.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "642bc7d013d5c950fbdf90d9bfffc246"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fa81a6f2bd9e26b224cc646789e277e24cf2a2cbd28f8d1ca1c3c3c4ef902c30d1382bfb4740de32214cd23c5bb92898"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bd36ea804bd42c89c2fef8dae5dec1e4bb81c339d5994fbfbc6b9bed547ad258ae130d723659aa5ffffe7ed9d0957cc022df67ab56ab13385ee621b03d51569e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "026debe59b49c73968281c2f4097919a0c0d9cd7308ab957953bcbf12514af2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "968e86134f47cb93258b51bf599e7e44f18436c57b2eb7146c298e7c27867f366ea9f7f6b0c37ab201720b4bee8ed88fd702a8363201e91811a951c1c95afa10"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1f45d1fd18e44051320a55bbdfb754170fd4d38d4f950a441ab7a76bd5a58a5c6172729d384f42922bd6542a96c521b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License",
+            "url": "https://jsoup.org/license"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.15.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jsoup.org/"
         }
       ]
     },
@@ -2133,13 +2133,19 @@
       "dependsOn": []
     },
     {
+      "ref": "73e9f7ed-2042-405d-8486-58c3388b5044",
+      "dependsOn": [
+        "3a38d63b-e1bc-4bb5-b9ca-c1fa371a19d6"
+      ]
+    },
+    {
       "ref": "2f60d07e-f542-4c1c-b06c-d34e24d63e8a",
       "dependsOn": []
     },
     {
-      "ref": "73e9f7ed-2042-405d-8486-58c3388b5044",
+      "ref": "2f4da9fd-99fc-4980-b36c-32ca52891084",
       "dependsOn": [
-        "3a38d63b-e1bc-4bb5-b9ca-c1fa371a19d6"
+        "c6c83810-7860-4d49-9384-df072e0c1558"
       ]
     },
     {
@@ -2149,17 +2155,7 @@
       ]
     },
     {
-      "ref": "2f4da9fd-99fc-4980-b36c-32ca52891084",
-      "dependsOn": [
-        "c6c83810-7860-4d49-9384-df072e0c1558"
-      ]
-    },
-    {
       "ref": "9e7c8582-726e-42be-8b01-5f46b129369f",
-      "dependsOn": []
-    },
-    {
-      "ref": "0606a4ca-b78d-4ba6-bfca-8f94c6a8554e",
       "dependsOn": []
     },
     {
@@ -2167,11 +2163,11 @@
       "dependsOn": []
     },
     {
-      "ref": "0ef44046-8458-4c18-953b-cf1208b650b3",
+      "ref": "0606a4ca-b78d-4ba6-bfca-8f94c6a8554e",
       "dependsOn": []
     },
     {
-      "ref": "642b2996-0c6c-4a9f-8408-7534db257d1c",
+      "ref": "0ef44046-8458-4c18-953b-cf1208b650b3",
       "dependsOn": []
     },
     {
@@ -2179,10 +2175,8 @@
       "dependsOn": []
     },
     {
-      "ref": "ae9c41be-2c22-42d6-84ff-ec6aa0977f02",
-      "dependsOn": [
-        "642b2996-0c6c-4a9f-8408-7534db257d1c"
-      ]
+      "ref": "642b2996-0c6c-4a9f-8408-7534db257d1c",
+      "dependsOn": []
     },
     {
       "ref": "a8fc0510-acbb-4c3c-a3c0-3cf74325f4d0",
@@ -2191,11 +2185,17 @@
       ]
     },
     {
-      "ref": "2c0edd90-619d-4966-89fe-5e55b6a5d8da",
-      "dependsOn": []
+      "ref": "ae9c41be-2c22-42d6-84ff-ec6aa0977f02",
+      "dependsOn": [
+        "642b2996-0c6c-4a9f-8408-7534db257d1c"
+      ]
     },
     {
       "ref": "ca95af17-f9da-4ca8-a539-5dbb6b38d389",
+      "dependsOn": []
+    },
+    {
+      "ref": "2c0edd90-619d-4966-89fe-5e55b6a5d8da",
       "dependsOn": []
     },
     {
@@ -3727,6 +3727,111 @@
         "state": "not_affected",
         "justification": "code_not_present",
         "detail": "Not applicable. Tomcat is not directly involved in any input validation."
+      },
+      "affects": [
+        {
+          "ref": "01173686-b826-4f7b-8864-3229023e6b50"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-5v3h-fjv2-54fg",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        285
+      ],
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:19:56Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
+      },
+      "affects": [
+        {
+          "ref": "01173686-b826-4f7b-8864-3229023e6b50"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-h792-v28v-ppgr",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.3,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+        }
+      ],
+      "cwes": [
+        670
+      ],
+      "description": "Always-Incorrect Control Flow Implementation vulnerability in Apache Tomcat's rewrite valve meant that if the first condition in an OR chain matched, subsequent non-OR conditions were skipped.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:43:25Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
+      },
+      "affects": [
+        {
+          "ref": "01173686-b826-4f7b-8864-3229023e6b50"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-mqg3-r7h5-24x4",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        670
+      ],
+      "description": "Always-Incorrect Control Flow Implementation vulnerability in Apache Tomcat meant that special roles and empty authorisation constraints were not included when the effective web.xml was logged.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119 which fixes the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:41:45Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
       },
       "affects": [
         {
@@ -6845,9 +6950,9 @@
       "cwes": [
         1321
       ],
-      "description": "### Impact\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThis issue is patched in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
+      "description": "### Impact\n\nThe `_.unset`, `_.omit`, and `_.pullAt` functions are vulnerable to prototype pollution. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThe issue is patched from 4.18.0 to 4.18.1 depending on the package: `lodash`, `lodash-es`, and `lodash-amd` in 4.18.1, and the standalone `lodash.unset` and `lodash.omit` packages in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.\n\n### References\n\n- [CVE-2025-13465 / GHSA-xxjr-mmjv-4gpg](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) (original fix that this bypasses)",
       "published": "2026-04-01T23:50:27Z",
-      "updated": "2026-04-01T23:50:28Z",
+      "updated": "2026-11-03T15:37:13Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -6924,9 +7029,9 @@
       "cwes": [
         1321
       ],
-      "description": "### Impact\n\nLodash versions 4.0.0 through 4.17.22 are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes. \n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.  \n\n### Patches\n\nThis issue is patched on 4.17.23.",
+      "description": "### Impact\n\nThe `_.unset`, `_.omit`, and `_.pullAt` functions are vulnerable to prototype pollution. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes.\n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThe issue is patched from 4.17.23 to 4.18.0 depending on the package: `lodash`, `lodash-es`, and `lodash-amd` in 4.17.23, and the standalone `lodash.unset` and `lodash.omit` packages in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
       "published": "2026-01-21T23:01:22Z",
-      "updated": "2026-06-09T10:56:35Z",
+      "updated": "2026-11-04T03:08:57Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",

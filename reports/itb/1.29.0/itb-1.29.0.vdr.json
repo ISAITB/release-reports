@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:71a46e60-2b2e-4ac2-8b37-477f9b68f803",
+  "serialNumber": "urn:uuid:ed9b6e9b-b6e5-4b09-8474-7fe3d6f86383",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-29T08:06:08Z",
+    "timestamp": "2026-11-05T07:56:17Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -3424,7 +3424,7 @@
       ],
       "description": "Apache CXF's EndpointReferenceUtils and W3CMultiSchemaFactory classes construct a SAXParserFactory without the necessary JAXP hardening configurations, enabling out-of-band (OOB) \nexternal entity resolution. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue.",
       "published": "2026-06-12T10:16:22Z",
-      "updated": "2026-10-26T11:10:00Z",
+      "updated": "2026-10-29T14:43:06Z",
       "analysis": {
         "state": "exploitable",
         "detail": "Exploitable vulnerability. To resolve this you are advised to upgrade to the latest release."
@@ -6007,6 +6007,111 @@
       ]
     },
     {
+      "id": "GHSA-5v3h-fjv2-54fg",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        285
+      ],
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:19:56Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
+      },
+      "affects": [
+        {
+          "ref": "698dc401-bc69-4203-9648-5b1c36f90f1a"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-h792-v28v-ppgr",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.3,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+        }
+      ],
+      "cwes": [
+        670
+      ],
+      "description": "Always-Incorrect Control Flow Implementation vulnerability in Apache Tomcat's rewrite valve meant that if the first condition in an OR chain matched, subsequent non-OR conditions were skipped.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:43:25Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
+      },
+      "affects": [
+        {
+          "ref": "698dc401-bc69-4203-9648-5b1c36f90f1a"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-mqg3-r7h5-24x4",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+        }
+      ],
+      "cwes": [
+        670
+      ],
+      "description": "Always-Incorrect Control Flow Implementation vulnerability in Apache Tomcat meant that special roles and empty authorisation constraints were not included when the effective web.xml was logged.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119 which fixes the issue.",
+      "published": "2026-06-29T21:32:15Z",
+      "updated": "2026-11-04T16:41:45Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "detail": "Not applicable. Refers to Tomcat features that do not apply, given that Tomcat is used in this case in embedded mode via Spring Boot."
+      },
+      "affects": [
+        {
+          "ref": "698dc401-bc69-4203-9648-5b1c36f90f1a"
+        }
+      ]
+    },
+    {
       "id": "GHSA-7m2p-62gw-p8qq",
       "source": {
         "name": "GITHUB",
@@ -7853,7 +7958,7 @@
       ],
       "description": "Apache CXF's EndpointReferenceUtils and W3CMultiSchemaFactory classes construct a SAXParserFactory without the necessary JAXP hardening configurations, enabling out-of-band (OOB) \nexternal entity resolution. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue.",
       "published": "2026-06-12T10:16:22Z",
-      "updated": "2026-10-26T11:10:00Z",
+      "updated": "2026-10-29T14:43:06Z",
       "analysis": {
         "state": "false_positive",
         "detail": "Duplicate entry."
@@ -8811,6 +8916,16 @@
             "name": "GITHUB",
             "url": "https://github.com/advisories"
           },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
           "score": 5.5,
           "severity": "medium",
           "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:P/RE:M/U:Amber"
@@ -8819,9 +8934,9 @@
       "cwes": [
         90
       ],
-      "description": "Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA bcprov on all (prov modules). This vulnerability is associated with program files LDAPStoreHelper.\n\nThis issue affects BC-JAVA: from 1.74 before 1.84.",
+      "description": "Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA bcprov on all (prov modules). This vulnerability is associated with program files LDAPStoreHelper.\n\nIssue affecting: BC 1.74 to 1.80.1, BC 1.81, BC 1.82 to BC 1.83.\n\nFixed versions: BC 1.80.2, BC 1.81.1, BC 1.84",
       "published": "2026-04-17T18:31:50Z",
-      "updated": "2026-04-18T01:06:03Z",
+      "updated": "2026-11-04T03:24:31Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -8845,6 +8960,16 @@
             "name": "GITHUB",
             "url": "https://github.com/advisories"
           },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
           "score": 8.9,
           "severity": "high",
           "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:H/SI:H/SA:N/E:U/S:P/AU:Y/U:Red"
@@ -8855,7 +8980,7 @@
       ],
       "description": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java.\n\nThis issue only affects users of the FrodoKEM algorithm involved in the decryption of encapsulations.\n\nThis issue affects BC-JAVA: from 1.71 to 1.80.1, 1.81, 1.82 to 1.83.\n\nFixed versions: 1.80.2, 1.81.1, 1.84",
       "published": "2026-04-17T18:31:50Z",
-      "updated": "2026-06-19T15:20:41Z",
+      "updated": "2026-11-04T03:20:47Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_present",
@@ -10475,9 +10600,9 @@
       "cwes": [
         1321
       ],
-      "description": "### Impact\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThis issue is patched in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
+      "description": "### Impact\n\nThe `_.unset`, `_.omit`, and `_.pullAt` functions are vulnerable to prototype pollution. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThe issue is patched from 4.18.0 to 4.18.1 depending on the package: `lodash`, `lodash-es`, and `lodash-amd` in 4.18.1, and the standalone `lodash.unset` and `lodash.omit` packages in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.\n\n### References\n\n- [CVE-2025-13465 / GHSA-xxjr-mmjv-4gpg](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) (original fix that this bypasses)",
       "published": "2026-04-01T23:50:27Z",
-      "updated": "2026-04-01T23:50:28Z",
+      "updated": "2026-11-03T15:37:13Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -10554,9 +10679,9 @@
       "cwes": [
         1321
       ],
-      "description": "### Impact\n\nLodash versions 4.0.0 through 4.17.22 are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes. \n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.  \n\n### Patches\n\nThis issue is patched on 4.17.23.",
+      "description": "### Impact\n\nThe `_.unset`, `_.omit`, and `_.pullAt` functions are vulnerable to prototype pollution. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes.\n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThe issue is patched from 4.17.23 to 4.18.0 depending on the package: `lodash`, `lodash-es`, and `lodash-amd` in 4.17.23, and the standalone `lodash.unset` and `lodash.omit` packages in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
       "published": "2026-01-21T23:01:22Z",
-      "updated": "2026-06-09T10:56:35Z",
+      "updated": "2026-11-04T03:08:57Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",

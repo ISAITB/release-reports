@@ -8,18 +8,18 @@
         "1.11.0": {
           "bom": {
             "path": "csv-validator/1.11.0/csv-validator-1.11.0.bom.json",
-            "sha256": "5e81c4d0d6371c448e6ef16d124d9a4fbc6bbcdc7ad9b27035e54e8a55cef30c",
+            "sha256": "1316b690e68a652faa42935e0e7a21f5c7377ac6717f6b38346fd8021944f7cf",
             "signature": {
               "path": "csv-validator/1.11.0/csv-validator-1.11.0.bom.json.sigstore.json",
-              "sha256": "1e4f9f9a07422e17608bbedb53a61609224c13fb3b206a667af82088d32b3e8d"
+              "sha256": "d60a8650fa5cbf1a002f0bd1ec8925dede69daab64761ecec7472a000ca846e7"
             }
           },
           "vdr": {
             "path": "csv-validator/1.11.0/csv-validator-1.11.0.vdr.json",
-            "sha256": "a507289aa705a522c9ad0d581a0acbb53ccd77fff9b2222e75892a8b2e75bc5f",
+            "sha256": "15a15635e57579ca9408abb314115c58817505f740ef533595a5dc7627adf37d",
             "signature": {
               "path": "csv-validator/1.11.0/csv-validator-1.11.0.vdr.json.sigstore.json",
-              "sha256": "81c79dd1e5a8cb9da52160befa242c005a401cdd3a9c2ef92c144ebb711560d0"
+              "sha256": "3d959c46a2c3a81c6cab46f02a077bd13d3c058265bebcacc2e999400acdedf2"
             }
           },
           "summary": {
@@ -46,18 +46,18 @@
         "1.11.1": {
           "bom": {
             "path": "csv-validator/1.11.1/csv-validator-1.11.1.bom.json",
-            "sha256": "88355fbe8adfa8ec3dc0c5035b9faf678f5488bd3a0261fb99374311dd158daa",
+            "sha256": "af266b7945277c1157a7ad2675e03a7712420efab46cfc791f9dd2e3e4bc8b85",
             "signature": {
               "path": "csv-validator/1.11.1/csv-validator-1.11.1.bom.json.sigstore.json",
-              "sha256": "7a582dabce6bceba8d305f61aaf1b6ba79fd19714c33587fef6469792fd2a742"
+              "sha256": "050255b218942e3a2f84de85c3ace97f221ad50e9d3393e57d45093f8b5e7023"
             }
           },
           "vdr": {
             "path": "csv-validator/1.11.1/csv-validator-1.11.1.vdr.json",
-            "sha256": "a1355e9e2d3d907588bd68cbd37eac5793f14bb99203eedf6d0ecac17c8ebece",
+            "sha256": "e121b97aeaf45ad43a1af5843e757b01fb7480fccc8ab5e68673e70c5ce4fdf2",
             "signature": {
               "path": "csv-validator/1.11.1/csv-validator-1.11.1.vdr.json.sigstore.json",
-              "sha256": "507def8f8da4ccd5e28236a4dae7273582308634f9120ac2004a5558bc9c4421"
+              "sha256": "80b717b0f65ed12614b92e05a46e8eee9d9d60303843db60ec5930cd3eb65643"
             }
           },
           "summary": {
@@ -930,18 +930,18 @@
         "1.11.0": {
           "bom": {
             "path": "json-validator/1.11.0/json-validator-1.11.0.bom.json",
-            "sha256": "e137453414f9fdbf6254edc45118001720cd347fe37a5ed66dca1d9e3d8071b2",
+            "sha256": "cc7a5e5f190a6c20005e7cb81eb79ec55c73e2bdf2f26bf96c732bb79e489a9b",
             "signature": {
               "path": "json-validator/1.11.0/json-validator-1.11.0.bom.json.sigstore.json",
-              "sha256": "47f1dc7fd61037bb370956a22eb5cdfa806434b58bac193e9f481bac23966918"
+              "sha256": "fffb141216d58ca4196a0ac2fa0d4bf88197ccda69c3734d7557cfc6e86d81e2"
             }
           },
           "vdr": {
             "path": "json-validator/1.11.0/json-validator-1.11.0.vdr.json",
-            "sha256": "55a59be1c30918d5ef66ffc79bafe8331cbe2ce0a01085b06e79bc40501de944",
+            "sha256": "50df5d858cffc45d1ff2b71bd6a604d4ba9d135e34dab032d22196d6ccc9e98f",
             "signature": {
               "path": "json-validator/1.11.0/json-validator-1.11.0.vdr.json.sigstore.json",
-              "sha256": "1a29d7aa5fc3fb84ac8b929b3d374856cff4ba0a8283761e28cb89ac4ba9fac8"
+              "sha256": "61ebecea4a8f56e666ef6209b33751b2e00823cdf39f1f3caf29c77f0b997957"
             }
           },
           "summary": {
@@ -966,18 +966,18 @@
         "1.11.1": {
           "bom": {
             "path": "json-validator/1.11.1/json-validator-1.11.1.bom.json",
-            "sha256": "c22dd23485208851a1b94e3875e3af77b5af713bcd51d2cd8a2cb978c2deca61",
+            "sha256": "69e8982dc6d08d177482748cfca164382ed7741ae56d6cdc5ded5a36b9d2a82f",
             "signature": {
               "path": "json-validator/1.11.1/json-validator-1.11.1.bom.json.sigstore.json",
-              "sha256": "e9b98ec58cb683fcb72b29bd39fe808304f18d5e5ea4bac767be9d923f82ead8"
+              "sha256": "9cadcfc15d3e1e84fe6cb3e98dc91349116ab81a715b4f4a6436fa5292fff86b"
             }
           },
           "vdr": {
             "path": "json-validator/1.11.1/json-validator-1.11.1.vdr.json",
-            "sha256": "db208eb48c0003800785e0e2eb954adac36c279c74dc60bd5461af0336a73dfc",
+            "sha256": "3ce9586585ff43ff4d4639390070a416cdf7f3c52df62e897ff96224c32967ba",
             "signature": {
               "path": "json-validator/1.11.1/json-validator-1.11.1.vdr.json.sigstore.json",
-              "sha256": "61785637681bc4d8b566cc7fd7b5b612b917a15c0c329d35e1769cde51954878"
+              "sha256": "40620f8bcc4f93827ae3f379157dd59a5b464e081ea1ed37bc471713bdd9bf47"
             }
           },
           "summary": {
@@ -1249,18 +1249,18 @@
         "1.11.0": {
           "bom": {
             "path": "shacl-validator/1.11.0/shacl-validator-1.11.0.bom.json",
-            "sha256": "c57787c745a6cf5393324831d5d54f4d8609d14cad4ebfaa433d631d7fa85f3b",
+            "sha256": "ce5c53ec10f7e46fa15a3256d51bdc8c0ae2d3929cc42cde240e834caea57bdc",
             "signature": {
               "path": "shacl-validator/1.11.0/shacl-validator-1.11.0.bom.json.sigstore.json",
-              "sha256": "905cd891f599a67541acd771bc320639b6dd201ebcf8e926ba8a6afd06f55bfc"
+              "sha256": "25403da79c15b93d5dbb94c3766f572099431acf896121fbb54d802bd1821d14"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.11.0/shacl-validator-1.11.0.vdr.json",
-            "sha256": "30a8c32964e34721a5b7ea96f3939991d426de90e97421c87e43658ff59af1a6",
+            "sha256": "010efadd7fa1ca9a4c6e13fd9011be7b5fda58c8179f1b6414ebb73e22e4e200",
             "signature": {
               "path": "shacl-validator/1.11.0/shacl-validator-1.11.0.vdr.json.sigstore.json",
-              "sha256": "5a3b8d29cfd68ab2e1b4839bfcd45997074155bff7034ded092cb17fd22f03e9"
+              "sha256": "2c2fcef69ec043bc7531d4e346d5240edac0cf6483e66b33bbd61f8765395689"
             }
           },
           "summary": {
@@ -1285,18 +1285,18 @@
         "1.11.1": {
           "bom": {
             "path": "shacl-validator/1.11.1/shacl-validator-1.11.1.bom.json",
-            "sha256": "d5d9b7cf346371c09d55724cba362cb04e8c887b0b43d187311260dedb4853ec",
+            "sha256": "a45e8cd4c6524a66ac0b0c1c23fd1cf8498bdf84a585fe2d04ba52fdea6df2d8",
             "signature": {
               "path": "shacl-validator/1.11.1/shacl-validator-1.11.1.bom.json.sigstore.json",
-              "sha256": "957c284442261f6b839c11ba8bfb7f58215540ac5aee233202977da482b0368c"
+              "sha256": "94826981f9f49604d3afdc43f223f526379fcac27cebf2788304a024950fe2d4"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.11.1/shacl-validator-1.11.1.vdr.json",
-            "sha256": "2f9d43e7c737a7e187c56c756c650215e9d0b73ba1a086f9f2c11299430d706b",
+            "sha256": "2cae3b252ef669571f2d66e6ded5ef2269f239e563233320e7164ff5c8a69e95",
             "signature": {
               "path": "shacl-validator/1.11.1/shacl-validator-1.11.1.vdr.json.sigstore.json",
-              "sha256": "d0757d96d12dd7199f6335e700efad94f81422b591409fb3af8ef476053358d4"
+              "sha256": "dd6a80258abbc8a7430fd592e450dc3f2c18a847f122c9799bb7793778bfa7d5"
             }
           },
           "summary": {
@@ -1594,18 +1594,18 @@
         "1.11.0": {
           "bom": {
             "path": "xml-validator/1.11.0/xml-validator-1.11.0.bom.json",
-            "sha256": "673678b9ea6e32bf46a6f07c5cdb3e226cf3d158bb357ae3013a0574cc71c5a1",
+            "sha256": "483b9d8bf592015352231d082810fc124ff16328a6a4a84cfe71c921e35742e5",
             "signature": {
               "path": "xml-validator/1.11.0/xml-validator-1.11.0.bom.json.sigstore.json",
-              "sha256": "de9fac80759b965ad6bb0f77675fa51d19883fbff3896f967f908d4775c7abbf"
+              "sha256": "9cb51fe54081599755842fd0b34f68473d8c2c93facf7f71df93bf5cffe4dfa9"
             }
           },
           "vdr": {
             "path": "xml-validator/1.11.0/xml-validator-1.11.0.vdr.json",
-            "sha256": "9473a3db4a77510f0d86f480a3cc57fbcd11b2d58643f994dbca93680c424345",
+            "sha256": "9a1285d9c41bddbf18f4392d3e5389869a309111e7289a00730758b09a4a3a3d",
             "signature": {
               "path": "xml-validator/1.11.0/xml-validator-1.11.0.vdr.json.sigstore.json",
-              "sha256": "2992ecea27e37022eb4cf01b5daea6c6b20eb363f03f9cfc9e66cc0fba33eac3"
+              "sha256": "14f623ef3ff0d017a38e44a44a0c53f80f2bcb35d99425282c6c9048f26beb22"
             }
           },
           "summary": {
@@ -1630,18 +1630,18 @@
         "1.11.1": {
           "bom": {
             "path": "xml-validator/1.11.1/xml-validator-1.11.1.bom.json",
-            "sha256": "de1f3f06286350f6a9c8ae2f8fe0c47005f7e4d5276d987b43c2f51ef56ffb1c",
+            "sha256": "f6b5dd759b066bd9ab21194b899e4d609a6bb0eda8adb3d6d64c35a3f6012646",
             "signature": {
               "path": "xml-validator/1.11.1/xml-validator-1.11.1.bom.json.sigstore.json",
-              "sha256": "0701b91202bfe3697d50a9aa7dd7830cc5afdf70535895887a216d988fa53518"
+              "sha256": "64500474002583ea51f840ae7b1cebb7b74407401087a1c157f8cce2a3b73a0d"
             }
           },
           "vdr": {
             "path": "xml-validator/1.11.1/xml-validator-1.11.1.vdr.json",
-            "sha256": "71f9639fa8dbc27dd76c48f1f23757d015f34201164698cb4499e7a3a984dd56",
+            "sha256": "c6c40dad8b38f909100b610df496a4d6a5f4878ec5bc915d180777e594d2e4d5",
             "signature": {
               "path": "xml-validator/1.11.1/xml-validator-1.11.1.vdr.json.sigstore.json",
-              "sha256": "a9c16a6578d9f26faa25b22c0fe9ed448508cbe9557c85ca3c1a16fd1bc4773b"
+              "sha256": "09a66b09285a36864cc1cd7d4e50b0ee0ff3e638e2469d15f815a7ae284c6f3c"
             }
           },
           "summary": {

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:286cee0e-4f29-41d4-aad2-b317b904caf7",
+  "serialNumber": "urn:uuid:150cfd08-bdf2-476c-b4e3-b9d81605d274",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-06T15:28:48Z",
+    "timestamp": "2026-11-06T15:34:28Z",
     "tools": {
       "components": [
         {
@@ -6195,12 +6195,14 @@
     {
       "id": "ITB-2026-001",
       "source": {
-        "name": "INTERNAL"
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
       },
       "ratings": [
         {
           "source": {
-            "name": "INTERNAL"
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
           },
           "score": 5.0,
           "severity": "medium",
@@ -6209,7 +6211,8 @@
         },
         {
           "source": {
-            "name": "INTERNAL"
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
           },
           "score": 5.8,
           "severity": "medium",
@@ -6218,7 +6221,8 @@
         },
         {
           "source": {
-            "name": "INTERNAL"
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
           },
           "score": 6.9,
           "severity": "medium",
@@ -6240,6 +6244,11 @@
       "affects": [
         {
           "ref": "dc389678-ca26-453f-84e2-dede0aa220d9"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-001/ITB-2026-001.json"
         }
       ]
     }

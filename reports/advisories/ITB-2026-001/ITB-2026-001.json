@@ -1,0 +1,113 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war",
+      "name": "csvvalidator-war"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war",
+      "name": "jsonvalidator-war"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+      "name": "shaclvalidator-war"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war",
+      "name": "xmlvalidator-war"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "ITB-2026-001",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 5.8,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        918,
+        1356
+      ],
+      "description": "The GITB specifications foresee the possibility for users and clients to provide inputs as URIs of the remote resources to be loaded (e.g. referring to a remote document to validate). The validator allows inputs as URIs by default, but also does not apply restrictions on the referenced resources. This allows an attacker to abuse this feature to achieve an SSRF attack, when used to probe internal and local (to the validator) addresses.",
+      "detail": "GITB-compliant validators provide functionality to retrieve resources identified by user-provided URIs. This introduces a server-side request capability that may be abused to perform Server-Side Request Forgery (SSRF) attacks.\n\nAn attacker may attempt to provide URIs targeting internal network addresses, localhost, link-local addresses or other restricted destinations. Depending on the effectiveness of destination validation, DNS resolution handling and redirect processing, this could allow the application to make requests to resources that would otherwise be inaccessible to the attacker. The potential impact includes internal network resource discovery, service probing and, depending on the accessible resources and response handling, unauthorised retrieval of internal information.\n\nThe vulnerability affects the RDF, JSON, CSV and XML validators, prior to release 1.11.2.",
+      "recommendation": "Upgrade to release 1.11.2 or later.\n\nAs of release 1.11.2 the validators:\n- Block access to internal addresses, unless for explicitly whitelisted paths.\n- Disable by default URI input as an option on all exposed APIs.",
+      "advisories": [
+        {
+          "url": "https://cwe.mitre.org/data/definitions/918.html"
+        },
+        {
+          "url": "https://owasp.org/www-community/attacks/Server_Side_Request_Forgery"
+        }
+      ],
+      "created": "2026-11-06T00:00:00Z",
+      "published": "2026-11-06T00:00:00Z",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Potential Server-Side Request Forgery (SSRF) through user-provided URI retrieval"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.11.2",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.11.2",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.11.2",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.11.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

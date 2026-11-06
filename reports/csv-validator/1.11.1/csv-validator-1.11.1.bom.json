@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:8a4f400c-1314-4a9a-bbed-a8b8ce1cd5ce",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-06T12:51:06Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "supplier": {
+            "name": "OWASP"
+          },
+          "name": "Dependency-Track",
+          "version": "5.2.1"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "02057197-e808-4d0d-bd36-c87c89045edd",
+      "publisher": "European Commission, DIGIT, Interoperable Europe Unit",
+      "name": "CSV validator",
+      "version": "1.11.1",
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csv-validator@1.13.0?type=pom"
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "02057197-e808-4d0d-bd36-c87c89045edd",
+      "dependsOn": []
+    }
+  ]
+}

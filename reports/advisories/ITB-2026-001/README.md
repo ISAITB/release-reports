@@ -1,11 +1,9 @@
 # ITB-2026-001: Potential Server-Side Request Forgery (SSRF) through user-provided URI retrieval
 
-| | |
-|---|---|
-| Severity | medium (CVSS 5.8) |
-| CVSS vector | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N` |
-| Weakness | [CWE-918](https://cwe.mitre.org/data/definitions/918.html), [CWE-1356](https://cwe.mitre.org/data/definitions/1356.html) |
-| Published | 2026-11-06T00:00:00Z |
+- **Severity:** medium (CVSS 5.8)
+- **CVSS vector:** `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N`
+- **Weakness:** [CWE-918](https://cwe.mitre.org/data/definitions/918.html), [CWE-1356](https://cwe.mitre.org/data/definitions/1356.html)
+- **Published:** 2026-11-06T00:00:00Z
 
 ## Description
 
@@ -27,27 +25,12 @@ As of release 1.11.2 the validators:
 - Block access to internal addresses, unless for explicitly whitelisted paths.
 - Disable by default URI input as an option on all exposed APIs.
 
-## Affected packages
+## Affected software
 
 - `pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war`: `vers:maven/<1.11.2`
 - `pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war`: `vers:maven/<1.11.2`
 - `pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war`: `vers:maven/<1.11.2`
 - `pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war`: `vers:maven/<1.11.2`
-
-## Affected releases
-
-Assessment of the published releases, as recorded in their Vulnerability Disclosure Reports (VDRs):
-
-| Product | Release | Assessment |
-|---|---|---|
-| CSV validator | 1.11.0 | `exploitable` |
-| CSV validator | 1.11.1 | `exploitable` |
-| JSON validator | 1.11.0 | `exploitable` |
-| JSON validator | 1.11.1 | `exploitable` |
-| SHACL validator | 1.11.0 | `exploitable` |
-| SHACL validator | 1.11.1 | `exploitable` |
-| XML validator | 1.11.0 | `exploitable` |
-| XML validator | 1.11.1 | `exploitable` |
 
 ## References
 

@@ -26,6 +26,11 @@ VULNERABILITY_STATUS.md             Overview of the vulnerability status of all 
 cosign.pub                          Public key used to verify the signatures
 reports/
 ├── index.json                      Machine-readable index of all published files
+├── advisories/
+│   └── <ID>/                       Security advisory for a vulnerability in ITB software
+│       ├── README.md                                       Human-readable advisory
+│       ├── <ID>.json                                       Advisory (CycloneDX)
+│       └── <ID>.json.sigstore.json                         Signature bundle for the advisory
 ├── <product>/
 │   └── <release>/
 │       ├── <product>-<release>.bom.json                    SBOM
@@ -64,6 +69,27 @@ All reports are [CycloneDX](https://cyclonedx.org/) 1.5 documents in JSON format
 
 Reports reference components by their `bom-ref`. A VDR is always published together with the SBOM it was produced
 against, so these references resolve within the same release folder.
+
+## ITB security advisories
+
+Most vulnerabilities in the VDRs originate in third-party components and are described by public sources such as the
+GitHub Advisory Database or the NVD. Vulnerabilities in the Test Bed software itself are identified with the prefix
+`ITB-` (for example `ITB-2026-0001`) and are published here, in the `reports/advisories` folder, once the releases they
+relate to have been assessed.
+
+Each advisory has its own folder containing:
+
+- `README.md`: a human-readable description (severity, affected packages and versions, description, recommendation,
+  references, credits) and the assessment for each published release,
+- `<ID>.json`: the same information as a [CycloneDX](https://cyclonedx.org/) 1.5 document with a single
+  vulnerability, and
+- `<ID>.json.sigstore.json`: the signature bundle of the JSON file ([verify](#verifying-a-file) it as any other file).
+
+In the VDRs, ITB vulnerabilities have the `source` name `ITB` and an `advisories` entry with the URL of the advisory
+JSON file on the Test Bed website (see [Machine-to-machine access](#machine-to-machine-access)).
+[VULNERABILITY_STATUS.md](VULNERABILITY_STATUS.md) links their identifiers to the advisory folder. Advisories are not
+listed in `reports/index.json`, which only covers SBOMs and VDRs; they are discovered through the VDRs. Advisories are
+updated if their content changes and are not removed once published.
 
 ## Updates to published reports
 

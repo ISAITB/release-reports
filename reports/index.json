@@ -924,18 +924,18 @@
         "1.30.3": {
           "bom": {
             "path": "itb/1.30.3/itb-1.30.3.bom.json",
-            "sha256": "ae66896072c9c3c823ff6b0bef43d9d695cb1f9607c8998575178a8e0942e8ac",
+            "sha256": "f22ab7cbe4202f2b07abb26c7c5acfba8df2df3a82fbe4c2d369ec9c5273740f",
             "signature": {
               "path": "itb/1.30.3/itb-1.30.3.bom.json.sigstore.json",
-              "sha256": "11028e8d3f79c02bf2da5a89c7f8776411cb7189d91eaf18ad90322a9f47ae2e"
+              "sha256": "ad8b7b191c904dd9f5c62f78b4a53faafd55a811830a8478ca87a79bd26a49b3"
             }
           },
           "vdr": {
             "path": "itb/1.30.3/itb-1.30.3.vdr.json",
-            "sha256": "8a730bbbfdc8e2bfcc08474aba90317c3aefc173be9bc13af82ffd3465db68b3",
+            "sha256": "70eee6fada0c10ec52c52297f160c4f3f2d289d257668f75b252e6d409c427f2",
             "signature": {
               "path": "itb/1.30.3/itb-1.30.3.vdr.json.sigstore.json",
-              "sha256": "2dbcee98b2765b52c6c0a68c1fa5a98a67b3689eb9dd018893aec21aa2e22658"
+              "sha256": "7beae9039b1baa9f54cee62779be044440321e07c812043b2b16cf758a4aa89f"
             }
           },
           "summary": {

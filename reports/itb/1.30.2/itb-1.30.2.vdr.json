@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:38ece0b0-0683-4663-9688-5cef557aaa54",
+  "serialNumber": "urn:uuid:f8b6bb25-e514-4365-8e75-9ffac7bb7af2",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:17:40Z",
+    "timestamp": "2026-11-13T12:37:43Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -25,6 +25,37 @@
     }
   },
   "components": [
+    {
+      "type": "application",
+      "bom-ref": "a4bdccb9-16ca-4f92-a6fd-dece26a9fb14",
+      "group": "com.gitb",
+      "name": "GITB",
+      "version": "1.30.2",
+      "description": "Parent pom providing dependency and plugin management for applications built with Maven",
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.gitb/GITB@1.30.2?type=pom",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://spring.io/projects/spring-boot/GITB"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/gitb/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/spring-projects/spring-boot/GITB"
+        }
+      ]
+    },
     {
       "type": "library",
       "bom-ref": "7105c88a-981a-4059-8586-ad14a39fe624",
@@ -398,6 +429,12 @@
   "dependencies": [
     {
       "ref": "5815b214-ca1d-4929-9cd5-fb1d16af9337",
+      "dependsOn": [
+        "a4bdccb9-16ca-4f92-a6fd-dece26a9fb14"
+      ]
+    },
+    {
+      "ref": "a4bdccb9-16ca-4f92-a6fd-dece26a9fb14",
       "dependsOn": []
     },
     {
@@ -543,6 +580,56 @@
       "affects": [
         {
           "ref": "8b57b453-a2bd-423c-a207-acef98e84a08"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-005",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 3.5,
+          "severity": "low",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:M/Au:S/C:P/I:N/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 2.7,
+          "severity": "low",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        611
+      ],
+      "description": "When the GITB Test Bed software imports a data archive, it parses its metadata to determine the release from which it was made. The parser used for this processing allows external entity definitions, enabling an XML External Entity (XXE) attack.",
+      "recommendation": "Upgrade to release 1.30.3 or later. As of release 1.30.3, the GITB Test Bed software uses the same hardened XML parser for this data archive processing step, as used wherever else XML gets parsed.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "a4bdccb9-16ca-4f92-a6fd-dece26a9fb14"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-005/ITB-2026-005.json"
         }
       ]
     },
@@ -1430,9 +1517,9 @@
       "cwes": [
         1321
       ],
-      "description": "### Impact\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThis issue is patched in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
+      "description": "### Impact\n\nThe `_.unset`, `_.omit`, and `_.pullAt` functions are vulnerable to prototype pollution. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThe issue is patched from 4.18.0 to 4.18.1 depending on the package: `lodash`, `lodash-es`, and `lodash-amd` in 4.18.1, and the standalone `lodash.unset` and `lodash.omit` packages in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.\n\n### References\n\n- [CVE-2025-13465 / GHSA-xxjr-mmjv-4gpg](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) (original fix that this bypasses)",
       "published": "2026-04-01T23:50:27Z",
-      "updated": "2026-04-01T23:50:28Z",
+      "updated": "2026-11-03T15:37:13Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -1509,9 +1596,9 @@
       "cwes": [
         1321
       ],
-      "description": "### Impact\n\nLodash versions 4.0.0 through 4.17.22 are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes. \n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.  \n\n### Patches\n\nThis issue is patched on 4.17.23.",
+      "description": "### Impact\n\nThe `_.unset`, `_.omit`, and `_.pullAt` functions are vulnerable to prototype pollution. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes.\n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThe issue is patched from 4.17.23 to 4.18.0 depending on the package: `lodash`, `lodash-es`, and `lodash-amd` in 4.17.23, and the standalone `lodash.unset` and `lodash.omit` packages in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
       "published": "2026-01-21T23:01:22Z",
-      "updated": "2026-06-09T10:56:35Z",
+      "updated": "2026-11-04T03:08:57Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:6cf64d90-938d-4611-8f35-7860513fa3ee",
+  "serialNumber": "urn:uuid:2912e868-7ac3-4616-870d-bfc5050dfa24",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:17:38Z",
+    "timestamp": "2026-11-13T12:37:41Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -25,6 +25,37 @@
     }
   },
   "components": [
+    {
+      "type": "application",
+      "bom-ref": "001edbbc-7ec3-4c40-a4c2-22c1fa60c9c4",
+      "group": "com.gitb",
+      "name": "GITB",
+      "version": "1.30.1",
+      "description": "Parent pom providing dependency and plugin management for applications built with Maven",
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.gitb/GITB@1.30.1?type=pom",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://spring.io/projects/spring-boot/GITB"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/gitb/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/spring-projects/spring-boot/GITB"
+        }
+      ]
+    },
     {
       "type": "library",
       "bom-ref": "24d91c74-6d26-42d3-916a-0b95a814fe84",
@@ -118,6 +149,56 @@
     },
     {
       "type": "library",
+      "bom-ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.2.3",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "19415a4d508d12571ccee20a404a5d23"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "584e9f46eb511735e3c89fbaaafdd44bff824859"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d155630668656f87b0a908f51f1ed1ef7353efdd32c5b0dcb30088da01a67160"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1d81f00452bede422acee02454534de3ebbef50b2249f819919e74b5f569ebf8b057afb537c2f8477d8589d2a0452520"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fa5a087f81a0c6f1fdd71c79d4ad7d26983086f70ee31b56ad7ec346a2d6aa437a6a57c5091e3fbe515a0f428b776d3fb9a19b009f7f8da00859360ae2af6260"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "80636fc457e55dc35564f51a524e9bb08993a4c7f724b0a71c960ff53cd3dd58"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "52a23448f08f8cfd4292eda5c14045b061fda388bf355beeecf22ca63348805c84208997656d9dea590ff7935408971b379199508f0ac24ad608ed11b57e793a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f5cd998313bf4b81989dd4e33649b77c292c9af9675bbc44a5cc1ffe0ca4d23737d5f03c0e1e58457708d97b11b740ab"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.3?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "472fb3a9-7508-4ff3-af9a-9f5efe8e7a99",
       "group": "org.apache.cxf",
       "name": "cxf-core",
@@ -180,56 +261,6 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=cxf.git/cxf-parent/cxf-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125",
-      "group": "org.apache.cxf",
-      "name": "cxf-core",
-      "version": "4.2.3",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "19415a4d508d12571ccee20a404a5d23"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "584e9f46eb511735e3c89fbaaafdd44bff824859"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "d155630668656f87b0a908f51f1ed1ef7353efdd32c5b0dcb30088da01a67160"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "1d81f00452bede422acee02454534de3ebbef50b2249f819919e74b5f569ebf8b057afb537c2f8477d8589d2a0452520"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "fa5a087f81a0c6f1fdd71c79d4ad7d26983086f70ee31b56ad7ec346a2d6aa437a6a57c5091e3fbe515a0f428b776d3fb9a19b009f7f8da00859360ae2af6260"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "80636fc457e55dc35564f51a524e9bb08993a4c7f724b0a71c960ff53cd3dd58"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "52a23448f08f8cfd4292eda5c14045b061fda388bf355beeecf22ca63348805c84208997656d9dea590ff7935408971b379199508f0ac24ad608ed11b57e793a"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "f5cd998313bf4b81989dd4e33649b77c292c9af9675bbc44a5cc1ffe0ca4d23737d5f03c0e1e58457708d97b11b740ab"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:cxf:4.2.3:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.3?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://cxf.apache.org"
         }
       ]
     },
@@ -515,6 +546,12 @@
   "dependencies": [
     {
       "ref": "eada1286-30a0-4a7d-ba37-8a49ee7b6a9c",
+      "dependsOn": [
+        "001edbbc-7ec3-4c40-a4c2-22c1fa60c9c4"
+      ]
+    },
+    {
+      "ref": "001edbbc-7ec3-4c40-a4c2-22c1fa60c9c4",
       "dependsOn": []
     },
     {
@@ -528,11 +565,11 @@
       ]
     },
     {
-      "ref": "472fb3a9-7508-4ff3-af9a-9f5efe8e7a99",
+      "ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125",
       "dependsOn": []
     },
     {
-      "ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125",
+      "ref": "472fb3a9-7508-4ff3-af9a-9f5efe8e7a99",
       "dependsOn": []
     },
     {
@@ -979,6 +1016,207 @@
         },
         {
           "ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-003",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:S/C:P/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        918,
+        770
+      ],
+      "description": "The `context` provided in JSON-LD documents can be used to achieve an SSRF attacks when parsed. This allows an attacker providing a crafted JSON-LD document to achieve an SSRF attack, when used to probe internal and local (to the test engine) addresses.",
+      "recommendation": "Upgrade to release 1.30.2 or later. As of release 1.30.2, all remote resource lookups, including those related to JSON-LD contexts are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "001edbbc-7ec3-4c40-a4c2-22c1fa60c9c4"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-003/ITB-2026-003.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-004",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 3.5,
+          "severity": "low",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:M/Au:S/C:N/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Validation artefacts (XSDs, Schematron, SHACL shapes, JSON Schemas) may refer to remote resources. When parsing looks up these resources, there are no controls applied, meaning that a crafted validation artefact can be used to abuse system resources by returning large content or a slow response.",
+      "recommendation": "For a standalone XML, JSON or SHACL validator upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, resource lookups are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "001edbbc-7ec3-4c40-a4c2-22c1fa60c9c4"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-004/ITB-2026-004.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-005",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 3.5,
+          "severity": "low",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:M/Au:S/C:P/I:N/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 2.7,
+          "severity": "low",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
+        }
+      ],
+      "cwes": [
+        611
+      ],
+      "description": "When the GITB Test Bed software imports a data archive, it parses its metadata to determine the release from which it was made. The parser used for this processing allows external entity definitions, enabling an XML External Entity (XXE) attack.",
+      "recommendation": "Upgrade to release 1.30.3 or later. As of release 1.30.3, the GITB Test Bed software uses the same hardened XML parser for this data archive processing step, as used wherever else XML gets parsed.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "001edbbc-7ec3-4c40-a4c2-22c1fa60c9c4"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-005/ITB-2026-005.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "001edbbc-7ec3-4c40-a4c2-22c1fa60c9c4"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
         }
       ]
     },
@@ -1971,9 +2209,9 @@
       "cwes": [
         1321
       ],
-      "description": "### Impact\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThis issue is patched in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
+      "description": "### Impact\n\nThe `_.unset`, `_.omit`, and `_.pullAt` functions are vulnerable to prototype pollution. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThe issue is patched from 4.18.0 to 4.18.1 depending on the package: `lodash`, `lodash-es`, and `lodash-amd` in 4.18.1, and the standalone `lodash.unset` and `lodash.omit` packages in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.\n\n### References\n\n- [CVE-2025-13465 / GHSA-xxjr-mmjv-4gpg](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) (original fix that this bypasses)",
       "published": "2026-04-01T23:50:27Z",
-      "updated": "2026-04-01T23:50:28Z",
+      "updated": "2026-11-03T15:37:13Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -2050,9 +2288,9 @@
       "cwes": [
         1321
       ],
-      "description": "### Impact\n\nLodash versions 4.0.0 through 4.17.22 are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes. \n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.  \n\n### Patches\n\nThis issue is patched on 4.17.23.",
+      "description": "### Impact\n\nThe `_.unset`, `_.omit`, and `_.pullAt` functions are vulnerable to prototype pollution. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes.\n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThe issue is patched from 4.17.23 to 4.18.0 depending on the package: `lodash`, `lodash-es`, and `lodash-amd` in 4.17.23, and the standalone `lodash.unset` and `lodash.omit` packages in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
       "published": "2026-01-21T23:01:22Z",
-      "updated": "2026-06-09T10:56:35Z",
+      "updated": "2026-11-04T03:08:57Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",

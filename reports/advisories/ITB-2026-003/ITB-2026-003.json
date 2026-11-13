@@ -1,0 +1,68 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.gitb/GITB",
+      "purl": "pkg:maven/com.gitb/GITB",
+      "name": "GITB"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "ITB-2026-003",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        918,
+        770
+      ],
+      "description": "The `context` provided in JSON-LD documents can be used to achieve an SSRF attacks when parsed. This allows an attacker providing a crafted JSON-LD document to achieve an SSRF attack, when used to probe internal and local (to the test engine) addresses.",
+      "detail": "The `context` provided in JSON-LD documents is used to load additional information about the RDF content included in the document. It is provided as a URI to a remote context resource. RDF parsers, including the one included in the Test Bed's `ShaclValidator` and `RdfUtils` built-in step handlers, read this context by default without applying restrictions. As such, an attacker can craft a JSON-LD document pointing to internal or local (to the test engine) addresses, and achieve through the context resolution mechanism an SSRF attack. When pointing to an external resource, the attacker may also attempt an uncontrolled resource usage attack by pointing to large files or returning a slow response to starve the test engine's thread pool.",
+      "recommendation": "Upgrade to release 1.30.2 or later. As of release 1.30.2, all remote resource lookups, including those related to JSON-LD contexts are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "advisories": [
+        {
+          "url": "https://cwe.mitre.org/data/definitions/770.html"
+        },
+        {
+          "url": "https://cwe.mitre.org/data/definitions/918.html"
+        }
+      ],
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Server-Side Request Forgery (SSRF) and possible DoS through JSON-LD context resolution"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:maven/com.gitb/GITB",
+          "versions": [
+            {
+              "range": "vers:maven/>=1.26.0|<1.30.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

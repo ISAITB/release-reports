@@ -1,0 +1,124 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.gitb/GITB",
+      "purl": "pkg:maven/com.gitb/GITB",
+      "name": "GITB"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/csvvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/csvvalidator-war",
+      "name": "csvvalidator-war"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
+      "name": "jsonvalidator-war"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+      "name": "shaclvalidator-war"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
+      "name": "xmlvalidator-war"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "detail": "Use of the OS temporary folder occurs in certain processing paths in all standalone validators (XML, JSON, SHACL and CSV), as well as the GITB Test Bed software. The data written here is not sensitive in nature but it is not intended to be shared with users having access to the OS temporary folder.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "advisories": [
+        {
+          "url": "https://cwe.mitre.org/data/definitions/379.html"
+        }
+      ],
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Use of the operating system temporary folder for intermediate processing"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:maven/com.gitb/GITB",
+          "versions": [
+            {
+              "range": "vers:maven/<1.30.2",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.shacl/csvvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.13.1",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.13.1",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.13.1",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.13.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

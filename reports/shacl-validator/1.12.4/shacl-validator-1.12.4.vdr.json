@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:91dd38dd-10da-43f1-a7ed-2537663a492c",
+  "serialNumber": "urn:uuid:9e3eb9f0-7a3f-4b23-aeb3-cf635594d394",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-21T14:27:05Z",
+    "timestamp": "2026-11-13T12:37:57Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -171,71 +171,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "d3945974-7234-4ab3-93b0-3bf2f9788757",
-      "group": "tools.jackson.core",
-      "name": "jackson-core",
-      "version": "3.2.2",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "c967c177625d111be4ab088bd57a01e7"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "33448a192d5b662438c859a57daf0f3e8ad9da4b"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "http://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "8f2a8539-ca2b-4ad6-8eca-e08341c81834",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -296,6 +231,71 @@
         {
           "type": "vcs",
           "url": "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "d3945974-7234-4ab3-93b0-3bf2f9788757",
+      "group": "tools.jackson.core",
+      "name": "jackson-core",
+      "version": "3.2.2",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c967c177625d111be4ab088bd57a01e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "33448a192d5b662438c859a57daf0f3e8ad9da4b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -493,6 +493,29 @@
       ]
     },
     {
+      "type": "application",
+      "bom-ref": "b957c912-a3e9-4b47-a89a-4ade2d4fbf29",
+      "group": "eu.europa.ec.itb.shacl",
+      "name": "shaclvalidator-war",
+      "version": "1.12.4",
+      "description": "Web and command-line application for the validation of RDF data.",
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war@1.12.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/shacl-validator/issues"
+        }
+      ]
+    },
+    {
       "type": "library",
       "bom-ref": "c35ae3f3-faab-4cd4-a276-1f56f98c0473",
       "group": "org.apache.ws.xmlschema",
@@ -559,7 +582,9 @@
   "dependencies": [
     {
       "ref": "178632fb-157f-489f-91d9-7ce454ef6bb1",
-      "dependsOn": []
+      "dependsOn": [
+        "b957c912-a3e9-4b47-a89a-4ade2d4fbf29"
+      ]
     },
     {
       "ref": "d43291b4-7a55-4f41-90ca-80d14d92fc2f",
@@ -572,11 +597,11 @@
       "dependsOn": []
     },
     {
-      "ref": "d3945974-7234-4ab3-93b0-3bf2f9788757",
+      "ref": "8f2a8539-ca2b-4ad6-8eca-e08341c81834",
       "dependsOn": []
     },
     {
-      "ref": "8f2a8539-ca2b-4ad6-8eca-e08341c81834",
+      "ref": "d3945974-7234-4ab3-93b0-3bf2f9788757",
       "dependsOn": []
     },
     {
@@ -593,6 +618,10 @@
     },
     {
       "ref": "32264261-97d5-48c7-a4cb-abf1d4182b24",
+      "dependsOn": []
+    },
+    {
+      "ref": "b957c912-a3e9-4b47-a89a-4ade2d4fbf29",
       "dependsOn": []
     },
     {
@@ -1442,6 +1471,157 @@
       "affects": [
         {
           "ref": "65fb31a7-9689-48c6-9b0f-8e448e857b07"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-002",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 8.3,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L"
+        }
+      ],
+      "cwes": [
+        918,
+        770
+      ],
+      "description": "The `context` provided in JSON-LD documents can be used to achieve an SSRF attacks when parsed. This allows an attacker providing a crafted JSON-LD document to achieve an SSRF attack, when used to probe internal and local (to the validator) addresses.",
+      "recommendation": "Upgrade to release 1.13.1 or later. As of release 1.13.1, the `context` of JSON-LD documents is strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "b957c912-a3e9-4b47-a89a-4ade2d4fbf29"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-002/ITB-2026-002.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-004",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 3.5,
+          "severity": "low",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:M/Au:S/C:N/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Validation artefacts (XSDs, Schematron, SHACL shapes, JSON Schemas) may refer to remote resources. When parsing looks up these resources, there are no controls applied, meaning that a crafted validation artefact can be used to abuse system resources by returning large content or a slow response.",
+      "recommendation": "For a standalone XML, JSON or SHACL validator upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, resource lookups are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "b957c912-a3e9-4b47-a89a-4ade2d4fbf29"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-004/ITB-2026-004.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "b957c912-a3e9-4b47-a89a-4ade2d4fbf29"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
         }
       ]
     }

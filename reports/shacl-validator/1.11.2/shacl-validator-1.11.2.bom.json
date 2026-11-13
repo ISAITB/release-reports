@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:700e0d51-05a8-458d-8484-2d76b03c3a93",
+  "serialNumber": "urn:uuid:08a3866b-2ecf-4e98-a278-6a65247b1bc8",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-06T15:28:43Z",
+    "timestamp": "2026-11-13T12:38:06Z",
     "tools": {
       "components": [
         {
@@ -362,76 +362,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "f4d8cdc5-2d3b-4f8a-824f-56ba0ebc6b25",
-      "group": "org.ow2.asm",
-      "name": "asm",
-      "version": "9.7.1",
-      "description": "ASM, a very small and fast Java bytecode manipulation framework",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e2cdd32d198ad31427d298eee9d39d8d"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f0ed132a49244b042cd0e15702ab9f2ce3cc8436"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "8cadd43ac5eb6d09de05faecca38b917a040bb9139c7edeb4cc81c740b713281"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "166e2be10a19ca6a6d7cadb542eb1c948562483f02557b467a50a3d19d01318e12e5c3b495c482f3f5369be1b7f20eed"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "4767b01603dad5c79cc1e2b5f3722f72b1059d928f184f446ba11badeb1b381b3a3a9a801cc43d25d396df950b09d19597c73173c411b1da890de808b94f1f50"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "7edcc4ff09b3ace15091a8c550f552a324b5cee6c1527944db5823df7eba8d64"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "9d220edc5528e4d788605721490f3d29483dd4bd506765e85d781048419aa89b686a70e316b82ef2a856ead56bb7be6b5d52d77b7ca6f27d5e0e347e9669d731"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "e301862376e84df61c3547dbf637252750224fb5b74feb82f20e1527a8e3152c45f620192a9111a2db5e2f0e73ebd7ca"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause",
-            "url": "https://opensource.org/licenses/BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "http://asm.ow2.io/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://gitlab.ow2.org/asm/asm/issues"
-        },
-        {
-          "type": "mailing-list",
-          "url": "https://mail.ow2.org/wws/arc/asm/"
-        },
-        {
-          "type": "vcs",
-          "url": "https://gitlab.ow2.org/asm/asm/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "bfc61acc-7914-4b31-b0ce-81320f45dc9d",
       "group": "org.ow2.asm",
       "name": "asm",
@@ -481,6 +411,76 @@
         }
       ],
       "purl": "pkg:maven/org.ow2.asm/asm@9.9.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://asm.ow2.io/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitlab.ow2.org/asm/asm/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "f4d8cdc5-2d3b-4f8a-824f-56ba0ebc6b25",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.7.1",
+      "description": "ASM, a very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e2cdd32d198ad31427d298eee9d39d8d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f0ed132a49244b042cd0e15702ab9f2ce3cc8436"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8cadd43ac5eb6d09de05faecca38b917a040bb9139c7edeb4cc81c740b713281"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "166e2be10a19ca6a6d7cadb542eb1c948562483f02557b467a50a3d19d01318e12e5c3b495c482f3f5369be1b7f20eed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4767b01603dad5c79cc1e2b5f3722f72b1059d928f184f446ba11badeb1b381b3a3a9a801cc43d25d396df950b09d19597c73173c411b1da890de808b94f1f50"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7edcc4ff09b3ace15091a8c550f552a324b5cee6c1527944db5823df7eba8d64"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9d220edc5528e4d788605721490f3d29483dd4bd506765e85d781048419aa89b686a70e316b82ef2a856ead56bb7be6b5d52d77b7ca6f27d5e0e347e9669d731"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e301862376e84df61c3547dbf637252750224fb5b74feb82f20e1527a8e3152c45f620192a9111a2db5e2f0e73ebd7ca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -5770,75 +5770,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "f288b300-d666-45fc-8a31-002fb7f559af",
-      "group": "org.glassfish.jaxb",
-      "name": "jaxb-core",
-      "version": "4.0.6",
-      "description": "JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e36c915cf47342b4fe31ffba3407b928"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "8e61282303777fc98a00cc3affd0560d68748a75"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "ebbd274207b4860d0dc6e2d44d6dbdb5945cede01222d2e50661d45f5d46c0f7"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "767a28dc25cc9a728576a9a3e6081e24c9018ee664c04782592e14546087e8cadacbc13cdf0b2eff88840b8be10958ca"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "f6ed3cc73361794a8e35fc04f09212aa21af9575f36f6440bf33a6d43708ded6142a9be51d9d08d6e5debc262d87c158f0e199ed041a78fb1e0086fd02868a28"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "5e456fe8925894b58ef10e9936ddd41cde7bd3476bfb5b0d76aba046ca1c9e5f"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "51d4c57f3e1cd5440d3714cb8fe147c74aa40773c5b2a8a804496d361037e6d8dfa86f02f19f4dbbbc327b2fdac30ec83fe82bf720a9db0f8516cb800a7ec62b"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "2033beeccf8d5ae1775ffffe41e09a662e03a67d70fdded7fdabaf5f7b14d51de1f17a9a9b65ea96d3178c9a4b0c574d"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://eclipse-ee4j.github.io/jaxb-ri/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/eclipse-ee4j/jaxb-ri/issues"
-        },
-        {
-          "type": "mailing-list",
-          "url": "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "47e830a1-6212-4eb4-9c28-785620e8dee7",
       "group": "com.sun.xml.bind",
       "name": "jaxb-core",
@@ -5903,6 +5834,75 @@
         {
           "type": "vcs",
           "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "f288b300-d666-45fc-8a31-002fb7f559af",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-core",
+      "version": "4.0.6",
+      "description": "JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e36c915cf47342b4fe31ffba3407b928"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8e61282303777fc98a00cc3affd0560d68748a75"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebbd274207b4860d0dc6e2d44d6dbdb5945cede01222d2e50661d45f5d46c0f7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "767a28dc25cc9a728576a9a3e6081e24c9018ee664c04782592e14546087e8cadacbc13cdf0b2eff88840b8be10958ca"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f6ed3cc73361794a8e35fc04f09212aa21af9575f36f6440bf33a6d43708ded6142a9be51d9d08d6e5debc262d87c158f0e199ed041a78fb1e0086fd02868a28"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5e456fe8925894b58ef10e9936ddd41cde7bd3476bfb5b0d76aba046ca1c9e5f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "51d4c57f3e1cd5440d3714cb8fe147c74aa40773c5b2a8a804496d361037e6d8dfa86f02f19f4dbbbc327b2fdac30ec83fe82bf720a9db0f8516cb800a7ec62b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2033beeccf8d5ae1775ffffe41e09a662e03a67d70fdded7fdabaf5f7b14d51de1f17a9a9b65ea96d3178c9a4b0c574d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core"
         }
       ]
     },
@@ -12214,67 +12214,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "657cf090-a23a-4b59-b959-125e288fc9cd",
-      "group": "org.xmlresolver",
-      "name": "xmlresolver",
-      "version": "5.3.3",
-      "description": "An XML entity/uri resolver",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "59c51b08ba448bc9473d92e68bf84873"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "e0c9cb7fcad389a50c1fbe3237af8857eca9c2b3"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "b0c487ad2f3e558be8d829c916d2458d10aca6a5bafa7a4d0524b70845e48a5c"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f79c1d4557cf6045010c01a9467f966f70120e7979281bfc4211960f3680285d8936143254de92307d0c32fd2f55f2a3"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "3968f78e0c36009f9bbb6e6ce3c0b95a91f6f723a71d93ef9855fe4de674a22c7fc0d426d0bf95d4cdfed4b2cd8213ab8a21d235f64cdd8add9729bac948af8c"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "eb68a8a8de6126987953b82f58b2bb58da107aed2cb22bfd169e0028b079174b"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "87b5283102a265524dc2259b2518cfb08db450a7bb738fea34cc666cea9d2e557abc73e50a2e542bb1874df6afa3d767e75875fa0a404c8387da5432e6a2688d"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "638fa3393665ade60320cb93378e6592da92f3fcb3d50d6d9331b7a01086e8f67c7f13ace73bb7a747f45f0574ab15dd"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.xmlresolver/xmlresolver@5.3.3?classifier=data&type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/xmlresolver/xmlresolver"
-        },
-        {
-          "type": "vcs",
-          "url": "scm:git@github.com:xmlresolver/xmlresolver.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "8fba3d12-ed75-4c8e-b1d6-c88cfe078375",
       "group": "org.xmlresolver",
       "name": "xmlresolver",
@@ -12323,6 +12262,67 @@
         }
       ],
       "purl": "pkg:maven/org.xmlresolver/xmlresolver@5.3.3?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/xmlresolver/xmlresolver"
+        },
+        {
+          "type": "vcs",
+          "url": "scm:git@github.com:xmlresolver/xmlresolver.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "657cf090-a23a-4b59-b959-125e288fc9cd",
+      "group": "org.xmlresolver",
+      "name": "xmlresolver",
+      "version": "5.3.3",
+      "description": "An XML entity/uri resolver",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "59c51b08ba448bc9473d92e68bf84873"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e0c9cb7fcad389a50c1fbe3237af8857eca9c2b3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b0c487ad2f3e558be8d829c916d2458d10aca6a5bafa7a4d0524b70845e48a5c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f79c1d4557cf6045010c01a9467f966f70120e7979281bfc4211960f3680285d8936143254de92307d0c32fd2f55f2a3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3968f78e0c36009f9bbb6e6ce3c0b95a91f6f723a71d93ef9855fe4de674a22c7fc0d426d0bf95d4cdfed4b2cd8213ab8a21d235f64cdd8add9729bac948af8c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "eb68a8a8de6126987953b82f58b2bb58da107aed2cb22bfd169e0028b079174b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "87b5283102a265524dc2259b2518cfb08db450a7bb738fea34cc666cea9d2e557abc73e50a2e542bb1874df6afa3d767e75875fa0a404c8387da5432e6a2688d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "638fa3393665ade60320cb93378e6592da92f3fcb3d50d6d9331b7a01086e8f67c7f13ace73bb7a747f45f0574ab15dd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.xmlresolver/xmlresolver@5.3.3?classifier=data&type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -12512,11 +12512,11 @@
       ]
     },
     {
-      "ref": "f4d8cdc5-2d3b-4f8a-824f-56ba0ebc6b25",
+      "ref": "bfc61acc-7914-4b31-b0ce-81320f45dc9d",
       "dependsOn": []
     },
     {
-      "ref": "bfc61acc-7914-4b31-b0ce-81320f45dc9d",
+      "ref": "f4d8cdc5-2d3b-4f8a-824f-56ba0ebc6b25",
       "dependsOn": []
     },
     {
@@ -13050,6 +13050,13 @@
       "dependsOn": []
     },
     {
+      "ref": "47e830a1-6212-4eb4-9c28-785620e8dee7",
+      "dependsOn": [
+        "5099439b-0fba-42e7-ab59-805afb1aecd1",
+        "febd92c0-f02f-46a4-81f2-e36d3a0c84a8"
+      ]
+    },
+    {
       "ref": "f288b300-d666-45fc-8a31-002fb7f559af",
       "dependsOn": [
         "600ee0a6-a168-4df4-a51e-9528fb55433a",
@@ -13057,13 +13064,6 @@
         "5099439b-0fba-42e7-ab59-805afb1aecd1",
         "febd92c0-f02f-46a4-81f2-e36d3a0c84a8",
         "0dec9a62-01c2-4c7e-a698-7dbbeb8643bf"
-      ]
-    },
-    {
-      "ref": "47e830a1-6212-4eb4-9c28-785620e8dee7",
-      "dependsOn": [
-        "5099439b-0fba-42e7-ab59-805afb1aecd1",
-        "febd92c0-f02f-46a4-81f2-e36d3a0c84a8"
       ]
     },
     {
@@ -13818,11 +13818,11 @@
       ]
     },
     {
-      "ref": "657cf090-a23a-4b59-b959-125e288fc9cd",
+      "ref": "8fba3d12-ed75-4c8e-b1d6-c88cfe078375",
       "dependsOn": []
     },
     {
-      "ref": "8fba3d12-ed75-4c8e-b1d6-c88cfe078375",
+      "ref": "657cf090-a23a-4b59-b959-125e288fc9cd",
       "dependsOn": []
     },
     {

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:be8802ca-72dc-4a70-bf45-58a8e7675bf5",
+  "serialNumber": "urn:uuid:26766044-de46-496f-969a-e8c7841ec0d5",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:17:53Z",
+    "timestamp": "2026-11-13T12:37:59Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -693,6 +693,29 @@
       ]
     },
     {
+      "type": "application",
+      "bom-ref": "e5c5af31-e2f2-4271-85fc-c2db27c87ada",
+      "group": "eu.europa.ec.itb.shacl",
+      "name": "shaclvalidator-war",
+      "version": "1.12.1",
+      "description": "Web and command-line application for the validation of RDF data.",
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war@1.12.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/shacl-validator/issues"
+        }
+      ]
+    },
+    {
       "type": "library",
       "bom-ref": "ba2efefb-cd79-4ee0-84ff-d1b38be9246e",
       "group": "org.springframework",
@@ -881,7 +904,9 @@
   "dependencies": [
     {
       "ref": "72ccb6e3-592b-40aa-8f18-cf1fe4040da7",
-      "dependsOn": []
+      "dependsOn": [
+        "e5c5af31-e2f2-4271-85fc-c2db27c87ada"
+      ]
     },
     {
       "ref": "5921d58b-da17-47d4-8e0c-9ae2b97323df",
@@ -927,6 +952,10 @@
     },
     {
       "ref": "86cff5fe-057a-4c05-89b6-24a102396e18",
+      "dependsOn": []
+    },
+    {
+      "ref": "e5c5af31-e2f2-4271-85fc-c2db27c87ada",
       "dependsOn": []
     },
     {
@@ -2934,6 +2963,157 @@
       "affects": [
         {
           "ref": "54191c2f-37ad-4d08-9ad9-148526b85a4f"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-002",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 8.3,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L"
+        }
+      ],
+      "cwes": [
+        918,
+        770
+      ],
+      "description": "The `context` provided in JSON-LD documents can be used to achieve an SSRF attacks when parsed. This allows an attacker providing a crafted JSON-LD document to achieve an SSRF attack, when used to probe internal and local (to the validator) addresses.",
+      "recommendation": "Upgrade to release 1.13.1 or later. As of release 1.13.1, the `context` of JSON-LD documents is strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "e5c5af31-e2f2-4271-85fc-c2db27c87ada"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-002/ITB-2026-002.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-004",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 3.5,
+          "severity": "low",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:M/Au:S/C:N/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Validation artefacts (XSDs, Schematron, SHACL shapes, JSON Schemas) may refer to remote resources. When parsing looks up these resources, there are no controls applied, meaning that a crafted validation artefact can be used to abuse system resources by returning large content or a slow response.",
+      "recommendation": "For a standalone XML, JSON or SHACL validator upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, resource lookups are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "e5c5af31-e2f2-4271-85fc-c2db27c87ada"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-004/ITB-2026-004.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Upgrade to the latest release that resolves the issue."
+      },
+      "affects": [
+        {
+          "ref": "e5c5af31-e2f2-4271-85fc-c2db27c87ada"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
         }
       ]
     }

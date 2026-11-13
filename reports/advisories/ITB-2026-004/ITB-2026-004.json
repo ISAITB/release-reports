@@ -1,0 +1,109 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.gitb/GITB",
+      "purl": "pkg:maven/com.gitb/GITB",
+      "name": "GITB"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
+      "name": "jsonvalidator-war"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+      "name": "shaclvalidator-war"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
+      "name": "xmlvalidator-war"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "ITB-2026-004",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Validation artefacts (XSDs, Schematron, SHACL shapes, JSON Schemas) may refer to remote resources. When parsing looks up these resources, there are no controls applied, meaning that a crafted validation artefact can be used to abuse system resources by returning large content or a slow response.",
+      "detail": "Remote lookups in validation artefacts require a crafted artefact be used to achieve an exploit. This affects:\n- The standalone JSON validator for JSON Schemas, referring to a remote schema.\n- The standalone XML validator for XML Schemas and Schematron, including or importing remote resources.\n- The standalone RDF/SHACL validator for SHACL shapes, through OWL imports or a JSON-LD context.\n- The GITB Test Bed's test engine as described above, in relation to the `JsonValidator`, `XmlValidator`, `SchematronValidator` and `ShaclValidator` built-in handlers.\n\nAn attacker may use these to point to a resource that is either excessively large for a disk usage or bandwidth saturation, or a slow responding resource to block processing threads. Nonetheless, a successful exploit would require crafting validation artefacts which is reserved to an administrator (the person configuring a validator or defining test cases).",
+      "recommendation": "For a standalone XML, JSON or SHACL validator upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, resource lookups are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "advisories": [
+        {
+          "url": "https://cwe.mitre.org/data/definitions/770.html"
+        }
+      ],
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Uncontrolled remote resource lookups in validation arteefacts"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:maven/com.gitb/GITB",
+          "versions": [
+            {
+              "range": "vers:maven/<1.30.2",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.13.1",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.13.1",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "ref": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
+          "versions": [
+            {
+              "range": "vers:maven/<1.13.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

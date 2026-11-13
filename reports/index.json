@@ -37,6 +37,63 @@
               "GHSA-r29c-68gh-xp6x",
               "ITB-2026-001"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-h9h9-2rmf-rvhp",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-hf5p-q87m-crj7",
+                "severity": "medium",
+                "score": 5.9
+              },
+              {
+                "id": "ITB-2026-001",
+                "severity": "medium",
+                "score": 5.8
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 119,
             "falsePositive": 1,
             "resolved": 0,
@@ -75,6 +132,63 @@
               "GHSA-r29c-68gh-xp6x",
               "ITB-2026-001"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-h9h9-2rmf-rvhp",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-hf5p-q87m-crj7",
+                "severity": "medium",
+                "score": 5.9
+              },
+              {
+                "id": "ITB-2026-001",
+                "severity": "medium",
+                "score": 5.8
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 110,
             "falsePositive": 1,
             "resolved": 0,
@@ -112,6 +226,58 @@
               "GHSA-hf5p-q87m-crj7",
               "GHSA-r29c-68gh-xp6x"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-h9h9-2rmf-rvhp",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-hf5p-q87m-crj7",
+                "severity": "medium",
+                "score": 5.9
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 110,
             "falsePositive": 1,
             "resolved": 0,
@@ -143,6 +309,33 @@
               "CVE-2026-54225",
               "CVE-2026-64958",
               "GHSA-h9h9-2rmf-rvhp"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-h9h9-2rmf-rvhp",
+                "severity": "high",
+                "score": 7.5
+              }
             ],
             "notAffected": 63,
             "falsePositive": 1,
@@ -176,6 +369,33 @@
               "CVE-2026-64958",
               "GHSA-h9h9-2rmf-rvhp"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-h9h9-2rmf-rvhp",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 60,
             "falsePositive": 1,
             "resolved": 0,
@@ -208,6 +428,33 @@
               "CVE-2026-64958",
               "GHSA-h9h9-2rmf-rvhp"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-h9h9-2rmf-rvhp",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 60,
             "falsePositive": 1,
             "resolved": 0,
@@ -236,6 +483,18 @@
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
             ],
             "notAffected": 39,
             "falsePositive": 1,
@@ -266,6 +525,18 @@
               "CVE-2026-107937",
               "CVE-2026-108039"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 28,
             "falsePositive": 1,
             "resolved": 0,
@@ -295,6 +566,18 @@
               "CVE-2026-107937",
               "CVE-2026-108039"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 18,
             "falsePositive": 1,
             "resolved": 0,
@@ -321,6 +604,7 @@
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
+            "exploitableDetails": [],
             "notAffected": 3,
             "falsePositive": 0,
             "resolved": 0,
@@ -336,22 +620,22 @@
         "1.28.0": {
           "bom": {
             "path": "itb/1.28.0/itb-1.28.0.bom.json",
-            "sha256": "af3ae95b3c333ef6f8d2a6017ab4e53cb7969505de09971ac07436e4a867c239",
+            "sha256": "a846cb6bb7053c793ece6e989049d734455c9046d1e6273e26e21f2520c1795a",
             "signature": {
               "path": "itb/1.28.0/itb-1.28.0.bom.json.sigstore.json",
-              "sha256": "6bdb8009798da42895b550cca2dfe2c016d41645eb031ef14db2f325c2759732"
+              "sha256": "e8c8215d30714823b5579bd73b5107c64b16bc680291c53b46131e3661c977a5"
             }
           },
           "vdr": {
             "path": "itb/1.28.0/itb-1.28.0.vdr.json",
-            "sha256": "7624a7fb57a5a12b1fc58ed2fa4a4ea2818e499f0a9d23d4d1b5d94ebc70c404",
+            "sha256": "725487d501cfa8d549b3ba04a1f26be422034fc3b0ddfe8919432dcbde95ba10",
             "signature": {
               "path": "itb/1.28.0/itb-1.28.0.vdr.json.sigstore.json",
-              "sha256": "3788c32ff843f4cf5d46cb6dfeed8a2b803f814f054aaa0c84bebd80f31f194d"
+              "sha256": "f6820b2a6bcc6a9de942f53413ebc1dd2fc44bbc9b525c2171563e9793ef3fe4"
             }
           },
           "summary": {
-            "exploitable": 13,
+            "exploitable": 17,
             "exploitableIds": [
               "CVE-2026-102495",
               "CVE-2026-102496",
@@ -365,7 +649,98 @@
               "CVE-2026-65432",
               "CVE-2026-66142",
               "CVE-2026-66144",
-              "GHSA-xw5h-cmh3-8j6j"
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 191,
             "falsePositive": 0,
@@ -376,22 +751,22 @@
         "1.28.1": {
           "bom": {
             "path": "itb/1.28.1/itb-1.28.1.bom.json",
-            "sha256": "3ea23e8f6adbbe5b711829401be6afabb779a2441b8a33e4aa5a855fff241167",
+            "sha256": "691f722ce404abd921f2f89fff85f9a9d59719e9150a7f39362b32d2820de0cf",
             "signature": {
               "path": "itb/1.28.1/itb-1.28.1.bom.json.sigstore.json",
-              "sha256": "fdbb7929bb142428eb837198843ba0d735ee20cdb2b3bba57a3381a7fa64d53c"
+              "sha256": "dca7af9d9d9f99b2f87cea35282daa68c69467889a690792c604d6b5efe66ca7"
             }
           },
           "vdr": {
             "path": "itb/1.28.1/itb-1.28.1.vdr.json",
-            "sha256": "18038e57e8303f90f25ff801580b0e04b837489ddf2f782a6516a6b0ef704fcf",
+            "sha256": "375960c003c12c9272f1656c7e5fe82d1eedab0b46f0a72965d101864258f619",
             "signature": {
               "path": "itb/1.28.1/itb-1.28.1.vdr.json.sigstore.json",
-              "sha256": "a037d7f339e15d24e678b536d51c753765f29a92793b42adc13793e35dc9628c"
+              "sha256": "82dd5b5bd4bc741805820b187ae988baba77ae04871ade1b595dbb1246138b50"
             }
           },
           "summary": {
-            "exploitable": 13,
+            "exploitable": 17,
             "exploitableIds": [
               "CVE-2026-102495",
               "CVE-2026-102496",
@@ -405,7 +780,98 @@
               "CVE-2026-65432",
               "CVE-2026-66142",
               "CVE-2026-66144",
-              "GHSA-xw5h-cmh3-8j6j"
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 191,
             "falsePositive": 0,
@@ -416,22 +882,22 @@
         "1.28.2": {
           "bom": {
             "path": "itb/1.28.2/itb-1.28.2.bom.json",
-            "sha256": "d15a2ece3d2bda70583255c67dc8ad033b436fa6be14a3b1b28bff2016bf336d",
+            "sha256": "b9d3f56321b6a6d910e0be9718f7c6ae4504e35b2001952fa0c698b3c5a308e5",
             "signature": {
               "path": "itb/1.28.2/itb-1.28.2.bom.json.sigstore.json",
-              "sha256": "a5b57a78c5f2c5a484dee8a72118e1cd0eb9dea23d825983cdc92d3c3bf166cb"
+              "sha256": "5bb0b5dfb526561dcf35cd67cfe6dfa7ee01a3f86f111d087db7a592bcc60d14"
             }
           },
           "vdr": {
             "path": "itb/1.28.2/itb-1.28.2.vdr.json",
-            "sha256": "a5d18aac99d6f85ef30e063f0963d48cfeee085619be280d089262bdfecd0ba0",
+            "sha256": "aad3c32456631633ed6486bf5e1d8d1579061fb306ac4ee89d3a6d316fb8af77",
             "signature": {
               "path": "itb/1.28.2/itb-1.28.2.vdr.json.sigstore.json",
-              "sha256": "13e9788201880f1080349d24e918f9042f41dd407560e2c1cbe7de1964143a78"
+              "sha256": "48370dd636587412d6414adf9838fbbacf665ac2b9c1e647d9bfcfeda23ae2e1"
             }
           },
           "summary": {
-            "exploitable": 13,
+            "exploitable": 17,
             "exploitableIds": [
               "CVE-2026-102495",
               "CVE-2026-102496",
@@ -445,7 +911,98 @@
               "CVE-2026-65432",
               "CVE-2026-66142",
               "CVE-2026-66144",
-              "GHSA-xw5h-cmh3-8j6j"
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 191,
             "falsePositive": 0,
@@ -456,22 +1013,22 @@
         "1.28.3": {
           "bom": {
             "path": "itb/1.28.3/itb-1.28.3.bom.json",
-            "sha256": "75952ad6288231b30b928bd64820a8ed56480b3fc04f7fea99756448f1f1d06a",
+            "sha256": "9c22288ab87b4d7b56b86e04b37428326a670632f2c875f700783ad91531c1df",
             "signature": {
               "path": "itb/1.28.3/itb-1.28.3.bom.json.sigstore.json",
-              "sha256": "f38cdb3845b94346d0edfffbc1c2c4f80e68c1c5a38d9568815375c20be761ee"
+              "sha256": "4581704274c1ea290d2cba11ea7258d4f628b6d18fb6bf6f59eecf55f98fe739"
             }
           },
           "vdr": {
             "path": "itb/1.28.3/itb-1.28.3.vdr.json",
-            "sha256": "2b32d7d2d000ef2435fa9ec1fc0d36360d0dc2321294778d4d4261815a374637",
+            "sha256": "34ff797b5217dd47be5b9d5671aa63068a43f7cb74e66dd02374e422ddea8ca9",
             "signature": {
               "path": "itb/1.28.3/itb-1.28.3.vdr.json.sigstore.json",
-              "sha256": "37da0d6581b4167f16d0105bc6f185577ed242fd916b31daf96e65f28e104fb4"
+              "sha256": "cb989052c5048a8194c04282c7d55fe73f417352b85602f4f969ffc76d0f8dae"
             }
           },
           "summary": {
-            "exploitable": 13,
+            "exploitable": 17,
             "exploitableIds": [
               "CVE-2026-102495",
               "CVE-2026-102496",
@@ -485,7 +1042,98 @@
               "CVE-2026-65432",
               "CVE-2026-66142",
               "CVE-2026-66144",
-              "GHSA-xw5h-cmh3-8j6j"
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 191,
             "falsePositive": 0,
@@ -496,22 +1144,22 @@
         "1.28.4": {
           "bom": {
             "path": "itb/1.28.4/itb-1.28.4.bom.json",
-            "sha256": "b805d17646029796d4c1b8e48c14a8749b56895f3a4e0e123c57d6f115842a51",
+            "sha256": "06e9a0bde8d837ce0be3d0a0a795918cfd034dca1fdf5d046da27078bb87b9c5",
             "signature": {
               "path": "itb/1.28.4/itb-1.28.4.bom.json.sigstore.json",
-              "sha256": "6c25e3b13f47e97869cc06c8180de4ed2799bc49f5637eb527531b96a3850efa"
+              "sha256": "376cf3f9146baef08f76c96129873dc869af04bbbea089ced4af27006a9f1acc"
             }
           },
           "vdr": {
             "path": "itb/1.28.4/itb-1.28.4.vdr.json",
-            "sha256": "16c7f5a764b93ed6c944b9b2de7dd5f8e7d9b89f6417464cd15bc11e0743afcb",
+            "sha256": "d7da2992c8ee6b093933aefda119d6529e8ea87344b0e0b03a2dc7b77d34952e",
             "signature": {
               "path": "itb/1.28.4/itb-1.28.4.vdr.json.sigstore.json",
-              "sha256": "efd95e65fb704e8b6fc1b137ec0f9117207cfeba70523340cb1e540e7be39cd3"
+              "sha256": "d7235219b601b282692595c9df123a1edbe2d236b75ae57f92563618b7d4df88"
             }
           },
           "summary": {
-            "exploitable": 13,
+            "exploitable": 17,
             "exploitableIds": [
               "CVE-2026-102495",
               "CVE-2026-102496",
@@ -525,7 +1173,98 @@
               "CVE-2026-65432",
               "CVE-2026-66142",
               "CVE-2026-66144",
-              "GHSA-xw5h-cmh3-8j6j"
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 190,
             "falsePositive": 0,
@@ -536,22 +1275,22 @@
         "1.28.5": {
           "bom": {
             "path": "itb/1.28.5/itb-1.28.5.bom.json",
-            "sha256": "35ccc78e37bd536f5e08a0e166ea2e4154b3aa9f9585eff88f94cb6ce9daa4c6",
+            "sha256": "8367dd66ca32c500352f5b20ad9b1e4ee2519217f89e307e0c04d88447317889",
             "signature": {
               "path": "itb/1.28.5/itb-1.28.5.bom.json.sigstore.json",
-              "sha256": "ceffd72b185ce1a8dda12c774efe68858a7eab24ba387df7ebeeb140256e0477"
+              "sha256": "ed0e3250e33d6a78d5ce0554dc86c2075717350639c8ee6995129280ef3dd29a"
             }
           },
           "vdr": {
             "path": "itb/1.28.5/itb-1.28.5.vdr.json",
-            "sha256": "4fa7913c3916c55d6c23e2eeabd2fd4854c46933a6df087390d92ee45f4a8b4c",
+            "sha256": "9213bb4bb2d6057ad3cac0bbcb3b9b36686498e12ec11c4ed4227be52e820d85",
             "signature": {
               "path": "itb/1.28.5/itb-1.28.5.vdr.json.sigstore.json",
-              "sha256": "66ecd79a21c963e15c2a221370dac6aefb41559dabdd82199b07c0a9670ca72a"
+              "sha256": "17650e78c0230baf4ba25718b01fedc62ac4f44488cc17347664a1855c8c919a"
             }
           },
           "summary": {
-            "exploitable": 13,
+            "exploitable": 17,
             "exploitableIds": [
               "CVE-2026-102495",
               "CVE-2026-102496",
@@ -565,7 +1304,98 @@
               "CVE-2026-65432",
               "CVE-2026-66142",
               "CVE-2026-66144",
-              "GHSA-xw5h-cmh3-8j6j"
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 152,
             "falsePositive": 0,
@@ -576,190 +1406,18 @@
         "1.29.0": {
           "bom": {
             "path": "itb/1.29.0/itb-1.29.0.bom.json",
-            "sha256": "c0de98e28caab5bd68552514027a9adb5149f3cd5055731d82a18f8da10df556",
+            "sha256": "ec9d9d5397677fd7b5a1e8a237d0624b57d42f287fc6c54ebae881d603bef010",
             "signature": {
               "path": "itb/1.29.0/itb-1.29.0.bom.json.sigstore.json",
-              "sha256": "60d94429dabdd78a4d172d5b2b71aa94100ee246a7a5acbbd598815c660cb196"
+              "sha256": "8f8b1e9a0cc277e922b22aae41ee625a60416f4b1cd0696dc669e07180399fa4"
             }
           },
           "vdr": {
             "path": "itb/1.29.0/itb-1.29.0.vdr.json",
-            "sha256": "6f96c50f7f7424b95fe09c873da2665b9c15e24e49de3ca18ea2df1d0e74273b",
+            "sha256": "a78a62e643c8619a5e84781b75c24d6e1da934574085135090d853d934d62a5b",
             "signature": {
               "path": "itb/1.29.0/itb-1.29.0.vdr.json.sigstore.json",
-              "sha256": "45d348ccb49dca4013d10babc0aa3316e4b2ce0634712e2061fc68a826fec0db"
-            }
-          },
-          "summary": {
-            "exploitable": 16,
-            "exploitableIds": [
-              "CVE-2026-102495",
-              "CVE-2026-102496",
-              "CVE-2026-102497",
-              "CVE-2026-107937",
-              "CVE-2026-108039",
-              "CVE-2026-49875",
-              "CVE-2026-50645",
-              "CVE-2026-54225",
-              "CVE-2026-64958",
-              "CVE-2026-65432",
-              "CVE-2026-66142",
-              "CVE-2026-66144",
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 186,
-            "falsePositive": 3,
-            "resolved": 0,
-            "assessmentInProgress": false
-          }
-        },
-        "1.29.1": {
-          "bom": {
-            "path": "itb/1.29.1/itb-1.29.1.bom.json",
-            "sha256": "c7f5de0b938aeaa446f6dc08e966f024483c5b59888caa09f046ac849f69daec",
-            "signature": {
-              "path": "itb/1.29.1/itb-1.29.1.bom.json.sigstore.json",
-              "sha256": "026c15b5b40f892d13940bcbd43c41f287c8fd3b042aa917b178f5299f6301c7"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.29.1/itb-1.29.1.vdr.json",
-            "sha256": "41bcc783fe8f8bf343a1af93ef199b9b08a82a8671d705e5cb02471e4ebe7ae2",
-            "signature": {
-              "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
-              "sha256": "c26eb8ab00640b107b8fc711d156493eca3dc3f5797e2287579199c81e2d59f4"
-            }
-          },
-          "summary": {
-            "exploitable": 16,
-            "exploitableIds": [
-              "CVE-2026-102495",
-              "CVE-2026-102496",
-              "CVE-2026-102497",
-              "CVE-2026-107937",
-              "CVE-2026-108039",
-              "CVE-2026-49875",
-              "CVE-2026-50645",
-              "CVE-2026-54225",
-              "CVE-2026-64958",
-              "CVE-2026-65432",
-              "CVE-2026-66142",
-              "CVE-2026-66144",
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 185,
-            "falsePositive": 3,
-            "resolved": 0,
-            "assessmentInProgress": false
-          }
-        },
-        "1.29.2": {
-          "bom": {
-            "path": "itb/1.29.2/itb-1.29.2.bom.json",
-            "sha256": "0b3ecf5d75e63871392e21388cc2398e3f0406a577eca14245abd8764fd9fc8a",
-            "signature": {
-              "path": "itb/1.29.2/itb-1.29.2.bom.json.sigstore.json",
-              "sha256": "82754c1082642d8e3808987f15c0223984998acdf21e78db798add6edbf83e38"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.29.2/itb-1.29.2.vdr.json",
-            "sha256": "24b254822fcbe3f72346bb9d86ea13c125304a78859dc8ae269c7103692e01d0",
-            "signature": {
-              "path": "itb/1.29.2/itb-1.29.2.vdr.json.sigstore.json",
-              "sha256": "f377611880ddd479009511c0694ecb42600849bef5df96dba73aa2830c8a8032"
-            }
-          },
-          "summary": {
-            "exploitable": 16,
-            "exploitableIds": [
-              "CVE-2026-102495",
-              "CVE-2026-102496",
-              "CVE-2026-102497",
-              "CVE-2026-107937",
-              "CVE-2026-108039",
-              "CVE-2026-49875",
-              "CVE-2026-50645",
-              "CVE-2026-54225",
-              "CVE-2026-64958",
-              "CVE-2026-65432",
-              "CVE-2026-66142",
-              "CVE-2026-66144",
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 185,
-            "falsePositive": 3,
-            "resolved": 0,
-            "assessmentInProgress": false
-          }
-        },
-        "1.29.3": {
-          "bom": {
-            "path": "itb/1.29.3/itb-1.29.3.bom.json",
-            "sha256": "0388e16f161e8e94f386ef77005735722a43fed1cb0e805f2c35314705a47788",
-            "signature": {
-              "path": "itb/1.29.3/itb-1.29.3.bom.json.sigstore.json",
-              "sha256": "56c59a0346e39ffec2bc9ad5a6324faa7ed860f13c81d5a49bb7183515c878bb"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.29.3/itb-1.29.3.vdr.json",
-            "sha256": "62111188f263f82f7eead52757f63940a8692d883887cd3c1d520d60bcc5c3c9",
-            "signature": {
-              "path": "itb/1.29.3/itb-1.29.3.vdr.json.sigstore.json",
-              "sha256": "f3f44428e5ea2c15d7220121695048f3480cc0f47c986e4af47d42575647316b"
-            }
-          },
-          "summary": {
-            "exploitable": 16,
-            "exploitableIds": [
-              "CVE-2026-102495",
-              "CVE-2026-102496",
-              "CVE-2026-102497",
-              "CVE-2026-107937",
-              "CVE-2026-108039",
-              "CVE-2026-49875",
-              "CVE-2026-50645",
-              "CVE-2026-54225",
-              "CVE-2026-64958",
-              "CVE-2026-65432",
-              "CVE-2026-66142",
-              "CVE-2026-66144",
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j"
-            ],
-            "notAffected": 183,
-            "falsePositive": 3,
-            "resolved": 0,
-            "assessmentInProgress": false
-          }
-        },
-        "1.29.4": {
-          "bom": {
-            "path": "itb/1.29.4/itb-1.29.4.bom.json",
-            "sha256": "dbd63d71cd5876bdb023bd5cb2905bbc5d796a6e3098318a77e4d5f0267b4386",
-            "signature": {
-              "path": "itb/1.29.4/itb-1.29.4.bom.json.sigstore.json",
-              "sha256": "ba2d0e3e8d2d4626892845f5815418f6fe1b069d159d9c726b77a49590e6ff7b"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.29.4/itb-1.29.4.vdr.json",
-            "sha256": "b1ca93be7aa3cc8504128519f6df3be717699532bdb004f8400e798b4dbf85ee",
-            "signature": {
-              "path": "itb/1.29.4/itb-1.29.4.vdr.json.sigstore.json",
-              "sha256": "dee324e242363bb13bb35d8ea9293d7b6b5f1e0348b888e43d42536fe851a378"
+              "sha256": "ad63751fd604df675f8d31bc513d9d4612d55f52258bb770657643241c01ea1d"
             }
           },
           "summary": {
@@ -773,6 +1431,602 @@
               "CVE-2026-49875",
               "CVE-2026-50645",
               "CVE-2026-54225",
+              "CVE-2026-64958",
+              "CVE-2026-65432",
+              "CVE-2026-66142",
+              "CVE-2026-66144",
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
+            ],
+            "notAffected": 186,
+            "falsePositive": 3,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.29.1": {
+          "bom": {
+            "path": "itb/1.29.1/itb-1.29.1.bom.json",
+            "sha256": "8d38c3ec9ad98f1f20dd3701dee71435482feba768728c250670fef88ae4eec7",
+            "signature": {
+              "path": "itb/1.29.1/itb-1.29.1.bom.json.sigstore.json",
+              "sha256": "1d28766b33701df0b32a0b49f92ce6fa8aa503e71b89882c1fa3acea76dc0caf"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.29.1/itb-1.29.1.vdr.json",
+            "sha256": "1779acd523c3f9f9bf7816b6fa173a72979de8a8667f611a7afcd98204fb0eba",
+            "signature": {
+              "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
+              "sha256": "e696f8e52c5ba7c639d7f5fb2f175b685928db30cd56e56ea1d4d844900bf24e"
+            }
+          },
+          "summary": {
+            "exploitable": 20,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "CVE-2026-107937",
+              "CVE-2026-108039",
+              "CVE-2026-49875",
+              "CVE-2026-50645",
+              "CVE-2026-54225",
+              "CVE-2026-64958",
+              "CVE-2026-65432",
+              "CVE-2026-66142",
+              "CVE-2026-66144",
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
+            ],
+            "notAffected": 185,
+            "falsePositive": 3,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.29.2": {
+          "bom": {
+            "path": "itb/1.29.2/itb-1.29.2.bom.json",
+            "sha256": "0ff169189e04fd7c43783ac6043a36c02e15602cf5f088da21daeeda472f68bb",
+            "signature": {
+              "path": "itb/1.29.2/itb-1.29.2.bom.json.sigstore.json",
+              "sha256": "ccef42cf0ae5db96266efbb43f75d13bff6a3ea1906d05af5081befa5be5ca6c"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.29.2/itb-1.29.2.vdr.json",
+            "sha256": "805109dbb40f8ce7398f1a873babef85429e56c4baec0aa8e78f1d9a87be080e",
+            "signature": {
+              "path": "itb/1.29.2/itb-1.29.2.vdr.json.sigstore.json",
+              "sha256": "89ab883d1042f8bb0957146dbfc3296d971ebfd561b5668fc874e6bd2bd9e978"
+            }
+          },
+          "summary": {
+            "exploitable": 20,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "CVE-2026-107937",
+              "CVE-2026-108039",
+              "CVE-2026-49875",
+              "CVE-2026-50645",
+              "CVE-2026-54225",
+              "CVE-2026-64958",
+              "CVE-2026-65432",
+              "CVE-2026-66142",
+              "CVE-2026-66144",
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
+            ],
+            "notAffected": 185,
+            "falsePositive": 3,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.29.3": {
+          "bom": {
+            "path": "itb/1.29.3/itb-1.29.3.bom.json",
+            "sha256": "896aef43dbb353f9b69c089c11dc613d39e3023a190509c93e95c375a9283722",
+            "signature": {
+              "path": "itb/1.29.3/itb-1.29.3.bom.json.sigstore.json",
+              "sha256": "ef98237d4205549c6ab00fe65c94420167d0c14be34ae8d9a8cb342a54deae5a"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.29.3/itb-1.29.3.vdr.json",
+            "sha256": "65fd594ee6cabef81ff945987825ec47e10671672eb1d7d9e4ec2582e7a4a710",
+            "signature": {
+              "path": "itb/1.29.3/itb-1.29.3.vdr.json.sigstore.json",
+              "sha256": "9d297f86f6cac0d203dcb74bef11a4e8e17239a28aa327c9c6f268743b8164af"
+            }
+          },
+          "summary": {
+            "exploitable": 20,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "CVE-2026-107937",
+              "CVE-2026-108039",
+              "CVE-2026-49875",
+              "CVE-2026-50645",
+              "CVE-2026-54225",
+              "CVE-2026-64958",
+              "CVE-2026-65432",
+              "CVE-2026-66142",
+              "CVE-2026-66144",
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
+            ],
+            "notAffected": 183,
+            "falsePositive": 3,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.29.4": {
+          "bom": {
+            "path": "itb/1.29.4/itb-1.29.4.bom.json",
+            "sha256": "ba6af4c289b353a98ce7b1a61712c058b580d3f51a11039c03ef0b96013c290f",
+            "signature": {
+              "path": "itb/1.29.4/itb-1.29.4.bom.json.sigstore.json",
+              "sha256": "2bb2268a909d43eb7a2ce89f5444d44e3a3cb94b55ee1578aa3dbc01871f11a7"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.29.4/itb-1.29.4.vdr.json",
+            "sha256": "2918af131a281305023da7e7fa63538a7006bd25e7dfe18100838525adb368f3",
+            "signature": {
+              "path": "itb/1.29.4/itb-1.29.4.vdr.json.sigstore.json",
+              "sha256": "4880b1f71d14eb70d45c5cef21220e110526d5079ad9beba245d6c95ffe6824e"
+            }
+          },
+          "summary": {
+            "exploitable": 24,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "CVE-2026-107937",
+              "CVE-2026-108039",
+              "CVE-2026-49875",
+              "CVE-2026-50645",
+              "CVE-2026-54225",
               "CVE-2026-60586",
               "CVE-2026-60623",
               "CVE-2026-60624",
@@ -784,7 +2038,133 @@
               "CVE-2026-66144",
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-xw5h-cmh3-8j6j"
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-60586",
+                "severity": "high",
+                "score": 7.7
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66143",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-60623",
+                "severity": "high",
+                "score": 7.1
+              },
+              {
+                "id": "CVE-2026-60624",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "CVE-2026-61082",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 154,
             "falsePositive": 3,
@@ -795,22 +2175,22 @@
         "1.29.5": {
           "bom": {
             "path": "itb/1.29.5/itb-1.29.5.bom.json",
-            "sha256": "8549c25ded1350f3c8bba230bb96f070c682c0b9fbcdf90c3ac30c1200306e0d",
+            "sha256": "0cb81de489106e94cc28cc1663e2592261b49f003549b833247d668b8314085b",
             "signature": {
               "path": "itb/1.29.5/itb-1.29.5.bom.json.sigstore.json",
-              "sha256": "95c758b13fb7794e126a5aa60c2c5040235c6fb9e8f45ea80246982f8172b17a"
+              "sha256": "6bf167dcd378c7cde3937feee135e0b4a839eee849a613c64d307d7d7187a85a"
             }
           },
           "vdr": {
             "path": "itb/1.29.5/itb-1.29.5.vdr.json",
-            "sha256": "8690bafab71f038149465c142c9fddfa55066360b85fab6d3af5b3c236c7859d",
+            "sha256": "c16e36dc287dd00982509965f71acaf0a7ea99cf953c8304af660bdc85797084",
             "signature": {
               "path": "itb/1.29.5/itb-1.29.5.vdr.json.sigstore.json",
-              "sha256": "01916b115c0b580539f8bb1f17fb84e370fff5ceb242603e77ab3087208db383"
+              "sha256": "2094ec1e5694b79eec497cc8a50bab83eed4a24b6b841e8ad4b2e4851aca1fa1"
             }
           },
           "summary": {
-            "exploitable": 15,
+            "exploitable": 19,
             "exploitableIds": [
               "CVE-2026-102495",
               "CVE-2026-102496",
@@ -826,7 +2206,108 @@
               "CVE-2026-65432",
               "CVE-2026-66142",
               "CVE-2026-66143",
-              "CVE-2026-66144"
+              "CVE-2026-66144",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-60586",
+                "severity": "high",
+                "score": 7.7
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66143",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-60623",
+                "severity": "high",
+                "score": 7.1
+              },
+              {
+                "id": "CVE-2026-60624",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "CVE-2026-61082",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 122,
             "falsePositive": 0,
@@ -837,28 +2318,79 @@
         "1.30.0": {
           "bom": {
             "path": "itb/1.30.0/itb-1.30.0.bom.json",
-            "sha256": "4c83f5fc9d0c9ab9ed38105ee681dc2d8d8fd067caafedd7a91f63114e2e82f7",
+            "sha256": "edda03bfc346dcb6685be2368faa0686bca8e96ba727ce0ca63108dd182645a9",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.bom.json.sigstore.json",
-              "sha256": "bddd92f11ee6beee48fa39414503b66384d60ea2985bb3105d96c7e795dea306"
+              "sha256": "74af92efe34ab408e36e11e4e72ab289f6ecb44532b7efb6007816c04532a778"
             }
           },
           "vdr": {
             "path": "itb/1.30.0/itb-1.30.0.vdr.json",
-            "sha256": "9399625666b29154a8089c6c938d86063f5af407eea44474b4bc78031656cb4b",
+            "sha256": "5752da6a69d417cd8f22f566bb49a55ad4f51fe243ec3b92046e9742970c52eb",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.vdr.json.sigstore.json",
-              "sha256": "4faa49e94169807ae2f9abe122867bb38c015224906ed5fd495b5815dd152084"
+              "sha256": "2cbc18427bfcd9dbdaf4680dd3684105ad6543160448ee46fa0a5c0cb5a14d06"
             }
           },
           "summary": {
-            "exploitable": 5,
+            "exploitable": 9,
             "exploitableIds": [
               "CVE-2026-102495",
               "CVE-2026-102496",
               "CVE-2026-102497",
               "CVE-2026-107937",
-              "CVE-2026-108039"
+              "CVE-2026-108039",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 66,
             "falsePositive": 0,
@@ -869,25 +2401,61 @@
         "1.30.1": {
           "bom": {
             "path": "itb/1.30.1/itb-1.30.1.bom.json",
-            "sha256": "c3808a4415208647812eca2f6b78b410eb9b41d894303b071367e1537e36493a",
+            "sha256": "b2dba40e9afc092a907e272c861902050e76d314716086d60860ce688c0d4ff4",
             "signature": {
               "path": "itb/1.30.1/itb-1.30.1.bom.json.sigstore.json",
-              "sha256": "d0865c3131eda28c0eb4c51597ba2cbda5d39660b3fda1c72d1697c624df32e3"
+              "sha256": "a02c3be15a886dff425e158a2a9cfb8bb9d5cc7504d89a326bb819cb54361bbe"
             }
           },
           "vdr": {
             "path": "itb/1.30.1/itb-1.30.1.vdr.json",
-            "sha256": "e2448483e10c47ab30792f676fc770702bb232a1e88a675d5a981151e1f6c20b",
+            "sha256": "fe8e5e0ba285b4e2c0a315b188633f64e9f5560e696ed17577cfa137b484ce82",
             "signature": {
               "path": "itb/1.30.1/itb-1.30.1.vdr.json.sigstore.json",
-              "sha256": "fcd83246e02cb72243c7d008e3832bfd6641d3ad9d7d2249f9ae8dd2592d3f1c"
+              "sha256": "a7dbf7b0f0c8f1413e145b3256a826967e6a507d20f246a17f0a34b4f7373b47"
             }
           },
           "summary": {
-            "exploitable": 2,
+            "exploitable": 6,
             "exploitableIds": [
               "CVE-2026-107937",
-              "CVE-2026-108039"
+              "CVE-2026-108039",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
             ],
             "notAffected": 49,
             "falsePositive": 0,
@@ -898,23 +2466,32 @@
         "1.30.2": {
           "bom": {
             "path": "itb/1.30.2/itb-1.30.2.bom.json",
-            "sha256": "33192eaa9109f6836f5337efc846e2d09bfde8839cc2c2edd81a86b8ae896f00",
+            "sha256": "388c52da3e9ea792e6551fb42dac7367a09c48d2546f9e58a1dc7c55315b91e0",
             "signature": {
               "path": "itb/1.30.2/itb-1.30.2.bom.json.sigstore.json",
-              "sha256": "5905504e1a36fd4c5ad22562f57d192741d2ebd71c4379397cedf60f182d54ed"
+              "sha256": "0414c83a2264bafc90bc955fbc09db49943fca14eacde044599e27986acf94a1"
             }
           },
           "vdr": {
             "path": "itb/1.30.2/itb-1.30.2.vdr.json",
-            "sha256": "8e3a4564b097c3d6adfdae3e782a1c6a7a4a3307c69fd5de1ab82b881fa46c35",
+            "sha256": "eba6640c3df68e76abc9178e9911b96bfe1f78b139cbbc38be23055008a1bf5c",
             "signature": {
               "path": "itb/1.30.2/itb-1.30.2.vdr.json.sigstore.json",
-              "sha256": "d67c611ac0617881e61ca0ff38f21c1591b3fc0cea0bd03b74e740960c174258"
+              "sha256": "a840173aaf9cbbc2b3de89489756c32cc4810b8f1a37090d6f97ff0bdc8ee835"
             }
           },
           "summary": {
-            "exploitable": 0,
-            "exploitableIds": [],
+            "exploitable": 1,
+            "exploitableIds": [
+              "ITB-2026-005"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
+            ],
             "notAffected": 40,
             "falsePositive": 0,
             "resolved": 0,
@@ -941,6 +2518,7 @@
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
+            "exploitableDetails": [],
             "notAffected": 39,
             "falsePositive": 0,
             "resolved": 0,
@@ -983,6 +2561,53 @@
               "GHSA-r29c-68gh-xp6x",
               "ITB-2026-001"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-001",
+                "severity": "medium",
+                "score": 5.8
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 115,
             "falsePositive": 1,
             "resolved": 0,
@@ -1019,6 +2644,53 @@
               "GHSA-r29c-68gh-xp6x",
               "ITB-2026-001"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-001",
+                "severity": "medium",
+                "score": 5.8
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 103,
             "falsePositive": 1,
             "resolved": 0,
@@ -1054,6 +2726,48 @@
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-r29c-68gh-xp6x"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 103,
             "falsePositive": 1,
             "resolved": 0,
@@ -1084,6 +2798,28 @@
               "CVE-2026-108039",
               "CVE-2026-54225",
               "CVE-2026-64958"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              }
             ],
             "notAffected": 54,
             "falsePositive": 0,
@@ -1116,6 +2852,28 @@
               "CVE-2026-54225",
               "CVE-2026-64958"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 51,
             "falsePositive": 0,
             "resolved": 0,
@@ -1147,6 +2905,28 @@
               "CVE-2026-54225",
               "CVE-2026-64958"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 51,
             "falsePositive": 0,
             "resolved": 0,
@@ -1175,6 +2955,18 @@
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
             ],
             "notAffected": 33,
             "falsePositive": 0,
@@ -1205,6 +2997,18 @@
               "CVE-2026-107937",
               "CVE-2026-108039"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 22,
             "falsePositive": 0,
             "resolved": 0,
@@ -1234,6 +3038,18 @@
               "CVE-2026-107937",
               "CVE-2026-108039"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 12,
             "falsePositive": 0,
             "resolved": 0,
@@ -1260,6 +3076,7 @@
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
+            "exploitableDetails": [],
             "notAffected": 0,
             "falsePositive": 0,
             "resolved": 0,
@@ -1275,22 +3092,22 @@
         "1.11.0": {
           "bom": {
             "path": "shacl-validator/1.11.0/shacl-validator-1.11.0.bom.json",
-            "sha256": "ce5c53ec10f7e46fa15a3256d51bdc8c0ae2d3929cc42cde240e834caea57bdc",
+            "sha256": "59319633258620b171867877cc95993ff7d8a1321d5ce6741a1434becc816f43",
             "signature": {
               "path": "shacl-validator/1.11.0/shacl-validator-1.11.0.bom.json.sigstore.json",
-              "sha256": "25403da79c15b93d5dbb94c3766f572099431acf896121fbb54d802bd1821d14"
+              "sha256": "7f2ec1e0abea3f31c93644b5e2080a0015dced4d014c33b288c6b48e8a1149b8"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.11.0/shacl-validator-1.11.0.vdr.json",
-            "sha256": "010efadd7fa1ca9a4c6e13fd9011be7b5fda58c8179f1b6414ebb73e22e4e200",
+            "sha256": "e3f13d1909c8fb6404f3567a64679ca6dc516097d82db22aaf8011b94a669a1a",
             "signature": {
               "path": "shacl-validator/1.11.0/shacl-validator-1.11.0.vdr.json.sigstore.json",
-              "sha256": "2c2fcef69ec043bc7531d4e346d5240edac0cf6483e66b33bbd61f8765395689"
+              "sha256": "108bd98b43adfbd8c4f184a1e424b8e652f581b66eaaacbcca8371ccb75d79aa"
             }
           },
           "summary": {
-            "exploitable": 9,
+            "exploitable": 12,
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039",
@@ -1300,7 +3117,72 @@
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-r29c-68gh-xp6x",
-              "ITB-2026-001"
+              "ITB-2026-001",
+              "ITB-2026-002",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "ITB-2026-002",
+                "severity": "high",
+                "score": 8.3
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-001",
+                "severity": "medium",
+                "score": 5.8
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 118,
             "falsePositive": 1,
@@ -1311,22 +3193,22 @@
         "1.11.1": {
           "bom": {
             "path": "shacl-validator/1.11.1/shacl-validator-1.11.1.bom.json",
-            "sha256": "a45e8cd4c6524a66ac0b0c1c23fd1cf8498bdf84a585fe2d04ba52fdea6df2d8",
+            "sha256": "4be2c43cbb77225ff05fa092755f681c6d7f0fea66d21963ef4a5131d320dfe4",
             "signature": {
               "path": "shacl-validator/1.11.1/shacl-validator-1.11.1.bom.json.sigstore.json",
-              "sha256": "94826981f9f49604d3afdc43f223f526379fcac27cebf2788304a024950fe2d4"
+              "sha256": "fa7183f24cb06735ba230d55f2be277879d00142cc104897e966438f9270c432"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.11.1/shacl-validator-1.11.1.vdr.json",
-            "sha256": "2cae3b252ef669571f2d66e6ded5ef2269f239e563233320e7164ff5c8a69e95",
+            "sha256": "01312969bd9baa85b8ab414d6559e000a6fcd8dce6268ad15a15187fa9293636",
             "signature": {
               "path": "shacl-validator/1.11.1/shacl-validator-1.11.1.vdr.json.sigstore.json",
-              "sha256": "dd6a80258abbc8a7430fd592e450dc3f2c18a847f122c9799bb7793778bfa7d5"
+              "sha256": "9e00055cb5b8f5911bd0978b8b637e80707e24487ffa2bcd188f8d8fbb859541"
             }
           },
           "summary": {
-            "exploitable": 9,
+            "exploitable": 12,
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039",
@@ -1336,7 +3218,72 @@
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-r29c-68gh-xp6x",
-              "ITB-2026-001"
+              "ITB-2026-001",
+              "ITB-2026-002",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "ITB-2026-002",
+                "severity": "high",
+                "score": 8.3
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-001",
+                "severity": "medium",
+                "score": 5.8
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 106,
             "falsePositive": 1,
@@ -1347,22 +3294,22 @@
         "1.11.2": {
           "bom": {
             "path": "shacl-validator/1.11.2/shacl-validator-1.11.2.bom.json",
-            "sha256": "adf2f4bf7e4078d51cc2d8791b26ce105143db4d53e3376a9aff5ac22aab4097",
+            "sha256": "eb42019ef8684fdfa9278aab8178c543b4433162c499abe86be83404a74617c2",
             "signature": {
               "path": "shacl-validator/1.11.2/shacl-validator-1.11.2.bom.json.sigstore.json",
-              "sha256": "aa4d7f8632301228382cee8b3a8aa9c592ee73242b6235abe7e7b0a64c1cfc0f"
+              "sha256": "e37b583989b421d50dc92bf3432a9bd0ce5cb1e1f0f28b23d240a0d6df7cb469"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.11.2/shacl-validator-1.11.2.vdr.json",
-            "sha256": "e8ccc68c413273a24446f3666f17dddcb386cde69177387fefa575365e74336f",
+            "sha256": "cd5891605a8e2cda4258663a9c1038fe1c1f0d8416f4d8574ef2a61c61647e6d",
             "signature": {
               "path": "shacl-validator/1.11.2/shacl-validator-1.11.2.vdr.json.sigstore.json",
-              "sha256": "23e96c88ff599e777dd9b87951ac82e7fc5ec4b55b5245bc419f5bb7810a9c7c"
+              "sha256": "2fae9d4cd10f32d2091a3745293e418cabb8d32e390a8df08819cdd79e4d4c95"
             }
           },
           "summary": {
-            "exploitable": 8,
+            "exploitable": 11,
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039",
@@ -1371,7 +3318,67 @@
               "CVE-2026-64958",
               "GHSA-cjpg-rgq5-fr37",
               "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x"
+              "GHSA-r29c-68gh-xp6x",
+              "ITB-2026-002",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "ITB-2026-002",
+                "severity": "high",
+                "score": 8.3
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 106,
             "falsePositive": 1,
@@ -1382,27 +3389,67 @@
         "1.12.0": {
           "bom": {
             "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.bom.json",
-            "sha256": "e87f16d21683c93ad0c85d85b1a81c149c991f0e3c332232a19eb79607531d06",
+            "sha256": "65b054d8e60154bda52db5b8f33f93ee258eda905689e8c1812e299ad6a3b51e",
             "signature": {
               "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.bom.json.sigstore.json",
-              "sha256": "31a3fcd48c0a64f826ac2c1f5d5203ce214fe0e70b34f574a5267dddaeb0441b"
+              "sha256": "33c09c797c0bec291a7ef1ff2aa280844e4755b81dd75d42ea4c36bcd50baa14"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.vdr.json",
-            "sha256": "f65704a2a7448aa845b1c75933cd273c48e38367eccc1b72fd69343dad8e0639",
+            "sha256": "1be9bba855c1bb5c2ab87b2a658fe85835ecdfe2bedb3035d064b55c6aed93ca",
             "signature": {
               "path": "shacl-validator/1.12.0/shacl-validator-1.12.0.vdr.json.sigstore.json",
-              "sha256": "1436d9d2ae086293d751f5f3b195cd9564397c4f2df78a3d5cb501f6103f3395"
+              "sha256": "0f57e8bfe434839ced4b5b84cb9932e802a26c9f3a639833e64273668b62f13d"
             }
           },
           "summary": {
-            "exploitable": 4,
+            "exploitable": 7,
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039",
               "CVE-2026-54225",
-              "CVE-2026-64958"
+              "CVE-2026-64958",
+              "ITB-2026-002",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "ITB-2026-002",
+                "severity": "high",
+                "score": 8.3
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 55,
             "falsePositive": 0,
@@ -1413,27 +3460,67 @@
         "1.12.1": {
           "bom": {
             "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.bom.json",
-            "sha256": "421da2a7d8a54df7812ddd9fcd204cd1b866c8e94b1569de274431ae97d09766",
+            "sha256": "3d7c7ea5d022f2120e094170fabbfbe8328880f86d81b211abd9f80e7bea9c55",
             "signature": {
               "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.bom.json.sigstore.json",
-              "sha256": "0cbd40ef60215fddb31c95b3c6e9a726351adc33ae8c2c6418e7654c545004aa"
+              "sha256": "1525be6beb195d5c58ba13da23c1d612631ae03493c55fe298ef369284ccf7dd"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.vdr.json",
-            "sha256": "fd5d39392d83c2c1f0eece2b345167c7c6199e79eff42b54cf548dc127f7724a",
+            "sha256": "c25c6e9537925f5a44ee6a07fd62317a8de42334623d120f7240e0d9486bd4ef",
             "signature": {
               "path": "shacl-validator/1.12.1/shacl-validator-1.12.1.vdr.json.sigstore.json",
-              "sha256": "712e1be14dd0df4110df4ba639f9c71b4fd34953879fa8dbfa2c8aeebd7871a9"
+              "sha256": "55d95e3827ec7b24a7780858a58c038a5b74ebd3146d48423d14200451e20d21"
             }
           },
           "summary": {
-            "exploitable": 4,
+            "exploitable": 7,
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039",
               "CVE-2026-54225",
-              "CVE-2026-64958"
+              "CVE-2026-64958",
+              "ITB-2026-002",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "ITB-2026-002",
+                "severity": "high",
+                "score": 8.3
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 52,
             "falsePositive": 0,
@@ -1444,27 +3531,67 @@
         "1.12.2": {
           "bom": {
             "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.bom.json",
-            "sha256": "1a68848366c224c247d075a8f0579e8ee09d83c6a6c09398d1ed8fcee76068a8",
+            "sha256": "160da2fa3ba637786b17507746397af201ad0c9945315dda23385d57da775ddc",
             "signature": {
               "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.bom.json.sigstore.json",
-              "sha256": "de4cba436e9a0bea4e8e43a402deb52d721d362d6c9003f7bc2ae0abc6cfaef0"
+              "sha256": "ed3a8e4e2cfa5e50c3af496b06e2dacfab912277fc27ea96c0ae9a94d1f536b3"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.vdr.json",
-            "sha256": "1f242401c8fe5dc7b1f43370a13ecf754189af2478d285567806424a325c6c68",
+            "sha256": "d232ed8f6716fbf8301aefec2340f776ab617de5c6b1f46317aa6b4f001ce9b9",
             "signature": {
               "path": "shacl-validator/1.12.2/shacl-validator-1.12.2.vdr.json.sigstore.json",
-              "sha256": "6096c84fcf2e6c54f3e41d9875fd5b7bab2bf90862c2738868ed821cf30095f3"
+              "sha256": "74ab601ab90c807103f344c408aaab8e7cc3a726485e111826a1dc44f5fa5754"
             }
           },
           "summary": {
-            "exploitable": 4,
+            "exploitable": 7,
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039",
               "CVE-2026-54225",
-              "CVE-2026-64958"
+              "CVE-2026-64958",
+              "ITB-2026-002",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "ITB-2026-002",
+                "severity": "high",
+                "score": 8.3
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 52,
             "falsePositive": 0,
@@ -1475,25 +3602,55 @@
         "1.12.3": {
           "bom": {
             "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.bom.json",
-            "sha256": "c693df8cca6e4a56387dd5d83d5bf97973e42421095f0d79ba81299ab6d247b6",
+            "sha256": "96cd106533f48ee1543f3657c3f65977e7d5f5cc4539ae55c918a309922bd73e",
             "signature": {
               "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.bom.json.sigstore.json",
-              "sha256": "a064b88cfc475e36eab24a23e82f88d756de9fce55a3d2b70feb20d0a1ac8ff1"
+              "sha256": "01d2ced31fe42c89aec87efe5ba8d48217cf5eb4aab15583a8557a921577e743"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.vdr.json",
-            "sha256": "2030118d5bebb0574af919006ef6bf7f5ddc59173da946c27f9f8d158aca155a",
+            "sha256": "49b81dd42bb2b330e8d96b98b819887bdc814eb1d0e0bce57fe7af04bed98944",
             "signature": {
               "path": "shacl-validator/1.12.3/shacl-validator-1.12.3.vdr.json.sigstore.json",
-              "sha256": "d260e5c6e811a4f9eb2974e6a08b44635e7446e18cac5b2f81f9d40db30dbdc1"
+              "sha256": "11210be90af97458d2cc2c7e092aa09353c526d9e0cf3779a4ea348aaaef8081"
             }
           },
           "summary": {
-            "exploitable": 2,
+            "exploitable": 5,
             "exploitableIds": [
               "CVE-2026-107937",
-              "CVE-2026-108039"
+              "CVE-2026-108039",
+              "ITB-2026-002",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "ITB-2026-002",
+                "severity": "high",
+                "score": 8.3
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 33,
             "falsePositive": 0,
@@ -1504,25 +3661,55 @@
         "1.12.4": {
           "bom": {
             "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.bom.json",
-            "sha256": "00782f665560b9184e532dc58bbf0c3efde881d6b0180d05d458c6682fef592c",
+            "sha256": "5546433efa6b4d9004da83e90d3159ae3ce537dca7f5767a08302b1676402a54",
             "signature": {
               "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.bom.json.sigstore.json",
-              "sha256": "a04d4750938a8cff3e4afad31346637e067ee775ffe173cb0bfcc8ca3144bb9d"
+              "sha256": "36f617171673eb99fd49902a91290cfe9062525735eee9e82b03c565ad4201a9"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.vdr.json",
-            "sha256": "ac2418118c94aa8eed5c5f3121a648c87cbc035c7490d41b5bfbe98ead0cfa6f",
+            "sha256": "734faef1fac5a10df9ae4e548ccb647934f7fa343e2e8773adc77b3447295984",
             "signature": {
               "path": "shacl-validator/1.12.4/shacl-validator-1.12.4.vdr.json.sigstore.json",
-              "sha256": "10ab3f4bb06b330c6d1d78ae897784f2555855d26f51aad0471de6be6fa0bf38"
+              "sha256": "fdaac7899039f1cb4e4eb11ccad36a3f0d864c1bb64fe295b9c3395be0c7c853"
             }
           },
           "summary": {
-            "exploitable": 2,
+            "exploitable": 5,
             "exploitableIds": [
               "CVE-2026-107937",
-              "CVE-2026-108039"
+              "CVE-2026-108039",
+              "ITB-2026-002",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "ITB-2026-002",
+                "severity": "high",
+                "score": 8.3
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 22,
             "falsePositive": 0,
@@ -1533,25 +3720,49 @@
         "1.13.0": {
           "bom": {
             "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.bom.json",
-            "sha256": "a29e179887908a17e3c94e4124583675b51a142c38bf48dca08d579952bcda64",
+            "sha256": "3fedc9f0ca500245e325c647115df0107026617382b57d150e81e6113469bb43",
             "signature": {
               "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.bom.json.sigstore.json",
-              "sha256": "4e47b5837a195433f0b4d3ed49c5cfc786d43c4a6076ff04bdd1b991696f971b"
+              "sha256": "be256901f1609dccfcbea6eee46786f3e6815315e20a711cdc5144b2f9064d8a"
             }
           },
           "vdr": {
             "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.vdr.json",
-            "sha256": "b7d93f569f15d27a4b4e5104a172b830e278abef63631638257fb925aca0b387",
+            "sha256": "bf512806b7855768e22998276447da4c6641f385e045164f20d7ad3c6394f92f",
             "signature": {
               "path": "shacl-validator/1.13.0/shacl-validator-1.13.0.vdr.json.sigstore.json",
-              "sha256": "12865f448764cd043ef0c07ed15635305b6ec133e0952c2ae87fe5a3dc647609"
+              "sha256": "6168097344d784dfb77aa6228fc295a313f6bade472c6bf6c967fc38cd795e1d"
             }
           },
           "summary": {
-            "exploitable": 2,
+            "exploitable": 4,
             "exploitableIds": [
               "CVE-2026-107937",
-              "CVE-2026-108039"
+              "CVE-2026-108039",
+              "ITB-2026-004",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              }
             ],
             "notAffected": 12,
             "falsePositive": 0,
@@ -1579,6 +3790,7 @@
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
+            "exploitableDetails": [],
             "notAffected": 0,
             "falsePositive": 0,
             "resolved": 0,
@@ -1605,6 +3817,7 @@
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
+            "exploitableDetails": [],
             "notAffected": 0,
             "falsePositive": 0,
             "resolved": 0,
@@ -1647,6 +3860,53 @@
               "GHSA-r29c-68gh-xp6x",
               "ITB-2026-001"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-001",
+                "severity": "medium",
+                "score": 5.8
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 116,
             "falsePositive": 1,
             "resolved": 0,
@@ -1683,6 +3943,53 @@
               "GHSA-r29c-68gh-xp6x",
               "ITB-2026-001"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-001",
+                "severity": "medium",
+                "score": 5.8
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 104,
             "falsePositive": 1,
             "resolved": 0,
@@ -1718,6 +4025,48 @@
               "GHSA-ghvc-7hp8-2g2v",
               "GHSA-r29c-68gh-xp6x"
             ],
+            "exploitableDetails": [
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              }
+            ],
             "notAffected": 104,
             "falsePositive": 1,
             "resolved": 0,
@@ -1748,6 +4097,28 @@
               "CVE-2026-108039",
               "CVE-2026-54225",
               "CVE-2026-64958"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              }
             ],
             "notAffected": 54,
             "falsePositive": 0,
@@ -1780,6 +4151,28 @@
               "CVE-2026-54225",
               "CVE-2026-64958"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 51,
             "falsePositive": 0,
             "resolved": 0,
@@ -1811,6 +4204,28 @@
               "CVE-2026-54225",
               "CVE-2026-64958"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 51,
             "falsePositive": 0,
             "resolved": 0,
@@ -1839,6 +4254,18 @@
             "exploitableIds": [
               "CVE-2026-107937",
               "CVE-2026-108039"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
             ],
             "notAffected": 33,
             "falsePositive": 0,
@@ -1869,6 +4296,18 @@
               "CVE-2026-107937",
               "CVE-2026-108039"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 22,
             "falsePositive": 0,
             "resolved": 0,
@@ -1898,6 +4337,18 @@
               "CVE-2026-107937",
               "CVE-2026-108039"
             ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              }
+            ],
             "notAffected": 12,
             "falsePositive": 0,
             "resolved": 0,
@@ -1924,6 +4375,7 @@
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
+            "exploitableDetails": [],
             "notAffected": 0,
             "falsePositive": 0,
             "resolved": 0,

@@ -79,8 +79,8 @@ relate to have been assessed.
 
 Each advisory has its own folder containing:
 
-- `README.md`: a human-readable description (severity, affected packages and versions, description, recommendation,
-  references, credits) and the assessment for each published release,
+- `README.md`: a human-readable description (severity, affected software and versions, description, recommendation,
+  references, credits),
 - `<ID>.json`: the same information as a [CycloneDX](https://cyclonedx.org/) 1.5 document with a single
   vulnerability, and
 - `<ID>.json.sigstore.json`: the signature bundle of the JSON file ([verify](#verifying-a-file) it as any other file).
@@ -118,6 +118,7 @@ summary of the vulnerability status of each release so that a status check does 
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
+            "exploitableDetails": [],
             "notAffected": 0,
             "falsePositive": 0,
             "resolved": 0,
@@ -134,7 +135,10 @@ summary of the vulnerability status of each release so that a status check does 
 - `latest` is the highest numbered (non-pre-release) release of the product.
 - `summary` counts the distinct vulnerabilities in the release's VDR by assessment (`analysis.state`).
   `exploitableIds` lists the identifiers of those assessed as `exploitable`: a release is affected by known
-  vulnerabilities when `exploitable` is greater than zero. `assessmentInProgress` is `true` while new findings for the
+  vulnerabilities when `exploitable` is greater than zero. `exploitableDetails` has one entry per such vulnerability
+  (`{"id": "...", "severity": "critical|high|medium|low|info|none|unknown", "score": 9.8}`), ordered by decreasing
+  score; `score` is the CVSS base score (rating of CVSS v3.1 if available, otherwise v3.0, v4.0 or v2) and is omitted
+  when the vulnerability has none. `assessmentInProgress` is `true` while new findings for the
   release are being assessed, in which case the counts are those of the last published VDR.
 
 ## Machine-to-machine access

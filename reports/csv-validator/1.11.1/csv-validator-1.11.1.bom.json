@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:64d15d4e-b5db-4d13-814b-e60dd598f68f",
+  "serialNumber": "urn:uuid:8605bd72-3bf8-4950-b14b-5ee40a2747e1",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-06T15:33:28Z",
+    "timestamp": "2026-11-13T15:03:53Z",
     "tools": {
       "components": [
         {
@@ -7552,75 +7552,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "58cc7bbb-b84c-40a7-9f22-e3f5fefe654b",
-      "group": "org.glassfish.jaxb",
-      "name": "jaxb-core",
-      "version": "4.0.6",
-      "description": "JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e36c915cf47342b4fe31ffba3407b928"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "8e61282303777fc98a00cc3affd0560d68748a75"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "ebbd274207b4860d0dc6e2d44d6dbdb5945cede01222d2e50661d45f5d46c0f7"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "767a28dc25cc9a728576a9a3e6081e24c9018ee664c04782592e14546087e8cadacbc13cdf0b2eff88840b8be10958ca"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "f6ed3cc73361794a8e35fc04f09212aa21af9575f36f6440bf33a6d43708ded6142a9be51d9d08d6e5debc262d87c158f0e199ed041a78fb1e0086fd02868a28"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "5e456fe8925894b58ef10e9936ddd41cde7bd3476bfb5b0d76aba046ca1c9e5f"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "51d4c57f3e1cd5440d3714cb8fe147c74aa40773c5b2a8a804496d361037e6d8dfa86f02f19f4dbbbc327b2fdac30ec83fe82bf720a9db0f8516cb800a7ec62b"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "2033beeccf8d5ae1775ffffe41e09a662e03a67d70fdded7fdabaf5f7b14d51de1f17a9a9b65ea96d3178c9a4b0c574d"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://eclipse-ee4j.github.io/jaxb-ri/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/eclipse-ee4j/jaxb-ri/issues"
-        },
-        {
-          "type": "mailing-list",
-          "url": "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "3acfac43-15e8-4596-bd4c-d5ac58d95619",
       "group": "com.sun.xml.bind",
       "name": "jaxb-core",
@@ -7685,6 +7616,75 @@
         {
           "type": "vcs",
           "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "58cc7bbb-b84c-40a7-9f22-e3f5fefe654b",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-core",
+      "version": "4.0.6",
+      "description": "JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e36c915cf47342b4fe31ffba3407b928"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8e61282303777fc98a00cc3affd0560d68748a75"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebbd274207b4860d0dc6e2d44d6dbdb5945cede01222d2e50661d45f5d46c0f7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "767a28dc25cc9a728576a9a3e6081e24c9018ee664c04782592e14546087e8cadacbc13cdf0b2eff88840b8be10958ca"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f6ed3cc73361794a8e35fc04f09212aa21af9575f36f6440bf33a6d43708ded6142a9be51d9d08d6e5debc262d87c158f0e199ed041a78fb1e0086fd02868a28"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5e456fe8925894b58ef10e9936ddd41cde7bd3476bfb5b0d76aba046ca1c9e5f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "51d4c57f3e1cd5440d3714cb8fe147c74aa40773c5b2a8a804496d361037e6d8dfa86f02f19f4dbbbc327b2fdac30ec83fe82bf720a9db0f8516cb800a7ec62b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2033beeccf8d5ae1775ffffe41e09a662e03a67d70fdded7fdabaf5f7b14d51de1f17a9a9b65ea96d3178c9a4b0c574d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core"
         }
       ]
     },
@@ -17870,6 +17870,13 @@
       "dependsOn": []
     },
     {
+      "ref": "3acfac43-15e8-4596-bd4c-d5ac58d95619",
+      "dependsOn": [
+        "ec42ecd3-f585-4769-a0ee-ece086615331",
+        "9df92992-621d-43a8-84a5-373a2cc2fda3"
+      ]
+    },
+    {
       "ref": "58cc7bbb-b84c-40a7-9f22-e3f5fefe654b",
       "dependsOn": [
         "90bb0402-ef0e-4125-8197-3c58f99e9ae8",
@@ -17877,13 +17884,6 @@
         "ec42ecd3-f585-4769-a0ee-ece086615331",
         "9df92992-621d-43a8-84a5-373a2cc2fda3",
         "65fab58c-e31d-44b3-9eed-669df711e8eb"
-      ]
-    },
-    {
-      "ref": "3acfac43-15e8-4596-bd4c-d5ac58d95619",
-      "dependsOn": [
-        "ec42ecd3-f585-4769-a0ee-ece086615331",
-        "9df92992-621d-43a8-84a5-373a2cc2fda3"
       ]
     },
     {

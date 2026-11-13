@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:6b243d36-abc5-4bd3-9b78-7bea8a922009",
+  "serialNumber": "urn:uuid:cfb830e8-fe5b-4966-873b-2bf9028db8f5",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-06T15:28:50Z",
+    "timestamp": "2026-11-13T15:04:47Z",
     "tools": {
       "components": [
         {
@@ -1207,12 +1207,65 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "60bf7627-5d8e-4d96-8563-42c2ffa9de6d",
+      "group": "eu.europa.ec.itb.xml",
+      "name": "xmlvalidator-war",
+      "version": "1.11.2",
+      "description": "Web and command-line application for the validation of XML data.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fd7ddb0ed71274d1d84ce1c15c5e8e99"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "773b11799a9f1d643b71eb0d61eb74d5c25a1d59"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "23ef848a3f59a0f65b4f1b4c327055fe0351e35ebb7121a39b48af44b0c0e7e1"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cae8cdda2de5a3777b0b7dc4cfcaebf20772fa50db9f810cb9adde44fd4a0310eef15f511cc78fb9bffed5853778edbf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2d164aeaf81e9c08dff098c08dd9159ec1ca4d8583bc929d1398e19cc453f00d618655c77a68ea1c3d28da1f77e41826e35521c7f8c79879caee9333663dbf7d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "30d23a9da5948e11f9bd7abe89ca1b53419fb359dee0a9cbce01895aa2a17873"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "59edf167075631b025e5120359e5697a9fe506ebffc9f3b4428112838ccb14049180095fb86f75f295131290419f133bbe20ed4f0c488e603f2ecf0c33c174d9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9b92fd60ec6e01cf6e8c19572b350ebe70579c515dede16252c88a7cd206ba26b90b8c00e735060b7ecc0e1f85808aec"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war@1.11.2?type=jar"
     }
   ],
   "dependencies": [
     {
       "ref": "05f3fbb9-8d1f-4f86-8458-12fe71d94556",
-      "dependsOn": []
+      "dependsOn": [
+        "60bf7627-5d8e-4d96-8563-42c2ffa9de6d"
+      ]
     },
     {
       "ref": "af717ec9-08df-4b34-b70d-abc211faf4e3",
@@ -1300,6 +1353,10 @@
     },
     {
       "ref": "a7282344-70b2-423a-9c35-db71bb1854c1",
+      "dependsOn": []
+    },
+    {
+      "ref": "60bf7627-5d8e-4d96-8563-42c2ffa9de6d",
       "dependsOn": []
     }
   ],
@@ -2138,7 +2195,7 @@
       ],
       "description": "## Summary\n`JDKFromStringDeserializer` constructed `InetSocketAddress` with `new InetSocketAddress(host, port)`, which performs eager DNS name resolution for hostname inputs at deserialization time. An application that binds untrusted JSON into a type containing an `InetSocketAddress` field issues an attacker-chosen DNS query during `readValue`, before any application-level validation or connect logic. The fix uses `InetSocketAddress.createUnresolved(host, port)`, deferring DNS to an explicit connect.\n\n## Impact\nAn attacker controlling JSON deserialized into an `InetSocketAddress`-bearing type can force outbound DNS lookups for attacker-chosen hostnames at deserialization time (SSRF / DNS-based out-of-band interaction / internal-resolver probing), purely from binding.\n\n## Affected / Patched (verified via `git tag --contains` on `1f5a103`)\n- 2.18 line: `>= 2.18.0, < 2.18.8` -> fixed in **2.18.8**\n- 2.19-2.21 line: `>= 2.19.0, < 2.21.4` -> fixed in **2.21.4**\n- 3.x line: `>= 3.0.0, < 3.1.4` -> fixed in **3.1.4**\n\n## Severity / CWE\nMaintainer: minor. Reporter: LOW. CWE-918 (SSRF).\n\n## Upstream fix\nFasterXML/jackson-databind#5951 (\"Improve InetSocketAddress deserialization\"). Released 2026-06-04 in 2.18.8 / 2.21.4 / 3.1.4.\n\n## Credits\nOmkhar Arasaratnam (@omkhar) - finder.",
       "published": "2026-06-23T21:22:54Z",
-      "updated": "2026-07-20T21:21:20Z",
+      "updated": "2026-11-10T19:33:46Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -5262,6 +5319,106 @@
       "affects": [
         {
           "ref": "33796694-71bb-409d-98dc-e0df01c0bde9"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-004",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 3.5,
+          "severity": "low",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:M/Au:S/C:N/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Validation artefacts (XSDs, Schematron, SHACL shapes, JSON Schemas) may refer to remote resources. When parsing looks up these resources, there are no controls applied, meaning that a crafted validation artefact can be used to abuse system resources by returning large content or a slow response.",
+      "recommendation": "For a standalone XML, JSON or SHACL validator upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, resource lookups are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade the latest release that resolves this."
+      },
+      "affects": [
+        {
+          "ref": "60bf7627-5d8e-4d96-8563-42c2ffa9de6d"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-004/ITB-2026-004.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade the latest release that resolves this."
+      },
+      "affects": [
+        {
+          "ref": "60bf7627-5d8e-4d96-8563-42c2ffa9de6d"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
         }
       ]
     }

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:ad5cd69d-0e8a-4330-b565-f8b09f6b769f",
+  "serialNumber": "urn:uuid:9525ed41-82ea-4de0-bf87-7a64930584dd",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-06T15:34:12Z",
+    "timestamp": "2026-11-13T15:04:31Z",
     "tools": {
       "components": [
         {
@@ -1700,7 +1700,7 @@
       ],
       "description": "## Summary\n`JDKFromStringDeserializer` constructed `InetSocketAddress` with `new InetSocketAddress(host, port)`, which performs eager DNS name resolution for hostname inputs at deserialization time. An application that binds untrusted JSON into a type containing an `InetSocketAddress` field issues an attacker-chosen DNS query during `readValue`, before any application-level validation or connect logic. The fix uses `InetSocketAddress.createUnresolved(host, port)`, deferring DNS to an explicit connect.\n\n## Impact\nAn attacker controlling JSON deserialized into an `InetSocketAddress`-bearing type can force outbound DNS lookups for attacker-chosen hostnames at deserialization time (SSRF / DNS-based out-of-band interaction / internal-resolver probing), purely from binding.\n\n## Affected / Patched (verified via `git tag --contains` on `1f5a103`)\n- 2.18 line: `>= 2.18.0, < 2.18.8` -> fixed in **2.18.8**\n- 2.19-2.21 line: `>= 2.19.0, < 2.21.4` -> fixed in **2.21.4**\n- 3.x line: `>= 3.0.0, < 3.1.4` -> fixed in **3.1.4**\n\n## Severity / CWE\nMaintainer: minor. Reporter: LOW. CWE-918 (SSRF).\n\n## Upstream fix\nFasterXML/jackson-databind#5951 (\"Improve InetSocketAddress deserialization\"). Released 2026-06-04 in 2.18.8 / 2.21.4 / 3.1.4.\n\n## Credits\nOmkhar Arasaratnam (@omkhar) - finder.",
       "published": "2026-06-23T21:22:54Z",
-      "updated": "2026-07-20T21:21:20Z",
+      "updated": "2026-11-10T19:33:46Z",
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
@@ -5275,6 +5275,106 @@
       "advisories": [
         {
           "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-001/ITB-2026-001.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-004",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 3.5,
+          "severity": "low",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:M/Au:S/C:N/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Validation artefacts (XSDs, Schematron, SHACL shapes, JSON Schemas) may refer to remote resources. When parsing looks up these resources, there are no controls applied, meaning that a crafted validation artefact can be used to abuse system resources by returning large content or a slow response.",
+      "recommendation": "For a standalone XML, JSON or SHACL validator upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, resource lookups are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade the latest release that resolves this."
+      },
+      "affects": [
+        {
+          "ref": "d8e4ac9d-5d3a-43c4-85e0-f90ff0288fba"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-004/ITB-2026-004.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade the latest release that resolves this."
+      },
+      "affects": [
+        {
+          "ref": "d8e4ac9d-5d3a-43c4-85e0-f90ff0288fba"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
         }
       ]
     }

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:75fa8c15-0709-48b1-ada1-e54e421c93c3",
+  "serialNumber": "urn:uuid:1f67e1ba-38ae-499d-b341-b681a3e54dbc",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-06T15:27:51Z",
+    "timestamp": "2026-11-13T15:03:54Z",
     "tools": {
       "components": [
         {
@@ -5243,67 +5243,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "051ee38b-fc6b-425c-afb2-2e9c56f58dba",
-      "group": "com.google.errorprone",
-      "name": "error_prone_annotations",
-      "version": "2.43.0",
-      "description": "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "59fe4a79ce3218423f4f8918f04ef22f"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "a4f9062316c31850b03085e45717f564fd563ceb"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "48272e75c16e1f7bdc7bd19529ccacd5ee170404701d7f5a23441bb5847957f5"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "d735d664455177247d16437ac74a838b42ccdc98277153d27c8e0006f942194a3260527d4b3dcb8f056b2ac4ef4fa9fa"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "1e9e8cc7e7eebdbb12c21ad94868c731c49533dd9ef5c6db6e93c421c57ca4e6a5a22e1830a41c65b19e4755c84d6450dccea0f8d23258a65a9d395dfd17405e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "2ea4cfd5b7b2cf0e82ff2695db7164d4ed5a8b8c5805324c462e5b4ba681604c"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "9dcadf4ef206a7ed5da9466e97156df3f0b95cea0bf3b81cad8d5020475c6c0a99d80980d196512eaed27b2f15d41d5c9df6d10ff3c4e4e9b52311f4ecae8573"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "fecfff7371580a679cc3caf3f6a2ca61507e8e8103d076654d554843d9daf6b3667042058a5ae2876750b06e1f20d45d"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.43.0?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://errorprone.info/error_prone_annotations"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/google/error-prone/error_prone_annotations"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "18314fb9-c01b-4968-831b-d7d864d19e26",
       "group": "com.google.errorprone",
       "name": "error_prone_annotations",
@@ -5356,6 +5295,67 @@
         {
           "type": "website",
           "url": "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/google/error-prone/error_prone_annotations"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "051ee38b-fc6b-425c-afb2-2e9c56f58dba",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.43.0",
+      "description": "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "59fe4a79ce3218423f4f8918f04ef22f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a4f9062316c31850b03085e45717f564fd563ceb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "48272e75c16e1f7bdc7bd19529ccacd5ee170404701d7f5a23441bb5847957f5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d735d664455177247d16437ac74a838b42ccdc98277153d27c8e0006f942194a3260527d4b3dcb8f056b2ac4ef4fa9fa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1e9e8cc7e7eebdbb12c21ad94868c731c49533dd9ef5c6db6e93c421c57ca4e6a5a22e1830a41c65b19e4755c84d6450dccea0f8d23258a65a9d395dfd17405e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2ea4cfd5b7b2cf0e82ff2695db7164d4ed5a8b8c5805324c462e5b4ba681604c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9dcadf4ef206a7ed5da9466e97156df3f0b95cea0bf3b81cad8d5020475c6c0a99d80980d196512eaed27b2f15d41d5c9df6d10ff3c4e4e9b52311f4ecae8573"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "fecfff7371580a679cc3caf3f6a2ca61507e8e8103d076654d554843d9daf6b3667042058a5ae2876750b06e1f20d45d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.43.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://errorprone.info/error_prone_annotations"
         },
         {
           "type": "vcs",
@@ -17673,11 +17673,11 @@
       "dependsOn": []
     },
     {
-      "ref": "051ee38b-fc6b-425c-afb2-2e9c56f58dba",
+      "ref": "18314fb9-c01b-4968-831b-d7d864d19e26",
       "dependsOn": []
     },
     {
-      "ref": "18314fb9-c01b-4968-831b-d7d864d19e26",
+      "ref": "051ee38b-fc6b-425c-afb2-2e9c56f58dba",
       "dependsOn": []
     },
     {

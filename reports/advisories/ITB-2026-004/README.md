@@ -33,9 +33,9 @@ As of these releases, resource lookups are strictly controlled as follows:
 ## Affected software
 
 - `pkg:maven/com.gitb/GITB`: `vers:maven/<1.30.2`
-- `pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war`: `vers:maven/<1.13.1`
+- `pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war`: `vers:maven/<1.13.1`
 - `pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war`: `vers:maven/<1.13.1`
-- `pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war`: `vers:maven/<1.13.1`
+- `pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war`: `vers:maven/<1.13.1`
 
 ## References
 

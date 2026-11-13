@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:981d2529-7aa9-4258-a92d-9386746e83ae",
+  "serialNumber": "urn:uuid:3ffdb063-7365-4278-8c8a-64171c1e9f48",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:18:00Z",
+    "timestamp": "2026-11-13T15:04:41Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -171,71 +171,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "2f0cfe30-b571-45ba-aed2-ae3a22580d74",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
-      "version": "2.22.1",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "09e866bcd73613665ef49f5086704fb1"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "da7ffb60088d7e8f37ecdd3b617520971cc7b9bf"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "941ff029bcdb93e83d209ce516c1a7fb8bbac07d0a2fa122f5bf194b2cd7b4f4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "faaf92de6e93475fdbb7d56221fd35d8435ac4f87dddfd334ed05c4318b8b72220010effd08bf8dd156420771b294eb4"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "d4485af4465f561034df86686d672835b0272b6200efb0af55ea71e62d3faf09e9f90e42df4da64650795cf00519fc553f892bf6179330a3e74750110a785efb"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "48fc6e17c36e14b8bae387b92248a43da12293b68a61dd2517c708dbb24ed010"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "f72ef2d2a1012be8b1c972323527a396bbaea0b543bd79fac6d380f8e4855c6d98190b067ccec92ece9ed8e1ece1e6046b1d93f9c85944fcb7133fe0b4dc60e4"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5c432f1a2f3369485c4ed7d3c3c4499342c23efd0d7a574b73421345df9762bd27643cc469b01632400691f3c09b5d8b"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "5a659b9e-bde8-431a-bd65-22ab046f1367",
       "group": "tools.jackson.core",
       "name": "jackson-core",
@@ -301,44 +236,44 @@
     },
     {
       "type": "library",
-      "bom-ref": "659e5837-cda8-4cab-a253-be401e6b775a",
-      "group": "tools.jackson.core",
-      "name": "jackson-databind",
-      "version": "3.2.1",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "bom-ref": "2f0cfe30-b571-45ba-aed2-ae3a22580d74",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.22.1",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "a5f8a8e60591bcc61a3c521317b3293c"
+          "content": "09e866bcd73613665ef49f5086704fb1"
         },
         {
           "alg": "SHA-1",
-          "content": "363dc46ceb44a97cba68cb0e9da4a3cb5bf723d4"
+          "content": "da7ffb60088d7e8f37ecdd3b617520971cc7b9bf"
         },
         {
           "alg": "SHA-256",
-          "content": "8d005c5626b1839e2eea6bd33a437287e7a24d54e1bb3746b8f861193262b519"
+          "content": "941ff029bcdb93e83d209ce516c1a7fb8bbac07d0a2fa122f5bf194b2cd7b4f4"
         },
         {
           "alg": "SHA-384",
-          "content": "299e007edf092b6d49e57d9e4e24a4d2e4784f1cf2770ce0293e2ccd07f82d0b549d1b29391565ebbe5df7a34be3c154"
+          "content": "faaf92de6e93475fdbb7d56221fd35d8435ac4f87dddfd334ed05c4318b8b72220010effd08bf8dd156420771b294eb4"
         },
         {
           "alg": "SHA-512",
-          "content": "5ef9ee43b5b55b3e3b3618fe8c35ec674005957ac2a0d90298e67ff6b82495016d2c8c07da6e1efe9a91dbd29dc9fb86c2470728f425111cffc3362e60dead29"
+          "content": "d4485af4465f561034df86686d672835b0272b6200efb0af55ea71e62d3faf09e9f90e42df4da64650795cf00519fc553f892bf6179330a3e74750110a785efb"
         },
         {
           "alg": "SHA3-256",
-          "content": "f049f33f716b8c7e94afbebde9761f21cd871dd906f7b97ffde52f5b8748aa4e"
+          "content": "48fc6e17c36e14b8bae387b92248a43da12293b68a61dd2517c708dbb24ed010"
         },
         {
           "alg": "SHA3-512",
-          "content": "54b30829f60d8249df73a868839e505ebf510c197800f7a8b8f2513d80b67ffd16a904ea4874ceb958d111f4dc5ca46a90cd0e685c1b6ef5766e523d27eec2d5"
+          "content": "f72ef2d2a1012be8b1c972323527a396bbaea0b543bd79fac6d380f8e4855c6d98190b067ccec92ece9ed8e1ece1e6046b1d93f9c85944fcb7133fe0b4dc60e4"
         },
         {
           "alg": "SHA3-384",
-          "content": "8899110cde40b0f8a80819bd8c992080ec891e3e152e361459b70e7cfefdc1ad6174d0b0db9cd3a36e661f0ae1a55588"
+          "content": "5c432f1a2f3369485c4ed7d3c3c4499342c23efd0d7a574b73421345df9762bd27643cc469b01632400691f3c09b5d8b"
         }
       ],
       "licenses": [
@@ -348,19 +283,19 @@
           }
         }
       ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.1?type=jar",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
+          "url": "https://github.com/FasterXML/jackson-core"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
+          "url": "https://github.com/FasterXML/jackson-core/issues"
         },
         {
           "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
+          "url": "https://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -414,6 +349,71 @@
         }
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "659e5837-cda8-4cab-a253-be401e6b775a",
+      "group": "tools.jackson.core",
+      "name": "jackson-databind",
+      "version": "3.2.1",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a5f8a8e60591bcc61a3c521317b3293c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "363dc46ceb44a97cba68cb0e9da4a3cb5bf723d4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8d005c5626b1839e2eea6bd33a437287e7a24d54e1bb3746b8f861193262b519"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "299e007edf092b6d49e57d9e4e24a4d2e4784f1cf2770ce0293e2ccd07f82d0b549d1b29391565ebbe5df7a34be3c154"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5ef9ee43b5b55b3e3b3618fe8c35ec674005957ac2a0d90298e67ff6b82495016d2c8c07da6e1efe9a91dbd29dc9fb86c2470728f425111cffc3362e60dead29"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f049f33f716b8c7e94afbebde9761f21cd871dd906f7b97ffde52f5b8748aa4e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "54b30829f60d8249df73a868839e505ebf510c197800f7a8b8f2513d80b67ffd16a904ea4874ceb958d111f4dc5ca46a90cd0e685c1b6ef5766e523d27eec2d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "8899110cde40b0f8a80819bd8c992080ec891e3e152e361459b70e7cfefdc1ad6174d0b0db9cd3a36e661f0ae1a55588"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.1?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -815,12 +815,37 @@
           "url": "https://gitbox.apache.org/repos/asf?p=ws-xmlschema.git;a=summary/xmlschema-core"
         }
       ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "2e99a229-0fc2-4208-9256-33a07e132680",
+      "group": "eu.europa.ec.itb.xml",
+      "name": "xmlvalidator-war",
+      "version": "1.12.3",
+      "description": "Web and command-line application for the validation of XML data.",
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war@1.12.3?type=jar",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/xml-validator/issues"
+        }
+      ]
     }
   ],
   "dependencies": [
     {
       "ref": "e0ceb9d5-5624-4ffb-a963-35346043a591",
-      "dependsOn": []
+      "dependsOn": [
+        "2e99a229-0fc2-4208-9256-33a07e132680"
+      ]
     },
     {
       "ref": "f3a0dcad-ffd2-459c-b9a3-28879070a405",
@@ -833,23 +858,23 @@
       "dependsOn": []
     },
     {
-      "ref": "2f0cfe30-b571-45ba-aed2-ae3a22580d74",
-      "dependsOn": []
-    },
-    {
       "ref": "5a659b9e-bde8-431a-bd65-22ab046f1367",
       "dependsOn": []
     },
     {
-      "ref": "659e5837-cda8-4cab-a253-be401e6b775a",
-      "dependsOn": [
-        "5a659b9e-bde8-431a-bd65-22ab046f1367"
-      ]
+      "ref": "2f0cfe30-b571-45ba-aed2-ae3a22580d74",
+      "dependsOn": []
     },
     {
       "ref": "e8aa9f92-b761-4ce6-ab7e-9273be8ac53b",
       "dependsOn": [
         "2f0cfe30-b571-45ba-aed2-ae3a22580d74"
+      ]
+    },
+    {
+      "ref": "659e5837-cda8-4cab-a253-be401e6b775a",
+      "dependsOn": [
+        "5a659b9e-bde8-431a-bd65-22ab046f1367"
       ]
     },
     {
@@ -874,6 +899,10 @@
     },
     {
       "ref": "20a0323d-8102-4254-83c6-64fe073adb52",
+      "dependsOn": []
+    },
+    {
+      "ref": "2e99a229-0fc2-4208-9256-33a07e132680",
       "dependsOn": []
     }
   ],
@@ -2123,6 +2152,106 @@
       "affects": [
         {
           "ref": "eaeec514-a604-405b-9999-c99f6efca59e"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-004",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 3.5,
+          "severity": "low",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:M/Au:S/C:N/I:N/A:P)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        770
+      ],
+      "description": "Validation artefacts (XSDs, Schematron, SHACL shapes, JSON Schemas) may refer to remote resources. When parsing looks up these resources, there are no controls applied, meaning that a crafted validation artefact can be used to abuse system resources by returning large content or a slow response.",
+      "recommendation": "For a standalone XML, JSON or SHACL validator upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, resource lookups are strictly controlled as follows:\n- Access to internal addresses are blocked unless explicitly whitelisted.\n- Only HTTP and HTTPS protocols are allowed.\n- References to remote resources are capped in terms of the resource's size.\n- Connections to remote resources strictly timeout to avoid DoS via slow responses.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade the latest release that resolves this."
+      },
+      "affects": [
+        {
+          "ref": "2e99a229-0fc2-4208-9256-33a07e132680"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-004/ITB-2026-004.json"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade the latest release that resolves this."
+      },
+      "affects": [
+        {
+          "ref": "2e99a229-0fc2-4208-9256-33a07e132680"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
         }
       ]
     }

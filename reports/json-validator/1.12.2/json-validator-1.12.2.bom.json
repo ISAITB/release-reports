@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:dd882392-93e0-457c-94e4-290584e3e4c0",
+  "serialNumber": "urn:uuid:077f62d8-3fc2-4380-848a-519b4227a7e4",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:17:45Z",
+    "timestamp": "2026-11-13T15:04:28Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -4478,71 +4478,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "40907074-218f-4714-9a14-4acb2a72d75f",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.21.4",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "99769ad660a66c43caee5d539d19ed96"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "09e495680be707d466527d734368ebf36e464da2"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "3888e9e69ab66fbacaacc9aea0e9ffbf15368288e4aca468b024dba11c09fbf9"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fdce9c6a945f19708b6b62134d581640de490ec5da5513548d714601dd676031d082cba8682467620df92fb7ad1da2ec"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "11df9de9e69c0261b206a6c9add1d995af2e0711f895e2c8521d6bd2bb555671af0c3709931f9fa8abf987df9f37f46b891ea7b86d6edc3f437c43a757db45e7"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "f4518cc429021650e13029087ac3793d6fb0f6fbd2762dd7dd81124100d55c53"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "3056ee2af42c04c1af119ff4e7bed127e4ed428015b2105f5a618e4c13a740755b90422e7da194425ae501f663716a68738fedbf98fef2b59cbbb5d7cdc57be2"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1802ae9db77d09667657e91e127edaaabc7f184173671fae18743974db7365b1862364910c52607f751602982fb82911"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "a5b5296f-a173-464d-9eb7-b24c2f065948",
       "group": "tools.jackson.core",
       "name": "jackson-databind",
@@ -4608,44 +4543,44 @@
     },
     {
       "type": "library",
-      "bom-ref": "05562634-8d06-45d4-81dd-860a0b60e36b",
-      "group": "tools.jackson.dataformat",
-      "name": "jackson-dataformat-yaml",
-      "version": "3.2.0",
-      "description": "Support for reading and writing YAML-encoded data via Jackson abstractions.",
+      "bom-ref": "40907074-218f-4714-9a14-4acb2a72d75f",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.21.4",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "91cef5f587d897eac9a93d440b5587a3"
+          "content": "99769ad660a66c43caee5d539d19ed96"
         },
         {
           "alg": "SHA-1",
-          "content": "ab559ccb80965eb3091e0b777569b2791539503e"
+          "content": "09e495680be707d466527d734368ebf36e464da2"
         },
         {
           "alg": "SHA-256",
-          "content": "3428938953977319fc1d2651b97e246647d16f7aaa353034dbc028a415289c25"
+          "content": "3888e9e69ab66fbacaacc9aea0e9ffbf15368288e4aca468b024dba11c09fbf9"
         },
         {
           "alg": "SHA-384",
-          "content": "7d681da22ce2544de5993210c20f0259c0ce006a4acd143a3be3b7821e5433a76d48a7e09f586cb01375bbe2b7b89020"
+          "content": "fdce9c6a945f19708b6b62134d581640de490ec5da5513548d714601dd676031d082cba8682467620df92fb7ad1da2ec"
         },
         {
           "alg": "SHA-512",
-          "content": "416d30401db2e572fd3a5ccc3080a392e02d05d55005fb1270d18472608d3c8783fc5fd154bf863ec08c8910c4f41f22530967b702ee17035b2ed63ae354208f"
+          "content": "11df9de9e69c0261b206a6c9add1d995af2e0711f895e2c8521d6bd2bb555671af0c3709931f9fa8abf987df9f37f46b891ea7b86d6edc3f437c43a757db45e7"
         },
         {
           "alg": "SHA3-256",
-          "content": "bbe89da6aabc2aef7dbb557b8dd85c6bb0e48857f995060cc8ea04e123661639"
+          "content": "f4518cc429021650e13029087ac3793d6fb0f6fbd2762dd7dd81124100d55c53"
         },
         {
           "alg": "SHA3-512",
-          "content": "779310dd312ec7f13f662bb5666ab4917c18a056f0381d2891265d86355b94ae98a1a3c66d5e552293d48d776616dcdb6fcfc07d7b0386dac0f135fce9a91f79"
+          "content": "3056ee2af42c04c1af119ff4e7bed127e4ed428015b2105f5a618e4c13a740755b90422e7da194425ae501f663716a68738fedbf98fef2b59cbbb5d7cdc57be2"
         },
         {
           "alg": "SHA3-384",
-          "content": "56acba697da6dffec4f8b6b532c1737fe3bd4a5a38b39df4d873afdfa9eb522a0210c3806416e7dafbad7a96162a44b3"
+          "content": "1802ae9db77d09667657e91e127edaaabc7f184173671fae18743974db7365b1862364910c52607f751602982fb82911"
         }
       ],
       "licenses": [
@@ -4655,19 +4590,19 @@
           }
         }
       ],
-      "purl": "pkg:maven/tools.jackson.dataformat/jackson-dataformat-yaml@3.2.0?type=jar",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4?type=jar",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson-dataformats-text"
+          "url": "https://github.com/FasterXML/jackson"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-dataformats-text/issues"
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
         },
         {
           "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-dataformats-text/jackson-dataformat-yaml"
+          "url": "https://github.com/FasterXML/jackson-databind"
         }
       ]
     },
@@ -4721,6 +4656,71 @@
         }
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.21.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson-dataformats-text"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-dataformats-text/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-dataformats-text/jackson-dataformat-yaml"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "05562634-8d06-45d4-81dd-860a0b60e36b",
+      "group": "tools.jackson.dataformat",
+      "name": "jackson-dataformat-yaml",
+      "version": "3.2.0",
+      "description": "Support for reading and writing YAML-encoded data via Jackson abstractions.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "91cef5f587d897eac9a93d440b5587a3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ab559ccb80965eb3091e0b777569b2791539503e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3428938953977319fc1d2651b97e246647d16f7aaa353034dbc028a415289c25"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7d681da22ce2544de5993210c20f0259c0ce006a4acd143a3be3b7821e5433a76d48a7e09f586cb01375bbe2b7b89020"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "416d30401db2e572fd3a5ccc3080a392e02d05d55005fb1270d18472608d3c8783fc5fd154bf863ec08c8910c4f41f22530967b702ee17035b2ed63ae354208f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "bbe89da6aabc2aef7dbb557b8dd85c6bb0e48857f995060cc8ea04e123661639"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "779310dd312ec7f13f662bb5666ab4917c18a056f0381d2891265d86355b94ae98a1a3c66d5e552293d48d776616dcdb6fcfc07d7b0386dac0f135fce9a91f79"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "56acba697da6dffec4f8b6b532c1737fe3bd4a5a38b39df4d873afdfa9eb522a0210c3806416e7dafbad7a96162a44b3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.dataformat/jackson-dataformat-yaml@3.2.0?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -12687,13 +12687,6 @@
       "dependsOn": []
     },
     {
-      "ref": "40907074-218f-4714-9a14-4acb2a72d75f",
-      "dependsOn": [
-        "13e967a2-9984-48df-bcc6-c7f4e9eca33f",
-        "66a54b2f-2cad-4976-b3c1-3a188e746abc"
-      ]
-    },
-    {
       "ref": "a5b5296f-a173-464d-9eb7-b24c2f065948",
       "dependsOn": [
         "13e967a2-9984-48df-bcc6-c7f4e9eca33f",
@@ -12701,11 +12694,10 @@
       ]
     },
     {
-      "ref": "05562634-8d06-45d4-81dd-860a0b60e36b",
+      "ref": "40907074-218f-4714-9a14-4acb2a72d75f",
       "dependsOn": [
-        "2f5a3107-0bde-43d2-b4fa-00a41cd569c6",
-        "31ceaa3a-6e7d-4cff-bec9-3e37d9ffab24",
-        "a5b5296f-a173-464d-9eb7-b24c2f065948"
+        "13e967a2-9984-48df-bcc6-c7f4e9eca33f",
+        "66a54b2f-2cad-4976-b3c1-3a188e746abc"
       ]
     },
     {
@@ -12714,6 +12706,14 @@
         "66a54b2f-2cad-4976-b3c1-3a188e746abc",
         "40907074-218f-4714-9a14-4acb2a72d75f",
         "f35e6508-7727-4715-832e-12a98542affa"
+      ]
+    },
+    {
+      "ref": "05562634-8d06-45d4-81dd-860a0b60e36b",
+      "dependsOn": [
+        "2f5a3107-0bde-43d2-b4fa-00a41cd569c6",
+        "31ceaa3a-6e7d-4cff-bec9-3e37d9ffab24",
+        "a5b5296f-a173-464d-9eb7-b24c2f065948"
       ]
     },
     {

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:7f4b4032-aaba-42b0-b531-9b60180ebc44",
+  "serialNumber": "urn:uuid:145c8977-c0cd-4981-a188-8a5a8509785d",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:16:51Z",
+    "timestamp": "2026-11-13T15:03:49Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -103,6 +103,29 @@
         {
           "type": "vcs",
           "url": "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "47fc76fd-e6e2-4cd6-a15b-5f88e548b0b6",
+      "group": "eu.europa.ec.itb.csv",
+      "name": "csvvalidator-war",
+      "version": "1.13.0",
+      "description": "Web and command-line application for the validation of CSV data.",
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war@1.13.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/csv-validator/issues"
         }
       ]
     },
@@ -364,10 +387,16 @@
   "dependencies": [
     {
       "ref": "9b0d2db9-f0d1-40da-8cb1-6f02caf37ca6",
-      "dependsOn": []
+      "dependsOn": [
+        "47fc76fd-e6e2-4cd6-a15b-5f88e548b0b6"
+      ]
     },
     {
       "ref": "8f61a3d0-2253-4fef-bafe-cd1aaeddb127",
+      "dependsOn": []
+    },
+    {
+      "ref": "47fc76fd-e6e2-4cd6-a15b-5f88e548b0b6",
       "dependsOn": []
     },
     {
@@ -1151,6 +1180,56 @@
       "affects": [
         {
           "ref": "26299392-df13-47da-88d1-da7fa3d41c71"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade the latest release that resolves this."
+      },
+      "affects": [
+        {
+          "ref": "47fc76fd-e6e2-4cd6-a15b-5f88e548b0b6"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
         }
       ]
     }

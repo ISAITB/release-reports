@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:4d81d0f5-5b4a-4ab4-8423-26cd06cf50a4",
+  "serialNumber": "urn:uuid:a134e3cd-34c3-4b09-beb1-1938bfef8aac",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-05T07:55:38Z",
+    "timestamp": "2026-11-13T15:03:48Z",
     "tools": {
       "components": [
         {
@@ -164,6 +164,23 @@
           "url": "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
         }
       ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "cfb106b8-11ef-4abf-a453-8f2d6dbdd7b8",
+      "group": "eu.europa.ec.itb.csv",
+      "name": "csvvalidator-war",
+      "version": "1.12.0",
+      "description": "Web and command-line application for the validation of CSV data.",
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war@1.12.0?type=jar"
     },
     {
       "type": "library",
@@ -502,71 +519,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-databind",
-      "version": "2.21.4",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "99769ad660a66c43caee5d539d19ed96"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "09e495680be707d466527d734368ebf36e464da2"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "3888e9e69ab66fbacaacc9aea0e9ffbf15368288e4aca468b024dba11c09fbf9"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "fdce9c6a945f19708b6b62134d581640de490ec5da5513548d714601dd676031d082cba8682467620df92fb7ad1da2ec"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "11df9de9e69c0261b206a6c9add1d995af2e0711f895e2c8521d6bd2bb555671af0c3709931f9fa8abf987df9f37f46b891ea7b86d6edc3f437c43a757db45e7"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "f4518cc429021650e13029087ac3793d6fb0f6fbd2762dd7dd81124100d55c53"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "3056ee2af42c04c1af119ff4e7bed127e4ed428015b2105f5a618e4c13a740755b90422e7da194425ae501f663716a68738fedbf98fef2b59cbbb5d7cdc57be2"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "1802ae9db77d09667657e91e127edaaabc7f184173671fae18743974db7365b1862364910c52607f751602982fb82911"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "d4325aed-55c2-4b27-bb95-a30482f66c09",
       "group": "tools.jackson.core",
       "name": "jackson-databind",
@@ -615,6 +567,71 @@
         }
       ],
       "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.1.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.21.4",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "99769ad660a66c43caee5d539d19ed96"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "09e495680be707d466527d734368ebf36e464da2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3888e9e69ab66fbacaacc9aea0e9ffbf15368288e4aca468b024dba11c09fbf9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fdce9c6a945f19708b6b62134d581640de490ec5da5513548d714601dd676031d082cba8682467620df92fb7ad1da2ec"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "11df9de9e69c0261b206a6c9add1d995af2e0711f895e2c8521d6bd2bb555671af0c3709931f9fa8abf987df9f37f46b891ea7b86d6edc3f437c43a757db45e7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f4518cc429021650e13029087ac3793d6fb0f6fbd2762dd7dd81124100d55c53"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3056ee2af42c04c1af119ff4e7bed127e4ed428015b2105f5a618e4c13a740755b90422e7da194425ae501f663716a68738fedbf98fef2b59cbbb5d7cdc57be2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1802ae9db77d09667657e91e127edaaabc7f184173671fae18743974db7365b1862364910c52607f751602982fb82911"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -1138,7 +1155,9 @@
   "dependencies": [
     {
       "ref": "8f579501-7fd6-48b9-9d45-ce93450b660c",
-      "dependsOn": []
+      "dependsOn": [
+        "cfb106b8-11ef-4abf-a453-8f2d6dbdd7b8"
+      ]
     },
     {
       "ref": "7fae392b-dadf-47ec-ac0b-4e14b80813ae",
@@ -1146,6 +1165,10 @@
     },
     {
       "ref": "da1d0e79-8312-4334-8c11-c26dd6ae5add",
+      "dependsOn": []
+    },
+    {
+      "ref": "cfb106b8-11ef-4abf-a453-8f2d6dbdd7b8",
       "dependsOn": []
     },
     {
@@ -1171,15 +1194,15 @@
       "dependsOn": []
     },
     {
-      "ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
-      "dependsOn": [
-        "e5c009f2-878c-49f9-b614-a63514182698"
-      ]
-    },
-    {
       "ref": "d4325aed-55c2-4b27-bb95-a30482f66c09",
       "dependsOn": [
         "12c93d5b-355a-4158-b7d0-d93f8f73fb15"
+      ]
+    },
+    {
+      "ref": "4cb1cd6e-e496-4a03-a1d8-6ab494f31c93",
+      "dependsOn": [
+        "e5c009f2-878c-49f9-b614-a63514182698"
       ]
     },
     {
@@ -3703,6 +3726,56 @@
       "affects": [
         {
           "ref": "48fe523b-cc9e-46e3-bd08-e776ed6cfbd2"
+        }
+      ]
+    },
+    {
+      "id": "ITB-2026-006",
+      "source": {
+        "name": "ITB",
+        "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "(AV:N/AC:L/Au:N/C:P/I:P/A:N)"
+        },
+        {
+          "source": {
+            "name": "ITB",
+            "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        379
+      ],
+      "description": "The GITB Test Bed software and standalone validators use in certain occasions the OS temporary folder to store temporary files. The OS temporary folder is typically accessible to non-application OS users and can be accessed to reveal unintended data.",
+      "recommendation": "For the standalone XML, JSON, CSV and SHACL validators upgrade to release 1.13.1 or later.\nFor the GITB Test Bed software upgrade to release 1.30.2 or later.\n\nAs of these releases, all temporary processing files are stored in specific application-owned folders.",
+      "created": "2026-11-13T00:00:00Z",
+      "published": "2026-11-13T00:00:00Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade the latest release that resolves this."
+      },
+      "affects": [
+        {
+          "ref": "cfb106b8-11ef-4abf-a453-8f2d6dbdd7b8"
+        }
+      ],
+      "advisories": [
+        {
+          "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
         }
       ]
     }

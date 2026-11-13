@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:eed7c409-9b32-43e1-971a-a6236b270ed4",
+  "serialNumber": "urn:uuid:60781a26-de8b-49dd-a27f-bf2abd8e5ab3",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-06T15:34:30Z",
+    "timestamp": "2026-11-13T15:04:47Z",
     "tools": {
       "components": [
         {
@@ -297,76 +297,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "1956572f-3fe8-499f-b737-91d9e9a53778",
-      "group": "org.ow2.asm",
-      "name": "asm",
-      "version": "9.9.1",
-      "description": "ASM, a very small and fast Java bytecode manipulation framework",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "1888ad1f49038441bb2d12aa6dffe396"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2ceea6ab43bcae1979b2a6d85fc0ca429877e5ab"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "6f3828a215c920059a5efa2fb55c233d6c54ec5cadca99ce1b1bdd10077c7ddd"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "9448b1eeafccfe061a7533a633b3cf7445312f916d372a3b6bbae8747267b6d6a9387fd100aec22bc22160007a819fa9"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bb43eaca8777c7b2b4bce9fc19f9be5742a736a23415e271643c3e14d3d82f565f6de0e29ebac570ce66b3921ece1ebd4de06abeb633ae28c17891de56973807"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "f59abda303b133b832ad3d81076241d924dce6304dce5a1a60f8d816797dbbc2"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "d42ab2d7dfb1e11b896a1aad31d945639b5aa85ac9b5c2e33fc2e9174c4333eaa018217b58147930fb8017c7f569a6390c242c0e500f5b70600a2100bd08035b"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "b684b8c0bc4d7cb21245b2d9e20e103460686e80b16d2b4ea5452c82948ba74fc2bcb093f4ab1d6b010448da5dc12457"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause",
-            "url": "https://opensource.org/licenses/BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.ow2.asm/asm@9.9.1?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "http://asm.ow2.io/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://gitlab.ow2.org/asm/asm/issues"
-        },
-        {
-          "type": "mailing-list",
-          "url": "https://mail.ow2.org/wws/arc/asm/"
-        },
-        {
-          "type": "vcs",
-          "url": "https://gitlab.ow2.org/asm/asm/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "7fd9be1b-1ba1-4cb1-a952-387e8cf095ac",
       "group": "org.ow2.asm",
       "name": "asm",
@@ -416,6 +346,76 @@
         }
       ],
       "purl": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://asm.ow2.io/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitlab.ow2.org/asm/asm/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "1956572f-3fe8-499f-b737-91d9e9a53778",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.9.1",
+      "description": "ASM, a very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1888ad1f49038441bb2d12aa6dffe396"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2ceea6ab43bcae1979b2a6d85fc0ca429877e5ab"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6f3828a215c920059a5efa2fb55c233d6c54ec5cadca99ce1b1bdd10077c7ddd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9448b1eeafccfe061a7533a633b3cf7445312f916d372a3b6bbae8747267b6d6a9387fd100aec22bc22160007a819fa9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb43eaca8777c7b2b4bce9fc19f9be5742a736a23415e271643c3e14d3d82f565f6de0e29ebac570ce66b3921ece1ebd4de06abeb633ae28c17891de56973807"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f59abda303b133b832ad3d81076241d924dce6304dce5a1a60f8d816797dbbc2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d42ab2d7dfb1e11b896a1aad31d945639b5aa85ac9b5c2e33fc2e9174c4333eaa018217b58147930fb8017c7f569a6390c242c0e500f5b70600a2100bd08035b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b684b8c0bc4d7cb21245b2d9e20e103460686e80b16d2b4ea5452c82948ba74fc2bcb093f4ab1d6b010448da5dc12457"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@9.9.1?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -13153,11 +13153,11 @@
       ]
     },
     {
-      "ref": "1956572f-3fe8-499f-b737-91d9e9a53778",
+      "ref": "7fd9be1b-1ba1-4cb1-a952-387e8cf095ac",
       "dependsOn": []
     },
     {
-      "ref": "7fd9be1b-1ba1-4cb1-a952-387e8cf095ac",
+      "ref": "1956572f-3fe8-499f-b737-91d9e9a53778",
       "dependsOn": []
     },
     {

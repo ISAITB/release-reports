@@ -23,10 +23,10 @@ As of these releases, all temporary processing files are stored in specific appl
 ## Affected software
 
 - `pkg:maven/com.gitb/GITB`: `vers:maven/<1.30.2`
-- `pkg:maven/eu.europa.ec.itb.shacl/csvvalidator-war`: `vers:maven/<1.13.1`
-- `pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war`: `vers:maven/<1.13.1`
+- `pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war`: `vers:maven/<1.13.1`
+- `pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war`: `vers:maven/<1.13.1`
 - `pkg:maven/eu.europa.ec.itb.shacl/shaclvalidator-war`: `vers:maven/<1.13.1`
-- `pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war`: `vers:maven/<1.13.1`
+- `pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war`: `vers:maven/<1.13.1`
 
 ## References
 

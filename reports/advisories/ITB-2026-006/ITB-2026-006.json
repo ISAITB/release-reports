@@ -11,14 +11,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/csvvalidator-war",
-      "purl": "pkg:maven/eu.europa.ec.itb.shacl/csvvalidator-war",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war",
       "name": "csvvalidator-war"
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
-      "purl": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war",
       "name": "jsonvalidator-war"
     },
     {
@@ -29,8 +29,8 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
-      "purl": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
+      "bom-ref": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war",
+      "purl": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war",
       "name": "xmlvalidator-war"
     }
   ],
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "ref": "pkg:maven/eu.europa.ec.itb.shacl/csvvalidator-war",
+          "ref": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war",
           "versions": [
             {
               "range": "vers:maven/<1.13.1",
@@ -92,7 +92,7 @@
           ]
         },
         {
-          "ref": "pkg:maven/eu.europa.ec.itb.shacl/jsonvalidator-war",
+          "ref": "pkg:maven/eu.europa.ec.itb.json/jsonvalidator-war",
           "versions": [
             {
               "range": "vers:maven/<1.13.1",
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "ref": "pkg:maven/eu.europa.ec.itb.shacl/xmlvalidator-war",
+          "ref": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator-war",
           "versions": [
             {
               "range": "vers:maven/<1.13.1",

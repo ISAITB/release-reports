@@ -2583,7 +2583,7 @@
     },
     "json-validator": {
       "name": "JSON validator",
-      "latest": "1.13.1",
+      "latest": "1.13.2",
       "releases": {
         "1.11.0": {
           "bom": {
@@ -3233,6 +3233,33 @@
             "signature": {
               "path": "json-validator/1.13.1/json-validator-1.13.1.vdr.json.sigstore.json",
               "sha256": "d6fb38ac5d709ae576f9e197fca214d4acf183ce59759ad21ac13e6c53ffe145"
+            }
+          },
+          "summary": {
+            "exploitable": 0,
+            "exploitableIds": [],
+            "exploitableDetails": [],
+            "notAffected": 0,
+            "falsePositive": 0,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.13.2": {
+          "bom": {
+            "path": "json-validator/1.13.2/json-validator-1.13.2.bom.json",
+            "sha256": "2d576ff99618f14c645081110e71fea9091f0162a3d524840e2ae7100cd4d1df",
+            "signature": {
+              "path": "json-validator/1.13.2/json-validator-1.13.2.bom.json.sigstore.json",
+              "sha256": "6ca396b3b3fa757cb1bbb135a19cdcb82405bc6b2cd994316785c640188f3c9d"
+            }
+          },
+          "vdr": {
+            "path": "json-validator/1.13.2/json-validator-1.13.2.vdr.json",
+            "sha256": "550d98e159cf11727c7ec6b0a02391f29919abd3c225bfc0976995f5b897d307",
+            "signature": {
+              "path": "json-validator/1.13.2/json-validator-1.13.2.vdr.json.sigstore.json",
+              "sha256": "34d9017ea3541da64b72733385e2091b74e3691cb7fc1d46ab1befc006b5c6d8"
             }
           },
           "summary": {

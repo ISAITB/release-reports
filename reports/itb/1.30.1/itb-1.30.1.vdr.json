@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:2912e868-7ac3-4616-870d-bfc5050dfa24",
+  "serialNumber": "urn:uuid:6a1298ab-6e22-4a84-9326-dd2fd4fcbbab",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-13T12:37:41Z",
+    "timestamp": "2026-11-18T08:41:01Z",
     "tools": {
       "components": [
         {
@@ -149,56 +149,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125",
-      "group": "org.apache.cxf",
-      "name": "cxf-core",
-      "version": "4.2.3",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "19415a4d508d12571ccee20a404a5d23"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "584e9f46eb511735e3c89fbaaafdd44bff824859"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "d155630668656f87b0a908f51f1ed1ef7353efdd32c5b0dcb30088da01a67160"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "1d81f00452bede422acee02454534de3ebbef50b2249f819919e74b5f569ebf8b057afb537c2f8477d8589d2a0452520"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "fa5a087f81a0c6f1fdd71c79d4ad7d26983086f70ee31b56ad7ec346a2d6aa437a6a57c5091e3fbe515a0f428b776d3fb9a19b009f7f8da00859360ae2af6260"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "80636fc457e55dc35564f51a524e9bb08993a4c7f724b0a71c960ff53cd3dd58"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "52a23448f08f8cfd4292eda5c14045b061fda388bf355beeecf22ca63348805c84208997656d9dea590ff7935408971b379199508f0ac24ad608ed11b57e793a"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "f5cd998313bf4b81989dd4e33649b77c292c9af9675bbc44a5cc1ffe0ca4d23737d5f03c0e1e58457708d97b11b740ab"
-        }
-      ],
-      "cpe": "cpe:2.3:a:apache:cxf:4.2.3:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.3?type=bundle",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://cxf.apache.org"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "472fb3a9-7508-4ff3-af9a-9f5efe8e7a99",
       "group": "org.apache.cxf",
       "name": "cxf-core",
@@ -261,6 +211,56 @@
         {
           "type": "vcs",
           "url": "https://gitbox.apache.org/repos/asf?p=cxf.git/cxf-parent/cxf-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125",
+      "group": "org.apache.cxf",
+      "name": "cxf-core",
+      "version": "4.2.3",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "19415a4d508d12571ccee20a404a5d23"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "584e9f46eb511735e3c89fbaaafdd44bff824859"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d155630668656f87b0a908f51f1ed1ef7353efdd32c5b0dcb30088da01a67160"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1d81f00452bede422acee02454534de3ebbef50b2249f819919e74b5f569ebf8b057afb537c2f8477d8589d2a0452520"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fa5a087f81a0c6f1fdd71c79d4ad7d26983086f70ee31b56ad7ec346a2d6aa437a6a57c5091e3fbe515a0f428b776d3fb9a19b009f7f8da00859360ae2af6260"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "80636fc457e55dc35564f51a524e9bb08993a4c7f724b0a71c960ff53cd3dd58"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "52a23448f08f8cfd4292eda5c14045b061fda388bf355beeecf22ca63348805c84208997656d9dea590ff7935408971b379199508f0ac24ad608ed11b57e793a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f5cd998313bf4b81989dd4e33649b77c292c9af9675bbc44a5cc1ffe0ca4d23737d5f03c0e1e58457708d97b11b740ab"
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:cxf:4.2.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.cxf/cxf-core@4.2.3?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cxf.apache.org"
         }
       ]
     },
@@ -500,6 +500,54 @@
     },
     {
       "type": "library",
+      "bom-ref": "702cbe5c-11db-4736-af2d-f32a420d1013",
+      "author": "Jon Schlinkert",
+      "name": "picomatch",
+      "version": "4.0.4",
+      "description": "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/picomatch@4.0.4",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz",
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/micromatch/picomatch/issues",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/micromatch/picomatch.git",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/micromatch/picomatch",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:constraint:engine:node",
+          "value": ">=12"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/picomatch"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "4d61eb4a-4365-4f07-80f2-d70b21733aae",
       "name": "uuid",
       "version": "11.1.0",
@@ -565,11 +613,11 @@
       ]
     },
     {
-      "ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125",
+      "ref": "472fb3a9-7508-4ff3-af9a-9f5efe8e7a99",
       "dependsOn": []
     },
     {
-      "ref": "472fb3a9-7508-4ff3-af9a-9f5efe8e7a99",
+      "ref": "84fa99dd-6c02-4cd2-bca3-3b7bba2f4125",
       "dependsOn": []
     },
     {
@@ -598,11 +646,59 @@
       ]
     },
     {
+      "ref": "702cbe5c-11db-4736-af2d-f32a420d1013",
+      "dependsOn": []
+    },
+    {
       "ref": "4d61eb4a-4365-4f07-80f2-d70b21733aae",
       "dependsOn": []
     }
   ],
   "vulnerabilities": [
+    {
+      "id": "GHSA-fc5q-39xc-vjpf",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 8.7,
+          "severity": "high",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        1333
+      ],
+      "description": "Picomatch through 4.0.7 contains a regular expression denial of service vulnerability that allows attackers to block the event loop by supplying single-branch repeated extglob patterns. Attackers can provide globs like +(*) or +(*a), which analyzeRepeatedExtglob in lib/parse.js skips, causing exponential backtracking against short crafted strings and denying service to Node.js applications.",
+      "published": "2026-10-19T18:32:12Z",
+      "updated": "2026-11-17T15:56:44Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not exploitable. This relates to a transitive dependency that is not exploitable in this context."
+      },
+      "affects": [
+        {
+          "ref": "702cbe5c-11db-4736-af2d-f32a420d1013"
+        }
+      ]
+    },
     {
       "id": "CVE-2026-100227",
       "source": {

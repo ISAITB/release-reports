@@ -1460,18 +1460,167 @@
         "1.29.0": {
           "bom": {
             "path": "itb/1.29.0/itb-1.29.0.bom.json",
-            "sha256": "ec9d9d5397677fd7b5a1e8a237d0624b57d42f287fc6c54ebae881d603bef010",
+            "sha256": "6419f425ce810897b553d41f7a04671a081af9b12fa5077e132963331a65fd07",
             "signature": {
               "path": "itb/1.29.0/itb-1.29.0.bom.json.sigstore.json",
-              "sha256": "8f8b1e9a0cc277e922b22aae41ee625a60416f4b1cd0696dc669e07180399fa4"
+              "sha256": "abec65d1aa578f96a3d68df8bd56a0364c79ed154205a3bdf27350a8e2925c02"
             }
           },
           "vdr": {
             "path": "itb/1.29.0/itb-1.29.0.vdr.json",
-            "sha256": "a78a62e643c8619a5e84781b75c24d6e1da934574085135090d853d934d62a5b",
+            "sha256": "eb9d6eb006b8b4f6feda48b0e3a3a3f939809624851d441518899ee01b8a1abd",
             "signature": {
               "path": "itb/1.29.0/itb-1.29.0.vdr.json.sigstore.json",
-              "sha256": "ad63751fd604df675f8d31bc513d9d4612d55f52258bb770657643241c01ea1d"
+              "sha256": "30cf3497fc020e3c564d663d4c9b9bc0456df164bd0ae455d23447e6055fe7af"
+            }
+          },
+          "summary": {
+            "exploitable": 20,
+            "exploitableIds": [
+              "CVE-2026-102495",
+              "CVE-2026-102496",
+              "CVE-2026-102497",
+              "CVE-2026-107937",
+              "CVE-2026-108039",
+              "CVE-2026-49875",
+              "CVE-2026-50645",
+              "CVE-2026-54225",
+              "CVE-2026-64958",
+              "CVE-2026-65432",
+              "CVE-2026-66142",
+              "CVE-2026-66144",
+              "GHSA-cjpg-rgq5-fr37",
+              "GHSA-ghvc-7hp8-2g2v",
+              "GHSA-r29c-68gh-xp6x",
+              "GHSA-xw5h-cmh3-8j6j",
+              "ITB-2026-003",
+              "ITB-2026-004",
+              "ITB-2026-005",
+              "ITB-2026-006"
+            ],
+            "exploitableDetails": [
+              {
+                "id": "CVE-2026-49875",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-r29c-68gh-xp6x",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "GHSA-xw5h-cmh3-8j6j",
+                "severity": "critical",
+                "score": 9.8
+              },
+              {
+                "id": "CVE-2026-102495",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102496",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-102497",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-107937",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-108039",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-50645",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-54225",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-64958",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-65432",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66142",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "CVE-2026-66144",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "GHSA-ghvc-7hp8-2g2v",
+                "severity": "high",
+                "score": 7.5
+              },
+              {
+                "id": "ITB-2026-006",
+                "severity": "medium",
+                "score": 6.5
+              },
+              {
+                "id": "ITB-2026-003",
+                "severity": "medium",
+                "score": 6.4
+              },
+              {
+                "id": "GHSA-cjpg-rgq5-fr37",
+                "severity": "medium",
+                "score": 5.3
+              },
+              {
+                "id": "ITB-2026-004",
+                "severity": "medium",
+                "score": 4.3
+              },
+              {
+                "id": "ITB-2026-005",
+                "severity": "low",
+                "score": 2.7
+              }
+            ],
+            "notAffected": 187,
+            "falsePositive": 3,
+            "resolved": 0,
+            "assessmentInProgress": false
+          }
+        },
+        "1.29.1": {
+          "bom": {
+            "path": "itb/1.29.1/itb-1.29.1.bom.json",
+            "sha256": "cc93e86d78a1a8079023e2452f34cf4d06ffc8d3efcdbba7722ee5d199a7896e",
+            "signature": {
+              "path": "itb/1.29.1/itb-1.29.1.bom.json.sigstore.json",
+              "sha256": "cdebbcb4e90101d221e7bd964c84aaa676bca7e17fac5a927ba9e0c680803daf"
+            }
+          },
+          "vdr": {
+            "path": "itb/1.29.1/itb-1.29.1.vdr.json",
+            "sha256": "62773bc573af249e2e5019438b3edb9a9cb2492473909eb727525e590d49a138",
+            "signature": {
+              "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
+              "sha256": "d994aa314678ae877e54195eade04f59e0628b9ecf93d29ecd188215bc781088"
             }
           },
           "summary": {
@@ -1606,170 +1755,21 @@
             "assessmentInProgress": false
           }
         },
-        "1.29.1": {
-          "bom": {
-            "path": "itb/1.29.1/itb-1.29.1.bom.json",
-            "sha256": "8d38c3ec9ad98f1f20dd3701dee71435482feba768728c250670fef88ae4eec7",
-            "signature": {
-              "path": "itb/1.29.1/itb-1.29.1.bom.json.sigstore.json",
-              "sha256": "1d28766b33701df0b32a0b49f92ce6fa8aa503e71b89882c1fa3acea76dc0caf"
-            }
-          },
-          "vdr": {
-            "path": "itb/1.29.1/itb-1.29.1.vdr.json",
-            "sha256": "1779acd523c3f9f9bf7816b6fa173a72979de8a8667f611a7afcd98204fb0eba",
-            "signature": {
-              "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
-              "sha256": "e696f8e52c5ba7c639d7f5fb2f175b685928db30cd56e56ea1d4d844900bf24e"
-            }
-          },
-          "summary": {
-            "exploitable": 20,
-            "exploitableIds": [
-              "CVE-2026-102495",
-              "CVE-2026-102496",
-              "CVE-2026-102497",
-              "CVE-2026-107937",
-              "CVE-2026-108039",
-              "CVE-2026-49875",
-              "CVE-2026-50645",
-              "CVE-2026-54225",
-              "CVE-2026-64958",
-              "CVE-2026-65432",
-              "CVE-2026-66142",
-              "CVE-2026-66144",
-              "GHSA-cjpg-rgq5-fr37",
-              "GHSA-ghvc-7hp8-2g2v",
-              "GHSA-r29c-68gh-xp6x",
-              "GHSA-xw5h-cmh3-8j6j",
-              "ITB-2026-003",
-              "ITB-2026-004",
-              "ITB-2026-005",
-              "ITB-2026-006"
-            ],
-            "exploitableDetails": [
-              {
-                "id": "CVE-2026-49875",
-                "severity": "critical",
-                "score": 9.8
-              },
-              {
-                "id": "GHSA-r29c-68gh-xp6x",
-                "severity": "critical",
-                "score": 9.8
-              },
-              {
-                "id": "GHSA-xw5h-cmh3-8j6j",
-                "severity": "critical",
-                "score": 9.8
-              },
-              {
-                "id": "CVE-2026-102495",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-102496",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-102497",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-107937",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-108039",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-50645",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-54225",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-64958",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-65432",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-66142",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "CVE-2026-66144",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "GHSA-ghvc-7hp8-2g2v",
-                "severity": "high",
-                "score": 7.5
-              },
-              {
-                "id": "ITB-2026-006",
-                "severity": "medium",
-                "score": 6.5
-              },
-              {
-                "id": "ITB-2026-003",
-                "severity": "medium",
-                "score": 6.4
-              },
-              {
-                "id": "GHSA-cjpg-rgq5-fr37",
-                "severity": "medium",
-                "score": 5.3
-              },
-              {
-                "id": "ITB-2026-004",
-                "severity": "medium",
-                "score": 4.3
-              },
-              {
-                "id": "ITB-2026-005",
-                "severity": "low",
-                "score": 2.7
-              }
-            ],
-            "notAffected": 185,
-            "falsePositive": 3,
-            "resolved": 0,
-            "assessmentInProgress": false
-          }
-        },
         "1.29.2": {
           "bom": {
             "path": "itb/1.29.2/itb-1.29.2.bom.json",
-            "sha256": "0ff169189e04fd7c43783ac6043a36c02e15602cf5f088da21daeeda472f68bb",
+            "sha256": "69cc95cb8b9a2472ef25e0f43b6d2ebe3a6d75df5b33e834159779fd71e83c16",
             "signature": {
               "path": "itb/1.29.2/itb-1.29.2.bom.json.sigstore.json",
-              "sha256": "ccef42cf0ae5db96266efbb43f75d13bff6a3ea1906d05af5081befa5be5ca6c"
+              "sha256": "1295edf4f8c410f646ceceacf97255b5c9d86fecf3d69321408ea50b95ee9f4e"
             }
           },
           "vdr": {
             "path": "itb/1.29.2/itb-1.29.2.vdr.json",
-            "sha256": "805109dbb40f8ce7398f1a873babef85429e56c4baec0aa8e78f1d9a87be080e",
+            "sha256": "d017ec89f54487a7e25535f3174f083e9c2b8bed32a4fdba6370e60d9fbdbc3e",
             "signature": {
               "path": "itb/1.29.2/itb-1.29.2.vdr.json.sigstore.json",
-              "sha256": "89ab883d1042f8bb0957146dbfc3296d971ebfd561b5668fc874e6bd2bd9e978"
+              "sha256": "e209ea21fed144680a5fa814b28ca6a3ceab26a53f23ec88d3194b9353e9acc6"
             }
           },
           "summary": {
@@ -1898,7 +1898,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 185,
+            "notAffected": 186,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -1907,18 +1907,18 @@
         "1.29.3": {
           "bom": {
             "path": "itb/1.29.3/itb-1.29.3.bom.json",
-            "sha256": "896aef43dbb353f9b69c089c11dc613d39e3023a190509c93e95c375a9283722",
+            "sha256": "83acf102673219b373e9782eb920b4d71b0a4a9f87083b28ece3ac2ad9f7f5a9",
             "signature": {
               "path": "itb/1.29.3/itb-1.29.3.bom.json.sigstore.json",
-              "sha256": "ef98237d4205549c6ab00fe65c94420167d0c14be34ae8d9a8cb342a54deae5a"
+              "sha256": "e157493edafc9f13e8b658eddf9df24fe093e5b30109b7b0be0edb412a957609"
             }
           },
           "vdr": {
             "path": "itb/1.29.3/itb-1.29.3.vdr.json",
-            "sha256": "65fd594ee6cabef81ff945987825ec47e10671672eb1d7d9e4ec2582e7a4a710",
+            "sha256": "0d66271e80d02e8d6097dd05e030b2f6d01f814f2a3186cb9ad00d3c11356123",
             "signature": {
               "path": "itb/1.29.3/itb-1.29.3.vdr.json.sigstore.json",
-              "sha256": "9d297f86f6cac0d203dcb74bef11a4e8e17239a28aa327c9c6f268743b8164af"
+              "sha256": "cbb9061a4e5288c504afa6b275411bd41541535c47fbd1519516466168762841"
             }
           },
           "summary": {
@@ -2047,7 +2047,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 183,
+            "notAffected": 184,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2056,18 +2056,18 @@
         "1.29.4": {
           "bom": {
             "path": "itb/1.29.4/itb-1.29.4.bom.json",
-            "sha256": "ba6af4c289b353a98ce7b1a61712c058b580d3f51a11039c03ef0b96013c290f",
+            "sha256": "baca349f60339edc5347528ac57632f3b1312067b1d67b19de5fe4c46eddf637",
             "signature": {
               "path": "itb/1.29.4/itb-1.29.4.bom.json.sigstore.json",
-              "sha256": "2bb2268a909d43eb7a2ce89f5444d44e3a3cb94b55ee1578aa3dbc01871f11a7"
+              "sha256": "ed1c23f4cb66854bbb1bf71a3b59ff72203c90ffdd49e9b8865ca5b948539f40"
             }
           },
           "vdr": {
             "path": "itb/1.29.4/itb-1.29.4.vdr.json",
-            "sha256": "2918af131a281305023da7e7fa63538a7006bd25e7dfe18100838525adb368f3",
+            "sha256": "2ffbf439f252ffe6f44da898d65d4fbc2046185848d015cc33ed6e33b7f9b7c0",
             "signature": {
               "path": "itb/1.29.4/itb-1.29.4.vdr.json.sigstore.json",
-              "sha256": "4880b1f71d14eb70d45c5cef21220e110526d5079ad9beba245d6c95ffe6824e"
+              "sha256": "9804ce3335e667e2b9268f8cce16af8c87317bd201e39e803e485520b958e689"
             }
           },
           "summary": {
@@ -2220,7 +2220,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 154,
+            "notAffected": 155,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2229,18 +2229,18 @@
         "1.29.5": {
           "bom": {
             "path": "itb/1.29.5/itb-1.29.5.bom.json",
-            "sha256": "0cb81de489106e94cc28cc1663e2592261b49f003549b833247d668b8314085b",
+            "sha256": "2652cc84ee82cec2d5650c53d4c4542c586bd007515334a68bd9fcad4e8a760c",
             "signature": {
               "path": "itb/1.29.5/itb-1.29.5.bom.json.sigstore.json",
-              "sha256": "6bf167dcd378c7cde3937feee135e0b4a839eee849a613c64d307d7d7187a85a"
+              "sha256": "3c110cafdf35c05d055f27eb1ff431fbe1af7b88b80670d43821fec51e5a78f0"
             }
           },
           "vdr": {
             "path": "itb/1.29.5/itb-1.29.5.vdr.json",
-            "sha256": "c16e36dc287dd00982509965f71acaf0a7ea99cf953c8304af660bdc85797084",
+            "sha256": "4f8e24b11735a8b129a233d746606cd2a86b6b0083a717e71be3d389fd6262bb",
             "signature": {
               "path": "itb/1.29.5/itb-1.29.5.vdr.json.sigstore.json",
-              "sha256": "2094ec1e5694b79eec497cc8a50bab83eed4a24b6b841e8ad4b2e4851aca1fa1"
+              "sha256": "f401f65db9cd70360215453715a0daff77d42b872c7ae72ba052a0da007452d0"
             }
           },
           "summary": {
@@ -2363,7 +2363,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 122,
+            "notAffected": 123,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2372,18 +2372,18 @@
         "1.30.0": {
           "bom": {
             "path": "itb/1.30.0/itb-1.30.0.bom.json",
-            "sha256": "edda03bfc346dcb6685be2368faa0686bca8e96ba727ce0ca63108dd182645a9",
+            "sha256": "d2a8e38a3ce4e3e57b618523b5b0f5876304c5430a6896a3dc58610bd9d40045",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.bom.json.sigstore.json",
-              "sha256": "74af92efe34ab408e36e11e4e72ab289f6ecb44532b7efb6007816c04532a778"
+              "sha256": "9ffa6ea968cc5ca16d2e13a6b7a34affe294d3bc2b23086d00f4056d9806b35c"
             }
           },
           "vdr": {
             "path": "itb/1.30.0/itb-1.30.0.vdr.json",
-            "sha256": "5752da6a69d417cd8f22f566bb49a55ad4f51fe243ec3b92046e9742970c52eb",
+            "sha256": "fc804b11d7b594c7d7857eeed6d0c72f7511c5e3f3b23016d72db16e6147ddaa",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.vdr.json.sigstore.json",
-              "sha256": "2cbc18427bfcd9dbdaf4680dd3684105ad6543160448ee46fa0a5c0cb5a14d06"
+              "sha256": "d524a595c88221c7fbfb7125ae79b15e0d78023a3be09f5243d7e74e86e2a5c3"
             }
           },
           "summary": {
@@ -2446,7 +2446,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 66,
+            "notAffected": 67,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2455,18 +2455,18 @@
         "1.30.1": {
           "bom": {
             "path": "itb/1.30.1/itb-1.30.1.bom.json",
-            "sha256": "b2dba40e9afc092a907e272c861902050e76d314716086d60860ce688c0d4ff4",
+            "sha256": "5130b429b452d755a0601e8ad557ed5885e4e7a389ec59b76bd8cfffa4becd15",
             "signature": {
               "path": "itb/1.30.1/itb-1.30.1.bom.json.sigstore.json",
-              "sha256": "a02c3be15a886dff425e158a2a9cfb8bb9d5cc7504d89a326bb819cb54361bbe"
+              "sha256": "2edb72aa960bed4ea76a53694ec8362ea3d551fe773880952c991c3c7a8f4416"
             }
           },
           "vdr": {
             "path": "itb/1.30.1/itb-1.30.1.vdr.json",
-            "sha256": "fe8e5e0ba285b4e2c0a315b188633f64e9f5560e696ed17577cfa137b484ce82",
+            "sha256": "48f66dd4e358c42a4502f3736d45107be8e844b3d1ae6656b70e68914be5596b",
             "signature": {
               "path": "itb/1.30.1/itb-1.30.1.vdr.json.sigstore.json",
-              "sha256": "a7dbf7b0f0c8f1413e145b3256a826967e6a507d20f246a17f0a34b4f7373b47"
+              "sha256": "83cb04e56f825e511c4fb8e3d30f8f4f8b03fdc601656fe222724da12efd3509"
             }
           },
           "summary": {
@@ -2511,7 +2511,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 49,
+            "notAffected": 50,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2520,18 +2520,18 @@
         "1.30.2": {
           "bom": {
             "path": "itb/1.30.2/itb-1.30.2.bom.json",
-            "sha256": "388c52da3e9ea792e6551fb42dac7367a09c48d2546f9e58a1dc7c55315b91e0",
+            "sha256": "ce5968d5063b27cf66afe9f5d29db7a52235df4be0d30504d0336f0da4e8c5ec",
             "signature": {
               "path": "itb/1.30.2/itb-1.30.2.bom.json.sigstore.json",
-              "sha256": "0414c83a2264bafc90bc955fbc09db49943fca14eacde044599e27986acf94a1"
+              "sha256": "f613bf75a932ed6ce16a1053b235216cc1beafeea5e7b25a6485c30b63cdb446"
             }
           },
           "vdr": {
             "path": "itb/1.30.2/itb-1.30.2.vdr.json",
-            "sha256": "eba6640c3df68e76abc9178e9911b96bfe1f78b139cbbc38be23055008a1bf5c",
+            "sha256": "38743bb95dc6e2111a30e7649f72f7f5d9f3345aff0983d2299363d9cdb0b307",
             "signature": {
               "path": "itb/1.30.2/itb-1.30.2.vdr.json.sigstore.json",
-              "sha256": "a840173aaf9cbbc2b3de89489756c32cc4810b8f1a37090d6f97ff0bdc8ee835"
+              "sha256": "02d37d9dde364fbfc76c56ebeff6eef538a1ec64213341baa85fc43fbd87ac82"
             }
           },
           "summary": {
@@ -2546,7 +2546,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 40,
+            "notAffected": 41,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2555,25 +2555,25 @@
         "1.30.3": {
           "bom": {
             "path": "itb/1.30.3/itb-1.30.3.bom.json",
-            "sha256": "f22ab7cbe4202f2b07abb26c7c5acfba8df2df3a82fbe4c2d369ec9c5273740f",
+            "sha256": "21a0d7bf2c3eafdc4dabf0cd0dd1ad14670d6a74e38fbc664654ba1f832e770c",
             "signature": {
               "path": "itb/1.30.3/itb-1.30.3.bom.json.sigstore.json",
-              "sha256": "ad8b7b191c904dd9f5c62f78b4a53faafd55a811830a8478ca87a79bd26a49b3"
+              "sha256": "81ca67f40393d8a111d6642a195a773aa86767e5d2b885fbab02238222c19323"
             }
           },
           "vdr": {
             "path": "itb/1.30.3/itb-1.30.3.vdr.json",
-            "sha256": "70eee6fada0c10ec52c52297f160c4f3f2d289d257668f75b252e6d409c427f2",
+            "sha256": "b9b28c9e12444e91855de8e27966dcf4aca752ab71b45f43b18a914d6ba9fc11",
             "signature": {
               "path": "itb/1.30.3/itb-1.30.3.vdr.json.sigstore.json",
-              "sha256": "7beae9039b1baa9f54cee62779be044440321e07c812043b2b16cf758a4aa89f"
+              "sha256": "d84ffcb600b840430e440e7baa57ca9ad065267c11c4c2bb3f74eb6399127c1e"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
             "exploitableDetails": [],
-            "notAffected": 39,
+            "notAffected": 40,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false

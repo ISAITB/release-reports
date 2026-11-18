@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:822b0695-05f0-47b0-8b32-5438d28b24b0",
+  "serialNumber": "urn:uuid:85606029-a6b2-4add-b662-a4ee59c8cf85",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-13T12:37:30Z",
+    "timestamp": "2026-11-18T08:40:51Z",
     "tools": {
       "components": [
         {
@@ -648,57 +648,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "a6e27714-c8b6-45c9-95e0-ad5d88076c83",
-      "group": "org.eclipse.angus",
-      "name": "angus-mail",
-      "version": "2.0.5",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e965a2653568c0138457b4c6fc9e5d77"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "427f6d52ec0782f7efaca0c0732042e347a6cb4f"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "b4d8c30d35f455def6c7a05fe595a1e62ea2b80cac3efec1e9ccf4118b23168a"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "35c797fdc52800ccfbd36d7574c0919fbba1f820eafb1d236271eefb07266360c1b87c07c089f97c07d12a634e54037c"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "500985e3045a7640049aa1ebb008d675983f537150605f192d2746ca2aa8c7a1b5231f782f950dfd968cc8ca26c32c6e93008cc7de309c5da4b17af0139baff7"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "7ac45dd92d65996c4de11701bf1a1130e393a3e33b4bc02af69bf627e54b122e"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "b45eb356f855b9777cfdf6be94c6797c33e86fe28e8e2e7fe7311e661f07d162e8c4e46a2f3dd67b7c0f8261ab5610c85f4f62cc874e64ee2a76eca3501e2e2d"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "9a10dd9cf09af51c29d178d2dd87c6a796121753c91ca13b8c51843b8ed737803090fa93f41ec8689469550941e12473"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "EPL-2.0",
-            "url": "http://www.eclipse.org/legal/epl-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.eclipse.angus/angus-mail@2.0.5"
-    },
-    {
-      "type": "library",
       "bom-ref": "9f82a1a7-cb09-4efb-b374-be5949390ff3",
       "group": "org.eclipse.angus",
       "name": "angus-mail",
@@ -765,6 +714,57 @@
           "url": "https://github.com/eclipse-ee4j/angus-mail/angus-mail"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "a6e27714-c8b6-45c9-95e0-ad5d88076c83",
+      "group": "org.eclipse.angus",
+      "name": "angus-mail",
+      "version": "2.0.5",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e965a2653568c0138457b4c6fc9e5d77"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "427f6d52ec0782f7efaca0c0732042e347a6cb4f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b4d8c30d35f455def6c7a05fe595a1e62ea2b80cac3efec1e9ccf4118b23168a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "35c797fdc52800ccfbd36d7574c0919fbba1f820eafb1d236271eefb07266360c1b87c07c089f97c07d12a634e54037c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "500985e3045a7640049aa1ebb008d675983f537150605f192d2746ca2aa8c7a1b5231f782f950dfd968cc8ca26c32c6e93008cc7de309c5da4b17af0139baff7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7ac45dd92d65996c4de11701bf1a1130e393a3e33b4bc02af69bf627e54b122e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b45eb356f855b9777cfdf6be94c6797c33e86fe28e8e2e7fe7311e661f07d162e8c4e46a2f3dd67b7c0f8261ab5610c85f4f62cc874e64ee2a76eca3501e2e2d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9a10dd9cf09af51c29d178d2dd87c6a796121753c91ca13b8c51843b8ed737803090fa93f41ec8689469550941e12473"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0",
+            "url": "http://www.eclipse.org/legal/epl-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/angus-mail@2.0.5"
     },
     {
       "type": "library",
@@ -970,63 +970,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "008e3089-6bff-4fe0-bfaf-df468471e8ca",
-      "group": "org.ow2.asm",
-      "name": "asm",
-      "version": "9.9.1",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "1888ad1f49038441bb2d12aa6dffe396"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2ceea6ab43bcae1979b2a6d85fc0ca429877e5ab"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "6f3828a215c920059a5efa2fb55c233d6c54ec5cadca99ce1b1bdd10077c7ddd"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "9448b1eeafccfe061a7533a633b3cf7445312f916d372a3b6bbae8747267b6d6a9387fd100aec22bc22160007a819fa9"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "bb43eaca8777c7b2b4bce9fc19f9be5742a736a23415e271643c3e14d3d82f565f6de0e29ebac570ce66b3921ece1ebd4de06abeb633ae28c17891de56973807"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "f59abda303b133b832ad3d81076241d924dce6304dce5a1a60f8d816797dbbc2"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "d42ab2d7dfb1e11b896a1aad31d945639b5aa85ac9b5c2e33fc2e9174c4333eaa018217b58147930fb8017c7f569a6390c242c0e500f5b70600a2100bd08035b"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "b684b8c0bc4d7cb21245b2d9e20e103460686e80b16d2b4ea5452c82948ba74fc2bcb093f4ab1d6b010448da5dc12457"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause",
-            "url": "https://asm.ow2.io/license.html"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.ow2.asm/asm@9.9.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "http://asm.ow2.io/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "1a03d966-609c-436e-8cf8-c2ac2964616a",
       "group": "org.ow2.asm",
       "name": "asm",
@@ -1092,6 +1035,63 @@
         {
           "type": "vcs",
           "url": "https://gitlab.ow2.org/asm/asm/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "008e3089-6bff-4fe0-bfaf-df468471e8ca",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.9.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1888ad1f49038441bb2d12aa6dffe396"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2ceea6ab43bcae1979b2a6d85fc0ca429877e5ab"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6f3828a215c920059a5efa2fb55c233d6c54ec5cadca99ce1b1bdd10077c7ddd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9448b1eeafccfe061a7533a633b3cf7445312f916d372a3b6bbae8747267b6d6a9387fd100aec22bc22160007a819fa9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb43eaca8777c7b2b4bce9fc19f9be5742a736a23415e271643c3e14d3d82f565f6de0e29ebac570ce66b3921ece1ebd4de06abeb633ae28c17891de56973807"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f59abda303b133b832ad3d81076241d924dce6304dce5a1a60f8d816797dbbc2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d42ab2d7dfb1e11b896a1aad31d945639b5aa85ac9b5c2e33fc2e9174c4333eaa018217b58147930fb8017c7f569a6390c242c0e500f5b70600a2100bd08035b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b684b8c0bc4d7cb21245b2d9e20e103460686e80b16d2b4ea5452c82948ba74fc2bcb093f4ab1d6b010448da5dc12457"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://asm.ow2.io/license.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@9.9.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://asm.ow2.io/"
         }
       ]
     },
@@ -1373,6 +1373,57 @@
     },
     {
       "type": "library",
+      "bom-ref": "6ee0f918-2978-44f3-a5db-32eb13604b6d",
+      "group": "org.apache.xmlgraphics",
+      "name": "batik-anim",
+      "version": "1.17",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cce78d82fdfb72eca1548253d1e99f8d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "89e5d61a4328d6755dd7903fb5e7f0b265ff8fbe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "67d9d691ecec857ac3628fbd2167c201940d3c4b65ab7386484ac730cb8cf9ea"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f8fd3fb24a68a6e93c5cce3bab7ce89cdfb0c88439ae006a654e4cd7fe423daa4ce769d6017d0728f6363e6ab9397b94"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f927f1e42e68364b6bfd00b7f0d685712b5f12b535647f5e118ae4369951451a8c74aeb5bf02d5de40801a28c890f3ab75ddde9fee6640886350893510bcb789"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "809249500116ba80bc1c9c7bdedef659d82eb17f424036a3e9d61a00eeb30834"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5b049cca807a46a645e02007786c418881c93295d222cca8b5f37c884287d1a497c70645f22712484191758ed3ca3bc902526badf1656b899b2a97708e6f2cdb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d75e7c909306369df2097430fe6826ab9e0b0a1e09cbef2795ece4e4bee23ca3fdf33f7d48411b2628b799bab6ac79cb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-anim@1.17"
+    },
+    {
+      "type": "library",
       "bom-ref": "3dd9e01b-3cb3-4b84-b475-080d323f2d56",
       "group": "org.apache.xmlgraphics",
       "name": "batik-anim",
@@ -1438,108 +1489,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "6ee0f918-2978-44f3-a5db-32eb13604b6d",
-      "group": "org.apache.xmlgraphics",
-      "name": "batik-anim",
-      "version": "1.17",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "cce78d82fdfb72eca1548253d1e99f8d"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "89e5d61a4328d6755dd7903fb5e7f0b265ff8fbe"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "67d9d691ecec857ac3628fbd2167c201940d3c4b65ab7386484ac730cb8cf9ea"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f8fd3fb24a68a6e93c5cce3bab7ce89cdfb0c88439ae006a654e4cd7fe423daa4ce769d6017d0728f6363e6ab9397b94"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "f927f1e42e68364b6bfd00b7f0d685712b5f12b535647f5e118ae4369951451a8c74aeb5bf02d5de40801a28c890f3ab75ddde9fee6640886350893510bcb789"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "809249500116ba80bc1c9c7bdedef659d82eb17f424036a3e9d61a00eeb30834"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "5b049cca807a46a645e02007786c418881c93295d222cca8b5f37c884287d1a497c70645f22712484191758ed3ca3bc902526badf1656b899b2a97708e6f2cdb"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d75e7c909306369df2097430fe6826ab9e0b0a1e09cbef2795ece4e4bee23ca3fdf33f7d48411b2628b799bab6ac79cb"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-anim@1.17"
-    },
-    {
-      "type": "library",
-      "bom-ref": "47880080-8281-4d22-8af3-3263c7724b0c",
-      "group": "org.apache.xmlgraphics",
-      "name": "batik-awt-util",
-      "version": "1.17",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "5c9f34b96b97266521ebf8347bd553c4"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "0e3f71c6f07da863228b64a59bf059c4611c3952"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "7fe38f9451eb94575214323261c8192b63f1dfd2610659255fbbbbfde94a2a66"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "7a9eb967682c9c0f527edd852f9b5f65383bd19f62c7f4aa57ec01979629f449e8e9518423aae2000aec81f06993f395"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "a7a16c26e3d436287de6ba79490aee0f76033aa667e01a865c068abb67a016ab81809cbaa8e5a9ba3814bdf77c6468fb7e8392aef578f2fd2d0f552bccc015ca"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "00b3ecd78a1db274084318e80ff7ec3d5815482dd3bcfbb3e423d18ccd0388a1"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "0026978d9fd48265198ad1412f993d5a7e7f174d46fa6a4c4cd3eaeeb56587af5664a5a1b094ea24717d45a1362b633c4189060f22c0f6feef807b8bbde653f0"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "e6f2c268bf29315dd2f146e5788f85b63aa1f478c82f450fbe316ebd8cb318aa5f895e21a14158d28566a1f5df856494"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-awt-util@1.17"
-    },
-    {
-      "type": "library",
       "bom-ref": "1adb3e76-9b37-4aaa-8316-40ae7b609564",
       "group": "org.apache.xmlgraphics",
       "name": "batik-awt-util",
@@ -1602,6 +1551,57 @@
           "url": "scm:svn:https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk/batik-awt-util/"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "47880080-8281-4d22-8af3-3263c7724b0c",
+      "group": "org.apache.xmlgraphics",
+      "name": "batik-awt-util",
+      "version": "1.17",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5c9f34b96b97266521ebf8347bd553c4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0e3f71c6f07da863228b64a59bf059c4611c3952"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7fe38f9451eb94575214323261c8192b63f1dfd2610659255fbbbbfde94a2a66"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7a9eb967682c9c0f527edd852f9b5f65383bd19f62c7f4aa57ec01979629f449e8e9518423aae2000aec81f06993f395"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a7a16c26e3d436287de6ba79490aee0f76033aa667e01a865c068abb67a016ab81809cbaa8e5a9ba3814bdf77c6468fb7e8392aef578f2fd2d0f552bccc015ca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "00b3ecd78a1db274084318e80ff7ec3d5815482dd3bcfbb3e423d18ccd0388a1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0026978d9fd48265198ad1412f993d5a7e7f174d46fa6a4c4cd3eaeeb56587af5664a5a1b094ea24717d45a1362b633c4189060f22c0f6feef807b8bbde653f0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e6f2c268bf29315dd2f146e5788f85b63aa1f478c82f450fbe316ebd8cb318aa5f895e21a14158d28566a1f5df856494"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-awt-util@1.17"
     },
     {
       "type": "library",
@@ -1837,6 +1837,57 @@
     },
     {
       "type": "library",
+      "bom-ref": "51a1f19b-b097-4151-9b37-ba312c33ebdf",
+      "group": "org.apache.xmlgraphics",
+      "name": "batik-constants",
+      "version": "1.17",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "25af6878d4a0c41eac9e95b7859dcdf5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "22bf8b4c207dc46859db0269853186d8dfc8cb9a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "75db00180bde4ef5caee3916d6f65e5045051d59cf51d57e673c03969d7bbbcd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "aa6cd06a07a73bc335465d9875a04d2f103cdffd8db8f7c1cce2c24faa0469c1ab2179509254a93ffe919d81d3982d50"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4e3f5684f5439d2d3c64c8578b89270257c5ce8b0445129e734203f8b2f95f03642cc16e2e95b997e839912909b20ba8a1893f2ef5eca0958c2a3eb9484ee9c2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fc88ee30d54be59d4285b003142b8341f6af0400e34776a1686ecba1209e5085"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bc0a50f23efb2467cc4448031c1ddcb1557785d0eaa25b2ac255c931d29d1b7429999b1e2150c3e4e558cb36d3624cecfed368a5439202a5cb2ef5e2ba523617"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c940c7d2c04387d4208576a492cf6a519d019bc982cb5097ed3b2050fb3d75cf557684ee56dc8a703c57d914d6595340"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-constants@1.17"
+    },
+    {
+      "type": "library",
       "bom-ref": "a6c51c82-1047-4682-b54b-795cb5d35163",
       "group": "org.apache.xmlgraphics",
       "name": "batik-constants",
@@ -1902,43 +1953,43 @@
     },
     {
       "type": "library",
-      "bom-ref": "51a1f19b-b097-4151-9b37-ba312c33ebdf",
+      "bom-ref": "608ef771-d54a-40a9-a6d1-b753f611ec4c",
       "group": "org.apache.xmlgraphics",
-      "name": "batik-constants",
+      "name": "batik-css",
       "version": "1.17",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "25af6878d4a0c41eac9e95b7859dcdf5"
+          "content": "b1b046ef30c8b779093a5f53ccea593e"
         },
         {
           "alg": "SHA-1",
-          "content": "22bf8b4c207dc46859db0269853186d8dfc8cb9a"
+          "content": "d5ff4e0463af8a0ea5ab8d782c5418bab2f45c4d"
         },
         {
           "alg": "SHA-256",
-          "content": "75db00180bde4ef5caee3916d6f65e5045051d59cf51d57e673c03969d7bbbcd"
+          "content": "dcf9a902bd0c4b1a84ac0561d7b66052bc93381c4923a5bc5602290c1c82b779"
         },
         {
           "alg": "SHA-384",
-          "content": "aa6cd06a07a73bc335465d9875a04d2f103cdffd8db8f7c1cce2c24faa0469c1ab2179509254a93ffe919d81d3982d50"
+          "content": "84c12329baed416325cc678f930891803c40910ab4d0aecf179c76fd8a6a4fccb28d829e4fd77ae7d7ad8d81dbc58d27"
         },
         {
           "alg": "SHA-512",
-          "content": "4e3f5684f5439d2d3c64c8578b89270257c5ce8b0445129e734203f8b2f95f03642cc16e2e95b997e839912909b20ba8a1893f2ef5eca0958c2a3eb9484ee9c2"
+          "content": "6c61d831dba764491641ef7533010838b8f74afffa2b5f80b99101cf03c740d6156166df8aa9a669f5ee78d0957616f347d35474665fd5eafe93ce6765fcd112"
         },
         {
           "alg": "SHA3-256",
-          "content": "fc88ee30d54be59d4285b003142b8341f6af0400e34776a1686ecba1209e5085"
+          "content": "2095d84c77bcf402059b395fea14182f0f9129bb8d87e67ee7661d68b038cc95"
         },
         {
           "alg": "SHA3-512",
-          "content": "bc0a50f23efb2467cc4448031c1ddcb1557785d0eaa25b2ac255c931d29d1b7429999b1e2150c3e4e558cb36d3624cecfed368a5439202a5cb2ef5e2ba523617"
+          "content": "4268eef2a0273ced00d154228101674fa2ce096173470aceedb3d26871873a7c31ac6674b553d0820928b13a934b11d9bdc667a05770e5a3a6fd33ebd66a70ff"
         },
         {
           "alg": "SHA3-384",
-          "content": "c940c7d2c04387d4208576a492cf6a519d019bc982cb5097ed3b2050fb3d75cf557684ee56dc8a703c57d914d6595340"
+          "content": "d065249893bdafa05ca2ba1e7c95a93ae52f95bed47ff0a8ebcda6be2ed2a71fea4c7c312792c3b74aa080f67f315c56"
         }
       ],
       "licenses": [
@@ -1949,7 +2000,7 @@
           }
         }
       ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-constants@1.17"
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-css@1.17"
     },
     {
       "type": "library",
@@ -2018,108 +2069,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "608ef771-d54a-40a9-a6d1-b753f611ec4c",
-      "group": "org.apache.xmlgraphics",
-      "name": "batik-css",
-      "version": "1.17",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "b1b046ef30c8b779093a5f53ccea593e"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "d5ff4e0463af8a0ea5ab8d782c5418bab2f45c4d"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "dcf9a902bd0c4b1a84ac0561d7b66052bc93381c4923a5bc5602290c1c82b779"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "84c12329baed416325cc678f930891803c40910ab4d0aecf179c76fd8a6a4fccb28d829e4fd77ae7d7ad8d81dbc58d27"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "6c61d831dba764491641ef7533010838b8f74afffa2b5f80b99101cf03c740d6156166df8aa9a669f5ee78d0957616f347d35474665fd5eafe93ce6765fcd112"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "2095d84c77bcf402059b395fea14182f0f9129bb8d87e67ee7661d68b038cc95"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "4268eef2a0273ced00d154228101674fa2ce096173470aceedb3d26871873a7c31ac6674b553d0820928b13a934b11d9bdc667a05770e5a3a6fd33ebd66a70ff"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d065249893bdafa05ca2ba1e7c95a93ae52f95bed47ff0a8ebcda6be2ed2a71fea4c7c312792c3b74aa080f67f315c56"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-css@1.17"
-    },
-    {
-      "type": "library",
-      "bom-ref": "e9517b34-7af1-412e-96b2-6954291edc5f",
-      "group": "org.apache.xmlgraphics",
-      "name": "batik-dom",
-      "version": "1.17",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "fbd60443aa1ab34d49c6aecefba03479"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "efcb39f1007187565c264a5f1d12ebcf67efb761"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "f242ddb05b268b15ff055d1d1aaf2dc9c3418e842ba806731408a984d4e3240c"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "e097a48ab18de23fd930f35a7a5f20c50188f40c564974ccc68ac51d2226608f4cad6c6104abb4fd487172bafddc0f83"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "05aa51f15ca4ddc20dec98c4c7df7308ec9ced6dc4deefb266ddc50d600acdd2a1601785016b411f34ad3ff628c2d502c0ad2954d1fe9986f6c6d9015f1df5e7"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "484a76ccb7d2f9f3359f1f389b50c80eaf1e3887548da24445ffc456fc93f49b"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "57afdc60633494786a869253c814f5611eba4b9ade86e60915844dfb2512bf3f96936299e8c0abbade455912e510fed65b7582b79e93b9a57cddd116d28d18cf"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "a1352b84471ad9d401a78977e147da0d016403dae51cf17ad0d3a210744341169a56910f4f2e309d74e4510ca9277903"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-dom@1.17"
-    },
-    {
-      "type": "library",
       "bom-ref": "dbec83af-8449-4080-b6ce-ece33a5206ec",
       "group": "org.apache.xmlgraphics",
       "name": "batik-dom",
@@ -2182,6 +2131,57 @@
           "url": "scm:svn:https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk/batik-dom/"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "e9517b34-7af1-412e-96b2-6954291edc5f",
+      "group": "org.apache.xmlgraphics",
+      "name": "batik-dom",
+      "version": "1.17",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fbd60443aa1ab34d49c6aecefba03479"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "efcb39f1007187565c264a5f1d12ebcf67efb761"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f242ddb05b268b15ff055d1d1aaf2dc9c3418e842ba806731408a984d4e3240c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e097a48ab18de23fd930f35a7a5f20c50188f40c564974ccc68ac51d2226608f4cad6c6104abb4fd487172bafddc0f83"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "05aa51f15ca4ddc20dec98c4c7df7308ec9ced6dc4deefb266ddc50d600acdd2a1601785016b411f34ad3ff628c2d502c0ad2954d1fe9986f6c6d9015f1df5e7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "484a76ccb7d2f9f3359f1f389b50c80eaf1e3887548da24445ffc456fc93f49b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "57afdc60633494786a869253c814f5611eba4b9ade86e60915844dfb2512bf3f96936299e8c0abbade455912e510fed65b7582b79e93b9a57cddd116d28d18cf"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a1352b84471ad9d401a78977e147da0d016403dae51cf17ad0d3a210744341169a56910f4f2e309d74e4510ca9277903"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-dom@1.17"
     },
     {
       "type": "library",
@@ -2417,6 +2417,57 @@
     },
     {
       "type": "library",
+      "bom-ref": "9673ef7a-6552-4dc7-bb34-550aed39c5f9",
+      "group": "org.apache.xmlgraphics",
+      "name": "batik-i18n",
+      "version": "1.17",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "10ba9936f23cfab12698ae80618660a9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "39b233a71430ffa9d0282d47789a58fa8bf4f861"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d5a64680363e7b36b3f28c34a3a536d76e847f77cec0740aab7c799a67b52d8b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "53d9a624355b1eb6b6121e2b8c098565b2182bc7cada9e93b4c71da544f619e93a7462f1adc12c05b6ffe6e7cf23e289"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "014461687f1de3b3cd3e2051317f9b84a880a60ebfd67c7237c0c8f3148c90ff85b2e55197ada43cad3e10c59e58b636ced2721e4cd9cb136bff8ae009baec8e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0543ea821d91468cb4e5a7c4ebb4792f16da223f3048b3416d2fe802525b9565"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "27e59144a94f1091887c7475f7ba0aeeed6043487892a7feae0c9625d2bcdfe4921ed627b896547ee8ea7e58ff0422e713c91cce83957fb77b1fd6c09c861f91"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b903888c749e3f92875999d433af6d7130dfd637d782bce8d7061b07ce7dfd1ad0313942264d15cd8f24c56de9c31449"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-i18n@1.17"
+    },
+    {
+      "type": "library",
       "bom-ref": "678c4662-d633-47f7-84e2-0c9d264cb233",
       "group": "org.apache.xmlgraphics",
       "name": "batik-i18n",
@@ -2479,57 +2530,6 @@
           "url": "scm:svn:https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk/batik-i18n/"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "9673ef7a-6552-4dc7-bb34-550aed39c5f9",
-      "group": "org.apache.xmlgraphics",
-      "name": "batik-i18n",
-      "version": "1.17",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "10ba9936f23cfab12698ae80618660a9"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "39b233a71430ffa9d0282d47789a58fa8bf4f861"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "d5a64680363e7b36b3f28c34a3a536d76e847f77cec0740aab7c799a67b52d8b"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "53d9a624355b1eb6b6121e2b8c098565b2182bc7cada9e93b4c71da544f619e93a7462f1adc12c05b6ffe6e7cf23e289"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "014461687f1de3b3cd3e2051317f9b84a880a60ebfd67c7237c0c8f3148c90ff85b2e55197ada43cad3e10c59e58b636ced2721e4cd9cb136bff8ae009baec8e"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "0543ea821d91468cb4e5a7c4ebb4792f16da223f3048b3416d2fe802525b9565"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "27e59144a94f1091887c7475f7ba0aeeed6043487892a7feae0c9625d2bcdfe4921ed627b896547ee8ea7e58ff0422e713c91cce83957fb77b1fd6c09c861f91"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "b903888c749e3f92875999d433af6d7130dfd637d782bce8d7061b07ce7dfd1ad0313942264d15cd8f24c56de9c31449"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-i18n@1.17"
     },
     {
       "type": "library",
@@ -2649,6 +2649,57 @@
     },
     {
       "type": "library",
+      "bom-ref": "7649c514-0a86-4f99-8510-3bdd0032dfcd",
+      "group": "org.apache.xmlgraphics",
+      "name": "batik-script",
+      "version": "1.17",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8eda4f615442add85df22ca19f4eec8b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "958bad8baa3a77a73152281418256b608801232d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2ccbb4bd6d5a630fb7d26f0dd3118d4742f7bae0e972ee672130e803f672950c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "15667f4d7eec7b40b96b599039693b00b839c2f15f54722c31e9108a8a8515ea78bbc1205472a8a019e3db8b7a50f8ab"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "79d72fd49047c3c068d2de4bcd58753e87b3ea529963b86375f4e3b53e3bd12aeeb276356eb4ccffaac4e5161aecfc4e83be933be86921606d132e807fcc29ec"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "77d4dd3e0b93a057c26d78ee62f5d57b4f09371c00c077584bbca76c74a07453"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9c234652441fe65d6f39d31a2a2b8eaa3a5d33d558f8b5233f1bde2089d12abab3be79a3cfbf39f44aa8ccb217b8929096e753f0edea1dba560e13636001aee5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "24813ad5ea938390a1b2f8d790647401688bf266b023db5449776f33f276c01d87778f5b72eb48f20863cf8a87131119"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-script@1.17"
+    },
+    {
+      "type": "library",
       "bom-ref": "7f663559-e665-44a0-91c9-1eac34ebdcd9",
       "group": "org.apache.xmlgraphics",
       "name": "batik-script",
@@ -2714,108 +2765,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "7649c514-0a86-4f99-8510-3bdd0032dfcd",
-      "group": "org.apache.xmlgraphics",
-      "name": "batik-script",
-      "version": "1.17",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "8eda4f615442add85df22ca19f4eec8b"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "958bad8baa3a77a73152281418256b608801232d"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "2ccbb4bd6d5a630fb7d26f0dd3118d4742f7bae0e972ee672130e803f672950c"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "15667f4d7eec7b40b96b599039693b00b839c2f15f54722c31e9108a8a8515ea78bbc1205472a8a019e3db8b7a50f8ab"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "79d72fd49047c3c068d2de4bcd58753e87b3ea529963b86375f4e3b53e3bd12aeeb276356eb4ccffaac4e5161aecfc4e83be933be86921606d132e807fcc29ec"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "77d4dd3e0b93a057c26d78ee62f5d57b4f09371c00c077584bbca76c74a07453"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "9c234652441fe65d6f39d31a2a2b8eaa3a5d33d558f8b5233f1bde2089d12abab3be79a3cfbf39f44aa8ccb217b8929096e753f0edea1dba560e13636001aee5"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "24813ad5ea938390a1b2f8d790647401688bf266b023db5449776f33f276c01d87778f5b72eb48f20863cf8a87131119"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-script@1.17"
-    },
-    {
-      "type": "library",
-      "bom-ref": "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
-      "group": "org.apache.xmlgraphics",
-      "name": "batik-shared-resources",
-      "version": "1.17",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "59f84de4324c9e33fa823d99c99622e9"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2862b81d9dc63990cb5586323b4a2410fc1f2249"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "5d74182b9ca19ecd8d4814f2ff4b42a4aeea6e18977e905cc84e8a6f81940c9f"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "78610c728b0225ec5958e5b4c46d8f15bb2c0fe030c8f851db32d6406b88244856e020fee7cac432762f138e00b5a3f8"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "ab12db3ab9c99a6756d61d614aa19c4647439135b1e5a49409e2ca2f47500117e43436e388176b1377fd90e2939b49bb70c59a4c3b7c2d81a403feb20be798cd"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "25ce2fd0032b04419583bad01eeb3aae9f0109af62dd29a5d60a16ce1451288b"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "86214d5288e13f2389fa475d9de41f10660ba5ebece2c9bbf58467a006674849db0c1511af68597e6bd021d7401600d7f75cd8475dd80d3af2e410240cfea7b0"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "8cbbb5a4886ee43e1e948ce3ce790fe5ad8b3264d996fbcc9991ba77fd5c7ce625cbca2630acd625bbb398165e4b1632"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-shared-resources@1.17"
-    },
-    {
-      "type": "library",
       "bom-ref": "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
       "group": "org.apache.xmlgraphics",
       "name": "batik-shared-resources",
@@ -2878,6 +2827,57 @@
           "url": "scm:svn:https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk/batik-shared-resources/"
         }
       ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
+      "group": "org.apache.xmlgraphics",
+      "name": "batik-shared-resources",
+      "version": "1.17",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "59f84de4324c9e33fa823d99c99622e9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2862b81d9dc63990cb5586323b4a2410fc1f2249"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5d74182b9ca19ecd8d4814f2ff4b42a4aeea6e18977e905cc84e8a6f81940c9f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "78610c728b0225ec5958e5b4c46d8f15bb2c0fe030c8f851db32d6406b88244856e020fee7cac432762f138e00b5a3f8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ab12db3ab9c99a6756d61d614aa19c4647439135b1e5a49409e2ca2f47500117e43436e388176b1377fd90e2939b49bb70c59a4c3b7c2d81a403feb20be798cd"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "25ce2fd0032b04419583bad01eeb3aae9f0109af62dd29a5d60a16ce1451288b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "86214d5288e13f2389fa475d9de41f10660ba5ebece2c9bbf58467a006674849db0c1511af68597e6bd021d7401600d7f75cd8475dd80d3af2e410240cfea7b0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "8cbbb5a4886ee43e1e948ce3ce790fe5ad8b3264d996fbcc9991ba77fd5c7ce625cbca2630acd625bbb398165e4b1632"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-shared-resources@1.17"
     },
     {
       "type": "library",
@@ -2997,6 +2997,57 @@
     },
     {
       "type": "library",
+      "bom-ref": "6dc33ad0-a8bb-4d60-b89b-314f8e8d49b9",
+      "group": "org.apache.xmlgraphics",
+      "name": "batik-svggen",
+      "version": "1.17",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d046a35fe073d3fbf26ef8422d49941b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2ecd4a5ab064e89172fbdd025c422e04a57a1024"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "108f725ffe135dca566d925f3ace26a5f80399f288ca190561805dec28005d63"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "60f1973c04e59003580ef772831840d15c8c8379d9911685d88467510aec7e1cd3ef01d9b7e32c4f52b2db7e96b183e3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "84460b0cb433dcd673c0373a0d19e09bdbce9320d393a3f65e4d2b50f933579a70c8d08a959347c53e36ce7516d18ae79ab3fcde019f2d840d3b0155ddcdc585"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0e007b13d9b5448587b02cadc33a0fafed852669f8f436f840df4f551cf124a7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bc4fa94ea80f79e2d550697471d90e3788da622b8c2e7f28a16c8485b44741cd4d81be8822a54ffca0535810748c96b77fcbb69be64c83d8656f16427207aba7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4fd6ba13aef4368a4f057cf01f34d6acaa948d01eb7832607a4b633b87a884df6b4d216023e4999de341392eb7423c7f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlgraphics/batik-svggen@1.17"
+    },
+    {
+      "type": "library",
       "bom-ref": "7f72ea8f-9d7a-4654-a2bd-c713c75e053e",
       "group": "org.apache.xmlgraphics",
       "name": "batik-svggen",
@@ -3059,57 +3110,6 @@
           "url": "scm:svn:https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk/batik-svggen/"
         }
       ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "6dc33ad0-a8bb-4d60-b89b-314f8e8d49b9",
-      "group": "org.apache.xmlgraphics",
-      "name": "batik-svggen",
-      "version": "1.17",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "d046a35fe073d3fbf26ef8422d49941b"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "2ecd4a5ab064e89172fbdd025c422e04a57a1024"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "108f725ffe135dca566d925f3ace26a5f80399f288ca190561805dec28005d63"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "60f1973c04e59003580ef772831840d15c8c8379d9911685d88467510aec7e1cd3ef01d9b7e32c4f52b2db7e96b183e3"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "84460b0cb433dcd673c0373a0d19e09bdbce9320d393a3f65e4d2b50f933579a70c8d08a959347c53e36ce7516d18ae79ab3fcde019f2d840d3b0155ddcdc585"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "0e007b13d9b5448587b02cadc33a0fafed852669f8f436f840df4f551cf124a7"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "bc4fa94ea80f79e2d550697471d90e3788da622b8c2e7f28a16c8485b44741cd4d81be8822a54ffca0535810748c96b77fcbb69be64c83d8656f16427207aba7"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "4fd6ba13aef4368a4f057cf01f34d6acaa948d01eb7832607a4b633b87a884df6b4d216023e4999de341392eb7423c7f"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.xmlgraphics/batik-svggen@1.17"
     },
     {
       "type": "library",
@@ -33579,63 +33579,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "bc4dc9da-1761-4569-a312-8943b7b9368b",
-      "group": "org.glassfish.jaxb",
-      "name": "txw2",
-      "version": "4.0.6",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "0bf7070aee3bb53640d2ea6441e059fb"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "4f4cd53b5ff9a2c5aa1211f15ed2569c57dfb044"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "fcc749785412ef3806fde1ce70f93ef5a0065dcc47fe449bc871db0795cb11af"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "a28256c538462ea28a37dc01b60cf6d4dcba6d54146bdc762fbf4a0426bbbd3555c20d3164508dc8860ad7e652f80cc1"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "47eb0e4b199bb12804da94cf8a81a1e652e8ca31af68b65d52f1a0cda6e1c9b41276e4bc1e4ea510f83ecccff9978ff8bd05a56c5b16a4181d8e0673d608b2c4"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "de4b8f8a5fe13b14d7ac56a8e1ae705f2160a6e873a997b72827ba5f124f7907"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "ea807533e719e593d7c3e12bc5eba7c84cebf01c398c1ff92122578a04849cc64b7ce300142261475e8d8a35cfaeb53faddd68b905c0309a21d5f27479b98ed3"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d220fc81c28a004c31e4469e27cb0d5d9b0e358bcbd3c0989e4b0065e7c081464c7091b8553c98cc060934305d468aa5"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause",
-            "url": "http://www.eclipse.org/org/documents/edl-v10.php"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.glassfish.jaxb/txw2@4.0.6",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://eclipse-ee4j.github.io/jaxb-ri/"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "1736922b-f59a-4e7e-8ec1-c1cd21eef3cf",
       "group": "org.glassfish.jaxb",
       "name": "txw2",
@@ -33700,6 +33643,63 @@
         {
           "type": "vcs",
           "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-txw-parent/txw2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "bc4dc9da-1761-4569-a312-8943b7b9368b",
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "4.0.6",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0bf7070aee3bb53640d2ea6441e059fb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4f4cd53b5ff9a2c5aa1211f15ed2569c57dfb044"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fcc749785412ef3806fde1ce70f93ef5a0065dcc47fe449bc871db0795cb11af"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a28256c538462ea28a37dc01b60cf6d4dcba6d54146bdc762fbf4a0426bbbd3555c20d3164508dc8860ad7e652f80cc1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "47eb0e4b199bb12804da94cf8a81a1e652e8ca31af68b65d52f1a0cda6e1c9b41276e4bc1e4ea510f83ecccff9978ff8bd05a56c5b16a4181d8e0673d608b2c4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "de4b8f8a5fe13b14d7ac56a8e1ae705f2160a6e873a997b72827ba5f124f7907"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ea807533e719e593d7c3e12bc5eba7c84cebf01c398c1ff92122578a04849cc64b7ce300142261475e8d8a35cfaeb53faddd68b905c0309a21d5f27479b98ed3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d220fc81c28a004c31e4469e27cb0d5d9b0e358bcbd3c0989e4b0065e7c081464c7091b8553c98cc060934305d468aa5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://www.eclipse.org/org/documents/edl-v10.php"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/txw2@4.0.6",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://eclipse-ee4j.github.io/jaxb-ri/"
         }
       ]
     },
@@ -36118,19 +36118,19 @@
       ]
     },
     {
-      "ref": "a6e27714-c8b6-45c9-95e0-ad5d88076c83",
-      "dependsOn": [
-        "97310974-aa1e-4fd4-9f29-0a4debd4502d",
-        "34e13a4f-7bbe-44bd-b58e-665687de532c",
-        "4638e9cb-51f8-4a0a-a450-47fa73a62c34"
-      ]
-    },
-    {
       "ref": "9f82a1a7-cb09-4efb-b374-be5949390ff3",
       "dependsOn": [
         "b07ea60b-1683-405e-ad51-3c403716846a",
         "938aaada-c8cc-4748-9349-5cb02ee77253",
         "0e0802a9-1778-45ce-91f3-05f24951f521"
+      ]
+    },
+    {
+      "ref": "a6e27714-c8b6-45c9-95e0-ad5d88076c83",
+      "dependsOn": [
+        "97310974-aa1e-4fd4-9f29-0a4debd4502d",
+        "34e13a4f-7bbe-44bd-b58e-665687de532c",
+        "4638e9cb-51f8-4a0a-a450-47fa73a62c34"
       ]
     },
     {
@@ -36153,11 +36153,11 @@
       "dependsOn": []
     },
     {
-      "ref": "008e3089-6bff-4fe0-bfaf-df468471e8ca",
+      "ref": "1a03d966-609c-436e-8cf8-c2ac2964616a",
       "dependsOn": []
     },
     {
-      "ref": "1a03d966-609c-436e-8cf8-c2ac2964616a",
+      "ref": "008e3089-6bff-4fe0-bfaf-df468471e8ca",
       "dependsOn": []
     },
     {
@@ -36198,20 +36198,6 @@
       "dependsOn": []
     },
     {
-      "ref": "3dd9e01b-3cb3-4b84-b475-080d323f2d56",
-      "dependsOn": [
-        "1adb3e76-9b37-4aaa-8316-40ae7b609564",
-        "f4d10dd8-1457-4aed-9c30-70ee29ee2160",
-        "dbec83af-8449-4080-b6ce-ece33a5206ec",
-        "95b15371-3172-4efe-9c75-1b8881515293",
-        "3da028aa-6aa2-4390-86b3-9e703b189aa9",
-        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
-        "84fb862f-dba3-409e-b241-e38f41e583a7",
-        "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f",
-        "a0972dc1-c66b-461e-ba26-1fad7d29138f"
-      ]
-    },
-    {
       "ref": "6ee0f918-2978-44f3-a5db-32eb13604b6d",
       "dependsOn": [
         "47880080-8281-4d22-8af3-3263c7724b0c",
@@ -36226,11 +36212,17 @@
       ]
     },
     {
-      "ref": "47880080-8281-4d22-8af3-3263c7724b0c",
+      "ref": "3dd9e01b-3cb3-4b84-b475-080d323f2d56",
       "dependsOn": [
-        "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
-        "b077cb36-fc01-4b10-afaf-5d1c55c1d8ea",
-        "9d5b1e11-8c4c-4e98-94aa-1cb57142c075"
+        "1adb3e76-9b37-4aaa-8316-40ae7b609564",
+        "f4d10dd8-1457-4aed-9c30-70ee29ee2160",
+        "dbec83af-8449-4080-b6ce-ece33a5206ec",
+        "95b15371-3172-4efe-9c75-1b8881515293",
+        "3da028aa-6aa2-4390-86b3-9e703b189aa9",
+        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
+        "84fb862f-dba3-409e-b241-e38f41e583a7",
+        "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f",
+        "a0972dc1-c66b-461e-ba26-1fad7d29138f"
       ]
     },
     {
@@ -36239,6 +36231,14 @@
         "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
         "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f",
         "84a95534-d4b9-48ef-8d26-ac145e093ab7"
+      ]
+    },
+    {
+      "ref": "47880080-8281-4d22-8af3-3263c7724b0c",
+      "dependsOn": [
+        "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
+        "b077cb36-fc01-4b10-afaf-5d1c55c1d8ea",
+        "9d5b1e11-8c4c-4e98-94aa-1cb57142c075"
       ]
     },
     {
@@ -36298,24 +36298,15 @@
       ]
     },
     {
-      "ref": "a6c51c82-1047-4682-b54b-795cb5d35163",
-      "dependsOn": [
-        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349"
-      ]
-    },
-    {
       "ref": "51a1f19b-b097-4151-9b37-ba312c33ebdf",
       "dependsOn": [
         "06ae5bf0-0b7b-4591-90fd-4bb336c9570b"
       ]
     },
     {
-      "ref": "f4d10dd8-1457-4aed-9c30-70ee29ee2160",
+      "ref": "a6c51c82-1047-4682-b54b-795cb5d35163",
       "dependsOn": [
-        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
-        "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f",
-        "84a95534-d4b9-48ef-8d26-ac145e093ab7",
-        "a0972dc1-c66b-461e-ba26-1fad7d29138f"
+        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349"
       ]
     },
     {
@@ -36328,15 +36319,12 @@
       ]
     },
     {
-      "ref": "e9517b34-7af1-412e-96b2-6954291edc5f",
+      "ref": "f4d10dd8-1457-4aed-9c30-70ee29ee2160",
       "dependsOn": [
-        "608ef771-d54a-40a9-a6d1-b753f611ec4c",
-        "8633fa38-583a-48d8-a01c-5b00f6e6ea47",
-        "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
-        "b077cb36-fc01-4b10-afaf-5d1c55c1d8ea",
-        "5dbf68ce-ce25-4cd6-be55-225951a0ebe7",
-        "83b2ceaa-72ca-4b72-8325-b40ca1ff547c",
-        "05c43376-4f58-42f4-ab78-f948d48bf685"
+        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
+        "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f",
+        "84a95534-d4b9-48ef-8d26-ac145e093ab7",
+        "a0972dc1-c66b-461e-ba26-1fad7d29138f"
       ]
     },
     {
@@ -36349,6 +36337,18 @@
         "33b950be-3317-4e38-8159-bd7a889e8ed1",
         "a0972dc1-c66b-461e-ba26-1fad7d29138f",
         "de1cdc99-0430-4f08-aa1b-2bd8c1b05b40"
+      ]
+    },
+    {
+      "ref": "e9517b34-7af1-412e-96b2-6954291edc5f",
+      "dependsOn": [
+        "608ef771-d54a-40a9-a6d1-b753f611ec4c",
+        "8633fa38-583a-48d8-a01c-5b00f6e6ea47",
+        "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
+        "b077cb36-fc01-4b10-afaf-5d1c55c1d8ea",
+        "5dbf68ce-ce25-4cd6-be55-225951a0ebe7",
+        "83b2ceaa-72ca-4b72-8325-b40ca1ff547c",
+        "05c43376-4f58-42f4-ab78-f948d48bf685"
       ]
     },
     {
@@ -36380,15 +36380,15 @@
       ]
     },
     {
-      "ref": "678c4662-d633-47f7-84e2-0c9d264cb233",
-      "dependsOn": [
-        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349"
-      ]
-    },
-    {
       "ref": "9673ef7a-6552-4dc7-bb34-550aed39c5f9",
       "dependsOn": [
         "06ae5bf0-0b7b-4591-90fd-4bb336c9570b"
+      ]
+    },
+    {
+      "ref": "678c4662-d633-47f7-84e2-0c9d264cb233",
+      "dependsOn": [
+        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349"
       ]
     },
     {
@@ -36412,14 +36412,6 @@
       ]
     },
     {
-      "ref": "7f663559-e665-44a0-91c9-1eac34ebdcd9",
-      "dependsOn": [
-        "3dd9e01b-3cb3-4b84-b475-080d323f2d56",
-        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
-        "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f"
-      ]
-    },
-    {
       "ref": "7649c514-0a86-4f99-8510-3bdd0032dfcd",
       "dependsOn": [
         "6ee0f918-2978-44f3-a5db-32eb13604b6d",
@@ -36428,11 +36420,19 @@
       ]
     },
     {
-      "ref": "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
-      "dependsOn": []
+      "ref": "7f663559-e665-44a0-91c9-1eac34ebdcd9",
+      "dependsOn": [
+        "3dd9e01b-3cb3-4b84-b475-080d323f2d56",
+        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
+        "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f"
+      ]
     },
     {
       "ref": "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
+      "dependsOn": []
+    },
+    {
+      "ref": "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
       "dependsOn": []
     },
     {
@@ -36462,19 +36462,19 @@
       ]
     },
     {
-      "ref": "7f72ea8f-9d7a-4654-a2bd-c713c75e053e",
-      "dependsOn": [
-        "1adb3e76-9b37-4aaa-8316-40ae7b609564",
-        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
-        "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f"
-      ]
-    },
-    {
       "ref": "6dc33ad0-a8bb-4d60-b89b-314f8e8d49b9",
       "dependsOn": [
         "47880080-8281-4d22-8af3-3263c7724b0c",
         "06ae5bf0-0b7b-4591-90fd-4bb336c9570b",
         "b077cb36-fc01-4b10-afaf-5d1c55c1d8ea"
+      ]
+    },
+    {
+      "ref": "7f72ea8f-9d7a-4654-a2bd-c713c75e053e",
+      "dependsOn": [
+        "1adb3e76-9b37-4aaa-8316-40ae7b609564",
+        "13d2bbb3-1db6-4ab4-9d47-7f10a7c21349",
+        "e7874aaa-5fda-4723-9dc0-c18a9ef81c1f"
       ]
     },
     {
@@ -40376,11 +40376,11 @@
       ]
     },
     {
-      "ref": "bc4dc9da-1761-4569-a312-8943b7b9368b",
+      "ref": "1736922b-f59a-4e7e-8ec1-c1cd21eef3cf",
       "dependsOn": []
     },
     {
-      "ref": "1736922b-f59a-4e7e-8ec1-c1cd21eef3cf",
+      "ref": "bc4dc9da-1761-4569-a312-8943b7b9368b",
       "dependsOn": []
     },
     {

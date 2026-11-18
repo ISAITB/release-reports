@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:d7f3c531-4e2c-488c-b126-d5d5636a0b01",
+  "serialNumber": "urn:uuid:86987c02-763b-450e-8fcd-bdae5732343c",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-13T12:37:25Z",
+    "timestamp": "2026-11-18T08:40:47Z",
     "tools": {
       "components": [
         {
@@ -2025,6 +2025,54 @@
     },
     {
       "type": "library",
+      "bom-ref": "29149517-0149-4943-ba65-d9fff636d8db",
+      "author": "Jon Schlinkert",
+      "name": "picomatch",
+      "version": "4.0.4",
+      "description": "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/picomatch@4.0.4",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz",
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/micromatch/picomatch/issues",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/micromatch/picomatch.git",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/micromatch/picomatch",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:constraint:engine:node",
+          "value": ">=12"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/picomatch"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "78afd50c-b941-49ae-8bed-0e2f79db1f27",
       "author": "angular",
       "group": "@angular",
@@ -2837,6 +2885,10 @@
     },
     {
       "ref": "758f5f1a-3110-4b97-9817-8d127b06a505",
+      "dependsOn": []
+    },
+    {
+      "ref": "29149517-0149-4943-ba65-d9fff636d8db",
       "dependsOn": []
     },
     {
@@ -9814,6 +9866,50 @@
       "affects": [
         {
           "ref": "7acb5615-61cd-4a91-a7ab-dff657ad5ff4"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-fc5q-39xc-vjpf",
+      "source": {
+        "name": "GITHUB",
+        "url": "https://github.com/advisories"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "GITHUB",
+            "url": "https://github.com/advisories"
+          },
+          "score": 8.7,
+          "severity": "high",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "cwes": [
+        1333
+      ],
+      "description": "Picomatch through 4.0.7 contains a regular expression denial of service vulnerability that allows attackers to block the event loop by supplying single-branch repeated extglob patterns. Attackers can provide globs like +(*) or +(*a), which analyzeRepeatedExtglob in lib/parse.js skips, causing exponential backtracking against short crafted strings and denying service to Node.js applications.",
+      "published": "2026-10-19T18:32:12Z",
+      "updated": "2026-11-17T15:56:44Z",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "Not exploitable. This relates to a transitive dependency that is not exploitable in this context."
+      },
+      "affects": [
+        {
+          "ref": "29149517-0149-4943-ba65-d9fff636d8db"
         }
       ]
     }

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:6994544d-1b98-4916-9234-c83b78ab594d",
+  "serialNumber": "urn:uuid:0edf1d51-d3bb-4e78-bb97-fe58f62cc9b5",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-28T10:16:52Z",
+    "timestamp": "2026-11-18T16:37:25Z",
     "tools": {
       "components": [
         {
@@ -13,7 +13,7 @@
             "name": "OWASP"
           },
           "name": "Dependency-Track",
-          "version": "5.2.0"
+          "version": "5.2.1"
         }
       ]
     },
@@ -33,6 +33,29 @@
     }
   },
   "components": [
+    {
+      "type": "application",
+      "bom-ref": "ace38210-cf43-4ff7-8b81-db66c4487ec2",
+      "group": "eu.europa.ec.itb.csv",
+      "name": "csvvalidator-war",
+      "version": "1.13.1",
+      "description": "Web and command-line application for the validation of CSV data.",
+      "licenses": [
+        {
+          "license": {
+            "name": "European Union Public Licence (EUPL) Version 1.2",
+            "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+          }
+        }
+      ],
+      "purl": "pkg:maven/eu.europa.ec.itb.csv/csvvalidator-war@1.13.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/csv-validator/issues"
+        }
+      ]
+    },
     {
       "type": "library",
       "bom-ref": "d55ad780-24bb-4d3a-8043-f3ca1dd4db15",
@@ -106,6 +129,12 @@
   "dependencies": [
     {
       "ref": "1a2785c4-48f0-465d-95ac-cd1dd58eb48c",
+      "dependsOn": [
+        "ace38210-cf43-4ff7-8b81-db66c4487ec2"
+      ]
+    },
+    {
+      "ref": "ace38210-cf43-4ff7-8b81-db66c4487ec2",
       "dependsOn": []
     },
     {
@@ -231,6 +260,40 @@
       "affects": [
         {
           "ref": "d55ad780-24bb-4d3a-8043-f3ca1dd4db15"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-114938",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        122
+      ],
+      "description": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+      "published": "2026-11-17T22:18:23Z",
+      "updated": "2026-11-17T22:18:23Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade to the latest patched release."
+      },
+      "affects": [
+        {
+          "ref": "ace38210-cf43-4ff7-8b81-db66c4487ec2"
         }
       ]
     }

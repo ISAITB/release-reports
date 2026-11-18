@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:0f3b4dd6-c5a6-48f0-90c8-8945626395c2",
+  "serialNumber": "urn:uuid:a838594b-63a2-4259-94fe-b69ac140eece",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-13T15:03:51Z",
+    "timestamp": "2026-11-18T16:37:27Z",
     "tools": {
       "components": [
         {
@@ -5243,67 +5243,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "8d4e317f-d318-4c49-b50e-add0c73a7955",
-      "group": "com.google.errorprone",
-      "name": "error_prone_annotations",
-      "version": "2.3.4",
-      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "67beeee58df00366100061c7da82f4c2"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f034bbbaad111dc7935696875e09d103ae0e4d2e6ae1dab7f69cc93c6d1ebf48d73e7f42c5f7c0610fb43cf528c32049"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "d48080d877aa121a7e46323f0af3581c583c6375ad3b4632332a63290c0a4bd454f908caf777448ba83288968d532fcdb5400ea2a84bc0549f4fd4c38a9bfd7a"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "6ea64e731417e1230c440c44f52fffa9b90682249b835e97ca9980ac76ea0742"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "9196dde8dbffc6e111d1b17c57709e453dc999e1f8d601cef8d8c1c9618ab1008ff80f132d139b47c3110cbcd6c4e8e565045e55ac43e5653517b0cf0069e2f9"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "dd8e705636f0ce876bb7d05cb94ffd233599f1e65e618c20a048fa9d1962c494c7c6b61b50cf0504d9db4021043772b7"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/google/error-prone/error_prone_annotations"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "e08f9ed9-d754-4427-a7de-c04bc8098ab6",
       "group": "com.google.errorprone",
       "name": "error_prone_annotations",
@@ -5356,6 +5295,67 @@
         {
           "type": "website",
           "url": "https://errorprone.info/error_prone_annotations"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/google/error-prone/error_prone_annotations"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "8d4e317f-d318-4c49-b50e-add0c73a7955",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.3.4",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67beeee58df00366100061c7da82f4c2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f034bbbaad111dc7935696875e09d103ae0e4d2e6ae1dab7f69cc93c6d1ebf48d73e7f42c5f7c0610fb43cf528c32049"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d48080d877aa121a7e46323f0af3581c583c6375ad3b4632332a63290c0a4bd454f908caf777448ba83288968d532fcdb5400ea2a84bc0549f4fd4c38a9bfd7a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6ea64e731417e1230c440c44f52fffa9b90682249b835e97ca9980ac76ea0742"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9196dde8dbffc6e111d1b17c57709e453dc999e1f8d601cef8d8c1c9618ab1008ff80f132d139b47c3110cbcd6c4e8e565045e55ac43e5653517b0cf0069e2f9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "dd8e705636f0ce876bb7d05cb94ffd233599f1e65e618c20a048fa9d1962c494c7c6b61b50cf0504d9db4021043772b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
         },
         {
           "type": "vcs",
@@ -7414,75 +7414,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "2d09ba0f-9660-4235-b20f-9da9ab8d12b3",
-      "group": "org.glassfish.jaxb",
-      "name": "jaxb-core",
-      "version": "4.0.6",
-      "description": "JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e36c915cf47342b4fe31ffba3407b928"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "8e61282303777fc98a00cc3affd0560d68748a75"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "ebbd274207b4860d0dc6e2d44d6dbdb5945cede01222d2e50661d45f5d46c0f7"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "767a28dc25cc9a728576a9a3e6081e24c9018ee664c04782592e14546087e8cadacbc13cdf0b2eff88840b8be10958ca"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "f6ed3cc73361794a8e35fc04f09212aa21af9575f36f6440bf33a6d43708ded6142a9be51d9d08d6e5debc262d87c158f0e199ed041a78fb1e0086fd02868a28"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "5e456fe8925894b58ef10e9936ddd41cde7bd3476bfb5b0d76aba046ca1c9e5f"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "51d4c57f3e1cd5440d3714cb8fe147c74aa40773c5b2a8a804496d361037e6d8dfa86f02f19f4dbbbc327b2fdac30ec83fe82bf720a9db0f8516cb800a7ec62b"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "2033beeccf8d5ae1775ffffe41e09a662e03a67d70fdded7fdabaf5f7b14d51de1f17a9a9b65ea96d3178c9a4b0c574d"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://eclipse-ee4j.github.io/jaxb-ri/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/eclipse-ee4j/jaxb-ri/issues"
-        },
-        {
-          "type": "mailing-list",
-          "url": "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "62289ea9-0955-4e8c-a3dd-5cb43b1e6970",
       "group": "com.sun.xml.bind",
       "name": "jaxb-core",
@@ -7547,6 +7478,75 @@
         {
           "type": "vcs",
           "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "2d09ba0f-9660-4235-b20f-9da9ab8d12b3",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-core",
+      "version": "4.0.6",
+      "description": "JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e36c915cf47342b4fe31ffba3407b928"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8e61282303777fc98a00cc3affd0560d68748a75"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebbd274207b4860d0dc6e2d44d6dbdb5945cede01222d2e50661d45f5d46c0f7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "767a28dc25cc9a728576a9a3e6081e24c9018ee664c04782592e14546087e8cadacbc13cdf0b2eff88840b8be10958ca"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f6ed3cc73361794a8e35fc04f09212aa21af9575f36f6440bf33a6d43708ded6142a9be51d9d08d6e5debc262d87c158f0e199ed041a78fb1e0086fd02868a28"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5e456fe8925894b58ef10e9936ddd41cde7bd3476bfb5b0d76aba046ca1c9e5f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "51d4c57f3e1cd5440d3714cb8fe147c74aa40773c5b2a8a804496d361037e6d8dfa86f02f19f4dbbbc327b2fdac30ec83fe82bf720a9db0f8516cb800a7ec62b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2033beeccf8d5ae1775ffffe41e09a662e03a67d70fdded7fdabaf5f7b14d51de1f17a9a9b65ea96d3178c9a4b0c574d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core"
         }
       ]
     },
@@ -17535,11 +17535,11 @@
       "dependsOn": []
     },
     {
-      "ref": "8d4e317f-d318-4c49-b50e-add0c73a7955",
+      "ref": "e08f9ed9-d754-4427-a7de-c04bc8098ab6",
       "dependsOn": []
     },
     {
-      "ref": "e08f9ed9-d754-4427-a7de-c04bc8098ab6",
+      "ref": "8d4e317f-d318-4c49-b50e-add0c73a7955",
       "dependsOn": []
     },
     {
@@ -17722,6 +17722,13 @@
       "dependsOn": []
     },
     {
+      "ref": "62289ea9-0955-4e8c-a3dd-5cb43b1e6970",
+      "dependsOn": [
+        "0fbed469-2e9b-452f-8ff9-d89096d9c03b",
+        "775e5016-476a-404e-a2ed-c3907f0ecb87"
+      ]
+    },
+    {
       "ref": "2d09ba0f-9660-4235-b20f-9da9ab8d12b3",
       "dependsOn": [
         "c5a56e87-1d79-4700-8f03-337a7240582e",
@@ -17729,13 +17736,6 @@
         "0fbed469-2e9b-452f-8ff9-d89096d9c03b",
         "775e5016-476a-404e-a2ed-c3907f0ecb87",
         "40624243-d3c4-4caf-9fd6-c8e7300db825"
-      ]
-    },
-    {
-      "ref": "62289ea9-0955-4e8c-a3dd-5cb43b1e6970",
-      "dependsOn": [
-        "0fbed469-2e9b-452f-8ff9-d89096d9c03b",
-        "775e5016-476a-404e-a2ed-c3907f0ecb87"
       ]
     },
     {

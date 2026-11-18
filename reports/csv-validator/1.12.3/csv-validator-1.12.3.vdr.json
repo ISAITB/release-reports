@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:3149d11a-61c0-4e61-bc49-470d51dc9be4",
+  "serialNumber": "urn:uuid:4e2dc091-4cb9-45cd-83cc-2539d578766f",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-13T15:03:45Z",
+    "timestamp": "2026-11-18T16:37:19Z",
     "tools": {
       "components": [
         {
@@ -336,71 +336,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "107c8890-3afa-4ca7-9e3d-5d30687bff7a",
-      "group": "com.fasterxml.jackson.core",
-      "name": "jackson-core",
-      "version": "2.22.1",
-      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "09e866bcd73613665ef49f5086704fb1"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "da7ffb60088d7e8f37ecdd3b617520971cc7b9bf"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "941ff029bcdb93e83d209ce516c1a7fb8bbac07d0a2fa122f5bf194b2cd7b4f4"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "faaf92de6e93475fdbb7d56221fd35d8435ac4f87dddfd334ed05c4318b8b72220010effd08bf8dd156420771b294eb4"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "d4485af4465f561034df86686d672835b0272b6200efb0af55ea71e62d3faf09e9f90e42df4da64650795cf00519fc553f892bf6179330a3e74750110a785efb"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "48fc6e17c36e14b8bae387b92248a43da12293b68a61dd2517c708dbb24ed010"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "f72ef2d2a1012be8b1c972323527a396bbaea0b543bd79fac6d380f8e4855c6d98190b067ccec92ece9ed8e1ece1e6046b1d93f9c85944fcb7133fe0b4dc60e4"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "5c432f1a2f3369485c4ed7d3c3c4499342c23efd0d7a574b73421345df9762bd27643cc469b01632400691f3c09b5d8b"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/FasterXML/jackson-core"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-core/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-core"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "0a023a1e-d45e-44dc-8035-c89c9cfbeb2a",
       "group": "tools.jackson.core",
       "name": "jackson-core",
@@ -466,44 +401,44 @@
     },
     {
       "type": "library",
-      "bom-ref": "b3682338-b22b-4844-9234-eacfe941a749",
-      "group": "tools.jackson.core",
-      "name": "jackson-databind",
-      "version": "3.2.1",
-      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "bom-ref": "107c8890-3afa-4ca7-9e3d-5d30687bff7a",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.22.1",
+      "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
       "scope": "required",
       "hashes": [
         {
           "alg": "MD5",
-          "content": "a5f8a8e60591bcc61a3c521317b3293c"
+          "content": "09e866bcd73613665ef49f5086704fb1"
         },
         {
           "alg": "SHA-1",
-          "content": "363dc46ceb44a97cba68cb0e9da4a3cb5bf723d4"
+          "content": "da7ffb60088d7e8f37ecdd3b617520971cc7b9bf"
         },
         {
           "alg": "SHA-256",
-          "content": "8d005c5626b1839e2eea6bd33a437287e7a24d54e1bb3746b8f861193262b519"
+          "content": "941ff029bcdb93e83d209ce516c1a7fb8bbac07d0a2fa122f5bf194b2cd7b4f4"
         },
         {
           "alg": "SHA-384",
-          "content": "299e007edf092b6d49e57d9e4e24a4d2e4784f1cf2770ce0293e2ccd07f82d0b549d1b29391565ebbe5df7a34be3c154"
+          "content": "faaf92de6e93475fdbb7d56221fd35d8435ac4f87dddfd334ed05c4318b8b72220010effd08bf8dd156420771b294eb4"
         },
         {
           "alg": "SHA-512",
-          "content": "5ef9ee43b5b55b3e3b3618fe8c35ec674005957ac2a0d90298e67ff6b82495016d2c8c07da6e1efe9a91dbd29dc9fb86c2470728f425111cffc3362e60dead29"
+          "content": "d4485af4465f561034df86686d672835b0272b6200efb0af55ea71e62d3faf09e9f90e42df4da64650795cf00519fc553f892bf6179330a3e74750110a785efb"
         },
         {
           "alg": "SHA3-256",
-          "content": "f049f33f716b8c7e94afbebde9761f21cd871dd906f7b97ffde52f5b8748aa4e"
+          "content": "48fc6e17c36e14b8bae387b92248a43da12293b68a61dd2517c708dbb24ed010"
         },
         {
           "alg": "SHA3-512",
-          "content": "54b30829f60d8249df73a868839e505ebf510c197800f7a8b8f2513d80b67ffd16a904ea4874ceb958d111f4dc5ca46a90cd0e685c1b6ef5766e523d27eec2d5"
+          "content": "f72ef2d2a1012be8b1c972323527a396bbaea0b543bd79fac6d380f8e4855c6d98190b067ccec92ece9ed8e1ece1e6046b1d93f9c85944fcb7133fe0b4dc60e4"
         },
         {
           "alg": "SHA3-384",
-          "content": "8899110cde40b0f8a80819bd8c992080ec891e3e152e361459b70e7cfefdc1ad6174d0b0db9cd3a36e661f0ae1a55588"
+          "content": "5c432f1a2f3369485c4ed7d3c3c4499342c23efd0d7a574b73421345df9762bd27643cc469b01632400691f3c09b5d8b"
         }
       ],
       "licenses": [
@@ -513,19 +448,19 @@
           }
         }
       ],
-      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.1?type=jar",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/FasterXML/jackson"
+          "url": "https://github.com/FasterXML/jackson-core"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/FasterXML/jackson-databind/issues"
+          "url": "https://github.com/FasterXML/jackson-core/issues"
         },
         {
           "type": "vcs",
-          "url": "https://github.com/FasterXML/jackson-databind"
+          "url": "https://github.com/FasterXML/jackson-core"
         }
       ]
     },
@@ -579,6 +514,71 @@
         }
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "b3682338-b22b-4844-9234-eacfe941a749",
+      "group": "tools.jackson.core",
+      "name": "jackson-databind",
+      "version": "3.2.1",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a5f8a8e60591bcc61a3c521317b3293c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "363dc46ceb44a97cba68cb0e9da4a3cb5bf723d4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8d005c5626b1839e2eea6bd33a437287e7a24d54e1bb3746b8f861193262b519"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "299e007edf092b6d49e57d9e4e24a4d2e4784f1cf2770ce0293e2ccd07f82d0b549d1b29391565ebbe5df7a34be3c154"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5ef9ee43b5b55b3e3b3618fe8c35ec674005957ac2a0d90298e67ff6b82495016d2c8c07da6e1efe9a91dbd29dc9fb86c2470728f425111cffc3362e60dead29"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f049f33f716b8c7e94afbebde9761f21cd871dd906f7b97ffde52f5b8748aa4e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "54b30829f60d8249df73a868839e505ebf510c197800f7a8b8f2513d80b67ffd16a904ea4874ceb958d111f4dc5ca46a90cd0e685c1b6ef5766e523d27eec2d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "8899110cde40b0f8a80819bd8c992080ec891e3e152e361459b70e7cfefdc1ad6174d0b0db9cd3a36e661f0ae1a55588"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.2.1?type=jar",
       "externalReferences": [
         {
           "type": "website",
@@ -1067,23 +1067,23 @@
       "dependsOn": []
     },
     {
-      "ref": "107c8890-3afa-4ca7-9e3d-5d30687bff7a",
-      "dependsOn": []
-    },
-    {
       "ref": "0a023a1e-d45e-44dc-8035-c89c9cfbeb2a",
       "dependsOn": []
     },
     {
-      "ref": "b3682338-b22b-4844-9234-eacfe941a749",
-      "dependsOn": [
-        "0a023a1e-d45e-44dc-8035-c89c9cfbeb2a"
-      ]
+      "ref": "107c8890-3afa-4ca7-9e3d-5d30687bff7a",
+      "dependsOn": []
     },
     {
       "ref": "c5ad4d56-e12b-46c5-af3b-92af8d5c5841",
       "dependsOn": [
         "107c8890-3afa-4ca7-9e3d-5d30687bff7a"
+      ]
+    },
+    {
+      "ref": "b3682338-b22b-4844-9234-eacfe941a749",
+      "dependsOn": [
+        "0a023a1e-d45e-44dc-8035-c89c9cfbeb2a"
       ]
     },
     {
@@ -2690,6 +2690,40 @@
       "advisories": [
         {
           "url": "https://www.itb.ec.europa.eu/release-reports/reports/advisories/ITB-2026-006/ITB-2026-006.json"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-114938",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/"
+          },
+          "score": 8.1,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        122
+      ],
+      "description": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+      "published": "2026-11-17T22:18:23Z",
+      "updated": "2026-11-17T22:18:23Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "Exploitable. Users are advised to upgrade to the latest patched release."
+      },
+      "affects": [
+        {
+          "ref": "7feaeb1e-fb6f-45bf-9e8b-39dc33e4860a"
         }
       ]
     }

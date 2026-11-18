@@ -1,0 +1,41 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:61498dcb-f314-43dd-adc3-4e81213b2857",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-18T16:52:08Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "supplier": {
+            "name": "OWASP"
+          },
+          "name": "Dependency-Track",
+          "version": "5.2.1"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "ed2dbbe7-d95b-487a-8ffc-27cca1f1b2b4",
+      "publisher": "European Commission, DIGIT, Interoperable Europe Unit",
+      "name": "XML validator",
+      "version": "1.13.2",
+      "purl": "pkg:maven/eu.europa.ec.itb.xml/xmlvalidator@1.13.2?type=pom",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ISAITB/xml-validator/issues"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "ed2dbbe7-d95b-487a-8ffc-27cca1f1b2b4",
+      "dependsOn": []
+    }
+  ]
+}

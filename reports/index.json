@@ -763,18 +763,18 @@
         "1.28.0": {
           "bom": {
             "path": "itb/1.28.0/itb-1.28.0.bom.json",
-            "sha256": "b3c552eafff00fd1323498edacd868e728fd309d724923e66542bfac4b63f395",
+            "sha256": "dce936368db2749cea4a89812727ab0d29fb3b6494f4e3d0021147c79c24d11f",
             "signature": {
               "path": "itb/1.28.0/itb-1.28.0.bom.json.sigstore.json",
-              "sha256": "3e7de46ee9b684802f65332ceb308306beaeb32333041fd4f504b8ea61453ffb"
+              "sha256": "5fb7f84dd9948292bfe3b281c55bceb4b24bdf3af9ca2407dbaac471e40f314b"
             }
           },
           "vdr": {
             "path": "itb/1.28.0/itb-1.28.0.vdr.json",
-            "sha256": "7963a1357a43cfb5b20cfb12ec42c5a7a6ca0032ec8e924948e70fc337eac916",
+            "sha256": "e21031aa9397fd70543650078b5039f6f45930e6f2bf1377071a80a144e732cf",
             "signature": {
               "path": "itb/1.28.0/itb-1.28.0.vdr.json.sigstore.json",
-              "sha256": "e11840ead82d620b823754de55f026164da744782b16d143c037fd11b831cc33"
+              "sha256": "5cb59992e102966e8378be5763f90e826d785444233b4564e59d578cc5bb0452"
             }
           },
           "summary": {
@@ -900,18 +900,18 @@
         "1.28.1": {
           "bom": {
             "path": "itb/1.28.1/itb-1.28.1.bom.json",
-            "sha256": "75fc8e6803a25b482c246fb2a43fa570ca699761441eada0274879595ef32b90",
+            "sha256": "c17f2e91d484fc680e093f484f1efbc2c1215a8329e56d8c918286aaf66a4775",
             "signature": {
               "path": "itb/1.28.1/itb-1.28.1.bom.json.sigstore.json",
-              "sha256": "158237575d595908d4e576f1a8635130d0d149d4221a8f4d0b8cbc4db7f7143a"
+              "sha256": "11400304ad86bab6b927d045748d373ee5e078c309df8c8f8a47b1a0b269e8d0"
             }
           },
           "vdr": {
             "path": "itb/1.28.1/itb-1.28.1.vdr.json",
-            "sha256": "4978b6d924873bfa62ef35fcc9f874bffcfc34ec0a7e5a45f00028e7fea940fd",
+            "sha256": "37b3f7678b205586d2c36656094c7c81c5331433e5d55c6c57f25cb92389b858",
             "signature": {
               "path": "itb/1.28.1/itb-1.28.1.vdr.json.sigstore.json",
-              "sha256": "3f924bed5c01c40693407bae5a6cef6ccbd3dc606300dd64c40cd788eeb7217b"
+              "sha256": "22d37590074be61e9da4539269405e38aa7d0b8e8e48ab96330281c87c793c3b"
             }
           },
           "summary": {
@@ -1037,18 +1037,18 @@
         "1.28.2": {
           "bom": {
             "path": "itb/1.28.2/itb-1.28.2.bom.json",
-            "sha256": "206900ec22eeb94dba510a4130a1c6e4d393b1f4f0bff0f896c115f97f968abe",
+            "sha256": "0b8bddcc8a616bf91cdea2c6a14582e94413221d0f14272fb6511c16f52defcc",
             "signature": {
               "path": "itb/1.28.2/itb-1.28.2.bom.json.sigstore.json",
-              "sha256": "f8209eb16d749c946af2cd3265820e52871442db748f525322e9cc56c97fdb5b"
+              "sha256": "4e5a91d696e327a5a714e76d1dcd06f5624bb3cfe6314a1df2b871501fd0bb11"
             }
           },
           "vdr": {
             "path": "itb/1.28.2/itb-1.28.2.vdr.json",
-            "sha256": "74adcaa6d93e12b1b6e98596e2a1dd63cae1a49849473bb94577353fac0afdce",
+            "sha256": "492d9f72613234fe2fbb4b2cc04e9e71be8e03825a1cc63f4ec4cbc8f63a3f8c",
             "signature": {
               "path": "itb/1.28.2/itb-1.28.2.vdr.json.sigstore.json",
-              "sha256": "d28c2a7761e331c88a8394f77bdef040883a37b62970f281e43987027450f3b2"
+              "sha256": "0f9671c4d207f6b698f05f95dcdc7de99f82887d27068b14d58ba1e55c68e441"
             }
           },
           "summary": {
@@ -1174,18 +1174,18 @@
         "1.28.3": {
           "bom": {
             "path": "itb/1.28.3/itb-1.28.3.bom.json",
-            "sha256": "5d836efd8934595cf3ccf338e99dd8948df31f809e6ee07538376718ad714826",
+            "sha256": "a09cf90387b11ecf4cc6394cb02e3784acf3ce5a8398a50fe82b1410e26446e1",
             "signature": {
               "path": "itb/1.28.3/itb-1.28.3.bom.json.sigstore.json",
-              "sha256": "bc5e8cf4f3e5464901c5c01a41000fa91b72a1d59eba0248c296a97e3d12b9e1"
+              "sha256": "9d10b7ba9b2b7591412743627b10beb46d18eeb4b77017d5df17a4eb5e6170a4"
             }
           },
           "vdr": {
             "path": "itb/1.28.3/itb-1.28.3.vdr.json",
-            "sha256": "8854e182bf04edae21db67e7c025239dca7510fc19300dd2dc621b8f90398aa3",
+            "sha256": "0a05409c5a1b8a221290a54424762ebc02f01a2c0cc7e7c3f36d7d1445b06e65",
             "signature": {
               "path": "itb/1.28.3/itb-1.28.3.vdr.json.sigstore.json",
-              "sha256": "261f390603bbbcd790daadacc97e20d5377debb83e9a5e9ad2669f60dc413aec"
+              "sha256": "99a233df76034dc268ecf1af1c5865ef7e990625066bda77c548d8eb8e571249"
             }
           },
           "summary": {
@@ -1311,18 +1311,18 @@
         "1.28.4": {
           "bom": {
             "path": "itb/1.28.4/itb-1.28.4.bom.json",
-            "sha256": "72e8e6e8e85ee12ec0a50606cc9f473e9790ed7fff7816e7caa39c9565cec98c",
+            "sha256": "1c7f69305abfc90c8c625a6c4b96d592ea70510bbabe04041305b5540aab7d6b",
             "signature": {
               "path": "itb/1.28.4/itb-1.28.4.bom.json.sigstore.json",
-              "sha256": "260ed2b83f29f4f89c44279e0c857e19c3ba5476dd8fb0210ca706728114dbf0"
+              "sha256": "90ec050894d964d4b6b0f8c0ae004965059195620fe5fc286e49c2b46f621306"
             }
           },
           "vdr": {
             "path": "itb/1.28.4/itb-1.28.4.vdr.json",
-            "sha256": "6b73bff11d15bbb059c05e0af3dcf2975488136f5141021b434ccff62e0bcb00",
+            "sha256": "aa58bde6ec54ee35c5f10bc8a0d44e1a5d094f87994209293e97dd7cf5e24da8",
             "signature": {
               "path": "itb/1.28.4/itb-1.28.4.vdr.json.sigstore.json",
-              "sha256": "7a0406d46998815d9f2d8d221c0a86ec1875d48896308d893784665bbd8202b5"
+              "sha256": "4cc0706374035371700baec089dd9b4da424c01e7e819a65b4aa932e119fbc16"
             }
           },
           "summary": {
@@ -1448,18 +1448,18 @@
         "1.28.5": {
           "bom": {
             "path": "itb/1.28.5/itb-1.28.5.bom.json",
-            "sha256": "3c52915ef51dd1bab60a07fc65a7301b963ae81485bfcef2624b2e2364e0bc8d",
+            "sha256": "236a837cdf9adec367d5622d3fc4e112b74a4453d444a3e331f1bffdd81642ef",
             "signature": {
               "path": "itb/1.28.5/itb-1.28.5.bom.json.sigstore.json",
-              "sha256": "476156ae02f1ceeb1ee2b8aa3e6fe6a8184825778bac4c57f02302e7dc0b65ef"
+              "sha256": "35e9c9853c9a90de7c33b059298c45f0a1285518a7d61b1f9ee13c98dca50262"
             }
           },
           "vdr": {
             "path": "itb/1.28.5/itb-1.28.5.vdr.json",
-            "sha256": "e9c191654ab33e3e9b4f8b30d7bb78f2e73ea46bd4f0d95b046cbccc6da986a2",
+            "sha256": "389598de9c1b2603f738ff424efa1ad483c03698f15c5823f6228cb196171ed0",
             "signature": {
               "path": "itb/1.28.5/itb-1.28.5.vdr.json.sigstore.json",
-              "sha256": "1c1720682dbbaa2929722050691b987a042fa91d71aee674ea1234baf20c6162"
+              "sha256": "db5f40d7bcdfaf8a147d1583f2643b0dbdbb09522735e5afdaa81195fac2bf9d"
             }
           },
           "summary": {
@@ -1585,18 +1585,18 @@
         "1.29.0": {
           "bom": {
             "path": "itb/1.29.0/itb-1.29.0.bom.json",
-            "sha256": "cad51d852ffeb2cbc15973d713402e4fb3c8ab62feba7d8aa0a1b3ba383d3fdd",
+            "sha256": "e2ca37958b5bbc039899771a687fdf48d48489aa4a6dd106d8ce41a03e62c705",
             "signature": {
               "path": "itb/1.29.0/itb-1.29.0.bom.json.sigstore.json",
-              "sha256": "12af261b412093fda293d1fcb92667f10bb8aa2baa1603d71778377d1b521c6c"
+              "sha256": "0ffb0e55e05895be031c46759d07245e923d8b6e1ae3b3f542af816c58a8fdbb"
             }
           },
           "vdr": {
             "path": "itb/1.29.0/itb-1.29.0.vdr.json",
-            "sha256": "70b7f77ecb6c24b4efd4f06efb779c0a0d8cde50298e700d2bfb53b90b20cedb",
+            "sha256": "ad62343ee1a99ee0e81c484dd513c7c4a20156e1d2c74b96cf5b466e2c19a2c6",
             "signature": {
               "path": "itb/1.29.0/itb-1.29.0.vdr.json.sigstore.json",
-              "sha256": "261de261ba3ab9f9d0d63e0e5b8ffb81a433b3befee992d2627ebfd1a6f2307f"
+              "sha256": "bb95cd0b2d6fe5449c228a1e09eddb968ff307b7c3dda45031b4e540ea26784f"
             }
           },
           "summary": {
@@ -1731,7 +1731,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 187,
+            "notAffected": 186,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -1740,18 +1740,18 @@
         "1.29.1": {
           "bom": {
             "path": "itb/1.29.1/itb-1.29.1.bom.json",
-            "sha256": "b89f1d8ae765f896a79f6a085d118b38549179224f159047fdfc5834a6444fbb",
+            "sha256": "af47ad465d7a5764fdf3177d9e4228d1bec378ec2f7a9f86873bdf27c54f6efa",
             "signature": {
               "path": "itb/1.29.1/itb-1.29.1.bom.json.sigstore.json",
-              "sha256": "9293034f8dadb699bbf02a5cad865a16d3d38505927d53c5821666ecb4fb04d9"
+              "sha256": "55b4fad4555bd6a307d2cc4224595e029d55db1acb959fefacdf381643af4437"
             }
           },
           "vdr": {
             "path": "itb/1.29.1/itb-1.29.1.vdr.json",
-            "sha256": "eb2d0246ab835039a2fe33e085f5c92f20d83b320c2ba14cb7c3f7db5c77d2b0",
+            "sha256": "da1557bc870d64b6812c7bc2230a33d02adf46f5a104199d96f6668d78c2dc44",
             "signature": {
               "path": "itb/1.29.1/itb-1.29.1.vdr.json.sigstore.json",
-              "sha256": "0b81a39877cca4321ec83e60efd08f431260c23dd718818ace8c50590a3b0393"
+              "sha256": "8ce490c5382e71af0b1971f4c5d63b1296d35c6ff9e44f5bc5f54fee15fae127"
             }
           },
           "summary": {
@@ -1886,7 +1886,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 186,
+            "notAffected": 185,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -1895,18 +1895,18 @@
         "1.29.2": {
           "bom": {
             "path": "itb/1.29.2/itb-1.29.2.bom.json",
-            "sha256": "f985209cfe8d7e527e8cc78e2a25c28b69139af1669c7485d73cdb2392e9ecb4",
+            "sha256": "f772e9baaffe42f44c00d03fdffcf48efa4ec2d9b655df1dc15edb5b1d6f520d",
             "signature": {
               "path": "itb/1.29.2/itb-1.29.2.bom.json.sigstore.json",
-              "sha256": "a21cf20330df0b5d5978901ee2ef8e9dc1972098cb0da0f9a914f0d68a440e7b"
+              "sha256": "03edadbf825b30dd03bbde9d2a7c8e5c07f3818426214a425f16bbfab4fd04b8"
             }
           },
           "vdr": {
             "path": "itb/1.29.2/itb-1.29.2.vdr.json",
-            "sha256": "4b238526617a5b4c47100850aa39efbc0651078851140337da805066ac4ab14b",
+            "sha256": "8a3e6f3e7489a6d8d5e9696eb03cbd8612f783bf7ddaa13e17de185219a83266",
             "signature": {
               "path": "itb/1.29.2/itb-1.29.2.vdr.json.sigstore.json",
-              "sha256": "33b00dc47acd83a9e0ed68d6cdde3d2f43cfc9c0f057fff5bf075b7a3783e10c"
+              "sha256": "15dfd4955868988278d063c3e166eb115b6b3f5a3d327559e606bf0ab524d97d"
             }
           },
           "summary": {
@@ -2041,7 +2041,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 186,
+            "notAffected": 185,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2050,18 +2050,18 @@
         "1.29.3": {
           "bom": {
             "path": "itb/1.29.3/itb-1.29.3.bom.json",
-            "sha256": "d27464b27f4cdd064f2e91f05ab0360aa502aabbdbab87e512141cca97869d59",
+            "sha256": "7e26fb48608588043a95f34effebbcef941d233d6499c29ab362b962f2a1b539",
             "signature": {
               "path": "itb/1.29.3/itb-1.29.3.bom.json.sigstore.json",
-              "sha256": "b20d77f267d89676e2c67d63f7144d2abbbddd2f094a0badb60f400879bd76c8"
+              "sha256": "06b0f968dd1eddbe35fc6fbe2a04a00f68b1dd0f229ff44d2cbc17fdcdc21773"
             }
           },
           "vdr": {
             "path": "itb/1.29.3/itb-1.29.3.vdr.json",
-            "sha256": "1978ad2be7642edc95e53f6998d160aeecd5c43de1a2f42cca906901032cd82c",
+            "sha256": "638abb346f953fd733a9332b2acfca30d6d3a2d78a9ecfd1dafcdfe976121143",
             "signature": {
               "path": "itb/1.29.3/itb-1.29.3.vdr.json.sigstore.json",
-              "sha256": "bd6781fa71af9c500647a4e7881b94a37682397a6a8c599b29002cc2ce29e666"
+              "sha256": "0181a1255d55b28c0e06a83a4a703404c4467fbc96959f5499a1f4b39bca9523"
             }
           },
           "summary": {
@@ -2196,7 +2196,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 184,
+            "notAffected": 183,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2205,18 +2205,18 @@
         "1.29.4": {
           "bom": {
             "path": "itb/1.29.4/itb-1.29.4.bom.json",
-            "sha256": "2adc9f583c2d8c2af3b6a783723083a5cd283198f55cbd0eafef086c64dcf522",
+            "sha256": "67465b720a91639e56becabe1e322a6fed958c413c33edb8540502797dc9e87e",
             "signature": {
               "path": "itb/1.29.4/itb-1.29.4.bom.json.sigstore.json",
-              "sha256": "4a68b2f609acfe4775f36c69a0ce1f89243dc9f3990281836ead5ad27cfcda85"
+              "sha256": "7a5678754115e3f9a68e2c97aebb91e818d38acec44afe89c068cb206d5c2f9b"
             }
           },
           "vdr": {
             "path": "itb/1.29.4/itb-1.29.4.vdr.json",
-            "sha256": "ba6428df2fb933bac2472bd2836feae2e246f3ffb363cd7f2ab9840aff8e6dad",
+            "sha256": "e715c7d90f5839903822ddd54fb81dcbb74242450b722913e6da9fa2f5b5fc74",
             "signature": {
               "path": "itb/1.29.4/itb-1.29.4.vdr.json.sigstore.json",
-              "sha256": "69aaa0283e3f2f5029756abc951023f5d0a7692266c4d8994bfce5b125acb669"
+              "sha256": "36008139db2b6fe8b99bdc31194033ead6463512d0751ddb6924e0265e73044b"
             }
           },
           "summary": {
@@ -2375,7 +2375,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 155,
+            "notAffected": 154,
             "falsePositive": 3,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2384,18 +2384,18 @@
         "1.29.5": {
           "bom": {
             "path": "itb/1.29.5/itb-1.29.5.bom.json",
-            "sha256": "149a7b180f8a72e43509c5fdd70867b22eb605838c964a8693628661eb5791fc",
+            "sha256": "101ccba540910c21847653ff871d5147d681ec92486a0145fd1e3133b1142f46",
             "signature": {
               "path": "itb/1.29.5/itb-1.29.5.bom.json.sigstore.json",
-              "sha256": "e0156bf069fbdc16afa032c8ba47abdbff3c569c879bb1a3a52d386e43f948cc"
+              "sha256": "c5f3ee8235dd2053b59f3e89eb3c5378222f4c4d3bae762a2ae05bc281841435"
             }
           },
           "vdr": {
             "path": "itb/1.29.5/itb-1.29.5.vdr.json",
-            "sha256": "8d570a8b31d73b49f056fb3407c1d5b9f3a7004102d8abfcbe89a6774fdeb6af",
+            "sha256": "f2046fd74183a8b6a550692dbd08c1bf9d4720f91fdeebbd3962f859c6c354fd",
             "signature": {
               "path": "itb/1.29.5/itb-1.29.5.vdr.json.sigstore.json",
-              "sha256": "c41a258ec8aa46284c60c65a0cbdb87c4f913fab0851b8f17b3e5c2f10cde7b9"
+              "sha256": "c17f36921a489975fab01cb0f4906e1cd422cae8d05c4fd350d003f7aeb60346"
             }
           },
           "summary": {
@@ -2524,7 +2524,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 123,
+            "notAffected": 122,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2533,18 +2533,18 @@
         "1.30.0": {
           "bom": {
             "path": "itb/1.30.0/itb-1.30.0.bom.json",
-            "sha256": "83e91ee04ee54b8100381675a83919e1bb640f5d063cad90175ae750bc301a46",
+            "sha256": "152c6b13133232075bc5c5b04ef2138aeddee060b12a40fb66bb9c1da44f0a3b",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.bom.json.sigstore.json",
-              "sha256": "ed776a49c9801288e0e6825e09cbd541c0f18738195814e013481f258bdfc06c"
+              "sha256": "c116ad4a4874ca5d50887ac3222e5407ff97997a980a5410f1b17d749210a080"
             }
           },
           "vdr": {
             "path": "itb/1.30.0/itb-1.30.0.vdr.json",
-            "sha256": "e2e147685ffbeb73be5ba71a416613f80662d858eb0e1da9cbc1a3b488e4bf90",
+            "sha256": "0955b2788a0fe9064a9c7b657d1829417c46badf943d5f193adba63c541ff482",
             "signature": {
               "path": "itb/1.30.0/itb-1.30.0.vdr.json.sigstore.json",
-              "sha256": "c461fb9f68d2f7840f17fe582ea0563703febcdd0c6ef0abd5b1b1737410c59a"
+              "sha256": "456fbb6c6ec99c50acacfa206136f3337cfc678c0b97b99b67975ef884d9b7fa"
             }
           },
           "summary": {
@@ -2613,7 +2613,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 67,
+            "notAffected": 66,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2622,18 +2622,18 @@
         "1.30.1": {
           "bom": {
             "path": "itb/1.30.1/itb-1.30.1.bom.json",
-            "sha256": "3f571e998eb8a3fac28d61f96e083fd66a21e81714ce6545f5f0ca92ed560527",
+            "sha256": "cc6ad537b2bc2bfcf39f9300818ae7715a3ae5f112f30d8026f85e4d5616726a",
             "signature": {
               "path": "itb/1.30.1/itb-1.30.1.bom.json.sigstore.json",
-              "sha256": "cf08689bcfa1ce5b0c3f734935e8d5fd21104f6574f25ba2fd672da8ca2c664e"
+              "sha256": "3d22e743ff7686334bba2fbdd0e97d4f011e8184b4ba188e10bbf0f6c5b872d3"
             }
           },
           "vdr": {
             "path": "itb/1.30.1/itb-1.30.1.vdr.json",
-            "sha256": "fa958c3482bae8f95c10815fce25b4b30470ec5e5a6449825e7a42cd431a2b6c",
+            "sha256": "0a19d65299591bde85e340e1682ca010652663e9f1c26566e63f88f0b00a43e3",
             "signature": {
               "path": "itb/1.30.1/itb-1.30.1.vdr.json.sigstore.json",
-              "sha256": "218fff2a9fee29a3f4df8767c3c6ef9b68b06a228065c7a2b6178bf8565deed8"
+              "sha256": "baf37557c195ed360a31d3d7479ebebfac725d6f5d1a71171f4fc6520d0a936c"
             }
           },
           "summary": {
@@ -2684,7 +2684,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 50,
+            "notAffected": 49,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2693,18 +2693,18 @@
         "1.30.2": {
           "bom": {
             "path": "itb/1.30.2/itb-1.30.2.bom.json",
-            "sha256": "8ea58a649a14903203b9e45f4419d9c8039074e75bac6a16e4c3bfb66d804d5e",
+            "sha256": "68678cbadffc7a5256dafb1ec98e524f98c64c4f9ff17b4261e1e66a15bd2339",
             "signature": {
               "path": "itb/1.30.2/itb-1.30.2.bom.json.sigstore.json",
-              "sha256": "73da1a3ecaffeca12b64012977bd84686bc8fdbb36c79a84dd50b7e35d0e9ab0"
+              "sha256": "6950bee403f5cc68e6be55f6fa4a71a4081c8659ccb8df08f1a8ab284cb500ba"
             }
           },
           "vdr": {
             "path": "itb/1.30.2/itb-1.30.2.vdr.json",
-            "sha256": "b4f704beb68377185a8203fca33fc3bb858729cd8361d533a1b23f8dd1b40de5",
+            "sha256": "e28519fc27897ff7680c0b83fbf324acc0a825e7dbf98cfee61b03152c5c645b",
             "signature": {
               "path": "itb/1.30.2/itb-1.30.2.vdr.json.sigstore.json",
-              "sha256": "6fe9cedde5ac56d5cc033d90969405d313dabec32eb647c30b562739e70c5421"
+              "sha256": "f08d02c1a6987be823bf1ec157ec8cabc78098f06a933d5a6ce6d7655cfd51fa"
             }
           },
           "summary": {
@@ -2725,7 +2725,7 @@
                 "score": 2.7
               }
             ],
-            "notAffected": 41,
+            "notAffected": 40,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2734,18 +2734,18 @@
         "1.30.3": {
           "bom": {
             "path": "itb/1.30.3/itb-1.30.3.bom.json",
-            "sha256": "a0d44d5453b98056135cdeef5bd5111d21bb59a8f09a47e4e90fcffb7617e28c",
+            "sha256": "0ae8300292defb07a7568e5e34fa83578c351fcd897f902c86312daf11038af6",
             "signature": {
               "path": "itb/1.30.3/itb-1.30.3.bom.json.sigstore.json",
-              "sha256": "6a36ee2fde0f03f5f10f592b29a0113159e8d0bf27ba2038712771962beee2b8"
+              "sha256": "6de6d8e4ceb064e25ea7a62d4b9a037d80483e4ed6682a18a0ad672905d056bc"
             }
           },
           "vdr": {
             "path": "itb/1.30.3/itb-1.30.3.vdr.json",
-            "sha256": "eb750695609fb789b5f867b4a6a1a0d4309e59c0bd608c35e328c25574b98f35",
+            "sha256": "3d40b3f8a48ddd32b05ff7bc01b9935fe3ec5ef7af38a3eae500c02f5c1b60ac",
             "signature": {
               "path": "itb/1.30.3/itb-1.30.3.vdr.json.sigstore.json",
-              "sha256": "157afad6ce6d5c1aaf502d6e5b0ccaf644a5b45664117a06f64050947f927ffc"
+              "sha256": "bac1d58462c08e964b75f1bdaf332900ae957f914aa7f5a28f35a3806456b7ca"
             }
           },
           "summary": {
@@ -2760,7 +2760,7 @@
                 "score": 8.1
               }
             ],
-            "notAffected": 40,
+            "notAffected": 39,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
@@ -2769,25 +2769,25 @@
         "1.30.4": {
           "bom": {
             "path": "itb/1.30.4/itb-1.30.4.bom.json",
-            "sha256": "162b85bc3c2d0f7d7fb9b132b1ac535ca8a13e8b0d2b1783e59128862713abb0",
+            "sha256": "eb4f70a4127bbdfab2ee3619c02baaee3acaa406f003a431cc1bf4ad5cc49e66",
             "signature": {
               "path": "itb/1.30.4/itb-1.30.4.bom.json.sigstore.json",
-              "sha256": "513a47a1cf7d817ac63bc9aac45adfd6ab64ed8a439ef41d690c55ff1fe7c964"
+              "sha256": "2158071d831556a991da29638bcbb0542ad98c6590d52ba223af267f82777e48"
             }
           },
           "vdr": {
             "path": "itb/1.30.4/itb-1.30.4.vdr.json",
-            "sha256": "21d4d57ee4dad359f54e42800e2e31e253027211592902aa3dc70eec36392854",
+            "sha256": "b0575ef9b862c2c94e86c513b1a3fd543c8649fe4f2aa23669006556e90450cd",
             "signature": {
               "path": "itb/1.30.4/itb-1.30.4.vdr.json.sigstore.json",
-              "sha256": "4ed49653ada5425d8c173a300f27ace5365e0e9ae413fdde92b75a80b14b729a"
+              "sha256": "062632becfa6f06e86edf390892aaa768105fade90dbcda529ca1ad5b199d5cd"
             }
           },
           "summary": {
             "exploitable": 0,
             "exploitableIds": [],
             "exploitableDetails": [],
-            "notAffected": 40,
+            "notAffected": 39,
             "falsePositive": 0,
             "resolved": 0,
             "assessmentInProgress": false
